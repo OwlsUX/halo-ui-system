@@ -1,0 +1,83 @@
+:root {
+  --halo-font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Arial, sans-serif;
+  --halo-font-live: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --halo-black: #000000;
+  --halo-blue-950: #071826;
+  --halo-ink: var(--halo-blue-950);
+  --halo-gray-900: var(--halo-blue-950);
+  --halo-gray-800: #262626;
+  --halo-gray-700: #3f3f46;
+  --halo-gray-600: #525252;
+  --halo-gray-500: #737373;
+  --halo-gray-400: #a3a3a3;
+  --halo-gray-300: #d4d4d4;
+  --halo-gray-200: #e5e5e5;
+  --halo-gray-100: #f5f5f5;
+  --halo-gray-50: #fafafa;
+  --halo-white: #ffffff;
+
+  --halo-yellow: #fcd62d;
+  --halo-yellow-hover: #e5c229;
+  --halo-yellow-strong: var(--halo-yellow-hover);
+  --halo-live-yellow: #ffd700;
+  --halo-live-yellow-hover: #ffc700;
+  --halo-blue: #2f93f3;
+  --halo-success: #22c55e;
+  --halo-danger: #dc2626;
+
+  --halo-radius-xs: 4px;
+  --halo-radius-sm: 6px;
+  --halo-radius-md: 8px;
+  --halo-radius-lg: 12px;
+  --halo-radius-xl: 16px;
+  --halo-radius-pill: 999px;
+
+  --halo-container: 1400px;
+  --halo-container-live: 1240px;
+  --halo-section-y: 96px;
+  --halo-section-y-sm: 56px;
+
+  --halo-shadow-nav: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --halo-shadow-dropdown: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --halo-shadow-card: 0 4px 14px rgba(7, 24, 38, 0.06);
+  --halo-shadow-card-lg: 0 10px 28px rgba(7, 24, 38, 0.08);
+
+  --halo-type-display: 4rem;
+  --halo-type-hero: 4rem;
+  --halo-type-section: 3.25rem;
+  --halo-type-card-title: 1.125rem;
+  --halo-type-body: 1rem;
+  --halo-type-small: 0.875rem;
+
+  --black: var(--halo-black);
+  --white: var(--halo-white);
+  --gray-50: var(--halo-gray-50);
+  --gray-100: var(--halo-gray-100);
+  --gray-200: var(--halo-gray-200);
+  --gray-400: var(--halo-gray-400);
+  --gray-500: var(--halo-gray-500);
+  --gray-600: var(--halo-gray-600);
+  --gray-800: var(--halo-gray-800);
+  --gray-900: var(--halo-gray-900);
+  --accent: var(--halo-yellow);
+  --accent-dark: var(--halo-yellow-hover);
+  --success: var(--halo-success);
+  --font-sans: var(--halo-font-sans);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --halo-type-display: 3rem;
+    --halo-type-hero: 3rem;
+    --halo-type-section: 2.35rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --halo-type-display: 2.55rem;
+    --halo-type-hero: 2.55rem;
+    --halo-type-section: 2rem;
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-05-21",
+  "purpose": "Source-aware Halo web UI tokens for future agents building HaloCollar.com pages.",
+  "sources": {
+    "liveHomepage": {
+      "url": "https://www.halocollar.com/",
+      "notes": "Observed from live HTML, inline navigation/footer styles, hosted CSS, and the existing live homepage audit."
+    },
+    "v3Ecomlanders": {
+      "paths": [
+        "repos/ecomlanders/pages/Lander-v3-2026/styles.css",
+        "repos/ecomlanders/pages/Lander-v3-2026/shop.css"
+      ],
+      "notes": "Modernized marketing and PDP/configurator system."
+    },
+    "packPerks": {
+      "path": "repos/packperks/css/styles.css",
+      "notes": "Account, membership, offers, and Pack Perks surfaces."
+    },
+    "planSelector": {
+      "path": "repos/halo-plan-selector/src/styles/globals.css",
+      "notes": "Membership selector tokens and Tailwind/shadcn-style base."
+    }
+  },
+  "typography": {
+    "fontFamilyPrimary": {
+      "value": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "provenance": ["liveHomepage", "packPerks", "planSelector"]
+    },
+    "fontFamilyMarketingDraft": {
+      "value": "-apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"Segoe UI\", Roboto, sans-serif",
+      "provenance": ["v3Ecomlanders"],
+      "decision": "Use only for V3/future marketing variants; use Inter for live-aligned pages."
+    },
+    "baseBody": {
+      "value": "16px / 1.7, 500",
+      "provenance": ["liveHomepage consolidated.min.css"]
+    },
+    "liveAuditBody": {
+      "value": "14px / 20px",
+      "provenance": ["docs/live-homepage-vs-static-demo-audit.md"],
+      "decision": "Verify with browser-computed styles before rebuilding the live replica."
+    },
+    "headingLetterSpacing": {
+      "value": "0",
+      "provenance": ["homepage-aligned static demo tokens"],
+      "decision": "Keep normalized component-library headings at zero letter spacing; source-replica pages can retain source CSS when exact fidelity requires it."
+    }
+  },
+  "colors": {
+    "brandYellow": {
+      "value": "#FCD62D",
+      "provenance": ["v3Ecomlanders", "packPerks", "planSelector", "liveHomepage footer/promo"]
+    },
+    "liveCtaYellow": {
+      "value": "#FFD700",
+      "hover": "#FFC700",
+      "provenance": ["liveHomepage inline nav"],
+      "decision": "Use for live-replica nav CTA only unless product asks for current production fidelity."
+    },
+    "ink": {
+      "value": "#071826",
+      "provenance": ["darkened from liveHomepage/v3 linkBlue"],
+      "decision": "Use as the primary near-black ink and dark background tone so dark surfaces carry a branded blue undertone instead of neutral charcoal."
+    },
+    "liveDarkGrey": {
+      "value": "#424242",
+      "provenance": ["liveHomepage consolidated.min.css"]
+    },
+    "v3Black": {
+      "value": "#000000",
+      "provenance": ["v3Ecomlanders"]
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "provenance": ["all"]
+    },
+    "surface": {
+      "value": "#F5F5F5",
+      "provenance": ["v3Ecomlanders", "packPerks"]
+    },
+    "surfaceSoft": {
+      "value": "#FAFAFA",
+      "provenance": ["v3Ecomlanders", "liveHomepage tailwind.css"]
+    },
+    "line": {
+      "value": "#E5E7EB",
+      "provenance": ["packPerks", "v3Ecomlanders shop"]
+    },
+    "mutedText": {
+      "value": "#6B7280",
+      "provenance": ["packPerks"]
+    },
+    "linkBlue": {
+      "value": "#2F93F3",
+      "provenance": ["liveHomepage", "v3Ecomlanders shop"]
+    },
+    "deepBlueInk": {
+      "value": "#071826",
+      "provenance": ["derived from linkBlue"],
+      "decision": "Darkened primary blue replacement for previous #171717 / --halo-gray-900 token."
+    },
+    "success": {
+      "value": "#22C55E",
+      "provenance": ["v3Ecomlanders"]
+    },
+    "error": {
+      "value": "#DC2626",
+      "provenance": ["v3Ecomlanders shop inferred from remove/error states"]
+    }
+  },
+  "radii": {
+    "sm": {"value": "6px", "provenance": ["liveHomepage consolidated.min.css"]},
+    "md": {"value": "8px", "provenance": ["liveHomepage nav", "packPerks radius-sm"]},
+    "lg": {"value": "12px", "provenance": ["packPerks", "planSelector derived", "live variables"]},
+    "xl": {"value": "16px", "provenance": ["v3Ecomlanders shop", "packPerks radius-lg"]},
+    "pill": {"value": "999px", "provenance": ["packPerks", "planSelector", "v3Ecomlanders"]}
+  },
+  "shadows": {
+    "nav": {"value": "0 2px 4px rgba(0,0,0,0.05)", "provenance": ["liveHomepage inline nav"]},
+    "dropdown": {"value": "0 4px 24px rgba(0,0,0,0.12)", "provenance": ["liveHomepage inline nav"]},
+    "megaMenu": {"value": "0 25px 50px -12px rgba(0,0,0,0.25)", "provenance": ["v3Ecomlanders shop"]},
+    "cardSm": {"value": "0 1px 2px rgba(17,17,17,0.04)", "provenance": ["packPerks"]},
+    "cardMd": {"value": "0 4px 14px rgba(17,17,17,0.06)", "provenance": ["packPerks"]},
+    "cardLg": {"value": "0 10px 28px rgba(17,17,17,0.08)", "provenance": ["packPerks"]}
+  },
+  "buttons": {
+    "primaryYellow": {
+      "background": "#FCD62D",
+      "color": "#111111",
+      "radius": "999px or 8px by context",
+      "hover": "#E8C428 or #FFC700 by source",
+      "provenance": ["packPerks", "planSelector", "liveHomepage"]
+    },
+    "primaryDark": {
+      "background": "#111111",
+      "color": "#FFFFFF",
+      "hover": "#000000",
+      "provenance": ["v3Ecomlanders shop"]
+    },
+    "primaryWhiteOnMedia": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "hover": "#E5E5E5",
+      "provenance": ["v3Ecomlanders marketing"]
+    },
+    "ghostDark": {
+      "background": "transparent",
+      "border": "1px solid rgba(255,255,255,0.3)",
+      "hover": "rgba(255,255,255,0.1)",
+      "provenance": ["v3Ecomlanders marketing"]
+    }
+  },
+  "layout": {
+    "containerLive": {"value": "1240px, 20px side padding", "provenance": ["liveHomepage inline nav/footer"]},
+    "containerV3": {"value": "1400px, 6rem desktop side padding", "provenance": ["v3Ecomlanders"]},
+    "sectionPaddingMarketing": {"value": "96px to 140px desktop, 56px to 80px mobile", "provenance": ["inferred from V3 section rhythm"]},
+    "commerceGrid": {"value": "1fr 480px, 4rem gap", "provenance": ["v3Ecomlanders shop"]}
+  }
+}

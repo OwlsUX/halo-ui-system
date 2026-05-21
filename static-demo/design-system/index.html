@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halo Design System Catalog</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/components.css?v=2">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body>
+  <div class="promo-strip">Component catalog <span class="source-badge" id="catalogDataStatus">loading inventories</span></div>
+  <nav class="site-nav"><div class="container nav-inner"><a class="brand" href="../index.html" aria-label="Halo overview"><img src="../vendor/ecomlanders-v3/halo-logo-dark.svg" alt="Halo"></a><button class="nav-menu-button" data-nav-toggle="#navLinks">Menu</button><div class="nav-links" id="navLinks"><a href="../pages/home.html">Home</a><a href="../pages/shop-wireless-dog-fence.html">PDP</a><a href="../pages/style-guide.html">Style guide</a><a href="index.html">Component catalog</a></div><a class="button button--yellow" href="../index.html">Demo hub</a></div></nav>
+  <main>
+    <section class="hub-hero"><div class="container"><p class="eyebrow">Component-only catalog</p><h1>Reusable Halo sections grouped by surface and source.</h1><p class="section__copy">This page loads the repo scrape, commerce/account extraction, review statuses, and canonical fallback groups in one place.</p></div></section>
+    <section class="section"><div class="container" id="catalogRoot">
+      <div class="catalog-group" data-group="Global"><h2>Global</h2><div class="component-row"><div><h3>HaloPromoBanner</h3><p>Promo strip with rotating messages and promo states.</p></div><span class="badge badge--dark">canonical</span></div><div class="component-row"><div><h3>HaloMainNav</h3><p>Responsive nav, mega menu, account menu, cart trigger.</p></div><span class="badge">extracted</span></div><div class="component-row"><div><h3>HaloSiteFooter</h3><p>Global footer link columns, app links, support routes.</p></div><span class="badge">extracted</span></div></div>
+      <div class="catalog-group" data-group="Marketing"><h2>Marketing</h2><div class="component-row"><div><h3>HaloHeroSplitVideo</h3><p>Homepage hero and video/media variants.</p></div><span class="badge badge--dark">canonical</span></div><div class="component-row"><div><h3>HaloHowItWorksGrid</h3><p>Step-based explanation section.</p></div><span class="badge">canonical</span></div><div class="component-row"><div><h3>HaloAppFeatureCarousel</h3><p>App safety cards and smart feature carousel.</p></div><span class="badge">canonical</span></div><div class="component-row"><div><h3>HaloTabbedFAQ</h3><p>Tabbed FAQ with accordion questions.</p></div><span class="badge">canonical</span></div></div>
+      <div class="catalog-group" data-group="Commerce"><h2>Commerce</h2><div class="component-row"><div><h3>HaloProductGallery</h3><p>Color-synced image gallery.</p></div><span class="badge">extracted</span></div><div class="component-row"><div><h3>HaloProductConfigBuyStack</h3><p>PDP title, trust, swatches, membership, add-ons, price, CTA.</p></div><span class="badge badge--yellow">needs-modernization</span></div><div class="component-row"><div><h3>MiniCartDrawer</h3><p>Cart rows, promo states, totals, and empty state.</p></div><span class="badge">gap</span></div></div>
+      <div class="catalog-group" data-group="Account"><h2>Account</h2><div class="component-row"><div><h3>AccountShell</h3><p>Dashboard layout from packperks account pages.</p></div><span class="badge">gap</span></div><div class="component-row"><div><h3>PackPerksOfferGrid</h3><p>Offer filters, cards, tier benefits, and redemption modal.</p></div><span class="badge">extracted</span></div></div>
+      <div class="catalog-group" data-group="Templates"><h2>Templates</h2><div class="component-row"><div><h3>FeatureDetailTemplate</h3><p>Reusable dog-fence feature child page.</p></div><span class="badge">gap</span></div><div class="component-row"><div><h3>BlogTemplate</h3><p>Article page with related content and product CTA.</p></div><span class="badge">gap</span></div><div class="component-row"><div><h3>SupportTemplate</h3><p>Support article and troubleshooting layout.</p></div><span class="badge">gap</span></div></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container">Catalog shell. Sources: live Halo audit, ecomlanders, packperks, halo-plan-selector, new-halo.</div></footer>
+  <script src="../js/components.js"></script>
+  <script>
+    (function () {
+      var root = document.getElementById("catalogRoot");
+      var status = document.getElementById("catalogDataStatus");
+      if (!root || !status) return;
+
+      function escapeHtml(value) {
+        return String(value || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function countBy(items, key) {
+        return items.reduce(function (acc, item) {
+          var value = item[key] || "unclassified";
+          acc[value] = (acc[value] || 0) + 1;
+          return acc;
+        }, {});
+      }
+
+      function statCards(counts) {
+        return Object.keys(counts).sort().map(function (key) {
+          return '<div class="catalog-stat"><span>' + escapeHtml(key) + '</span><strong>' + counts[key] + '</strong></div>';
+        }).join("");
+      }
+
+      function componentRow(item) {
+        var description = item.description || item.notes || "Component inventory record.";
+        var meta = [item.sourceRepo, item.sourcePath].filter(Boolean).join(" / ");
+        return '<div class="component-row">'
+          + '<div><h3>' + escapeHtml(item.name || item.id) + '</h3>'
+          + '<p>' + escapeHtml(description) + '</p>'
+          + '<p class="catalog-meta">' + escapeHtml(meta) + '</p></div>'
+          + '<span class="badge">' + escapeHtml(item.reviewStatus || "audit") + '</span>'
+          + '</div>';
+      }
+
+      Promise.all([
+        fetch("../data/component-inventory.json").then(function (response) {
+          if (!response.ok) throw new Error("component inventory missing");
+          return response.json();
+        }),
+        fetch("../data/commerce-account-components.json").then(function (response) {
+          if (!response.ok) throw new Error("commerce inventory missing");
+          return response.json();
+        })
+      ]).then(function (results) {
+        var componentInventory = Array.isArray(results[0]) ? results[0] : [];
+        var commerceInventory = Array.isArray(results[1]) ? results[1] : [];
+        var all = componentInventory.concat(commerceInventory);
+        var priority = all.filter(function (item) {
+          return ["keep", "adapt", "gap"].includes(item.reviewStatus);
+        }).slice(0, 12);
+
+        root.insertAdjacentHTML("afterbegin",
+          '<div class="catalog-summary">'
+            + '<div><p class="eyebrow">Loaded data</p><h2>' + all.length + ' component records ready for normalization.</h2>'
+            + '<p class="section__copy">Repo scrape: ' + componentInventory.length + ' records. Commerce/account extraction: ' + commerceInventory.length + ' records.</p></div>'
+            + '<div class="catalog-stats">' + statCards(countBy(all, "family")) + '</div>'
+            + '<div class="catalog-stats">' + statCards(countBy(all, "reviewStatus")) + '</div>'
+            + '<div class="catalog-priority"><h2>Priority extraction queue</h2>' + priority.map(componentRow).join("") + '</div>'
+          + '</div>'
+        );
+        status.textContent = "inventories loaded";
+      }).catch(function (error) {
+        status.textContent = "inventory fetch failed";
+        root.insertAdjacentHTML("afterbegin", '<div class="promo-state"><strong>Inventory data did not load.</strong> The curated fallback catalog remains visible below.</div>');
+        console.warn(error);
+      });
+    })();
+  </script>
+</body>
+</html>

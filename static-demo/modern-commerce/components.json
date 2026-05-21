@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-05-21",
+  "scope": "Modern commerce proposal routes only",
+  "components": [
+    {
+      "name": "CategoryHero",
+      "props": {
+        "eyebrow": "string",
+        "title": "string",
+        "copy": "string",
+        "primaryCta": "{label, href}",
+        "secondaryCta": "{label, href}",
+        "featuredAccessory": "{id, title, price, image, badges, href}",
+        "categoryLinks": "Array<{label, description, familyId, href}>"
+      },
+      "state": ["default"],
+      "interactions": ["Primary CTA navigates to the featured accessory PDP", "Secondary CTA scrolls to category/product grid", "Category shortcut applies the matching family filter"]
+    },
+    {
+      "name": "ProductFamilyGrid",
+      "props": {
+        "families": "Array<{id, label, description, count, image}>",
+        "activeFamily": "string"
+      },
+      "state": ["all", "active family"],
+      "interactions": ["Click family sets the category filter", "Active card receives selected border state"]
+    },
+    {
+      "name": "AccessoryProductCard",
+      "props": {
+        "id": "string",
+        "family": "beacons|charging|fit|merch|bundles",
+        "title": "string",
+        "subtitle": "string",
+        "image": "{src, alt}",
+        "price": "number",
+        "compatibility": "Array<string>",
+        "badges": "Array<string>",
+        "href": "string"
+      },
+      "state": ["visible", "filtered out", "compare selected", "quick-add feedback"],
+      "interactions": ["Quick add pushes item into mini cart", "Compare toggles selection up to three items", "Card link opens PDP template"]
+    },
+    {
+      "name": "CompatibilityBadge",
+      "props": {
+        "label": "string",
+        "tone": "default|dark|yellow|success"
+      },
+      "state": ["default"],
+      "interactions": []
+    },
+    {
+      "name": "QuickAddButton",
+      "props": {
+        "productId": "string",
+        "label": "string",
+        "price": "number",
+        "image": "string"
+      },
+      "state": ["idle", "added"],
+      "interactions": ["Click adds one item to cart", "Button text briefly changes to Added"]
+    },
+    {
+      "name": "BundleBuilderPanel",
+      "props": {
+        "title": "string",
+        "copy": "string",
+        "items": "Array<{productId, title, image, included}>",
+        "bundlePrice": "number",
+        "savingsCopy": "string"
+      },
+      "state": ["default", "added"],
+      "interactions": ["Add bundle creates a bundle cart line", "Panel CTA opens the cart drawer"]
+    },
+    {
+      "name": "AccessoryPdpGallery",
+      "props": {
+        "images": "Array<{src, alt, variantId?}>",
+        "activeImage": "string"
+      },
+      "state": ["desktop grid", "mobile thumbnail selected"],
+      "interactions": ["Thumbnail click updates hero image", "Variant click may update hero image"]
+    },
+    {
+      "name": "AccessoryBuyStack",
+      "props": {
+        "productId": "string",
+        "title": "string",
+        "family": "string",
+        "price": "number",
+        "listPrice": "number|null",
+        "compatibility": "Array<string>",
+        "variants": "Array<{id, label, price, image}>",
+        "quantity": "number",
+        "benefits": "Array<string>"
+      },
+      "state": ["selected variant", "quantity", "adding", "added"],
+      "interactions": ["Variant changes title/price/image context", "Quantity stepper updates line total", "CTA adds selected configuration to mini cart"]
+    },
+    {
+      "name": "AccessorySpecsAccordion",
+      "props": {
+        "sections": "Array<{title, body|rows}>"
+      },
+      "state": ["collapsed", "expanded"],
+      "interactions": ["Click header toggles panel and aria-expanded"]
+    },
+    {
+      "name": "RelatedProductsRail",
+      "props": {
+        "products": "Array<AccessoryProductCard>"
+      },
+      "state": ["default"],
+      "interactions": ["Quick add related item", "Link to PDP template"]
+    },
+    {
+      "name": "MiniCartDrawer",
+      "props": {
+        "items": "Array<{id, title, variant, quantity, price, image}>",
+        "promo": "string|null",
+        "totals": "{subtotal, shippingLabel, total}"
+      },
+      "state": ["closed", "open", "empty", "non-empty"],
+      "interactions": ["Open from nav, quick add, or buy stack", "Overlay/close/Escape closes", "Quantity controls update totals", "Remove deletes line"]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-05-21",
+  "sources": {
+    "liveAccessories": "https://www.halocollar.com/main-shop/accessories/",
+    "liveCollarPdp": "https://www.halocollar.com/shop-wireless-dog-fence/",
+    "v3ShopHtml": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "v3ShopCss": "repos/ecomlanders/pages/Lander-v3-2026/shop.css",
+    "v3ShopJs": "repos/ecomlanders/pages/Lander-v3-2026/shop.js"
+  },
+  "liveAccessoriesAudit": {
+    "headingSequence": [
+      { "level": "h1", "text": "Halo Accessories" },
+      { "level": "h2", "text": "Halo Beacons" },
+      { "level": "h3", "text": "Zone Beacon" },
+      { "level": "h3", "text": "Remote Beacon" },
+      { "level": "h2", "text": "Halo Accessories" },
+      { "level": "h3", "text": "Pro Case Halo Collar 4/5" },
+      { "level": "h3", "text": "Collar Strap Halo Collar 4/5" },
+      { "level": "h3", "text": "Collar Strap Halo Collar 1/2/2+/3" },
+      { "level": "h3", "text": "Charging Stand Halo Collar 4/5" },
+      { "level": "h3", "text": "Contact Tips" },
+      { "level": "h3", "text": "Charging Kit Halo Collar 4/5" },
+      { "level": "h3", "text": "Charging Kit Halo Collar 1/2/2+/3" },
+      { "level": "h2", "text": "Halo Merch" },
+      { "level": "h3", "text": "Halo T-Shirt" },
+      { "level": "h3", "text": "Lawn Signs" }
+    ],
+    "productGroups": [
+      {
+        "name": "Halo Beacons",
+        "items": ["Zone Beacon", "Remote Beacon"],
+        "notes": "Separate beacons section with a learn-more link but no compare, compatibility, or quick-add affordance."
+      },
+      {
+        "name": "Halo Accessories",
+        "items": [
+          "Pro Case",
+          "Collar Strap Halo Collar 4/5",
+          "Collar Strap Halo Collar 1/2/2+/3",
+          "Charging Stand Halo Collar 4/5",
+          "Contact Tips",
+          "Charging Kit Halo Collar 4/5",
+          "Charging Kit Halo Collar 1/2/2+/3"
+        ],
+        "notes": "Mixed families are presented in one flat grid, making compatibility scanning difficult."
+      },
+      {
+        "name": "Halo Merch",
+        "items": ["Halo T-Shirt", "Lawn Signs"],
+        "notes": "Merch is visually equal to replacement parts even though purchase intent differs."
+      }
+    ],
+    "assets": [
+      "https://www.halocollar.com/wp-content/uploads/2024/01/product_zone_beacon_pdp.webp",
+      "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+      "https://d252xzqwj6utz.cloudfront.net/static/h5/main-pro-case-s.webp",
+      "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp",
+      "https://www.halocollar.com/wp-content/uploads/2023/08/CollarStrap.webp",
+      "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+      "https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp",
+      "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp",
+      "https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp",
+      "https://www.halocollar.com/wp-content/uploads/2023/11/Tshirt.webp",
+      "https://www.halocollar.com/wp-content/uploads/2024/04/lawn-sign-row.webp"
+    ],
+    "navFooterBehavior": [
+      "Yellow promo strip rotates current savings and guarantee messages.",
+      "Navigation is sticky and uses the V3-style Shop Halo mega menu with Halo Collar product cards plus Beacons and Accessories side links.",
+      "Mobile navigation moves Shop Halo products and accessory links into a right-side drawer.",
+      "Footer is a dense multi-column link list covering Shop, About, Pack Membership, Support, and Why Halo pages.",
+      "A mini-cart drawer shell exists globally but the live accessories grid does not expose visible quick-add triggers."
+    ],
+    "datedIssuesToSolve": [
+      "Flat storefront grid does not expose product family, compatibility, or purchase priority.",
+      "Product cards lack price, quick-add, compare, proof, and secondary details.",
+      "Beacons, parts, charging, and merch share the same card treatment despite different buying jobs.",
+      "No bundle entry point even though accessories are natural add-ons to a collar order.",
+      "No support/warranty cross-sell for replacement parts and compatibility questions.",
+      "Category density is low-value: visible product count is useful, but the shopping controls are missing."
+    ]
+  },
+  "v3CommercePrimitives": [
+    "White commerce surface with Inter/system sans, black text, muted gray lines, and Halo yellow as the primary CTA color.",
+    "Sticky desktop right-rail buy stack paired with a media/gallery column.",
+    "Desktop waterfall gallery and mobile active-image gallery with thumbnail strip.",
+    "Rounded 8-16px product media containers, clean cards, and compact proof badges.",
+    "Selection cards expose active, expanded, and added states through border and background changes.",
+    "Price stack uses current price, struck list price, sale/savings copy, and full-width yellow add-to-cart CTA.",
+    "Mini-cart slides from the right with overlay, item rows, quantity controls, totals, promo disclosure, and Escape/overlay close.",
+    "Mobile purchase affordance keeps price and CTA close to the shopping decision without copying the full collar configurator."
+  ]
+}

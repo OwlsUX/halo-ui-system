@@ -1,0 +1,5227 @@
+[
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/lander-2026/index-alt.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 2,
+        "text": "Your backyard, now everywhere ®"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 2,
+        "text": "Save on past generation Halo Collars"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 2,
+        "text": "Watch halo collar 5 in action"
+      },
+      {
+        "level": 2,
+        "text": "How halo works"
+      },
+      {
+        "level": 3,
+        "text": "Set limits"
+      },
+      {
+        "level": 3,
+        "text": "Feedback"
+      },
+      {
+        "level": 3,
+        "text": "Peace of mind"
+      },
+      {
+        "level": 2,
+        "text": "Smart safety in the halo app"
+      },
+      {
+        "level": 2,
+        "text": "Who is halo for?"
+      },
+      {
+        "level": 3,
+        "text": "City Dogs"
+      },
+      {
+        "level": 3,
+        "text": "Neighborhood Dogs"
+      },
+      {
+        "level": 3,
+        "text": "Rural Dogs"
+      },
+      {
+        "level": 3,
+        "text": "Traveling Dogs"
+      },
+      {
+        "level": 2,
+        "text": "Before you buy"
+      },
+      {
+        "level": 3,
+        "text": "What's included"
+      },
+      {
+        "level": 3,
+        "text": "Getting started"
+      },
+      {
+        "level": 3,
+        "text": "Plans"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "everywhere-section"
+        ],
+        "heading": "Your backyard, now everywhere ®"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "past-gen-section"
+        ],
+        "heading": "Save on past generation Halo Collars"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "watch-action-section"
+        ],
+        "heading": "Watch halo collar 5 in action"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "how-works-section"
+        ],
+        "heading": "How halo works"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "smart-safety-section"
+        ],
+        "heading": "Smart safety in the halo app"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "who-for-section"
+        ],
+        "heading": "Who is halo for?"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "before-buy-section"
+        ],
+        "heading": "Before you buy"
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Shop"
+      }
+    ],
+    "assetsReferencedCount": 23,
+    "linkedCss": [
+      "repos/ecomlanders/pages/lander-2026/styles.css?v=179"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/ecomlanders/pages/lander-2026/script.js?v=29"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/lander-2026/index.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 2,
+        "text": "One Collar. Complete peace of mind."
+      },
+      {
+        "level": 2,
+        "text": "Meet Halo Collar 5"
+      },
+      {
+        "level": 2,
+        "text": "Easy setup. Pro-level training. All in the app."
+      },
+      {
+        "level": 2,
+        "text": "Create Fences Anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Create your safe zone"
+      },
+      {
+        "level": 3,
+        "text": "Your dog learns fast"
+      },
+      {
+        "level": 3,
+        "text": "GPS is escape proof"
+      },
+      {
+        "level": 3,
+        "text": "You relax. Your dog gets freedom."
+      },
+      {
+        "level": 3,
+        "text": "Take it anywhere"
+      },
+      {
+        "level": 2,
+        "text": "Loved by 500,000+ families."
+      },
+      {
+        "level": 2,
+        "text": "One system to protect all your dogs, everywhere you go."
+      },
+      {
+        "level": 3,
+        "text": "Built for everywhere"
+      },
+      {
+        "level": 2,
+        "text": "Give them Halo."
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 2,
+        "text": "Included with Halo Collar"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar"
+      },
+      {
+        "level": 3,
+        "text": "Charging Cable"
+      },
+      {
+        "level": 3,
+        "text": "Halo Beacon"
+      },
+      {
+        "level": 3,
+        "text": "Perfect Fit Kit"
+      },
+      {
+        "level": 3,
+        "text": "Extra Contact Tips"
+      },
+      {
+        "level": 2,
+        "text": "See how Halo Collar 5 compares"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions"
+      },
+      {
+        "level": 2,
+        "text": "This is what freedom looks like"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "video-splash-section"
+        ],
+        "heading": "Easy setup. Pro-level training. All in the app."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "testimonials"
+        ],
+        "heading": "Loved by 500,000+ families."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "blur-carousel-section"
+        ],
+        "heading": "One system to protect all your dogs, everywhere you go."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "pricing"
+        ],
+        "heading": "Give them Halo."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq"
+        ],
+        "heading": "Frequently asked questions"
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Product"
+      }
+    ],
+    "assetsReferencedCount": 11,
+    "linkedCss": [
+      "repos/ecomlanders/pages/lander-2026/styles.css?v=178"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/ecomlanders/pages/lander-2026/script.js?v=27"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/lander-2026/shop.html",
+    "title": "Shop Halo Collar 5 | Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Configure your Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Compare Halo Beacons"
+      },
+      {
+        "level": 2,
+        "text": "Your Cart (1)"
+      },
+      {
+        "level": 2,
+        "text": "Halo Care Membership Plans"
+      },
+      {
+        "level": 3,
+        "text": "Bronze"
+      },
+      {
+        "level": 3,
+        "text": "Silver"
+      },
+      {
+        "level": 3,
+        "text": "Gold"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav",
+          "nav-light",
+          "nav-global"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-actions"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-sidebar"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-content"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-links"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart"
+        ],
+        "heading": "Your Cart (1)"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-items"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-code"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-totals"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-light"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-final"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "Halo Care Membership Plans"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plans-grid"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan",
+          "plan-featured"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan"
+        ],
+        "heading": "Gold"
+      }
+    ],
+    "assetsReferencedCount": 16,
+    "linkedCss": [
+      "repos/ecomlanders/pages/lander-2026/styles.css?v=159",
+      "repos/ecomlanders/pages/lander-2026/shop.css?v=48"
+    ],
+    "linkedJs": [
+      "repos/ecomlanders/pages/lander-2026/shop.js?v=16"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v2-2026/index.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 3,
+        "text": "The ultimate smart collar"
+      },
+      {
+        "level": 2,
+        "text": "Meet Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Save $125 on Previous Generation Halo Collar 4"
+      },
+      {
+        "level": 2,
+        "text": "Watch Halo Collar 5 in action"
+      },
+      {
+        "level": 2,
+        "text": "How Halo works"
+      },
+      {
+        "level": 3,
+        "text": "Create GPS fences in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "Halo helps you train your dog"
+      },
+      {
+        "level": 3,
+        "text": "Custom correction methods"
+      },
+      {
+        "level": 3,
+        "text": "Track location and activity"
+      },
+      {
+        "level": 2,
+        "text": "Meet Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 2,
+        "text": "Smart safety in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "GPS Fences"
+      },
+      {
+        "level": 3,
+        "text": "Custom Feedback"
+      },
+      {
+        "level": 3,
+        "text": "Live Tracking"
+      },
+      {
+        "level": 3,
+        "text": "Always-On Protection"
+      },
+      {
+        "level": 3,
+        "text": "Halo Health"
+      },
+      {
+        "level": 3,
+        "text": "Live Support"
+      },
+      {
+        "level": 2,
+        "text": "Who is Halo for?"
+      },
+      {
+        "level": 2,
+        "text": "Before you buy"
+      },
+      {
+        "level": 3,
+        "text": "What's included"
+      },
+      {
+        "level": 3,
+        "text": "Getting started"
+      },
+      {
+        "level": 3,
+        "text": "Plans"
+      },
+      {
+        "level": 2,
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-mobile-menu"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "sidebar-menu__nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "sidebar-menu__footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav__cta"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "blur-carousel-section"
+        ],
+        "heading": "The ultimate smart collar"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "past-gen-section"
+        ],
+        "heading": "Save $125 on Previous Generation Halo Collar 4"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "watch-action-section"
+        ],
+        "heading": "Watch Halo Collar 5 in action"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "how-grid-section"
+        ],
+        "heading": "How Halo works"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "everywhere-section"
+        ],
+        "heading": "Meet Halo Collar 5"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "smart-safety-section"
+        ],
+        "heading": "Smart safety in the Halo app"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "persona-grid-section"
+        ],
+        "heading": "Who is Halo for?"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "before-buy-section"
+        ],
+        "heading": "Before you buy"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq-section"
+        ],
+        "heading": "Frequently Asked Questions"
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Shop"
+      }
+    ],
+    "assetsReferencedCount": 25,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v2-2026/styles.css?v=219"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/script.js?v=28"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v2-2026/reference-design/index.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 2,
+        "text": "Your backyard, now everywhere ®"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 2,
+        "text": "Save on past gen Halo Collars"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 2,
+        "text": "Watch Halo Collar 5 in action"
+      },
+      {
+        "level": 2,
+        "text": "How Halo works"
+      },
+      {
+        "level": 3,
+        "text": "Create GPS fences in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "Halo helps you train your dog"
+      },
+      {
+        "level": 3,
+        "text": "Custom correction methods"
+      },
+      {
+        "level": 3,
+        "text": "Track location and activity"
+      },
+      {
+        "level": 2,
+        "text": "Smart safety in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "Real-time GPS Tracking"
+      },
+      {
+        "level": 3,
+        "text": "Training with Cesar Millan"
+      },
+      {
+        "level": 3,
+        "text": "Halo Health"
+      },
+      {
+        "level": 3,
+        "text": "Custom Feedback"
+      },
+      {
+        "level": 2,
+        "text": "Who is Halo for?"
+      },
+      {
+        "level": 2,
+        "text": "Before you buy"
+      },
+      {
+        "level": 3,
+        "text": "What's included"
+      },
+      {
+        "level": 3,
+        "text": "Getting started"
+      },
+      {
+        "level": 3,
+        "text": "Plans"
+      },
+      {
+        "level": 2,
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-mobile-menu"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "sidebar-menu__nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "sidebar-menu__footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav__cta"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "everywhere-section"
+        ],
+        "heading": "Your backyard, now everywhere ®"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "past-gen-section"
+        ],
+        "heading": "Save on past gen Halo Collars"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "watch-action-section"
+        ],
+        "heading": "Watch Halo Collar 5 in action"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "how-grid-section"
+        ],
+        "heading": "How Halo works"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "smart-safety-section"
+        ],
+        "heading": "Smart safety in the Halo app"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "persona-grid-section"
+        ],
+        "heading": "Who is Halo for?"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "before-buy-section"
+        ],
+        "heading": "Before you buy"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq-section"
+        ],
+        "heading": "Frequently Asked Questions"
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Shop"
+      }
+    ],
+    "assetsReferencedCount": 22,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v2-2026/reference-design/styles.css?v=191"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/reference-design/script.js?v=28"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v2-2026/reference-design/shop.html",
+    "title": "Shop Halo Collar 5 | Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Configure your Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Compare Halo Beacons"
+      },
+      {
+        "level": 2,
+        "text": "Your Cart (1)"
+      },
+      {
+        "level": 2,
+        "text": "Halo Care Membership Plans"
+      },
+      {
+        "level": 3,
+        "text": "Bronze"
+      },
+      {
+        "level": 3,
+        "text": "Silver"
+      },
+      {
+        "level": 3,
+        "text": "Gold"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav",
+          "nav-light",
+          "nav-global"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-actions"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-sidebar"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-content"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-links"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart"
+        ],
+        "heading": "Your Cart (1)"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-items"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-code"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-totals"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-light"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-final"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "Halo Care Membership Plans"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plans-grid"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan",
+          "plan-featured"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan"
+        ],
+        "heading": "Gold"
+      }
+    ],
+    "assetsReferencedCount": 23,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v2-2026/reference-design/styles.css?v=199",
+      "repos/ecomlanders/pages/Lander-v2-2026/reference-design/shop.css?v=99"
+    ],
+    "linkedJs": [
+      "repos/ecomlanders/pages/Lander-v2-2026/reference-design/shop.js?v=16"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+    "title": "Shop Halo Collar 5 | Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Compare Halo Beacons"
+      },
+      {
+        "level": 2,
+        "text": "What's in the box"
+      },
+      {
+        "level": 2,
+        "text": "Your Cart (1)"
+      },
+      {
+        "level": 3,
+        "text": "Pack Membership Plan"
+      },
+      {
+        "level": 2,
+        "text": "Pack Membership Plans"
+      },
+      {
+        "level": 3,
+        "text": "Bronze"
+      },
+      {
+        "level": 3,
+        "text": "Silver"
+      },
+      {
+        "level": 3,
+        "text": "Gold"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav",
+          "nav-light",
+          "nav-global"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-actions"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-sidebar"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-content"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-links"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "What's in the box"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart"
+        ],
+        "heading": "Your Cart (1)"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-items"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-membership-details"
+        ],
+        "heading": "Pack Membership Plan"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-membership-details-body"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-code"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-totals"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-light"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-final"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "Pack Membership Plans"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plans-grid"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan",
+          "plan-featured"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan"
+        ],
+        "heading": "Gold"
+      }
+    ],
+    "assetsReferencedCount": 30,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v2-2026/styles.css?v=200",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.css?v=111"
+    ],
+    "linkedJs": [
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js?v=111"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v3-2026/index.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 3,
+        "text": "The ultimate smart collar"
+      },
+      {
+        "level": 2,
+        "text": "Meet Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Save $125 on Previous Generation Halo Collar 4"
+      },
+      {
+        "level": 2,
+        "text": "Watch Halo Collar 5 in action"
+      },
+      {
+        "level": 2,
+        "text": "How Halo works"
+      },
+      {
+        "level": 3,
+        "text": "Create GPS fences in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "Halo helps you train your dog"
+      },
+      {
+        "level": 3,
+        "text": "Custom correction methods"
+      },
+      {
+        "level": 3,
+        "text": "Track location and activity"
+      },
+      {
+        "level": 2,
+        "text": "Smart tech, great features."
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "Precision+ GPS"
+      },
+      {
+        "level": 3,
+        "text": "Precision+ GPS"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 2,
+        "text": "Smart safety in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "GPS Fences"
+      },
+      {
+        "level": 3,
+        "text": "Custom Feedback"
+      },
+      {
+        "level": 3,
+        "text": "Live Tracking"
+      },
+      {
+        "level": 3,
+        "text": "Always-On Protection"
+      },
+      {
+        "level": 3,
+        "text": "Halo Health"
+      },
+      {
+        "level": 3,
+        "text": "Live Support"
+      },
+      {
+        "level": 2,
+        "text": "Who is Halo for?"
+      },
+      {
+        "level": 2,
+        "text": "Before you buy"
+      },
+      {
+        "level": 3,
+        "text": "What's included"
+      },
+      {
+        "level": 3,
+        "text": "Getting started"
+      },
+      {
+        "level": 3,
+        "text": "Plans"
+      },
+      {
+        "level": 2,
+        "text": "FAQ"
+      },
+      {
+        "level": 2,
+        "text": "Give them Halo."
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-mobile-menu"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "sidebar-menu__nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "sidebar-menu__footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav__cta"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "blur-carousel-section"
+        ],
+        "heading": "The ultimate smart collar"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "past-gen-section"
+        ],
+        "heading": "Save $125 on Previous Generation Halo Collar 4"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "watch-action-section"
+        ],
+        "heading": "Watch Halo Collar 5 in action"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "how-grid-section"
+        ],
+        "heading": "How Halo works"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "everywhere-section"
+        ],
+        "heading": "Smart tech, great features."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "smart-safety-section"
+        ],
+        "heading": "Smart safety in the Halo app"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "persona-grid-section"
+        ],
+        "heading": "Who is Halo for?"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "before-buy-section"
+        ],
+        "heading": "Before you buy"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq-section"
+        ],
+        "heading": "FAQ"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "pricing"
+        ],
+        "heading": "Give them Halo."
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Shop"
+      }
+    ],
+    "assetsReferencedCount": 31,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v3-2026/styles.css?v=222"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/ecomlanders/pages/Lander-v3-2026/script.js?v=28"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v3-2026/reference-design/index.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 2,
+        "text": "Your backyard, now everywhere ®"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "Safe containment"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "AlwaysOn™ tracking"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "PrecisionGPS™"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Create Instantly"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Use anywhere"
+      },
+      {
+        "level": 2,
+        "text": "Save on past gen Halo Collars"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 2,
+        "text": "Watch Halo Collar 5 in action"
+      },
+      {
+        "level": 2,
+        "text": "How Halo works"
+      },
+      {
+        "level": 3,
+        "text": "Create GPS fences in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "Halo helps you train your dog"
+      },
+      {
+        "level": 3,
+        "text": "Custom correction methods"
+      },
+      {
+        "level": 3,
+        "text": "Track location and activity"
+      },
+      {
+        "level": 2,
+        "text": "Smart safety in the Halo app"
+      },
+      {
+        "level": 3,
+        "text": "Real-time GPS Tracking"
+      },
+      {
+        "level": 3,
+        "text": "Training with Cesar Millan"
+      },
+      {
+        "level": 3,
+        "text": "Halo Health"
+      },
+      {
+        "level": 3,
+        "text": "Custom Feedback"
+      },
+      {
+        "level": 2,
+        "text": "Who is Halo for?"
+      },
+      {
+        "level": 2,
+        "text": "Before you buy"
+      },
+      {
+        "level": 3,
+        "text": "What's included"
+      },
+      {
+        "level": 3,
+        "text": "Getting started"
+      },
+      {
+        "level": 3,
+        "text": "Plans"
+      },
+      {
+        "level": 2,
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-mobile-menu"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "sidebar-menu__nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "sidebar-menu__footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "section-nav__cta"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "everywhere-section"
+        ],
+        "heading": "Your backyard, now everywhere ®"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "past-gen-section"
+        ],
+        "heading": "Save on past gen Halo Collars"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "watch-action-section"
+        ],
+        "heading": "Watch Halo Collar 5 in action"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "how-grid-section"
+        ],
+        "heading": "How Halo works"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "smart-safety-section"
+        ],
+        "heading": "Smart safety in the Halo app"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "persona-grid-section"
+        ],
+        "heading": "Who is Halo for?"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "before-buy-section"
+        ],
+        "heading": "Before you buy"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq-section"
+        ],
+        "heading": "Frequently Asked Questions"
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Shop"
+      }
+    ],
+    "assetsReferencedCount": 22,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v3-2026/reference-design/styles.css?v=191"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/ecomlanders/pages/Lander-v3-2026/reference-design/script.js?v=28"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v3-2026/reference-design/shop.html",
+    "title": "Shop Halo Collar 5 | Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Configure your Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Compare Halo Beacons"
+      },
+      {
+        "level": 2,
+        "text": "Your Cart (1)"
+      },
+      {
+        "level": 2,
+        "text": "Halo Care Membership Plans"
+      },
+      {
+        "level": 3,
+        "text": "Bronze"
+      },
+      {
+        "level": 3,
+        "text": "Silver"
+      },
+      {
+        "level": 3,
+        "text": "Gold"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav",
+          "nav-light",
+          "nav-global"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-actions"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-sidebar"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-content"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-links"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart"
+        ],
+        "heading": "Your Cart (1)"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-items"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-code"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-totals"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-light"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-final"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "Halo Care Membership Plans"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plans-grid"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan",
+          "plan-featured"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan"
+        ],
+        "heading": "Gold"
+      }
+    ],
+    "assetsReferencedCount": 23,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v3-2026/reference-design/styles.css?v=199",
+      "repos/ecomlanders/pages/Lander-v3-2026/reference-design/shop.css?v=99"
+    ],
+    "linkedJs": [
+      "repos/ecomlanders/pages/Lander-v3-2026/reference-design/shop.js?v=16"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "title": "Shop Halo Collar 5 | Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Compare Halo Beacons"
+      },
+      {
+        "level": 2,
+        "text": "What's in the box"
+      },
+      {
+        "level": 2,
+        "text": "Your Cart (1)"
+      },
+      {
+        "level": 3,
+        "text": "Pack Membership Plan"
+      },
+      {
+        "level": 2,
+        "text": "Pack Membership Plans"
+      },
+      {
+        "level": 3,
+        "text": "Bronze"
+      },
+      {
+        "level": 3,
+        "text": "Silver"
+      },
+      {
+        "level": 3,
+        "text": "Gold"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav",
+          "nav-light",
+          "nav-global"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-actions"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-sidebar"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-content"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-links"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "What's in the box"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart"
+        ],
+        "heading": "Your Cart (1)"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-items"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-membership-details"
+        ],
+        "heading": "Pack Membership Plan"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-membership-details-body"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-code"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-totals"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-light"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-final"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "Pack Membership Plans"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plans-grid"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan",
+          "plan-featured"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan"
+        ],
+        "heading": "Gold"
+      }
+    ],
+    "assetsReferencedCount": 30,
+    "linkedCss": [
+      "repos/ecomlanders/pages/Lander-v3-2026/styles.css?v=200",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.css?v=110"
+    ],
+    "linkedJs": [
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js?v=110"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/tiktok-lander/index.html",
+    "title": "Halo Collar 4 — GPS Dog Fence with Real-Time Tracking",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "No fence? No problem!"
+      },
+      {
+        "level": 1,
+        "text": "Know exactly where they are"
+      },
+      {
+        "level": 1,
+        "text": "Built for every adventure"
+      },
+      {
+        "level": 1,
+        "text": "Real safety starts here"
+      },
+      {
+        "level": 1,
+        "text": "One collar, every dog"
+      },
+      {
+        "level": 2,
+        "text": "The safest GPS dog collar"
+      },
+      {
+        "level": 3,
+        "text": "Create wireless fences anywhere you are"
+      },
+      {
+        "level": 3,
+        "text": "The fastest, most accurate GPS tracking"
+      },
+      {
+        "level": 3,
+        "text": "Best-in-class battery & durability"
+      },
+      {
+        "level": 3,
+        "text": "Training & expert support"
+      },
+      {
+        "level": 3,
+        "text": "All-day comfort & fit for every breed"
+      },
+      {
+        "level": 3,
+        "text": "Create wireless fences anywhere you are"
+      },
+      {
+        "level": 3,
+        "text": "The fastest, most accurate GPS tracking"
+      },
+      {
+        "level": 3,
+        "text": "Best-in-class battery & durability"
+      },
+      {
+        "level": 3,
+        "text": "Training & Expert support"
+      },
+      {
+        "level": 3,
+        "text": "All-day comfort & fit for every breed"
+      },
+      {
+        "level": 2,
+        "text": "Built tough for all your adventures"
+      },
+      {
+        "level": 2,
+        "text": "Happy dogs, happy owners"
+      },
+      {
+        "level": 2,
+        "text": "“It’s completely blown us away with how well it works keeping our dogs in our yard.”"
+      },
+      {
+        "level": 3,
+        "text": "Scott"
+      },
+      {
+        "level": 2,
+        "text": "“It makes me so happy that they can go run, and be free, and just live their best life.”"
+      },
+      {
+        "level": 3,
+        "text": "Andrea"
+      },
+      {
+        "level": 2,
+        "text": "“The Halo has been my life saving device, my biggest regret is not getting it sooner.”"
+      },
+      {
+        "level": 3,
+        "text": "Deana"
+      },
+      {
+        "level": 2,
+        "text": "“It’s completely blown us away with how well it works keeping our dogs in our yard.”"
+      },
+      {
+        "level": 3,
+        "text": "Scott"
+      },
+      {
+        "level": 2,
+        "text": "“It makes me so happy that they can go run, and be free, and just live their best life.”"
+      },
+      {
+        "level": 3,
+        "text": "Andrea"
+      },
+      {
+        "level": 2,
+        "text": "“The Halo has been my life saving device, my biggest regret is not getting it sooner.”"
+      },
+      {
+        "level": 3,
+        "text": "Deana"
+      },
+      {
+        "level": 2,
+        "text": "Getting started with Halo is easy for both you and your dog."
+      },
+      {
+        "level": 2,
+        "text": "Superior quality and advanced features, built to last."
+      },
+      {
+        "level": 2,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Easy-to-use mobile app"
+      },
+      {
+        "level": 3,
+        "text": "Fast shipping"
+      },
+      {
+        "level": 3,
+        "text": "90-day trial"
+      },
+      {
+        "level": 2,
+        "text": "FAQ"
+      },
+      {
+        "level": 3,
+        "text": "Shop"
+      },
+      {
+        "level": 3,
+        "text": "About"
+      },
+      {
+        "level": 3,
+        "text": "Pack Membership"
+      },
+      {
+        "level": 3,
+        "text": "Support"
+      },
+      {
+        "level": 3,
+        "text": "Why Halo?"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-mobile-menu"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "sidebar-menu__section",
+          "sidebar-menu__nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "sidebar-menu__footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "core-features-5"
+        ],
+        "heading": "The safest GPS dog collar"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "features-color"
+        ],
+        "heading": "Built tough for all your adventures"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "testimonials-2"
+        ],
+        "heading": "Happy dogs, happy owners"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "testimonial"
+        ],
+        "heading": "Getting started with Halo is easy for both you and your dog."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "pricing"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq"
+        ],
+        "heading": "FAQ"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-columns"
+        ],
+        "heading": "Shop"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-column"
+        ],
+        "heading": "About"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-column"
+        ],
+        "heading": "Pack Membership"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-column"
+        ],
+        "heading": "Support"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-column"
+        ],
+        "heading": "Why Halo?"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-bottom"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "footer-legal"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 38,
+    "linkedCss": [
+      "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    ],
+    "linkedJs": [
+      "https://cdn.amplitude.com/script/70e38de5ee590de99b0a0a1a432d16b7.experiment.js",
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67f018d909d3894e09b0887b",
+      "repos/ecomlanders/pages/tiktok-lander/js/webflow.js"
+    ],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "ecomlanders",
+    "pagePath": "repos/ecomlanders/pages/track-your-order/index.html",
+    "title": "Order Status | Halo Collar",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Order Status"
+      },
+      {
+        "level": 2,
+        "text": "Find your order"
+      },
+      {
+        "level": 2,
+        "text": "Your order"
+      },
+      {
+        "level": 2,
+        "text": "Find your return"
+      },
+      {
+        "level": 2,
+        "text": "Your return"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "card"
+        ],
+        "heading": "Find your order"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "result-section"
+        ],
+        "heading": "Your order"
+      }
+    ],
+    "assetsReferencedCount": 1,
+    "linkedCss": [],
+    "linkedJs": [],
+    "notes": ""
+  },
+  {
+    "sourceRepo": "new-halo",
+    "pagePath": "repos/new-halo/index.html",
+    "title": "Halo Collar | Freedom Without Fences",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Freedom without fences"
+      },
+      {
+        "level": 2,
+        "text": "One Collar. Complete peace of mind."
+      },
+      {
+        "level": 2,
+        "text": "Meet Halo Collar 5"
+      },
+      {
+        "level": 2,
+        "text": "Easy setup. Pro-level training. All in the app."
+      },
+      {
+        "level": 2,
+        "text": "Create fences anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Draw your boundary"
+      },
+      {
+        "level": 3,
+        "text": "Your dog learns fast"
+      },
+      {
+        "level": 3,
+        "text": "You relax"
+      },
+      {
+        "level": 3,
+        "text": "Take it anywhere"
+      },
+      {
+        "level": 3,
+        "text": "Track their adventures"
+      },
+      {
+        "level": 2,
+        "text": "Loved by 500,000+ families."
+      },
+      {
+        "level": 2,
+        "text": "One system to protect all your dogs, everywhere you go."
+      },
+      {
+        "level": 3,
+        "text": "Built for everywhere"
+      },
+      {
+        "level": 2,
+        "text": "Give them Halo."
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 2,
+        "text": "Included with Halo Collar"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar"
+      },
+      {
+        "level": 3,
+        "text": "Charging Cable"
+      },
+      {
+        "level": 3,
+        "text": "Halo Beacon"
+      },
+      {
+        "level": 3,
+        "text": "Perfect Fit Kit"
+      },
+      {
+        "level": 3,
+        "text": "Extra Contact Tips"
+      },
+      {
+        "level": 2,
+        "text": "See how Halo Collar 5 compares"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions"
+      },
+      {
+        "level": 2,
+        "text": "This is what freedom looks like"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "hero"
+        ],
+        "heading": "Freedom without fences"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "video-splash-section"
+        ],
+        "heading": "Easy setup. Pro-level training. All in the app."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "testimonials"
+        ],
+        "heading": "Loved by 500,000+ families."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "blur-carousel-section"
+        ],
+        "heading": "One system to protect all your dogs, everywhere you go."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "pricing"
+        ],
+        "heading": "Give them Halo."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "faq"
+        ],
+        "heading": "Frequently asked questions"
+      },
+      {
+        "tag": "footer",
+        "classNames": [
+          "footer"
+        ],
+        "heading": "Product"
+      }
+    ],
+    "assetsReferencedCount": 10,
+    "linkedCss": [
+      "repos/new-halo/styles.css?v=178"
+    ],
+    "linkedJs": [
+      "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
+      "repos/new-halo/script.js?v=27"
+    ],
+    "notes": "Reference/older source only. Use to fill visual or interaction gaps, not as canonical implementation."
+  },
+  {
+    "sourceRepo": "new-halo",
+    "pagePath": "repos/new-halo/shop.html",
+    "title": "Shop Halo Collar 5 | Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Configure your Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Compare Halo Beacons"
+      },
+      {
+        "level": 2,
+        "text": "Your Cart (1)"
+      },
+      {
+        "level": 2,
+        "text": "Halo Care Membership Plans"
+      },
+      {
+        "level": 3,
+        "text": "Bronze"
+      },
+      {
+        "level": 3,
+        "text": "Silver"
+      },
+      {
+        "level": 3,
+        "text": "Gold"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "nav",
+          "nav-light",
+          "nav-global"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-actions"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-sidebar"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-content"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "product-card-mobile__image-wrapper"
+        ],
+        "heading": "Halo Collar 4"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-links"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mobile-nav-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "beacon-feature"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-overlay"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart"
+        ],
+        "heading": "Your Cart (1)"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-items"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "mini-cart-footer"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-banner"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-promo-code"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-totals"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-light"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "cart-total-row",
+          "cart-total-row-final"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-overlay"
+        ],
+        "heading": "Halo Care Membership Plans"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plans-grid"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan",
+          "plan-featured"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "membership-plan"
+        ],
+        "heading": "Gold"
+      }
+    ],
+    "assetsReferencedCount": 16,
+    "linkedCss": [
+      "repos/new-halo/styles.css?v=159",
+      "repos/new-halo/shop.css?v=48"
+    ],
+    "linkedJs": [
+      "repos/new-halo/shop.js?v=16"
+    ],
+    "notes": "Reference/older source only. Use to fill visual or interaction gaps, not as canonical implementation."
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/account-perks-v2.html",
+    "title": "My Account · Halo · v2",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Welcome back, Hunter"
+      },
+      {
+        "level": 3,
+        "text": "$1,500+ in annual value, included with your membership."
+      },
+      {
+        "level": 2,
+        "text": "Account Details"
+      },
+      {
+        "level": 2,
+        "text": "Pack Membership"
+      },
+      {
+        "level": 2,
+        "text": "Billing Interval"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 7,
+    "linkedCss": [
+      "repos/packperks/css/styles.css?v=20260508m"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "acct",
+        "count": 30
+      },
+      {
+        "className": "pp-pillar",
+        "count": 19
+      },
+      {
+        "className": "product-card",
+        "count": 16
+      },
+      {
+        "className": "tier",
+        "count": 16
+      },
+      {
+        "className": "nav",
+        "count": 10
+      },
+      {
+        "className": "dropdown",
+        "count": 8
+      },
+      {
+        "className": "nav-item",
+        "count": 7
+      },
+      {
+        "className": "acct-link",
+        "count": 6
+      },
+      {
+        "className": "ico",
+        "count": 6
+      },
+      {
+        "className": "name",
+        "count": 6
+      },
+      {
+        "className": "is",
+        "count": 5
+      },
+      {
+        "className": "muted",
+        "count": 5
+      },
+      {
+        "className": "mega-menu",
+        "count": 4
+      },
+      {
+        "className": "price",
+        "count": 4
+      },
+      {
+        "className": "pp",
+        "count": 4
+      },
+      {
+        "className": "current",
+        "count": 4
+      },
+      {
+        "className": "care",
+        "count": 4
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "account",
+        "count": 3
+      },
+      {
+        "className": "nav-icon",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/account-perks.html",
+    "title": "My Account · Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Welcome back, Hunter"
+      },
+      {
+        "level": 3,
+        "text": "$1,500+ in annual value, included with your membership."
+      },
+      {
+        "level": 2,
+        "text": "Account Details"
+      },
+      {
+        "level": 2,
+        "text": "Pack Membership"
+      },
+      {
+        "level": 2,
+        "text": "Billing Interval"
+      },
+      {
+        "level": 1,
+        "text": "Hunter, here's what you'd lose by canceling."
+      },
+      {
+        "level": 3,
+        "text": "You'll immediately lose access to:"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "app-modal"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "app-modal__shell"
+        ],
+        "heading": "Hunter, here's what you'd lose by canceling."
+      }
+    ],
+    "assetsReferencedCount": 14,
+    "linkedCss": [
+      "repos/packperks/css/styles.css?v=20260508o"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js?v=20260508c",
+      "repos/packperks/js/cancel-modal.js?v=20260508c"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "acct",
+        "count": 30
+      },
+      {
+        "className": "pp-pillar",
+        "count": 19
+      },
+      {
+        "className": "lose",
+        "count": 17
+      },
+      {
+        "className": "product-card",
+        "count": 16
+      },
+      {
+        "className": "tier",
+        "count": 16
+      },
+      {
+        "className": "nav",
+        "count": 10
+      },
+      {
+        "className": "btn",
+        "count": 9
+      },
+      {
+        "className": "dropdown",
+        "count": 8
+      },
+      {
+        "className": "nav-item",
+        "count": 7
+      },
+      {
+        "className": "acct-link",
+        "count": 6
+      },
+      {
+        "className": "ico",
+        "count": 6
+      },
+      {
+        "className": "name",
+        "count": 6
+      },
+      {
+        "className": "is",
+        "count": 5
+      },
+      {
+        "className": "muted",
+        "count": 5
+      },
+      {
+        "className": "mega-menu",
+        "count": 4
+      },
+      {
+        "className": "price",
+        "count": 4
+      },
+      {
+        "className": "pp",
+        "count": 4
+      },
+      {
+        "className": "current",
+        "count": 4
+      },
+      {
+        "className": "care",
+        "count": 4
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/cancellation.html",
+    "title": "Cancel Membership · Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Hunter, here's what you'd lose by canceling."
+      },
+      {
+        "level": 3,
+        "text": "You'll immediately lose access to:"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 14,
+    "linkedCss": [
+      "repos/packperks/css/styles.css?v=20260508o"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "lose",
+        "count": 17
+      },
+      {
+        "className": "product-card",
+        "count": 16
+      },
+      {
+        "className": "nav",
+        "count": 10
+      },
+      {
+        "className": "dropdown",
+        "count": 8
+      },
+      {
+        "className": "nav-item",
+        "count": 7
+      },
+      {
+        "className": "btn",
+        "count": 6
+      },
+      {
+        "className": "mega-menu",
+        "count": 4
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "nav-icon",
+        "count": 3
+      },
+      {
+        "className": "hamburger",
+        "count": 3
+      },
+      {
+        "className": "cancel",
+        "count": 3
+      },
+      {
+        "className": "product",
+        "count": 2
+      },
+      {
+        "className": "price",
+        "count": 2
+      },
+      {
+        "className": "strikethrough",
+        "count": 2
+      },
+      {
+        "className": "nav-right",
+        "count": 2
+      },
+      {
+        "className": "account",
+        "count": 2
+      },
+      {
+        "className": "main-nav",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/index.html",
+    "title": "Pack Perks Prototype · Halo",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Pack Perks Prototype"
+      },
+      {
+        "level": 3,
+        "text": "Account dashboard"
+      },
+      {
+        "level": 3,
+        "text": "Pack Perks list"
+      },
+      {
+        "level": 3,
+        "text": "Membership selection (pre-login)"
+      },
+      {
+        "level": 3,
+        "text": "Pre-login marketing"
+      },
+      {
+        "level": 3,
+        "text": "Pre-login marketing v2"
+      },
+      {
+        "level": 3,
+        "text": "Pre-login marketing v3"
+      },
+      {
+        "level": 3,
+        "text": "What changed vs Ryan's Figma"
+      }
+    ],
+    "sections": [],
+    "assetsReferencedCount": 0,
+    "linkedCss": [
+      "repos/packperks/css/styles.css"
+    ],
+    "linkedJs": [],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "hub",
+        "count": 9
+      },
+      {
+        "className": "num",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/marketing-v2.html",
+    "title": "Pack Perks v2 · Over $1,500 in Annual Value",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Perks that your pup and wallet will love."
+      },
+      {
+        "level": 2,
+        "text": "Featured Benefits"
+      },
+      {
+        "level": 2,
+        "text": "Plus dozens of partner offers"
+      },
+      {
+        "level": 2,
+        "text": "Unbeatable Value"
+      },
+      {
+        "level": 2,
+        "text": "Benefits by Tier"
+      },
+      {
+        "level": 2,
+        "text": "Powering a world where all dogs can thrive."
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section",
+          "rh-hero"
+        ],
+        "heading": "Perks that your pup and wallet will love."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Featured Benefits"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Plus dozens of partner offers"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Unbeatable Value"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section",
+          "rh-section--dark"
+        ],
+        "heading": "Benefits by Tier"
+      }
+    ],
+    "assetsReferencedCount": 40,
+    "linkedCss": [
+      "repos/packperks/css/styles.css?v=20260508o",
+      "repos/packperks/css/robinhood.css"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "rh-brands-tile",
+        "count": 260
+      },
+      {
+        "className": "rh-brands",
+        "count": 55
+      },
+      {
+        "className": "rh",
+        "count": 41
+      },
+      {
+        "className": "rh-spot",
+        "count": 23
+      },
+      {
+        "className": "rh-spot-overlay",
+        "count": 11
+      },
+      {
+        "className": "nav",
+        "count": 8
+      },
+      {
+        "className": "rh-summary",
+        "count": 7
+      },
+      {
+        "className": "dropdown",
+        "count": 6
+      },
+      {
+        "className": "label",
+        "count": 6
+      },
+      {
+        "className": "value",
+        "count": 6
+      },
+      {
+        "className": "col",
+        "count": 6
+      },
+      {
+        "className": "rh-cta-finale",
+        "count": 5
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "rh-text",
+        "count": 3
+      },
+      {
+        "className": "rh-section",
+        "count": 3
+      },
+      {
+        "className": "tier",
+        "count": 3
+      },
+      {
+        "className": "tier-pill",
+        "count": 3
+      },
+      {
+        "className": "nav-logo",
+        "count": 2
+      },
+      {
+        "className": "nav-logo-img",
+        "count": 2
+      },
+      {
+        "className": "account",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/marketing-v3.html",
+    "title": "Pack Perks v3 · Over $1,500 in Annual Value",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Perks that your pup and wallet will love."
+      },
+      {
+        "level": 2,
+        "text": "Featured Benefits"
+      },
+      {
+        "level": 2,
+        "text": "Plus dozens of partner offers"
+      },
+      {
+        "level": 2,
+        "text": "Unbeatable Value"
+      },
+      {
+        "level": 2,
+        "text": "Benefits by Tier"
+      },
+      {
+        "level": 2,
+        "text": "Powering a world where all dogs can thrive."
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section",
+          "rh-hero",
+          "rh-hero-v3"
+        ],
+        "heading": "Perks that your pup and wallet will love."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Featured Benefits"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Plus dozens of partner offers"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Unbeatable Value"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section",
+          "rh-section--dark"
+        ],
+        "heading": "Benefits by Tier"
+      }
+    ],
+    "assetsReferencedCount": 40,
+    "linkedCss": [
+      "repos/packperks/css/styles.css?v=20260508o",
+      "repos/packperks/css/robinhood.css?v=20260508l"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "rh-brands-tile",
+        "count": 260
+      },
+      {
+        "className": "rh-brands",
+        "count": 55
+      },
+      {
+        "className": "rh",
+        "count": 39
+      },
+      {
+        "className": "rh-spot",
+        "count": 23
+      },
+      {
+        "className": "rh-spot-overlay",
+        "count": 11
+      },
+      {
+        "className": "nav",
+        "count": 8
+      },
+      {
+        "className": "rh-summary",
+        "count": 7
+      },
+      {
+        "className": "dropdown",
+        "count": 6
+      },
+      {
+        "className": "label",
+        "count": 6
+      },
+      {
+        "className": "value",
+        "count": 6
+      },
+      {
+        "className": "col",
+        "count": 6
+      },
+      {
+        "className": "rh-cta-finale",
+        "count": 5
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "rh-hero-v3",
+        "count": 3
+      },
+      {
+        "className": "rh-text",
+        "count": 3
+      },
+      {
+        "className": "rh-section",
+        "count": 3
+      },
+      {
+        "className": "tier",
+        "count": 3
+      },
+      {
+        "className": "tier-pill",
+        "count": 3
+      },
+      {
+        "className": "nav-logo",
+        "count": 2
+      },
+      {
+        "className": "nav-logo-img",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/marketing.html",
+    "title": "Pack Perks · Over $1,500 in Annual Value",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Exclusive Perks to Help Your Dog Thrive. Over $1,500 in Annual Value."
+      },
+      {
+        "level": 2,
+        "text": "Featured Benefits"
+      },
+      {
+        "level": 2,
+        "text": "Plus dozens of partner offers"
+      },
+      {
+        "level": 2,
+        "text": "Unbeatable Value"
+      },
+      {
+        "level": 2,
+        "text": "Benefits by Tier"
+      },
+      {
+        "level": 2,
+        "text": "Powering a world where all dogs can thrive."
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section",
+          "rh-hero"
+        ],
+        "heading": "Exclusive Perks to Help Your Dog Thrive. Over $1,500 in Annual Value."
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Featured Benefits"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Plus dozens of partner offers"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section"
+        ],
+        "heading": "Unbeatable Value"
+      },
+      {
+        "tag": "section",
+        "classNames": [
+          "rh-section",
+          "rh-section--dark"
+        ],
+        "heading": "Benefits by Tier"
+      }
+    ],
+    "assetsReferencedCount": 43,
+    "linkedCss": [
+      "repos/packperks/css/styles.css?v=20260508o",
+      "repos/packperks/css/robinhood.css"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "rh-brands-tile",
+        "count": 260
+      },
+      {
+        "className": "rh-brands",
+        "count": 55
+      },
+      {
+        "className": "rh",
+        "count": 41
+      },
+      {
+        "className": "rh-spot",
+        "count": 23
+      },
+      {
+        "className": "rh-spot-overlay",
+        "count": 11
+      },
+      {
+        "className": "nav",
+        "count": 8
+      },
+      {
+        "className": "hero-card",
+        "count": 8
+      },
+      {
+        "className": "rh-summary",
+        "count": 7
+      },
+      {
+        "className": "dropdown",
+        "count": 6
+      },
+      {
+        "className": "label",
+        "count": 6
+      },
+      {
+        "className": "value",
+        "count": 6
+      },
+      {
+        "className": "col",
+        "count": 6
+      },
+      {
+        "className": "rh-cta-finale",
+        "count": 5
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "rh-text",
+        "count": 3
+      },
+      {
+        "className": "hero",
+        "count": 3
+      },
+      {
+        "className": "bg",
+        "count": 3
+      },
+      {
+        "className": "rh-section",
+        "count": 3
+      },
+      {
+        "className": "tier",
+        "count": 3
+      },
+      {
+        "className": "tier-pill",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/membership-selection.html",
+    "title": "Select a Pack Membership Plan · Halo",
+    "headings": [
+      {
+        "level": 1,
+        "text": "Select a Pack Membership Plan"
+      },
+      {
+        "level": 2,
+        "text": "Bronze"
+      },
+      {
+        "level": 2,
+        "text": "Silver"
+      },
+      {
+        "level": 2,
+        "text": "Gold"
+      },
+      {
+        "level": 3,
+        "text": "Your Order"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "classNames": [
+          "ms-plans"
+        ],
+        "heading": "Bronze"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "ms-perks"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "article",
+        "classNames": [
+          "ms-card",
+          "ms-card--silver"
+        ],
+        "heading": "Silver"
+      },
+      {
+        "tag": "article",
+        "classNames": [
+          "ms-card",
+          "ms-card--gold"
+        ],
+        "heading": "Gold"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "ms-cart"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "ms-cart__line"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "ms-cart__line"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 0,
+    "linkedCss": [
+      "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    ],
+    "linkedJs": [],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "ms",
+        "count": 38
+      },
+      {
+        "className": "ms-card",
+        "count": 21
+      },
+      {
+        "className": "ms-perks",
+        "count": 15
+      },
+      {
+        "className": "ms-toggle",
+        "count": 6
+      },
+      {
+        "className": "ms-order",
+        "count": 5
+      },
+      {
+        "className": "ms-stepper",
+        "count": 5
+      },
+      {
+        "className": "ms-progress",
+        "count": 3
+      },
+      {
+        "className": "is",
+        "count": 3
+      },
+      {
+        "className": "ms-total",
+        "count": 2
+      },
+      {
+        "className": "ms-continue",
+        "count": 2
+      },
+      {
+        "className": "ms-cart",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/offer-detail.html",
+    "title": "Redeem $60 Off Ollie · Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Redeem $60 Off Ollie"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 7,
+    "linkedCss": [
+      "repos/packperks/css/styles.css"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "product-card",
+        "count": 16
+      },
+      {
+        "className": "nav",
+        "count": 10
+      },
+      {
+        "className": "dropdown",
+        "count": 8
+      },
+      {
+        "className": "nav-item",
+        "count": 7
+      },
+      {
+        "className": "mega-menu",
+        "count": 4
+      },
+      {
+        "className": "modal",
+        "count": 4
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "nav-icon",
+        "count": 3
+      },
+      {
+        "className": "hamburger",
+        "count": 3
+      },
+      {
+        "className": "code",
+        "count": 3
+      },
+      {
+        "className": "product",
+        "count": 2
+      },
+      {
+        "className": "price",
+        "count": 2
+      },
+      {
+        "className": "strikethrough",
+        "count": 2
+      },
+      {
+        "className": "nav-right",
+        "count": 2
+      },
+      {
+        "className": "account",
+        "count": 2
+      },
+      {
+        "className": "main-nav",
+        "count": 2
+      },
+      {
+        "className": "btn",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/pack-perks-list.html",
+    "title": "Pack Perks · Halo",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      },
+      {
+        "level": 1,
+        "text": "Hunter, here are your Pack Perks"
+      },
+      {
+        "level": 2,
+        "text": "Featured Benefits"
+      },
+      {
+        "level": 3,
+        "text": "Unlimited 24/7 TeleVet"
+      },
+      {
+        "level": 3,
+        "text": "$250 in Annual Food Credits"
+      },
+      {
+        "level": 3,
+        "text": "$1,000 in Annual Travel Credits"
+      },
+      {
+        "level": 2,
+        "text": "Health & Wellness"
+      },
+      {
+        "level": 2,
+        "text": "Treats & Toys"
+      },
+      {
+        "level": 2,
+        "text": "Travel"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "offer-modal"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "offer-modal__shell",
+          "modal-shell"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "modal-img"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 25,
+    "linkedCss": [
+      "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "repos/packperks/css/styles.css?v=20260508o"
+    ],
+    "linkedJs": [
+      "repos/packperks/js/nav.js?v=20260506b",
+      "repos/packperks/js/perks-filter.js?v=20260506b"
+    ],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "perk",
+        "count": 33
+      },
+      {
+        "className": "product-card",
+        "count": 16
+      },
+      {
+        "className": "ppl-feat",
+        "count": 15
+      },
+      {
+        "className": "brand-logo",
+        "count": 14
+      },
+      {
+        "className": "code",
+        "count": 14
+      },
+      {
+        "className": "redeem",
+        "count": 11
+      },
+      {
+        "className": "nav",
+        "count": 10
+      },
+      {
+        "className": "brand",
+        "count": 10
+      },
+      {
+        "className": "dropdown",
+        "count": 8
+      },
+      {
+        "className": "cat-block",
+        "count": 8
+      },
+      {
+        "className": "nav-item",
+        "count": 7
+      },
+      {
+        "className": "ppl-hero",
+        "count": 5
+      },
+      {
+        "className": "brand-logo-wrap",
+        "count": 5
+      },
+      {
+        "className": "mega-menu",
+        "count": 4
+      },
+      {
+        "className": "modal",
+        "count": 4
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "nav-icon",
+        "count": 3
+      },
+      {
+        "className": "hamburger",
+        "count": 3
+      },
+      {
+        "className": "cat",
+        "count": 3
+      },
+      {
+        "className": "perks",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "sourceRepo": "packperks",
+    "pagePath": "repos/packperks/partials/nav.html",
+    "title": "",
+    "headings": [
+      {
+        "level": 3,
+        "text": "Halo Collar 5"
+      },
+      {
+        "level": 3,
+        "text": "Halo Collar 4"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "nav",
+        "classNames": [
+          "halo-navigation"
+        ],
+        "heading": "Halo Collar 5"
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-desktop"
+        ],
+        "heading": ""
+      },
+      {
+        "tag": "div",
+        "classNames": [
+          "nav-right-mobile"
+        ],
+        "heading": ""
+      }
+    ],
+    "assetsReferencedCount": 5,
+    "linkedCss": [],
+    "linkedJs": [],
+    "notes": "Pack Perks/account source page. Use sections and repeated classes to derive account, perk, offer, cancellation, and membership-selection components.",
+    "majorClassPatterns": [
+      {
+        "className": "product-card",
+        "count": 16
+      },
+      {
+        "className": "nav",
+        "count": 10
+      },
+      {
+        "className": "dropdown",
+        "count": 8
+      },
+      {
+        "className": "nav-item",
+        "count": 7
+      },
+      {
+        "className": "mega-menu",
+        "count": 4
+      },
+      {
+        "className": "nav-dropdown",
+        "count": 3
+      },
+      {
+        "className": "nav-icon",
+        "count": 3
+      },
+      {
+        "className": "hamburger",
+        "count": 3
+      },
+      {
+        "className": "product",
+        "count": 2
+      },
+      {
+        "className": "price",
+        "count": 2
+      },
+      {
+        "className": "strikethrough",
+        "count": 2
+      },
+      {
+        "className": "nav-right",
+        "count": 2
+      },
+      {
+        "className": "account",
+        "count": 2
+      },
+      {
+        "className": "main-nav",
+        "count": 2
+      }
+    ]
+  }
+]

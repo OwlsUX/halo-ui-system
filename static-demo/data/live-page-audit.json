@@ -1,0 +1,3032 @@
+{
+  "generatedAt": "2026-05-20T19:30:38.753Z",
+  "source": "Live Halo primary-nav page audit",
+  "pages": [
+    {
+      "pageUrl": "https://www.halocollar.com/",
+      "navLabel": "Home",
+      "title": "Wireless GPS Dog Fence",
+      "sections": [
+        {
+          "sectionId": "your-backyard-now-everywhere-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Your backyard, now everywhere",
+          "subhead": "The go-anywhere, do-everything GPS dog fence & tracker",
+          "copySummary": "The go-anywhere, do-everything GPS dog fence & tracker The latest generation of the world’s safest and most powerful dog collar — now with 20 location updates per second and up to 48 hours of battery life. Explore Halo Now available in",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/realtree-logo.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67ec386dced987c9bab7c74d_play.webp",
+            "https://d1dt1wtcem8ax.cloudfront.net/hc4-d-0131.webp",
+            "https://d1dt1wtcem8ax.cloudfront.net/hc5-d-250915.mp4"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-24 4 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "the-ultimate-smart-collar-2",
+          "order": 2,
+          "sectionType": "configurator",
+          "heading": "The ultimate smart collar",
+          "subhead": "GPS fences keep your dog safe plus location tracking for peace of mind",
+          "copySummary": "GPS fences keep your dog safe plus location tracking for peace of mind <h3 class=\"text-200 leading",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: mb-300 sm:mb-200 No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "create-escape-proof-fences-anywhere-3",
+          "order": 3,
+          "sectionType": "feature overview",
+          "heading": "Create escape-proof fences anywhere",
+          "subhead": "Safe, wireless fences are just a tap away—at home, traveling, or completely off-grid",
+          "copySummary": "Safe, wireless fences are just a tap away—at home, traveling, or completely off-grid Precision+ GPS technology <p",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-67 No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "precision-gps-technology-4",
+          "order": 4,
+          "sectionType": "feature overview",
+          "heading": "Precision+ GPS technology",
+          "subhead": "A new standard in accuracy: satellite data enhanced by ground stations",
+          "copySummary": "A new standard in accuracy: satellite data enhanced by ground stations <h3 class=\"text-200 leading-110 font-medium tracking-tight text-",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-65 No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "safety-that-never-sleeps-5",
+          "order": 5,
+          "sectionType": "feature overview",
+          "heading": "Safety that never sleeps",
+          "subhead": "AlwaysOn, real-time GPS containment and location tracking",
+          "copySummary": "AlwaysOn, real-time GPS containment and location tracking Training & expert support Step-by",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-66 No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "training-and-expert-support-6",
+          "order": 6,
+          "sectionType": "feature overview",
+          "heading": "Training & expert support",
+          "subhead": "Step-by-step dog training and friendly face-to-face support from our team of in-house experts",
+          "copySummary": "Step-by-step dog training and friendly face-to-face support from our team of in-house experts All-day comfort & fit for every",
+          "assetUrls": [],
+          "candidateComponent": "HaloVideoSpotlight",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-68 No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "all-day-comfort-and-fit-for-every-breed-7",
+          "order": 7,
+          "sectionType": "configurator",
+          "heading": "All-day comfort & fit for every breed",
+          "subhead": "The single-size Halo Collar comfortably fits breeds both big and small",
+          "copySummary": "The single-size Halo Collar comfortably fits breeds both big and small New in Halo Collar 5 <p class=",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: w-layout-vflex flex-block-69 No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "new-in-halo-collar-5-8",
+          "order": 8,
+          "sectionType": "how-it-works",
+          "heading": "New in Halo Collar 5",
+          "subhead": "20 location updates per second",
+          "copySummary": "20 location updates per second Up to 48-hour battery life Rapid charging for full power in 1 hour Create escape-proof fences anywhere Safe, wireless fences are just a tap away—at home, traveling, or completely off-grid Precision+ GPS technology A new standa...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/icon-location.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/icon-battery.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/icon-charge.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67d1edb3f1f697b56ed6332d_right-icon.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-collar-1.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67f806a62cbd57a5ec393079_2.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-collar-3.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-collar-4.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67f0355566b9e3b2983b1bfe_5.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-collar-6.webp"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-67b text-white m-0 mb-100 10 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "built-tough-for-all-your-adventures-9",
+          "order": 9,
+          "sectionType": "hero",
+          "heading": "Built tough for all your adventures",
+          "subhead": "The IP67 waterproof Halo Collar 5 combines advanced GPS, ultra-precise fence boundaries, and activity tracking to give your dog the ultimate freedom while ensuring their safety—anytime, anywhere.",
+          "copySummary": "The IP67 waterproof Halo Collar 5 combines advanced GPS, ultra-precise fence boundaries, and activity tracking to give your dog the ultimate freedom while ensuring their safety—anytime, anywhere. Explore LTE, Wi-Fi & Bluetooth Up to 48-hour battery life Mag...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67d46f68e11f27ad73f8cad0_a4f9c9aefa631184b56ec23398ddcf82_30.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-sunburst-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-blaze-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-midnight-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-orchid-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-graphite-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/realtree-pdp-carousel-logo.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-realtree-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/precision-plus-lockup.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-sunburst-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-midnight-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-orchid-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-graphite-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-blaze-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-h5-realtree-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/precision-plus-bg-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/precision-plus-bg-m.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex-block-96 17 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "getting-started-with-halo-is-easy-10",
+          "order": 10,
+          "sectionType": "content",
+          "heading": "Getting started with Halo is easy",
+          "subhead": "",
+          "copySummary": "Watch video",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/play-btn.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/get-started.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/get-started-m.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: ncontainer rounded-md text-white 3 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "happy-dogs-happy-owners-11",
+          "order": 11,
+          "sectionType": "hero",
+          "heading": "Happy dogs, happy owners",
+          "subhead": "Trusted by over 500,000 dog parents — the most widely used GPS dog fence in the world.",
+          "copySummary": "Trusted by over 500,000 dog parents — the most widely used GPS dog fence in the world.",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67eaeee27ebbb3924552f155_4.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67eaeee23d1cdc1959188f2a_2.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67eaeee2137005385f3d3b33_3.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-63 3 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "it-s-completely-blown-us-away-with-how-well-it-works-keeping-our-12",
+          "order": 12,
+          "sectionType": "content",
+          "heading": "“It’s completely blown us away with how well it works keeping our dogs in our yard.”",
+          "subhead": "",
+          "copySummary": "Scott .75 Acre Lot <img class=\"play-btn video-button 2\" src=\"https://d252xzqwj6ut",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: article-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "scott-13",
+          "order": 13,
+          "sectionType": "content",
+          "heading": "Scott",
+          "subhead": "",
+          "copySummary": ".75 Acre Lot",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: client-info No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "it-makes-me-so-happy-that-they-can-go-run-and-be-free-and-just-l-14",
+          "order": 14,
+          "sectionType": "app showcase",
+          "heading": "“It makes me so happy that they can go run, and be free, and just live their best life.”",
+          "subhead": ".4 Acre property",
+          "copySummary": "Andrea .4 Acre property <img class=\"play-btn video-button 1\" src=\"https://d25",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: article-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "andrea-15",
+          "order": 15,
+          "sectionType": "content",
+          "heading": "Andrea",
+          "subhead": ".4 Acre property",
+          "copySummary": ".4 Acre property",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: client-info No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "the-halo-has-been-my-life-saving-device-my-biggest-regret-is-not-16",
+          "order": 16,
+          "sectionType": "content",
+          "heading": "“The Halo has been my life saving device, my biggest regret is not getting it sooner.”",
+          "subhead": "",
+          "copySummary": "Deana 47 Acres <img class=\"play-btn video-button 3\" src=\"https://d252xzqwj6utz.",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: article-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "deana-17",
+          "order": 17,
+          "sectionType": "proof/testimonial",
+          "heading": "Deana",
+          "subhead": "“It’s completely blown us away with how well it works keeping our dogs in our yard.”",
+          "copySummary": "47 Acres “It’s completely blown us away with how well it works keeping our dogs in our yard.” Scott .75 Acre Lot “It makes me so happy that they can go run, and be free, and just live their best life.” Andrea .4 Acre property “The Halo has been my life savi...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/right-icon.webp"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: client-info 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "getting-started-with-halo-is-easy-for-both-you-and-your-dog-18",
+          "order": 18,
+          "sectionType": "FAQ",
+          "heading": "Getting started with Halo is easy for both you and your dog.",
+          "subhead": "Smart safety in the Halo app",
+          "copySummary": "watch video Smart safety in the Halo app Customizable boundaries, AlwaysOn™ location tracking, instant alerts, and more at your fingertips Create and manage GPS fences from the Halo app and protect your dog at home or on-the-go. Choose between sound, vibrat...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/play.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-1-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-1-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-2-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-2-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-3-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-3-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-4-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-4-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-5-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-5-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-6-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-6-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/app-slider-left.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/app-slider-right.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/10.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/gray-check.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/not-line-icon.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/-.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1.webp"
+          ],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-layout-vflex flex-block-8 29 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/shop-wireless-dog-fence/",
+      "navLabel": "Shop Halo Collar",
+      "title": "Shop GPS Dog Fences",
+      "sections": [
+        {
+          "sectionId": "halo-collar-5-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Halo Collar 5",
+          "subhead": "",
+          "copySummary": "NEW Save $75 $524 $599 WHILE SUPPLIES LAST",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: product-card__badge js-mm-product js-mm-hc5 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-4-2",
+          "order": 2,
+          "sectionType": "proof/testimonial",
+          "heading": "Halo Collar 4",
+          "subhead": "Halo Collar 5",
+          "copySummary": "WHILE SUPPLIES LAST Save $125 $424 $549 Shop Beacons Shop Accessories Testimonials Deals How it works Virtual GPS Fencing GPS & Location Tracking Cesar Millan Training Halo App Feedback System Login Sign Up My Orders Explore Halo NEW Halo Collar 5 Save $75...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-3",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-4",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-5",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-6",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-7",
+            "https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5",
+            "https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-8",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-sunburst.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-1.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-2.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-3-realtree.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-4.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-midnight.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-orchid.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-graphite.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-blaze.webp"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-card__badge js-mm-product js-mm-hc4 29 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-gps-dog-fence-3",
+          "order": 3,
+          "sectionType": "hero",
+          "heading": "Halo Collar 5 GPS Dog Fence",
+          "subhead": "",
+          "copySummary": "4142 10.8246C69.5644 11.2517 69.6428 11.7175 69.6428 12.2222C69.6428 12.7333 69.5644 13.2057 69.4142 13.6327C69.2639 14.0597 69.0418 14.4285 68.7544 14.7391C68.467 15.0497 68.1077 15.2891 67.6896 15.4638C67.2715 15.6384 66.7947 15.729 66.259 15.729ZM66.259...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: details No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "pack-membership-plan-4",
+          "order": 4,
+          "sectionType": "hero",
+          "heading": "Pack Membership Plan",
+          "subhead": "Select your Pack Membership Plan after purchase.",
+          "copySummary": "Close A Pack Membership Plan is required for every collar to activate and maintain GPS services and cellular data (just like your cell phone), and create, edit, and use wireless dog fences. Additional collars are added to your plan at a lower monthly rate....",
+          "assetUrls": [],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: top No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "color-sunburst-5",
+          "order": 5,
+          "sectionType": "content",
+          "heading": "Color: Sunburst",
+          "subhead": "",
+          "copySummary": "Will it fit my dog? Sunburst Halo Midnight Blue Halo Orchid Halo Graphite Halo Blaze Halo Realtree Halo",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-h4-sunburst-swatch.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-h4-midnight-swatch.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-h4-orchid-swatch.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-h4-graphite-swatch.webp",
+            "https://www.halocollar.com/wp-content/uploads/2025/04/h4-pdp-blaze-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-h5-realtree-swatch.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: value 6 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "quantity-6",
+          "order": 6,
+          "sectionType": "FAQ",
+          "heading": "Quantity",
+          "subhead": "or as low as $29 per month",
+          "copySummary": "Quantity Size Info Dual-frequency GPS AlwaysOn™ tracking Up to 48-hr battery Fits most dogs iOS & Android app 1-year warranty Please select a size and color $524 $599 Add to cart 90-day satisfaction guarantee Save an extra $50 when you buy two collars $524...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/icon-network.png",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/icon-map.png",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/icon-full-battery.png",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/icon-dog-profile.png",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/icon-iphone.png",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/icon-protect.png"
+          ],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: attribute-list-choice 6 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "your-backyard-now-everywhere-and-reg-7",
+          "order": 7,
+          "sectionType": "how-it-works",
+          "heading": "Your backyard, now everywhere &reg;",
+          "subhead": "Halo Collar 5",
+          "copySummary": "Halo Collar 5 Faster, more stable connections with new dedicated Wi-Fi and Bluetooth chips. Enhanced battery life now provides up to 48 hours of continuous tracking on a single 1-hour charge. 20 location updates per second for unmatched precision and faster...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-everywhere-1.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-16",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-17",
+            "https://d252xzqwj6utz.cloudfront.net/static/Frame.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-18",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-19",
+            "https://d252xzqwj6utz.cloudfront.net/static/Frame-574.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-20",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-21",
+            "https://d252xzqwj6utz.cloudfront.net/static/Frame-572.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-22",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-23",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-new-app.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-24",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-25",
+            "https://d252xzqwj6utz.cloudfront.net/static/nurture_header_extend-2.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-26",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-27"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: top-features 18 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "save-on-past-generation-halo-collars-8",
+          "order": 8,
+          "sectionType": "configurator",
+          "heading": "Save on past generation Halo Collars",
+          "subhead": "Halo Collar 4",
+          "copySummary": "WHILE SUPPLIES LAST Halo Collar 4 Save $125 $424 $549 Explore",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-28"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: promo-section__container 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "watch-halo-collar-5-in-action-9",
+          "order": 9,
+          "sectionType": "configurator",
+          "heading": "Watch Halo Collar 5 in action",
+          "subhead": "",
+          "copySummary": "Watch the video",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/play-btn.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-watch.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: ncontainer 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "how-halo-works-10",
+          "order": 10,
+          "sectionType": "app showcase",
+          "heading": "How Halo works",
+          "subhead": "Create GPS fences in the Halo Collar app",
+          "copySummary": "Create GPS fences in the Halo Collar app Halo helps you train your dog to obey fence boundaries Custom correction methods: sound, vibration and static Track your dog’s location and activity anywhere in the world",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-1.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-2.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-3.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-4.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: ncontainer 4 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "smart-safety-in-the-halo-app-11",
+          "order": 11,
+          "sectionType": "app showcase",
+          "heading": "Smart safety in the Halo app",
+          "subhead": "Customizable boundaries, AlwaysOn™ location tracking, instant alerts, and more at your fingertips",
+          "copySummary": "Customizable boundaries, AlwaysOn™ location tracking, instant alerts, and more at your fingertips Create and manage GPS fences from the Halo app and protect your dog at home or on-the-go. Choose between sound, vibration and static feedback to keep your dog...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-1-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-1-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-2-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-2-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-3-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-3-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-4-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-4-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-5-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-5-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-6-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-6-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/app-slider-left.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/app-slider-right.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: sm:p-100 contained-391 14 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "who-is-halo-for-12",
+          "order": 12,
+          "sectionType": "feature overview",
+          "heading": "Who is Halo for?",
+          "subhead": "Peace of mind with real-time tracking and daily activity reports",
+          "copySummary": "City dogs Peace of mind with real-time tracking and daily activity reports <img src=\"/wp-content/uploads/2024/09/pdp-who-for-2.web",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-who-for-1.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-who-for-2.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: ncontainer 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "city-dogs-13",
+          "order": 13,
+          "sectionType": "feature overview",
+          "heading": "City dogs",
+          "subhead": "Peace of mind with real-time tracking and daily activity reports",
+          "copySummary": "Peace of mind with real-time tracking and daily activity reports Neighborhood dogs Keep your dog safe from streets with fences suited for small yards <img src=\"/wp-content",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-who-for-2.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-who-for-3.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: item-text 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "neighborhood-dogs-14",
+          "order": 14,
+          "sectionType": "feature overview",
+          "heading": "Neighborhood dogs",
+          "subhead": "Keep your dog safe from streets with fences suited for small yards",
+          "copySummary": "Keep your dog safe from streets with fences suited for small yards Rural dogs Secure large properties easily with practically limitless fence sizes",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-who-for-3.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: item-text 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "rural-dogs-15",
+          "order": 15,
+          "sectionType": "feature overview",
+          "heading": "Rural dogs",
+          "subhead": "Secure large properties easily with practically limitless fence sizes",
+          "copySummary": "Secure large properties easily with practically limitless fence sizes Traveling dogs Create fences anywhere, even in remote areas without Wi-Fi or cellular </d",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/pdp-who-for-4.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: item-text 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "traveling-dogs-16",
+          "order": 16,
+          "sectionType": "feature overview",
+          "heading": "Traveling dogs",
+          "subhead": "Create fences anywhere, even in remote areas without Wi-Fi or cellular",
+          "copySummary": "Create fences anywhere, even in remote areas without Wi-Fi or cellular Before you buy <div id=\"accordion-details\" class=\"ui-accordion ui-widget ui-helper-res",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: item-text No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "before-you-buy-17",
+          "order": 17,
+          "sectionType": "content",
+          "heading": "Before you buy",
+          "subhead": "",
+          "copySummary": "What's included <svg width=\"20\" height=\"10\" viewBox=\"0",
+          "assetUrls": [
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-29"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: ncontainer 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "what-s-included-18",
+          "order": 18,
+          "sectionType": "hero",
+          "heading": "What's included",
+          "subhead": "Getting started",
+          "copySummary": "Halo Collar 5 Halo Pro Case Collar strap Contact blanks Contact Tips Charging cable Magnetic adapter Perfect Fit kit See complete details Getting started After you order a collar: Sign up for the Pack Membership Plan that’s right for you Download the Halo C...",
+          "assetUrls": [
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-29",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-30",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-31",
+            "https://www.halocollar.com/wp-content/uploads/2025/09/HC5_whatsinthebox.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/close.svg",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-32",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#clip0_2525_303",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-33",
+            "https://www.halocollar.com/wp-content/uploads/2023/07/close.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-realtree.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Halo-Logo.svg",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-34",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-35",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-36",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-37",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-38",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/close.svg",
+            "https://www.halocollar.com/shop-wireless-dog-fence/#inline-svg-39"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: accordion-panel 9 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/main-shop/accessories/",
+      "navLabel": "Accessories",
+      "title": "Shop Halo Collar Accessories",
+      "sections": [
+        {
+          "sectionId": "halo-collar-5-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Halo Collar 5",
+          "subhead": "",
+          "copySummary": "NEW Save $75 $524 $599 WHILE SUPPLIES LAST",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: product-card__badge js-mm-product js-mm-hc5 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-4-2",
+          "order": 2,
+          "sectionType": "proof/testimonial",
+          "heading": "Halo Collar 4",
+          "subhead": "Halo Collar 5",
+          "copySummary": "WHILE SUPPLIES LAST Save $125 $424 $549 Shop Beacons Shop Accessories Testimonials Deals How it works Virtual GPS Fencing GPS & Location Tracking Cesar Millan Training Halo App Feedback System Login Sign Up My Orders Explore Halo NEW Halo Collar 5 Save $75...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-3",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-4",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-5",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-6",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-7",
+            "https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5",
+            "https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-8",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/halo-chat.svg",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-accessories-header-2505.webp"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-card__badge js-mm-product js-mm-hc4 13 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-accessories-3",
+          "order": 3,
+          "sectionType": "feature overview",
+          "heading": "Halo Accessories",
+          "subhead": "",
+          "copySummary": "Halo Beacons Learn more about Beacons <div",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-list No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "halo-beacons-4",
+          "order": 4,
+          "sectionType": "feature overview",
+          "heading": "Halo Beacons",
+          "subhead": "",
+          "copySummary": "Learn more about Beacons <a href=\"/",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_zone_beacon_pdp.webp"
+          ],
+          "candidateComponent": "HaloBeaconFeatureCards",
+          "recommendation": "keep",
+          "notes": "Nearby marker: ncontainer 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "zone-beacon-5",
+          "order": 5,
+          "sectionType": "feature overview",
+          "heading": "Zone Beacon",
+          "subhead": "Remote Beacon",
+          "copySummary": "Remote Beacon",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_zone_beacon_pdp.webp"
+          ],
+          "candidateComponent": "HaloBeaconFeatureCards",
+          "recommendation": "keep",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "remote-beacon-6",
+          "order": 6,
+          "sectionType": "feature overview",
+          "heading": "Remote Beacon",
+          "subhead": "Halo Accessories",
+          "copySummary": "Halo Accessories",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/main-pro-case-s.webp"
+          ],
+          "candidateComponent": "HaloBeaconFeatureCards",
+          "recommendation": "keep",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "pro-case-halo-collar-4-5-7",
+          "order": 7,
+          "sectionType": "configurator",
+          "heading": "Pro Case Halo Collar 4/5",
+          "subhead": "",
+          "copySummary": "Collar Strap Halo Collar 4/5 <",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/main-pro-case-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg p-200 mb-100 image 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "collar-strap-halo-collar-4-5-8",
+          "order": 8,
+          "sectionType": "configurator",
+          "heading": "Collar Strap Halo Collar 4/5",
+          "subhead": "Collar Strap Halo Collar 1/2/2+/3",
+          "copySummary": "Collar Strap Halo Collar 1/2/2+/3",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp",
+            "https://www.halocollar.com/wp-content/uploads/2023/08/CollarStrap.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "collar-strap-halo-collar-1-2-2-3-9",
+          "order": 9,
+          "sectionType": "configurator",
+          "heading": "Collar Strap Halo Collar 1/2/2+/3",
+          "subhead": "",
+          "copySummary": "Charging Stand Halo Collar 4/5 </h3",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/08/CollarStrap.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "charging-stand-halo-collar-4-5-10",
+          "order": 10,
+          "sectionType": "configurator",
+          "heading": "Charging Stand Halo Collar 4/5",
+          "subhead": "",
+          "copySummary": "Contact Tips <div class=\"bg-",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "contact-tips-11",
+          "order": 11,
+          "sectionType": "configurator",
+          "heading": "Contact Tips",
+          "subhead": "Charging Kit Halo Collar 4/5",
+          "copySummary": "Charging Kit Halo Collar 4/5",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "charging-kit-halo-collar-4-5-12",
+          "order": 12,
+          "sectionType": "configurator",
+          "heading": "Charging Kit Halo Collar 4/5",
+          "subhead": "",
+          "copySummary": "Charging Kit <sp",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp",
+            "https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "charging-kit-halo-collar-1-2-2-3-13",
+          "order": 13,
+          "sectionType": "configurator",
+          "heading": "Charging Kit Halo Collar 1/2/2+/3",
+          "subhead": "",
+          "copySummary": "Halo Merch <img alt=\"Halo T-Shirt\" src=\"",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp",
+            "https://www.halocollar.com/wp-content/uploads/2023/11/Tshirt.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-merch-14",
+          "order": 14,
+          "sectionType": "content",
+          "heading": "Halo Merch",
+          "subhead": "",
+          "copySummary": "Halo T-Shirt <img alt=\"Halo",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/11/Tshirt.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/04/lawn-sign-row.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: ncontainer 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-t-shirt-15",
+          "order": 15,
+          "sectionType": "content",
+          "heading": "Halo T-Shirt",
+          "subhead": "",
+          "copySummary": "Lawn Signs html,body{ font-size:16px; } .bg-grey{ background: #F5F5F5;",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/11/Tshirt.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/04/lawn-sign-row.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "lawn-signs-16",
+          "order": 16,
+          "sectionType": "content",
+          "heading": "Lawn Signs",
+          "subhead": "",
+          "copySummary": "",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/04/lawn-sign-row.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Halo-Logo.svg",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-9",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-10",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-11",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-12",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-13",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/close.svg",
+            "https://www.halocollar.com/main-shop/accessories/#inline-svg-14",
+            "https://www.halocollar.com/main-shop/accessories/a"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: bg-grey radius-lg mb-100 image 1 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/beacons/",
+      "navLabel": "Beacons",
+      "title": "Halo Beacons",
+      "sections": [
+        {
+          "sectionId": "halo-collar-5-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Halo Collar 5",
+          "subhead": "",
+          "copySummary": "NEW Save $75 $524 $599 WHILE SUPPLIES LAST",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: product-card__badge js-mm-product js-mm-hc5 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-4-2",
+          "order": 2,
+          "sectionType": "proof/testimonial",
+          "heading": "Halo Collar 4",
+          "subhead": "Halo Collar 5",
+          "copySummary": "WHILE SUPPLIES LAST Save $125 $424 $549 Shop Beacons Shop Accessories Testimonials Deals How it works Virtual GPS Fencing GPS & Location Tracking Cesar Millan Training Halo App Feedback System Login Sign Up My Orders Explore Halo NEW Halo Collar 5 Save $75...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/beacons/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/beacons/#inline-svg-3",
+            "https://www.halocollar.com/beacons/#inline-svg-4",
+            "https://www.halocollar.com/beacons/#inline-svg-5",
+            "https://www.halocollar.com/beacons/#inline-svg-6",
+            "https://www.halocollar.com/beacons/#inline-svg-7",
+            "https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5",
+            "https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4",
+            "https://www.halocollar.com/beacons/#inline-svg-8",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/halo-chat.svg",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/icon-wireless.svg"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-card__badge js-mm-product js-mm-hc4 13 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-beacons-3",
+          "order": 3,
+          "sectionType": "feature overview",
+          "heading": "Halo Beacons",
+          "subhead": "Get more out of Halo with our range of bluetooth devices",
+          "copySummary": "Get more out of Halo with our range of bluetooth devices",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-remote-beacon-header.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-zone-beacon-l.webp"
+          ],
+          "candidateComponent": "HaloBeaconFeatureCards",
+          "recommendation": "keep",
+          "notes": "Nearby marker: text-center 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "zone-beacon-4",
+          "order": 4,
+          "sectionType": "configurator",
+          "heading": "Zone Beacon",
+          "subhead": "",
+          "copySummary": "$39.99 Prevent your dog from digging up your flowerbeds, keep them away from the pool or off your couch, and more. The weatherproof Zone Beacon creates feedback zones anywhere, with long battery life and secure mounting options. Functions",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-price text-bold No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "functions-5",
+          "order": 5,
+          "sectionType": "configurator",
+          "heading": "Functions",
+          "subhead": "",
+          "copySummary": "$39.99 Prevent your dog from digging up your flowerbeds, keep them away from the pool or off your couch, and more. The weatherproof Zone Beacon creates feedback zones anywhere, with long battery life and secure mounting options. Create “Keep-Away” Zones Cre...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/icon-keep.svg",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/icon-ignore.svg",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-remote-beacon-l.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-price text-bold 3 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "remote-beacon-6",
+          "order": 6,
+          "sectionType": "app showcase",
+          "heading": "Remote Beacon",
+          "subhead": "Call your dog back to you from anywhere with the push of a button—no phone necessary. The Remote Beacon attaches easily to a keychain or leash so it’s always nearby and your dog is just one click away.",
+          "copySummary": "$39.99 Call your dog back to you from anywhere with the push of a button—no phone necessary. The Remote Beacon attaches easily to a keychain or leash so it’s always nearby and your dog is just one click away. Function",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-price text-bold No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "function-7",
+          "order": 7,
+          "sectionType": "app showcase",
+          "heading": "Function",
+          "subhead": "Call your dog back to you from anywhere with the push of a button—no phone necessary. The Remote Beacon attaches easily to a keychain or leash so it’s always nearby and your dog is just one click away.",
+          "copySummary": "$39.99 Call your dog back to you from anywhere with the push of a button—no phone necessary. The Remote Beacon attaches easily to a keychain or leash so it’s always nearby and your dog is just one click away. Send Instant Feedback to collar Add to cart See...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/icon-instant.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-price text-bold 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "what-you-can-do-with-beacons-8",
+          "order": 8,
+          "sectionType": "feature overview",
+          "heading": "What you can do with Beacons",
+          "subhead": "Create Keep Away Zones",
+          "copySummary": "Create Keep Away Zones Keep your dog out of unwanted areas",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/pill-away.svg"
+          ],
+          "candidateComponent": "HaloBeaconFeatureCards",
+          "recommendation": "keep",
+          "notes": "Nearby marker: text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "create-keep-away-zones-9",
+          "order": 9,
+          "sectionType": "feature overview",
+          "heading": "Create Keep Away Zones",
+          "subhead": "Keep your dog out of unwanted areas by simulating the presence of a Halo fence boundary.",
+          "copySummary": "Keep your dog out of unwanted areas by simulating the presence of a Halo fence boundary. Keep your dog away from things like trash cans, pools, or the front door.",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-training-beacon-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-zone-beacon-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/pill-ignore.svg"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: feature-thumbs mt-100 3 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "ignore-fences-10",
+          "order": 10,
+          "sectionType": "feature overview",
+          "heading": "Ignore Fences",
+          "subhead": "Take your dog through your Halo fence without receiving any fence feedback.",
+          "copySummary": "Take your dog through your Halo fence without receiving any fence feedback. Secure it to your dog's leash for a walk or place one in your car for a ride, allowing you and your dog to leave the fenced area effortlessly.",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/pill-instant.svg"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-thumbs mt-100 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "send-instant-feedback-11",
+          "order": 11,
+          "sectionType": "app showcase",
+          "heading": "Send Instant Feedback",
+          "subhead": "Instantly send feedback on-demand to your dog without your phone.",
+          "copySummary": "Instantly send feedback on-demand to your dog without your phone. Customizable settings enable you to call your dog to you using the return whistle or provide fence feedback.",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-remote-beacon-s.webp"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-thumbs mt-100 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "comparison-chart-12",
+          "order": 12,
+          "sectionType": "app showcase",
+          "heading": "Comparison chart",
+          "subhead": "",
+          "copySummary": "Zone Beacon Remote Beacon Training Beacon USB Beacon Functions Keep-Away Zone Ignore Fences Instant Feedback Replaceable Battery USB-Powered Battery Life (approx.) 15 Months 9 Months 1 Month ∞ Waterproof Keychain-ready Mount anywhere Range 328 ft (100m) 164...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-zone-beacon-m.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-remote-beacon-m.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-training-beacon-m.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product-usb-beacon-m.webp",
+            "https://www.halocollar.com/wp-content/uploads/2023/07/icon-checkmark.svg",
+            "https://www.halocollar.com/wp-content/uploads/2023/07/icon-no-checkmark.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: pt-200 6 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "faqs-13",
+          "order": 13,
+          "sectionType": "FAQ",
+          "heading": "FAQs",
+          "subhead": "What is a Beacon?",
+          "copySummary": "View all FAQs What is a Beacon? Beacons are small devices that automatically communicate with your Halo collar when they are nearby each other - even indoors.",
+          "assetUrls": [],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: faq-panel No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "what-is-a-beacon-14",
+          "order": 14,
+          "sectionType": "app showcase",
+          "heading": "What is a Beacon?",
+          "subhead": "Beacons are small devices that automatically communicate with your Halo collar when they are nearby each other - even indoors.",
+          "copySummary": "Beacons are small devices that automatically communicate with your Halo collar when they are nearby each other - even indoors. The Zone Beacon, USB Beacon and Training Beacon can be set to one of two modes: “Keep-Away” mode or “Ignore Fences” mode. “Keep-Aw...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: faq-panel No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "how-do-you-add-a-beacon-to-the-halo-app-15",
+          "order": 15,
+          "sectionType": "app showcase",
+          "heading": "How do you add a Beacon to the Halo App?",
+          "subhead": "Before you can use a Beacon, you will need to add it to your account in the Halo app. Once your Beacon is turned on, open the app and go to the Settings tab and tap My Beacons. Then, tap “Add Beacon” on the next screen.",
+          "copySummary": "Before you can use a Beacon, you will need to add it to your account in the Halo app. Once your Beacon is turned on, open the app and go to the Settings tab and tap My Beacons. Then, tap “Add Beacon” on the next screen. Once you tap “Add Beacon,” select the...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: faq-panel No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "how-to-change-the-range-of-a-beacon-16",
+          "order": 16,
+          "sectionType": "app showcase",
+          "heading": "How to change the range of a Beacon",
+          "subhead": "",
+          "copySummary": "The Zone Beacon, USB Beacon and Training Beacon come with customizable ranges so you can tailor them to fit you and your dog’s needs. For example, you may want to keep your dog away from your pool, which could require a large Beacon radius in your backyard....",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: faq-panel No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "are-beacon-batteries-replaceable-17",
+          "order": 17,
+          "sectionType": "configurator",
+          "heading": "Are Beacon batteries replaceable?",
+          "subhead": "",
+          "copySummary": "Yes! If your Beacon won’t turn on or if you receive a notification that it is running low on battery, then you will need a new battery. You can buy a replacement battery from most pharmacies or online - and easily replace it yourself. jQuery(document).ready...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2024/01/grad-yellow-m.webp",
+            "https://www.halocollar.com/wp-content/uploads/2023/11/warehouse-header-m.webp",
+            "https://www.halocollar.com/wp-content/uploads/2023/11/warehouse-header.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: faq-panel 3 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "sorry-there-was-an-error-18",
+          "order": 18,
+          "sectionType": "app showcase",
+          "heading": "Sorry, there was an error",
+          "subhead": "'+jsonResponse.message+'",
+          "copySummary": "tion($) { function isJson(str) { try { JSON.parse(str); } catch (e) { return false; } return true; } $('.add_to_cart_button_inline').on('click', function(e){ e.preventDefault(); $thisbutton = $(this), $form = $thisbutton.closest('form.cart'), id = $(this).a...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Halo-Logo.svg",
+            "https://www.halocollar.com/beacons/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://www.halocollar.com/beacons/#inline-svg-9",
+            "https://www.halocollar.com/beacons/#inline-svg-10",
+            "https://www.halocollar.com/beacons/#inline-svg-11",
+            "https://www.halocollar.com/beacons/#inline-svg-12",
+            "https://www.halocollar.com/beacons/#inline-svg-13",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/close.svg",
+            "https://www.halocollar.com/beacons/#inline-svg-14",
+            "https://www.halocollar.com/beacons/a"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: w-embed No hosted asset candidates found in this section window."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/reviews/",
+      "navLabel": "Reviews",
+      "title": "Halo Collar Reviews",
+      "sections": [
+        {
+          "sectionId": "happy-dogs-happy-owners-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Happy dogs, happy owners",
+          "subhead": "“Halo saved my dog's life — twice in one day!”",
+          "copySummary": "“Before Halo, our lab Teddy would roam whenever he went outside. Now he stays within boundaries and responds to the recall button.” James C. “Halo saved my dog's life — twice in one day!” L Liz Verified buyer “Replaces your dated dog fence, GPS collar, acti...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/fastcompany-white.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/fastcompany-dark.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/most-innovative-white.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/most-innovative-dark.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-james.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-stars.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-nypost.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-nypost-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-andrea.webp",
+            "https://www.halocollar.com/reviews/#inline-svg-9",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-deana.webp",
+            "https://www.halocollar.com/reviews/#inline-svg-10",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-robert.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-stars-4-5.svg",
+            "https://www.halocollar.com/reviews/#inline-svg-11",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-animalwellness.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-jackie.webp",
+            "https://www.halocollar.com/reviews/#inline-svg-12",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-gearjunkie.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/reviews-gearjunkie-dog.png"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: masonry wrapper switcher 23 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "getting-started-with-halo-is-easy-2",
+          "order": 2,
+          "sectionType": "content",
+          "heading": "Getting started with Halo is easy",
+          "subhead": "",
+          "copySummary": "Watch video",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/play-btn.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1-p-500.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1-p-800.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/get-started.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/get-started-m.webp"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "merge",
+          "notes": "Nearby marker: ncontainer rounded-md text-white 6 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-3",
+          "order": 3,
+          "sectionType": "configurator",
+          "heading": "Halo Collar 5",
+          "subhead": "",
+          "copySummary": "$524 $599 Save an extra $50 when you buy two Shop now",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/11.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex flex-column flex-block-25 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "easy-to-use-mobile-app-4",
+          "order": 4,
+          "sectionType": "app showcase",
+          "heading": "Easy-to-use mobile app",
+          "subhead": "Instantly track, protect, and connect with your dog—freedom and peace of mind, all in your pocket with the Halo app.",
+          "copySummary": "Instantly track, protect, and connect with your dog—freedom and peace of mind, all in your pocket with the Halo app. <h3 clas",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/12.webp"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex flex-column pricing-icon-block 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "fast-shipping-5",
+          "order": 5,
+          "sectionType": "configurator",
+          "heading": "Fast shipping",
+          "subhead": "Fast, expedited shipping—your Halo Collar arrives quickly, so your dog’s safety and freedom start without delay.",
+          "copySummary": "Fast, expedited shipping—your Halo Collar arrives quickly, so your dog’s safety and freedom start without delay.",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Vector.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: flex flex-column pricing-icon-block 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "90-day-trial-6",
+          "order": 6,
+          "sectionType": "configurator",
+          "heading": "90-day trial",
+          "subhead": "Try Halo risk-free for 90 days—experience unmatched safety and freedom for your dog, or your money back.",
+          "copySummary": "Try Halo risk-free for 90 days—experience unmatched safety and freedom for your dog, or your money back. Shop now",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex flex-column pricing-icon-block No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "faq-7",
+          "order": 7,
+          "sectionType": "FAQ",
+          "heading": "FAQ",
+          "subhead": "Yes! Indoors, the Halo Collar can prevent dogs from entering unwanted or unsafe areas. To do so, set up Bluetooth-based Keep Away Beacons that trigger fence-like alerts when your dog comes near them.",
+          "copySummary": "I don’t have a yard of my own, or I live in an apartment, rental home, condo or townhome. Can I still use the Halo System? Of course! One amazing part of Halo is the portability and freedom it provides. You can set up Halo Fences instantly in any location:...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/07/close.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Halo-Logo.svg",
+            "https://www.halocollar.com/reviews/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/reviews/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/reviews/#inline-svg-3",
+            "https://www.halocollar.com/reviews/#inline-svg-4",
+            "https://www.halocollar.com/reviews/#inline-svg-5",
+            "https://www.halocollar.com/reviews/#inline-svg-6",
+            "https://www.halocollar.com/reviews/#inline-svg-7",
+            "https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5",
+            "https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4",
+            "https://www.halocollar.com/reviews/#inline-svg-8",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/halo-chat.svg",
+            "https://www.halocollar.com/reviews/#inline-svg-14",
+            "https://www.halocollar.com/reviews/#inline-svg-15",
+            "https://www.halocollar.com/reviews/#inline-svg-16"
+          ],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: kutup-max-w-width-640px 1 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/deals-discounts/",
+      "navLabel": "Deals & Discounts",
+      "title": "Deals & Discounts",
+      "sections": [
+        {
+          "sectionId": "save-125-on-halo-collar-4-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Save $125 on Halo Collar 4",
+          "subhead": "Now $424 for a limited time",
+          "copySummary": "Now $424 for a limited time Shop Now",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/bf-h4.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: preheadline 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-4-2",
+          "order": 2,
+          "sectionType": "configurator",
+          "heading": "Halo Collar 4",
+          "subhead": "Save $125 | $424 $549",
+          "copySummary": "Halo Collar 4 Save $125 | $424 $549 Shop Now",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/deals-h4.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: bg-grey radius-lg  image 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-bundles-3",
+          "order": 3,
+          "sectionType": "configurator",
+          "heading": "Halo Collar 5 Bundles",
+          "subhead": "",
+          "copySummary": "",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/deal-2-piece.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: ncontainer 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-2-pack-4",
+          "order": 4,
+          "sectionType": "configurator",
+          "heading": "Halo Collar 5 (2-pack)",
+          "subhead": "Save $50 | $998 $1048",
+          "copySummary": "Save $50 | $998 $1048 Shop Now",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/deal-3-piece.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-list-details 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-3-pack-5",
+          "order": 5,
+          "sectionType": "comparison",
+          "heading": "Halo Collar 5 (3-pack)",
+          "subhead": "Save $100 | $1472 $1572",
+          "copySummary": "Save $100 | $1472 $1572 Shop Now Compare Halo Collar Models",
+          "assetUrls": [],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: product-list-details No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "compare-halo-collar-models-6",
+          "order": 6,
+          "sectionType": "comparison",
+          "heading": "Compare Halo Collar Models",
+          "subhead": "",
+          "copySummary": "Halo Collar 5 Halo Collar 4 Design & Materials Solid plastic enclosure Protective fabric case Solid plastic enclosure Protective fabric case Colors Sizing One size 8”–30” neck One size 8”–30” neck Battery life Up to 48-hours Up to 40-hours Full-charge time...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/check-yellow.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/check-grey.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/realtree-small-swatch.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/icon-coupon.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Halo-Logo.svg",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-3",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-4",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-5",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-6",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-7",
+            "https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5",
+            "https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4",
+            "https://www.halocollar.com/deals-discounts/#inline-svg-8",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/halo-chat.svg"
+          ],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: ncontainer table 4 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/dog-fence-features/",
+      "navLabel": "Features",
+      "title": "How Halo Collar Works & Product Features",
+      "sections": [
+        {
+          "sectionId": "how-halo-works-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "How Halo works",
+          "subhead": "Get to know the smartest dog collar on the planet with our easy get started tutorials.",
+          "copySummary": "Get to know the smartest dog collar on the planet with our easy get started tutorials. Watch the video How Halo works Create GPS fences in the Halo Collar app Halo helps you train your dog to obey fence boundaries Custom correction methods: sound, vibration...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/play-btn.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-1.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-2.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-3.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-how-4.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/home-header-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/home-header-m.webp"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: video-callout text-white text-150 md:text-125 7 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "getting-started-with-halo-is-easy-2",
+          "order": 2,
+          "sectionType": "how-it-works",
+          "heading": "Getting started with Halo is easy",
+          "subhead": "",
+          "copySummary": "Step 1 Setup and tr",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/how-side-1.webp"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: ncontainer 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "setup-and-training-3",
+          "order": 3,
+          "sectionType": "how-it-works",
+          "heading": "Setup and training",
+          "subhead": "Step-by-step walkthrough",
+          "copySummary": "Step 1 Step-by-step walkthrough Video tutorials guide you through getting your collar up and running. Expert training Train your dog using a Cesar Millan designed program based on positive association, not negative corrections. Set custom fence feedback Cho...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: starting-step tracking-tight  No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "create-virtual-fences-4",
+          "order": 4,
+          "sectionType": "how-it-works",
+          "heading": "Create virtual fences",
+          "subhead": "Create fences in the Halo App",
+          "copySummary": "Step 2 Create fences in the Halo App Create a fence with one tap based on property lines and Halo fence guidelines. Edit your fences any time. Manage fences Create, edit, pause, and enable boundaries for all of your fences and beacons. Keep your dog safe ev...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/how-side-2.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/how-side-3.webp"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: starting-step tracking-tight  2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "enjoy-a-lifetime-of-safety-5",
+          "order": 5,
+          "sectionType": "comparison",
+          "heading": "Enjoy a lifetime of safety",
+          "subhead": "AlwaysOn™ GPS tracking",
+          "copySummary": "Step 3 AlwaysOn™ GPS tracking See your dog’s location in real-time. Halo Health Activity charts show how much time your dog spends active vs. resting, and how and where they have received fence feedback. Get more out of Halo with beacons These small devices...",
+          "assetUrls": [],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: starting-step No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "smart-safety-in-the-halo-app-6",
+          "order": 6,
+          "sectionType": "app showcase",
+          "heading": "Smart safety in the Halo app",
+          "subhead": "Customizable boundaries, AlwaysOn™ location tracking, instant alerts, and more at your fingertips",
+          "copySummary": "Customizable boundaries, AlwaysOn™ location tracking, instant alerts, and more at your fingertips Create and manage GPS fences from the Halo app and protect your dog at home or on-the-go. Choose between sound, vibration and static feedback to keep your dog...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-1-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-1-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-2-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-2-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-3-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-3-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-4-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-4-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-5-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-5-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-6-d.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/smart-6-m.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/app-slider-left.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/app-slider-right.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: sm:p-100 contained-391 14 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "built-tough-for-all-your-adventures-7",
+          "order": 7,
+          "sectionType": "configurator",
+          "heading": "Built tough for all your adventures",
+          "subhead": "The IP67 waterproof Halo Collar 5 combines advanced GPS, ultra-precise fence boundaries, and activity tracking to give your dog the ultimate freedom while ensuring their safety—anytime, anywhere.",
+          "copySummary": "The IP67 waterproof Halo Collar 5 combines advanced GPS, ultra-precise fence boundaries, and activity tracking to give your dog the ultimate freedom while ensuring their safety—anytime, anywhere. Explore LTE, Wi-Fi & Bluetooth Up to 48-hour battery life Mag...",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/67d46f68e11f27ad73f8cad0_a4f9c9aefa631184b56ec23398ddcf82_30.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-sunburst-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-blaze-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-midnight-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-orchid-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-graphite-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/realtree-pdp-carousel-logo.png",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-realtree-collar.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1-p-500.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/halo-yellow_1-p-800.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-sunburst-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-midnight-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-orchid-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-graphite-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/h5-blaze-swatch.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/pdp-h5-realtree-swatch.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex-block-96 17 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-8",
+          "order": 8,
+          "sectionType": "configurator",
+          "heading": "Halo Collar 5",
+          "subhead": "",
+          "copySummary": "$524 $599 Save an extra $50 when you buy two Shop now",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/11.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex flex-column flex-block-25 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "easy-to-use-mobile-app-9",
+          "order": 9,
+          "sectionType": "app showcase",
+          "heading": "Easy-to-use mobile app",
+          "subhead": "Instantly track, protect, and connect with your dog—freedom and peace of mind, all in your pocket with the Halo app.",
+          "copySummary": "Instantly track, protect, and connect with your dog—freedom and peace of mind, all in your pocket with the Halo app. <h3 clas",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/12.webp"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex flex-column pricing-icon-block 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "fast-shipping-10",
+          "order": 10,
+          "sectionType": "configurator",
+          "heading": "Fast shipping",
+          "subhead": "Fast, expedited shipping—your Halo Collar arrives quickly, so your dog’s safety and freedom start without delay.",
+          "copySummary": "Fast, expedited shipping—your Halo Collar arrives quickly, so your dog’s safety and freedom start without delay.",
+          "assetUrls": [
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Vector.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: flex flex-column pricing-icon-block 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "90-day-trial-11",
+          "order": 11,
+          "sectionType": "configurator",
+          "heading": "90-day trial",
+          "subhead": "Try Halo risk-free for 90 days—experience unmatched safety and freedom for your dog, or your money back.",
+          "copySummary": "Try Halo risk-free for 90 days—experience unmatched safety and freedom for your dog, or your money back. Shop now",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: flex flex-column pricing-icon-block No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "faq-12",
+          "order": 12,
+          "sectionType": "FAQ",
+          "heading": "FAQ",
+          "subhead": "This is where Halo truly differentiates from other collars. Our patented, dog psychology-based method is intuitive and effective, which makes Halo far safer than other collars.",
+          "copySummary": "How does Halo keep my dog safely contained inside my Halo Fence? This is where Halo truly differentiates from other collars. Our patented, dog psychology-based method is intuitive and effective, which makes Halo far safer than other collars. When approachin...",
+          "assetUrls": [
+            "https://www.halocollar.com/wp-content/uploads/2023/07/close.svg",
+            "https://d252xzqwj6utz.cloudfront.net/static/owls-home/Halo-Logo.svg",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-3",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-4",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-5",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-6",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-7",
+            "https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5",
+            "https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-8",
+            "https://www.halocollar.com/wp-content/themes/halocollar/images/halo-chat.svg",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-9",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-10",
+            "https://www.halocollar.com/dog-fence-features/#inline-svg-11"
+          ],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: kutup-max-w-width-640px 1 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/dog-fence-features/halo-app/",
+      "navLabel": "Halo App",
+      "title": "Halo App - GPS Dog Fence and Tracking Command Center",
+      "sections": [
+        {
+          "sectionId": "halo-app-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Halo App",
+          "subhead": "Available on Halo Collar 5 · iOS & Android · Real-Time GPS · Multi-Dog Support · Live Expert Support",
+          "copySummary": "Command Center The Halo App is the command center for everything your Halo Collar does. Create and manage GPS fences, track your dog’s real-time location, customize every feedback setting, monitor daily activity, access Cesar Millan’s training program, and...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-10",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-11",
+            "https://www.halocollar.com/static/images/features/halo-app.webp",
+            "https://www.halocollar.com/static/images/icons/icon-apple-android.svg",
+            "https://www.halocollar.com/static/images/icons/icon-map.svg",
+            "https://www.halocollar.com/static/images/icons/icon-multi-dog.svg",
+            "https://www.halocollar.com/static/images/icons/icon-sliders.svg",
+            "https://www.halocollar.com/static/images/icons/icon-cesar-badge.svg",
+            "https://www.halocollar.com/static/images/icons/icon-headset.svg"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-hero__content 9 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "feature-overview-2",
+          "order": 2,
+          "sectionType": "comparison",
+          "heading": "Feature overview",
+          "subhead": "Explore all Halo Collar features including virtual GPS fencing, GPS tracking, and the feedback system.",
+          "copySummary": "The Halo Collar app is the interface between you and your dog’s Halo Collar. Every feature of the Halo system, from GPS fence creation to feedback customization to dog activity tracking, is managed through the app. It is available for iOS (App Store) and An...",
+          "assetUrls": [],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: container container--narrow No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "six-core-capabilities-in-one-app-3",
+          "order": 3,
+          "sectionType": "how-it-works",
+          "heading": "Six Core Capabilities in One App",
+          "subhead": "The Halo App consolidates fence management, GPS tracking, feedback configuration, activity monitoring, training, and live support into a single interface. Here is what each capability does and how it works.",
+          "copySummary": "Your Dog’s Command Center The Halo App consolidates fence management, GPS tracking, feedback configuration, activity monitoring, training, and live support into a single interface. Here is what each capability does and how it works.",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-fence-management.svg"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "create-and-manage-all-fences-and-beacons-4",
+          "order": 4,
+          "sectionType": "app showcase",
+          "heading": "Create and Manage All Fences and Beacons",
+          "subhead": "",
+          "copySummary": "The Halo App is where you build every GPS fence your dog will use. Search an address or zoom in on the map, and the app creates a fence with one tap based on property lines and Halo Fence guidelines. Alternatively, you can draw a custom polygon by placing f...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-fence-management.svg",
+            "https://www.halocollar.com/static/images/icons/icon-live-tracking.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "real-time-gps-location-tracking-5",
+          "order": 5,
+          "sectionType": "app showcase",
+          "heading": "Real-Time GPS Location Tracking",
+          "subhead": "",
+          "copySummary": "The My Map screen in the Halo App shows your dog’s live position on a satellite map. The app receives up to 4 GPS location updates per second from the collar, depending on connection type. When connected via Bluetooth, location updates stream continuously a...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-live-tracking.svg",
+            "https://www.halocollar.com/static/images/icons/icon-feedback-settings.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "customizable-feedback-settings-6",
+          "order": 6,
+          "sectionType": "app showcase",
+          "heading": "Customizable Feedback Settings",
+          "subhead": "",
+          "copySummary": "Every feedback type is configurable through the Halo App’s Feedback Settings, accessible by swiping up on the Pet Card. The Halo Collar provides six types of feedback: three prevention (Warning, Boundary, Emergency) and three encouragement (Whistle, Good Do...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-feedback-settings.svg",
+            "https://www.halocollar.com/static/images/icons/icon-multi-dog-account.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "multi-dog-support-from-one-account-7",
+          "order": 7,
+          "sectionType": "app showcase",
+          "heading": "Multi-Dog Support from One Account",
+          "subhead": "",
+          "copySummary": "Each dog needs their own Halo Collar, but all dogs are managed through one account in the Halo App. Every collar on your account can use all fences that have been created, and fences can be individually turned on or off for each dog without affecting the ot...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-multi-dog-account.svg",
+            "https://www.halocollar.com/static/images/icons/icon-autonomous.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "automatic-protection-without-your-phone-8",
+          "order": 8,
+          "sectionType": "comparison",
+          "heading": "Automatic Protection Without Your Phone",
+          "subhead": "",
+          "copySummary": "The Halo Collar operates autonomously. Once fences are downloaded to the collar and feedback settings are configured, the collar enforces boundaries and delivers prevention and encouragement feedback in real time without needing your phone, Wi-Fi, or cellul...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-autonomous.svg",
+            "https://www.halocollar.com/static/images/icons/icon-live-support.svg"
+          ],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "in-app-customer-support-from-halo-experts-9",
+          "order": 9,
+          "sectionType": "comparison",
+          "heading": "In-App Customer Support from Halo Experts",
+          "subhead": "",
+          "copySummary": "The Halo App includes built-in access to Halo’s live customer support team through a feature called the Halo Dog Park. Navigate to Settings → Support → Halo Dog Park (or visit dogpark.halocollar.com) to connect with a Halo expert via live video-based suppor...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-live-support.svg"
+          ],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "what-you-see-when-you-open-the-halo-app-10",
+          "order": 10,
+          "sectionType": "app showcase",
+          "heading": "What You See When You Open the Halo App",
+          "subhead": "",
+          "copySummary": "App Walkthrough The following walkthrough describes the key screens and how they connect to your dog’s safety. Each screen is designed so the most critical information is visible immediately, with deeper settings accessible by swiping or tapping. 1",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "my-map-11",
+          "order": 11,
+          "sectionType": "app showcase",
+          "heading": "My Map",
+          "subhead": "",
+          "copySummary": "The default screen when you open the app. It displays a satellite map centered on your dog’s last known location, with fence boundaries overlaid in green. Each dog appears as a pin on the map. Tap a dog’s pin to open their Pet Card. You can also refresh you...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "pet-card-12",
+          "order": 12,
+          "sectionType": "app showcase",
+          "heading": "Pet Card",
+          "subhead": "",
+          "copySummary": "The Pet Card is the central hub for each dog. It displays the dog’s current safety status, the GPS signal level, the connection type in use (Bluetooth, Wi-Fi, or Cellular), which fence or beacon the dog is near, and the collar’s battery level. The “Updating...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "fence-management-13",
+          "order": 13,
+          "sectionType": "configurator",
+          "heading": "Fence Management",
+          "subhead": "",
+          "copySummary": "From the Fences section, you can create new GPS fences, edit existing ones, pause or enable boundaries, and manage Halo Beacons. One-tap fence creation generates boundaries based on property lines. Manual creation lets you place fence posts as polygon verti...",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "feedback-settings-14",
+          "order": 14,
+          "sectionType": "app showcase",
+          "heading": "Feedback Settings",
+          "subhead": "",
+          "copySummary": "Accessible by swiping up on the Pet Card and tapping Feedback Settings. Here you configure each of the six feedback types independently. For each type (Warning, Boundary, Emergency, Whistle, Good Dog, Go Home), select the modality (sound, vibration, or stat...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "activity-and-health-tracking-15",
+          "order": 15,
+          "sectionType": "comparison",
+          "heading": "Activity & Health Tracking",
+          "subhead": "",
+          "copySummary": "The tracking section, which is accessible from the Pet Card via “View More”, doubles as a dog activity tracker, displaying historical charts and graphs for: Preventions (how many Warning, Boundary, and Emergency events occurred), distance walked (GPS-calcul...",
+          "assetUrls": [],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "training-16",
+          "order": 16,
+          "sectionType": "how-it-works",
+          "heading": "Training",
+          "subhead": "",
+          "copySummary": "Tap the “Learn” icon at the bottom of the app screen to access Cesar Millan’s in app training program. Each lesson includes reading materials and instructional videos. The program is structured in four phases: Setup, Introducing the Collar, Indoor Training...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "notifications-17",
+          "order": 17,
+          "sectionType": "proof/testimonial",
+          "heading": "Notifications",
+          "subhead": "",
+          "copySummary": "The Notifications tab (bottom of the app screen) collects all alerts from your collar: fence breach alerts, prevention feedback events, battery low warnings, firmware update notifications, and GPS initialization reminders. Unread notifications are indicated...",
+          "assetUrls": [],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "support-halo-dog-park-18",
+          "order": 18,
+          "sectionType": "FAQ",
+          "heading": "Support (Halo Dog Park)",
+          "subhead": "Pack Membership Plans — What Each Tier Includes",
+          "copySummary": "Navigate to Settings → Support to access the Halo Dog Park, where you can connect with a live Halo expert via video-based support. The in-app Help Center is also accessible from this section, providing searchable articles covering every aspect of the collar...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/features/app-functions.webp",
+            "https://img.youtube.com/vi/FfP9jKxJqc4/maxresdefault.jpg",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-12",
+            "https://www.halocollar.com/static/images/halo-logo.svg",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-3",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-4",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-5",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-6",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-7",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-8",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-9",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-13",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-14",
+            "https://www.halocollar.com/dog-fence-features/halo-app/#inline-svg-15"
+          ],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content 3 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/dog-fence-features/virtual-gps/",
+      "navLabel": "Virtual GPS Fence",
+      "title": "Virtual GPS Fencing — Wireless Dog Fence",
+      "sections": [
+        {
+          "sectionId": "virtual-gps-fencing-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Virtual GPS Fencing",
+          "subhead": "Available with Halo Collar 5 · Dual-Frequency GPS · Unlimited Fences · Trusted by 500,000+ Dog Parents",
+          "copySummary": "Featured Technology Halo Collar gives dogs the freedom to roam — with boundaries that can travel with you. Using dual-frequency GPS, Halo creates wireless fence boundaries anywhere, with no buried wires and no physical barriers. The patented boundary system...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-10",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-11",
+            "https://www.halocollar.com/static/images/features/virtual-gps-fencing.webp",
+            "https://www.halocollar.com/static/images/icons/icon-wifi-offline.svg",
+            "https://www.halocollar.com/static/images/icons/icon-battery.svg",
+            "https://www.halocollar.com/static/images/icons/icon-gps-satellite.svg",
+            "https://www.halocollar.com/static/images/icons/icon-shield.svg",
+            "https://www.halocollar.com/static/images/icons/icon-trophy.svg",
+            "https://www.halocollar.com/static/images/icons/icon-lock.svg"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-hero__content 9 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "six-layers-of-boundary-protection-2",
+          "order": 2,
+          "sectionType": "feature overview",
+          "heading": "Six Layers of Boundary Protection",
+          "subhead": "Every part of Halo's GPS fencing system is designed with one goal: keeping dogs safely within their boundaries intelligently, reliably, and humanely.",
+          "copySummary": "How Virtual GPS Fencing Works Every part of Halo's GPS fencing system is designed with one goal: keeping dogs safely within their boundaries intelligently, reliably, and humanely.",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-one-tap-fence.svg"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "one-tap-fence-creation-based-on-property-lines-3",
+          "order": 3,
+          "sectionType": "how-it-works",
+          "heading": "One-Tap Fence Creation Based on Property Lines",
+          "subhead": "",
+          "copySummary": "Search an address or drop a pin anywhere on the map in the Halo app. One tap generates a GPS fence aligned with actual property boundaries - no surveying equipment, no wire burial, no professional installation. Fences can be as small as 900 square feet or a...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-one-tap-fence.svg",
+            "https://www.halocollar.com/static/images/icons/icon-multiple-fences.svg"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "create-edit-pause-and-enable-multiple-fences-4",
+          "order": 4,
+          "sectionType": "app showcase",
+          "heading": "Create, Edit, Pause, and Enable Multiple Fences",
+          "subhead": "",
+          "copySummary": "The Halo app manages unlimited independent GPS fences at once. Boundaries can be set at home, a relative's property, a campsite, or any off-leash area — and each fence can be individually paused, reshaped, or re-enabled without affecting the others.",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-multiple-fences.svg",
+            "https://www.halocollar.com/static/images/icons/icon-on-collar.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "fences-stored-directly-on-the-collar-5",
+          "order": 5,
+          "sectionType": "app showcase",
+          "heading": "Fences Stored Directly on the Collar",
+          "subhead": "",
+          "copySummary": "All boundary coordinates are saved to the Halo Collar’s onboard memory. The collar’s built-in dual-frequency GPS receiver (L1 + L5 satellite bands) calculates your dog’s position independently, supported by Precision+ (DGNSS) which enhances the satellite da...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-on-collar.svg",
+            "https://www.halocollar.com/static/images/icons/icon-escape-proof.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "escape-proof-patented-boundary-system-6",
+          "order": 6,
+          "sectionType": "feature overview",
+          "heading": "Escape-Proof Patented Boundary System",
+          "subhead": "",
+          "copySummary": "Halo's patented feedback system includes six response types: three that prevent boundary crossings (Warning, Boundary, and Emergency) and three that encourage the right behavior (Whistle, Good Dog, and Go Home). Feedback only escalates when a dog continues...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-escape-proof.svg",
+            "https://www.halocollar.com/static/images/icons/icon-direction-detect.svg"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "direction-detection-technology-7",
+          "order": 7,
+          "sectionType": "configurator",
+          "heading": "Direction-Detection Technology",
+          "subhead": "",
+          "copySummary": "The collar tracks whether a dog is heading toward or past the boundary or already turning back toward the safe zone. If the dog is already returning, the collar doesn't escalate — no unnecessary corrections, no confusion. Halo's patented directional logic m...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-direction-detect.svg",
+            "https://www.halocollar.com/static/images/icons/icon-come-back.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "adapt",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "automatic-come-back-command-8",
+          "order": 8,
+          "sectionType": "configurator",
+          "heading": "Automatic \"Come Back\" Command",
+          "subhead": "",
+          "copySummary": "Once a dog reverses direction in response to the boundary, the collar plays an audible \"Come Back\" cue reinforcing the right behavior automatically, without any action needed from the owner. This cue is part of Cesar Millan's step-by-step training program i...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-come-back.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "direction-aware-boundary-intelligence-9",
+          "order": 9,
+          "sectionType": "comparison",
+          "heading": "Direction-Aware Boundary Intelligence",
+          "subhead": "",
+          "copySummary": "Patented Technology Other GPS fences respond the same way every time a dog gets close to or crosses a boundary, whether the dog is sprinting toward the edge or already turning back, leaving your dog confused. Halo's patented direction-detection system knows...",
+          "assetUrls": [],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "approaching-10",
+          "order": 10,
+          "sectionType": "app showcase",
+          "heading": "Approaching",
+          "subhead": "A gentle warning tone begins when the dog enters the boundary zone.",
+          "copySummary": "A gentle warning tone begins when the dog enters the boundary zone. 2 At the Edge <p class=\"deep-dive__step-de",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "at-the-edge-11",
+          "order": 11,
+          "sectionType": "feature overview",
+          "heading": "At the Edge",
+          "subhead": "Escalating feedback activates if the dog keeps moving toward the boundary.",
+          "copySummary": "Escalating feedback activates if the dog keeps moving toward the boundary. 3 Returning <p class=\"deep-dive__st",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "returning-12",
+          "order": 12,
+          "sectionType": "configurator",
+          "heading": "Returning",
+          "subhead": "The collar plays \"Come Back\" and stops all feedback immediately.",
+          "copySummary": "The collar plays \"Come Back\" and stops all feedback immediately.",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/features/wireless-dog-fences.webp"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "virtual-gps-fencing-technical-details-13",
+          "order": 13,
+          "sectionType": "proof/testimonial",
+          "heading": "Virtual GPS Fencing — Technical Details",
+          "subhead": "",
+          "copySummary": "Specification Value GPS Receiver Dual-frequency (L1 + L5 bands) with Precision+ AI drift prevention GPS Mode AlwaysOn™ — GPS never sleeps or pauses; continuous protection Position Update Rate 20 positions per second (20 Hz) Maximum Fences Unlimited independ...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-12"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: specs__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-vs-buried-wire-fences-vs-spoton-gps-collar-14",
+          "order": 14,
+          "sectionType": "proof/testimonial",
+          "heading": "Halo Collar 5 vs. Buried-Wire Fences vs. SpotOn GPS Collar",
+          "subhead": "",
+          "copySummary": "Feature Halo Collar 5 Buried-Wire SpotOn Nova No installation required ✓ — ✓ GPS fence works without cellular ✓ ✓ (radio-based) ✓ Precision+ GPS (DGNSS) ✓ — — Direction-detection (no correction when returning) ✓ Patented — — Automatic audible recall command...",
+          "assetUrls": [],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: comp-table__header text-center No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "virtual-gps-fencing-use-cases-15",
+          "order": 15,
+          "sectionType": "feature overview",
+          "heading": "Virtual GPS Fencing Use Cases",
+          "subhead": "Whether the property is a sprawling rural ranch or a compact suburban yard, Halo's GPS fencing adapts to where the dog actually lives and where they go.",
+          "copySummary": "Who Is Halo For? Whether the property is a sprawling rural ranch or a compact suburban yard, Halo's GPS fencing adapts to where the dog actually lives and where they go. 🏡",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: use-cases__header text-center No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "homeowners-without-physical-fencing-16",
+          "order": 16,
+          "sectionType": "feature overview",
+          "heading": "Homeowners Without Physical Fencing",
+          "subhead": "HOA restrictions keep many neighborhoods free of visible fencing. Halo's virtual GPS fence creates a real boundary around a property with no posts, no wires, and no visual footprint on the landscape.",
+          "copySummary": "🏡 HOA restrictions keep many neighborhoods free of visible fencing. Halo's virtual GPS fence creates a real boundary around a property with no posts, no wires, and no visual footprint on the landscape. 🏕️",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: use-cases__card card--dark No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "travelers-and-campers-17",
+          "order": 17,
+          "sectionType": "configurator",
+          "heading": "Travelers and Campers",
+          "subhead": "A new GPS fence can be created at your rental/vacation home, a campsite, or a friend's house in under one minute. Fences stay stored on the collar, so switching between locations is automatic.",
+          "copySummary": "🏕️ A new GPS fence can be created at your rental/vacation home, a campsite, or a friend's house in under one minute. Fences stay stored on the collar, so switching between locations is automatic. 🌾 <h3 class=\"us",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: use-cases__card card--dark No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "rural-and-large-acreage-properties-18",
+          "order": 18,
+          "sectionType": "proof/testimonial",
+          "heading": "Rural and Large-Acreage Properties",
+          "subhead": "Multi-Dog Households",
+          "copySummary": "🌾 Buried-wire fences become expensive and difficult to maintain on large properties. Halo supports boundaries up to 1,200 square miles and works in areas where cellular coverage is spotty or nonexistent, the collar enforces boundaries on its own using stor...",
+          "assetUrls": [
+            "https://img.youtube.com/vi/HiMQLBEPmWk/maxresdefault.jpg",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-13",
+            "https://www.halocollar.com/static/images/halo-logo.svg",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-3",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-4",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-5",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-6",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-7",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-8",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-9",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-14",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-15",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-16",
+            "https://www.halocollar.com/dog-fence-features/virtual-gps/#inline-svg-17"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: use-cases__card card--dark 2 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/dog-fence-features/gps-location-tracking/",
+      "navLabel": "GPS Location Tracking",
+      "title": "GPS Dog Tracking - Halo Collar 5 AlwaysOn™ Location",
+      "sections": [
+        {
+          "sectionId": "gps-and-location-tracking-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "GPS & Location Tracking",
+          "subhead": "Available on Halo Collar 5 · AlwaysOn™ GPS · Dual-Frequency L1+L5 · Trusted by 500,000+ dog parents",
+          "copySummary": "Core Technology Halo Collar 5 is a GPS dog tracking collar that monitors your dog’s position 20 times every second using dual-frequency GPS and it never stops. AlwaysOn™ GPS means there are no sleep modes, no wake-up delays, and no gaps in protection. The H...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-10",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-11",
+            "https://www.halocollar.com/static/images/features/gps-tracking.webp",
+            "https://www.halocollar.com/static/images/icons/icon-gps-always-on.svg",
+            "https://www.halocollar.com/static/images/icons/icon-target.svg",
+            "https://www.halocollar.com/static/images/icons/icon-speed.svg",
+            "https://www.halocollar.com/static/images/icons/icon-battery.svg",
+            "https://www.halocollar.com/static/images/icons/icon-lte.svg",
+            "https://www.halocollar.com/static/images/icons/icon-trophy.svg"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-hero__content 9 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "feature-overview-2",
+          "order": 2,
+          "sectionType": "hero",
+          "heading": "Feature overview",
+          "subhead": "Explore all Halo Collar features including virtual fencing, feedback system, and the Cesar Millan training program.",
+          "copySummary": "GPS & Location Tracking is the foundation of every safety feature in the Halo Collar system. The Halo Collar 5 uses a dual-frequency GPS receiver (L1 + L5 satellite bands) combined with Precision+ using differential GPS to determine your dog’s position with...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: container container--narrow No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "six-pillars-of-real-time-location-intelligence-3",
+          "order": 3,
+          "sectionType": "feature overview",
+          "heading": "Six Pillars of Real-Time Location Intelligence",
+          "subhead": "Every layer of Halo’s GPS tracking system is designed to answer one question with certainty: where is your dog right now?",
+          "copySummary": "How GPS Tracking Works Every layer of Halo’s GPS tracking system is designed to answer one question with certainty: where is your dog right now?",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-always-on.svg"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "alwayson-gps-no-sleep-modes-no-gaps-4",
+          "order": 4,
+          "sectionType": "configurator",
+          "heading": "AlwaysOn™ GPS — No Sleep Modes, No Gaps",
+          "subhead": "",
+          "copySummary": "Many GPS collars enter low-power sleep modes to conserve battery, which can introduce a delay between when your dog starts moving and when the collar begins tracking. The GPS in the Halo Collar 5 never shuts off or pauses. It continuously analyzes incoming...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-always-on.svg",
+            "https://www.halocollar.com/static/images/icons/icon-dual-frequency.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "dual-frequency-gps-with-precisiongps-ai-5",
+          "order": 5,
+          "sectionType": "configurator",
+          "heading": "Dual-Frequency GPS with PrecisionGPS™ AI",
+          "subhead": "",
+          "copySummary": "The Halo Collar 5 receives signals on both L1 and L5 satellite bands simultaneously. Dual-frequency reception allows the collar to correct for atmospheric distortion that degrades accuracy on single-band devices. Layered on top of this hardware is Halo’s pr...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-dual-frequency.svg",
+            "https://www.halocollar.com/static/images/icons/icon-real-time-app.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "real-time-location-in-the-halo-app-6",
+          "order": 6,
+          "sectionType": "app showcase",
+          "heading": "Real-Time Location in the Halo App",
+          "subhead": "",
+          "copySummary": "The Halo Collar 5 analyzes your dog’s GPS position 20 times per second on the collar itself. The app receives up to four location updates per second — among the highest app update frequencies available in GPS dog collars. You can see your dog’s real-time po...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-real-time-app.svg",
+            "https://www.halocollar.com/static/images/icons/icon-multi-network.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "multi-network-connectivity-lte-wi-fi-and-bluetooth-7",
+          "order": 7,
+          "sectionType": "app showcase",
+          "heading": "Multi-Network Connectivity — LTE, Wi-Fi, and Bluetooth",
+          "subhead": "",
+          "copySummary": "GPS determines your dog’s position. Connectivity delivers that position to your phone. Halo Collar 5 uses a new dual-chip architecture with dedicated Wi-Fi and dedicated Bluetooth chips separate from the cellular modem for faster, more stable connections. T...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-multi-network.svg",
+            "https://www.halocollar.com/static/images/icons/icon-breach-alerts.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "instant-breach-alerts-and-escape-recovery-8",
+          "order": 8,
+          "sectionType": "app showcase",
+          "heading": "Instant Breach Alerts and Escape Recovery",
+          "subhead": "",
+          "copySummary": "If your dog crosses a fence boundary, you are immediately notified through the Halo app. Live in-app tracking continues without interruption, showing your dog’s real-time position and direction of travel. The collar’s direction-detection technology determin...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-breach-alerts.svg",
+            "https://www.halocollar.com/static/images/icons/icon-avoid-breaches.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "how-to-avoid-breaches-in-the-first-place-9",
+          "order": 9,
+          "sectionType": "hero",
+          "heading": "How to Avoid Breaches in the First Place",
+          "subhead": "",
+          "copySummary": "The Halo Collar 5 prevents breaches by functioning as a fully wireless GPS dog fence, using virtual boundaries instead of physical wires. Through the Halo app, owners can draw custom fences that match real-world property layouts, with support for multiple f...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-avoid-breaches.svg"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "from-satellite-signal-to-your-phone-how-halo-tracks-in-real-time-10",
+          "order": 10,
+          "sectionType": "app showcase",
+          "heading": "From Satellite Signal to Your Phone: How Halo Tracks in Real Time",
+          "subhead": "Understanding how GPS tracking works helps explain why some systems are faster and more accurate than others. Here is the signal chain inside Halo Collar 5, from satellite to your screen.",
+          "copySummary": "Under the Hood Understanding how GPS tracking works helps explain why some systems are faster and more accurate than others. Here is the signal chain inside Halo Collar 5, from satellite to your screen. 1",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "satellite-acquisition-11",
+          "order": 11,
+          "sectionType": "configurator",
+          "heading": "Satellite Acquisition",
+          "subhead": "",
+          "copySummary": "The collar’s dual-frequency receiver connects to up to 35 satellites simultaneously across six constellations (GPS, Galileo, BeiDou, GLONASS, NavIC, QZSS). Assisted GPS data — pre-loaded over the internet while charging — allows the collar to predict satell...",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "signal-filtering-precisiongps-12",
+          "order": 12,
+          "sectionType": "feature overview",
+          "heading": "Signal Filtering (PrecisionGPS™)",
+          "subhead": "",
+          "copySummary": "The AI evaluates each satellite signal for quality. Direct signals from the sky are used; indirect signals that have bounced off buildings, trees, or terrain are discarded. The motion sensor and compass verify whether the dog is actually moving, preventing...",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "on-collar-processing-13",
+          "order": 13,
+          "sectionType": "app showcase",
+          "heading": "On-Collar Processing",
+          "subhead": "The collar calculates 20 position fixes per second. This data is used on-device to enforce fence boundaries and trigger feedback in real time — independent of phone, Wi-Fi, or cellular connectivity.",
+          "copySummary": "The collar calculates 20 position fixes per second. This data is used on-device to enforce fence boundaries and trigger feedback in real time — independent of phone, Wi-Fi, or cellular connectivity. 4",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "app-delivery-14",
+          "order": 14,
+          "sectionType": "app showcase",
+          "heading": "App Delivery",
+          "subhead": "",
+          "copySummary": "Up to four times per second, the collar transmits updated coordinates to the Halo app via LTE, Wi-Fi, or Bluetooth. The app displays your dog’s position on the map, their direction of movement, GPS signal quality, and real-time safety status. 5",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "alerts-and-recovery-15",
+          "order": 15,
+          "sectionType": "app showcase",
+          "heading": "Alerts & Recovery",
+          "subhead": "If your dog approaches a fence boundary, the app sends an instant push notification. Live tracking continues so you can follow your dog’s exact path in real time and coordinate retrieval.",
+          "copySummary": "If your dog approaches a fence boundary, the app sends an instant push notification. Live tracking continues so you can follow your dog’s exact path in real time and coordinate retrieval. Specifications",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/features/gps-signal-chain.webp"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "gps-and-location-tracking-technical-details-16",
+          "order": 16,
+          "sectionType": "proof/testimonial",
+          "heading": "GPS & Location Tracking — Technical Details",
+          "subhead": "",
+          "copySummary": "Specifications Specification Value GPS Receiver Dual-frequency (L1 + L5 satellite bands) GPS Mode AlwaysOn™ — continuous; no sleep or low-power modes Satellite Constellations GPS, Galileo, BeiDou, GLONASS, NavIC, QZSS (151 satellites across 6 constellations...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-12"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: specs__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-collar-5-vs-spoton-gps-fence-vs-tractive-gps-tracker-17",
+          "order": 17,
+          "sectionType": "comparison",
+          "heading": "Halo Collar 5 vs. SpotOn GPS Fence vs. Tractive GPS Tracker",
+          "subhead": "",
+          "copySummary": "GPS Tracking Comparison Feature Halo Collar 5 SpotOn GPS Fence Tractive GPS GPS type Dual-frequency L1+L5 Dual-band (Nova) Single-frequency On-collar update rate 20/sec (20 Hz) Not published Not published App update frequency Up to 4x/sec (continuous) Every...",
+          "assetUrls": [],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: comp-table__header text-center No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "gps-and-location-tracking-use-cases-18",
+          "order": 18,
+          "sectionType": "proof/testimonial",
+          "heading": "GPS & Location Tracking Use Cases",
+          "subhead": "Real-time GPS tracking serves different needs depending on your property, lifestyle, and dog’s behavior.",
+          "copySummary": "Who Benefits from GPS Tracking? Real-time GPS tracking serves different needs depending on your property, lifestyle, and dog’s behavior. 🏃 Escape-Prone Dogs and Bolters Some dogs dash through open doors or dig under fences without warning. AlwaysOn™ GPS me...",
+          "assetUrls": [
+            "https://img.youtube.com/vi/O94wBKANhd8/maxresdefault.jpg",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-13",
+            "https://www.halocollar.com/static/images/halo-logo.svg",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-3",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-4",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-5",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-6",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-7",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-8",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-9",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-14",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-15",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-16",
+            "https://www.halocollar.com/dog-fence-features/gps-location-tracking/#inline-svg-17"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: use-cases__header text-center 2 hosted asset candidate(s)."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/dog-fence-features/cesar-millan-training/",
+      "navLabel": "Cesar Millan Training",
+      "title": "Cesar Millan Dog Training — In-App Program",
+      "sections": [
+        {
+          "sectionId": "cesar-millan-training-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Cesar Millan Training",
+          "subhead": "Available on Halo Collar 5 · 8 Comprehensive Lessons · Indoor-to-Outdoor Progression · Cesar Millan Voice Commands",
+          "copySummary": "Expert Training Every Halo Collar comes with a structured Cesar Millan training program built directly into the app. It teaches dogs to understand and respect fence boundaries through positive association — not punishment. Training starts when the stakes ar...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-10",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-11",
+            "https://www.halocollar.com/static/images/features/cesar-millan-training.webp",
+            "https://www.halocollar.com/static/images/icons/icon-cesar-badge.svg",
+            "https://www.halocollar.com/static/images/icons/icon-lessons.svg",
+            "https://www.halocollar.com/static/images/icons/icon-positive.svg",
+            "https://www.halocollar.com/static/images/icons/icon-indoor-outdoor.svg",
+            "https://www.halocollar.com/static/images/icons/icon-breeds.svg",
+            "https://www.halocollar.com/static/images/icons/icon-trophy.svg"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-hero__content 9 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "feature-overview-2",
+          "order": 2,
+          "sectionType": "how-it-works",
+          "heading": "Feature overview",
+          "subhead": "Explore all Halo Collar features including GPS tracking, virtual fencing, and the feedback system.",
+          "copySummary": "Cesar Millan is a world-renowned dog psychology expert, TV personality, and multiple New York Times best-selling author. His mission, in his own words, is to “train humans, rehabilitate dogs, and improve the trust, respect, and love between humans and dogs...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: container container--narrow No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "training-your-dog-to-respect-boundaries-cesar-s-way-3",
+          "order": 3,
+          "sectionType": "feature overview",
+          "heading": "Training Your Dog to Respect Boundaries — Cesar's Way",
+          "subhead": "",
+          "copySummary": "How Training Works Halo's training program is built on one of Cesar Millan's foundational principles: dogs learn through association, not reasoning. The program teaches dogs to form instinctive connections between feedback cues and safe behavior, so boundar...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-dog-psychology.svg"
+          ],
+          "candidateComponent": "HaloVideoSpotlight",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "built-on-dog-psychology-not-human-logic-4",
+          "order": 4,
+          "sectionType": "app showcase",
+          "heading": "Built on Dog Psychology, Not Human Logic",
+          "subhead": "",
+          "copySummary": "Dogs experience the world differently from people. Nose first, then eyes, then ears. Halo's training program works with that natural hierarchy: it uses scent-driven curiosity to help dogs form initial associations, then layers in visual and auditory feedbac...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-dog-psychology.svg",
+            "https://www.halocollar.com/static/images/icons/icon-feedback-tech.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "how-halo-s-feedback-technology-makes-training-work-5",
+          "order": 5,
+          "sectionType": "comparison",
+          "heading": "How Halo's Feedback Technology Makes Training Work",
+          "subhead": "",
+          "copySummary": "Most GPS fence systems deliver feedback continuously while a dog is near or beyond the boundary — and keep delivering it whether the dog is moving toward danger or already turning back. That creates confusion. A dog has no way of knowing what it did right,...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-feedback-tech.svg",
+            "https://www.halocollar.com/static/images/icons/icon-positive-association.svg"
+          ],
+          "candidateComponent": "HaloComparisonSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "positive-association-not-aversion-training-6",
+          "order": 6,
+          "sectionType": "app showcase",
+          "heading": "Positive Association, Not Aversion Training",
+          "subhead": "",
+          "copySummary": "Because of how Halo's feedback technology works, Cesar Millan's training program is built entirely on positive association — not fear-based aversion. The collar provides feedback (sound, vibration, or static) that a dog learns to understand as \"stop and tur...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-positive-association.svg",
+            "https://www.halocollar.com/static/images/icons/icon-indoor-outdoor-progression.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "indoor-to-outdoor-progression-7",
+          "order": 7,
+          "sectionType": "app showcase",
+          "heading": "Indoor-to-Outdoor Progression",
+          "subhead": "",
+          "copySummary": "Training begins indoors, where distractions are minimal and there's room to learn without pressure. Dogs learn to recognize feedback cues and respond correctly in a controlled setting. This indoor phase matters: a dog needs to understand what the collar's c...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-indoor-outdoor-progression.svg",
+            "https://www.halocollar.com/static/images/icons/icon-8-lessons.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "8-comprehensive-lessons-in-the-halo-app-8",
+          "order": 8,
+          "sectionType": "FAQ",
+          "heading": "8 Comprehensive Lessons in the Halo App",
+          "subhead": "",
+          "copySummary": "The program includes 8 lessons with reading materials and instructional videos featuring Halo's team of expert trainers. Topics cover collar introduction and fitting, whistle recall training, prevention feedback configuration, and outdoor boundary training...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-8-lessons.svg",
+            "https://www.halocollar.com/static/images/icons/icon-voice-commands.svg"
+          ],
+          "candidateComponent": "HaloTabbedFAQ",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "cesar-millan-s-voice-commands-9",
+          "order": 9,
+          "sectionType": "configurator",
+          "heading": "Cesar Millan's Voice Commands",
+          "subhead": "",
+          "copySummary": "The Halo Collar includes Cesar Millan's verbal feedback recordings as built-in audio options including his signature \"TSCH\" sound, the sharp attention-redirecting cue he uses in professional training. Different Cesar voice commands can be assigned to differ...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-voice-commands.svg",
+            "https://www.halocollar.com/static/images/icons/icon-pack-leader.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "the-owner-as-pack-leader-10",
+          "order": 10,
+          "sectionType": "configurator",
+          "heading": "The Owner as Pack Leader",
+          "subhead": "",
+          "copySummary": "A central theme throughout Cesar's philosophy, and one Halo reinforces at every step, is that the owner must be the pack leader. As Halo's training program emphasizes: \"It's highly important that you are the one who trains your dog. Every dog needs a pack l...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-pack-leader.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "from-setup-to-off-leash-freedom-the-training-journey-11",
+          "order": 11,
+          "sectionType": "how-it-works",
+          "heading": "From Setup to Off-Leash Freedom: The Training Journey",
+          "subhead": "The program follows four phases. Every dog moves at their own speed — the right time to advance to the next phase is when the dog is consistently responding, not when a certain number of days have passed.",
+          "copySummary": "Step by Step The program follows four phases. Every dog moves at their own speed — the right time to advance to the next phase is when the dog is consistently responding, not when a certain number of days have passed. 1",
+          "assetUrls": [],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "setup-and-user-training-12",
+          "order": 12,
+          "sectionType": "how-it-works",
+          "heading": "Setup & User Training",
+          "subhead": "",
+          "copySummary": "Before working with the dog, owners learn the system. Download the Halo app, pair the collar via Bluetooth, configure the account, and get familiar with Feedback Settings, GPS signal levels, and fence creation tools. This phase is about making sure the owne...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "introducing-the-collar-13",
+          "order": 13,
+          "sectionType": "configurator",
+          "heading": "Introducing the Collar",
+          "subhead": "",
+          "copySummary": "Properly fit the collar strap and start building a positive association with the hardware. The goal is simple — the collar should feel like a normal, neutral part of the dog's routine before any training begins. Treats, calm energy, and praise do the work h...",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "safe-environment-training-14",
+          "order": 14,
+          "sectionType": "app showcase",
+          "heading": "Safe Environment Training",
+          "subhead": "",
+          "copySummary": "The core training phase, and the one that sets the foundation for everything outdoors. Using manual feedback through the app, dogs learn the two fundamental commands: \"Keep Away\" and \"Come Back.\" Sessions of around 15 minutes per day are all that's needed —...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "outdoor-training-15",
+          "order": 15,
+          "sectionType": "app showcase",
+          "heading": "Outdoor Training",
+          "subhead": "",
+          "copySummary": "Once the dog responds reliably, training moves to the Halo GPS Fence outside. The same cues and methods from Phase 3 carry over — the environment changes, the system doesn't. Walk the boundary on a leash, let the collar do the communicating, and reinforce c...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/features/cesar-training.webp"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "why-cesar-s-method-works-associative-learning-16",
+          "order": 16,
+          "sectionType": "app showcase",
+          "heading": "Why Cesar's Method Works: Associative Learning",
+          "subhead": "",
+          "copySummary": "Dogs don't reason through consequences the way people do. They learn through association: when two events happen close together in time, the dog forms an instinctive connection between them. This is the foundation of effective dog training and the principle...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: container container--narrow No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "cesar-millan-training-program-details-17",
+          "order": 17,
+          "sectionType": "how-it-works",
+          "heading": "Cesar Millan Training — Program Details",
+          "subhead": "",
+          "copySummary": "Specifications Specification Value Training Program 8 comprehensive in-app lessons with reading materials and instructional videos Program Phases 4 phases: Setup & User Training, Introducing the Collar, Indoor Training, Outdoor Training Recommended Timefram...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-12"
+          ],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: specs__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-cesar-millan-vs-spoton-gps-fence-vs-professional-dog-traini-18",
+          "order": 18,
+          "sectionType": "proof/testimonial",
+          "heading": "Halo + Cesar Millan vs. SpotOn GPS Fence vs. Professional Dog Training",
+          "subhead": "Training Use Cases",
+          "copySummary": "Training Comparison Feature Halo + Cesar Millan SpotOn GPS Fence Professional Trainer Integrated in-app program ✓ (8 lessons, videos, reading) ✓ (DIY in-app guides) N/A (in-person sessions) Designed by dog behaviorist ✓ Cesar Millan — Depends on credentials...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/halo-logo.svg",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-3",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-4",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-5",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-6",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-7",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-8",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-9",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-13",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-14",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-15",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-16",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-17",
+            "https://www.halocollar.com/dog-fence-features/cesar-millan-training/#inline-svg-18"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: comp-table__header text-center No hosted asset candidates found in this section window."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.halocollar.com/dog-fence-features/feedback-system/",
+      "navLabel": "Feedback System",
+      "title": "Dog Collar Feedback System - Halo 6-Type Training Cues",
+      "sections": [
+        {
+          "sectionId": "feedback-system-1",
+          "order": 1,
+          "sectionType": "hero",
+          "heading": "Feedback System",
+          "subhead": "Available on Halo Collar 5 · 6 Feedback Types · Cesar Millan Voice Commands · Static Always Optional",
+          "copySummary": "Patented Technology Halo Collar communicates with your dog through six types of feedback: three prevention and three encouragement. Each is fully customizable with sounds, vibration patterns, and optional static levels. The system is designed with Cesar Mil...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-10",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-11",
+            "https://www.halocollar.com/static/images/features/feedback-system.webp",
+            "https://www.halocollar.com/static/images/icons/icon-6-types.svg",
+            "https://www.halocollar.com/static/images/icons/icon-optional-static.svg",
+            "https://www.halocollar.com/static/images/icons/icon-voice.svg",
+            "https://www.halocollar.com/static/images/icons/icon-direction.svg",
+            "https://www.halocollar.com/static/images/icons/icon-shield.svg",
+            "https://www.halocollar.com/static/images/icons/icon-trophy.svg"
+          ],
+          "candidateComponent": "HaloHeroSplitVideo",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-hero__content 9 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "feature-overview-2",
+          "order": 2,
+          "sectionType": "app showcase",
+          "heading": "Feature overview",
+          "subhead": "Explore all Halo Collar features including GPS tracking, virtual fencing, and the Cesar Millan training program.",
+          "copySummary": "The Halo Collar Feedback System is the patented communication layer between the collar and your dog. It is designed around a principle from dog psychology: effective boundary training requires both prevention (telling the dog to stop) and encouragement (tel...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: container container--narrow No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "six-types-of-intelligent-communication-3",
+          "order": 3,
+          "sectionType": "feature overview",
+          "heading": "Six Types of Intelligent Communication",
+          "subhead": "Halo’s feedback system is not a single correction. It is a layered communication system designed with Cesar Millan that guides your dog through escalating prevention cues and rewards correct behavior with encouragement.",
+          "copySummary": "How Feedback Works Halo’s feedback system is not a single correction. It is a layered communication system designed with Cesar Millan that guides your dog through escalating prevention cues and rewards correct behavior with encouragement.",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-prevention.svg"
+          ],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__header text-center 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "three-levels-of-prevention-feedback-4",
+          "order": 4,
+          "sectionType": "app showcase",
+          "heading": "Three Levels of Prevention Feedback",
+          "subhead": "",
+          "copySummary": "When your dog enters the warning area (approximately 7–10 feet from the fence boundary) and is actively moving toward the edge, the collar delivers Warning Feedback, the first and gentlest cue. If the dog ignores the warning and continues approaching, the c...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-prevention.svg",
+            "https://www.halocollar.com/static/images/icons/icon-encouragement.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "three-types-of-encouragement-feedback-5",
+          "order": 5,
+          "sectionType": "configurator",
+          "heading": "Three Types of Encouragement Feedback",
+          "subhead": "",
+          "copySummary": "Encouragement is what makes Halo’s system fundamentally different from traditional shock collars. When your dog stops moving toward the boundary or turns back, the collar plays one of three positive cues: Whistle teaches your dog to return to you, “Good Dog...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-encouragement.svg",
+            "https://www.halocollar.com/static/images/icons/icon-direction-detect.svg"
+          ],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "direction-aware-feedback-intelligence-6",
+          "order": 6,
+          "sectionType": "proof/testimonial",
+          "heading": "Direction-Aware Feedback Intelligence",
+          "subhead": "",
+          "copySummary": "The collar uses GPS position data and its built-in motion sensor to determine which direction your dog is facing and whether they are moving toward or away from the boundary. If the dog is already heading back to the safe zone, the collar does not escalate...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-direction-detect.svg",
+            "https://www.halocollar.com/static/images/icons/icon-escape-proof.svg"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "escape-proof-patented-escalation-7",
+          "order": 7,
+          "sectionType": "app showcase",
+          "heading": "Escape-Proof Patented Escalation",
+          "subhead": "",
+          "copySummary": "Halo’s patented feedback system does not give up. If your dog ignores all three prevention levels and crosses the boundary, the collar continues delivering Emergency Feedback throughout a Protection Zone that extends approximately 300 feet (91.4 meters) bey...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-escape-proof.svg",
+            "https://www.halocollar.com/static/images/icons/icon-customization.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "full-customization-through-the-halo-app-8",
+          "order": 8,
+          "sectionType": "app showcase",
+          "heading": "Full Customization Through the Halo App",
+          "subhead": "",
+          "copySummary": "Every feedback type and intensity level is adjustable through the Halo app’s Feedback Settings on the Pet Card. For each of the three prevention levels (Warning, Boundary, Emergency), you choose independently between sound, vibration, or static — and set th...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-customization.svg",
+            "https://www.halocollar.com/static/images/icons/icon-instant-feedback.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 2 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "manual-instant-feedback-9",
+          "order": 9,
+          "sectionType": "app showcase",
+          "heading": "Manual Instant Feedback",
+          "subhead": "",
+          "copySummary": "In addition to automatic fence-triggered feedback, you can send any feedback type to your dog’s collar manually. The Halo app’s Instant Feedback screen lets you send a prevention or encouragement cue to the collar with a single tap delivered via Bluetooth (...",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/icons/icon-instant-feedback.svg"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: feature-grid__card card carousel-item 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "from-warning-to-encouragement-what-your-dog-experiences-10",
+          "order": 10,
+          "sectionType": "app showcase",
+          "heading": "From Warning to Encouragement: What Your Dog Experiences",
+          "subhead": "The following sequence illustrates what happens when a trained dog approaches, reaches, or crosses a Halo Fence boundary. Every step is designed so the dog can control the outcome through their own behavior.",
+          "copySummary": "Step by Step The following sequence illustrates what happens when a trained dog approaches, reaches, or crosses a Halo Fence boundary. Every step is designed so the dog can control the outcome through their own behavior. 1",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "safe-zone-11",
+          "order": 11,
+          "sectionType": "configurator",
+          "heading": "Safe Zone",
+          "subhead": "Your dog is inside the fence boundary with no feedback active. The collar is tracking position via AlwaysOn™ GPS at 20 updates per second.",
+          "copySummary": "Your dog is inside the fence boundary with no feedback active. The collar is tracking position via AlwaysOn™ GPS at 20 updates per second. 2 <h3 class=\"deep-dive__step-label\"",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "warning-area-7-10-ft-12",
+          "order": 12,
+          "sectionType": "feature overview",
+          "heading": "Warning Area (7–10 ft)",
+          "subhead": "",
+          "copySummary": "The dog enters the warning area and is moving toward the boundary. Warning Feedback activates — your configured sound, vibration, or static at its set intensity. This is the first cue your dog has been trained to recognize as “keep away.” 3",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "continued-approach-13",
+          "order": 13,
+          "sectionType": "app showcase",
+          "heading": "Continued Approach",
+          "subhead": "",
+          "copySummary": "If the dog ignores the warning and continues toward the boundary, Boundary Feedback is added simultaneously. If you have configured different modalities for Warning and Boundary (e.g., tone for Warning, vibration for Boundary), the dog receives both cues at...",
+          "assetUrls": [],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "boundary-crossed-14",
+          "order": 14,
+          "sectionType": "feature overview",
+          "heading": "Boundary Crossed",
+          "subhead": "If the dog passes the fence line, Emergency Feedback activates and continues as long as the dog is moving away from safety and remains within the Protection Zone (~300 feet beyond the fence).",
+          "copySummary": "If the dog passes the fence line, Emergency Feedback activates and continues as long as the dog is moving away from safety and remains within the Protection Zone (~300 feet beyond the fence). 5",
+          "assetUrls": [],
+          "candidateComponent": "HaloFeaturePillsShowcase",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "dog-turns-back-15",
+          "order": 15,
+          "sectionType": "configurator",
+          "heading": "Dog Turns Back",
+          "subhead": "",
+          "copySummary": "The moment the collar detects the dog has stopped or reversed direction, all prevention feedback stops immediately. Encouragement Feedback begins — the Whistle, Good Dog, or Go Home cue plays to guide the dog back to the safe zone. 6",
+          "assetUrls": [],
+          "candidateComponent": "HaloProductConfigBuyStack",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "lost-mode-16",
+          "order": 16,
+          "sectionType": "app showcase",
+          "heading": "Lost Mode",
+          "subhead": "",
+          "copySummary": "Emergency Feedback stops. The collar switches to the Return Whistle encouragement cue only, to guide the dog home without escalating confusion. You receive a push notification and can track the dog’s live location in the Halo app.",
+          "assetUrls": [
+            "https://www.halocollar.com/static/images/features/feedback-sequence.webp"
+          ],
+          "candidateComponent": "HaloAppFeatureCarousel",
+          "recommendation": "keep",
+          "notes": "Nearby marker: deep-dive__step-content 1 hosted asset candidate(s)."
+        },
+        {
+          "sectionId": "halo-uses-static-feedback-not-an-electric-shock-17",
+          "order": 17,
+          "sectionType": "how-it-works",
+          "heading": "Halo Uses Static Feedback — Not an Electric Shock",
+          "subhead": "",
+          "copySummary": "A common concern among dog owners is whether GPS fence collars deliver painful shocks. Halo’s static feedback is fundamentally different from the electric pulse used in traditional shock collars. Static feedback creates a sense of “touch” designed to mimic...",
+          "assetUrls": [],
+          "candidateComponent": "HaloHowItWorksGrid",
+          "recommendation": "keep",
+          "notes": "Nearby marker: container container--narrow No hosted asset candidates found in this section window."
+        },
+        {
+          "sectionId": "feedback-system-technical-details-18",
+          "order": 18,
+          "sectionType": "proof/testimonial",
+          "heading": "Feedback System — Technical Details",
+          "subhead": "Halo Collar 5 vs. SpotOn GPS Fence vs. PetSafe In-Ground Fence",
+          "copySummary": "Specifications Specification Value Feedback Categories Prevention (3 types) + Encouragement (3 types) = 6 total Prevention Types Warning, Boundary, Emergency — each independently configurable Encouragement Types Whistle (recall), Good Dog (positive reinforc...",
+          "assetUrls": [
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-12",
+            "https://www.halocollar.com/static/images/halo-logo.svg",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-1",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp",
+            "https://d252xzqwj6utz.cloudfront.net/static/h5/white-1-s.webp",
+            "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-2",
+            "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-3",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-4",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-5",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-6",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-7",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-8",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-9",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-13",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-14",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-15",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-16",
+            "https://www.halocollar.com/dog-fence-features/feedback-system/#inline-svg-17"
+          ],
+          "candidateComponent": "HaloReviewProofSection",
+          "recommendation": "keep",
+          "notes": "Nearby marker: specs__header text-center 1 hosted asset candidate(s)."
+        }
+      ]
+    }
+  ]
+}

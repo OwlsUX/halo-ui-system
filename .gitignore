@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.worktrees/
+worktrees/
+scratch/
+
+# External source repositories are kept locally for reference but not committed
+# into this demo repo. Commit generated/static-demo work instead.
+repos/
+
+# Temporary outputs
+*.log
+*.tmp

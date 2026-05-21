@@ -1,0 +1,4406 @@
+[
+  {
+    "id": "ecomlanders-commerce-beacon-comparison-table",
+    "name": "Beacon Comparison Table",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Beacon comparison table",
+    "keywords": [
+      "commerce",
+      "beacon",
+      "comparison"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-beacon-feature-cards",
+    "name": "Beacon Feature Cards",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Beacon feature cards",
+    "keywords": [
+      "commerce",
+      "beacon",
+      "cards"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-cart-empty-state",
+    "name": "Cart Empty State",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Cart empty state",
+    "keywords": [
+      "commerce",
+      "cart",
+      "empty"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-cart-item-row",
+    "name": "Cart Item Row",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Cart item row with image, variant, delivery copy, quantity controls, and delete action",
+    "keywords": [
+      "commerce",
+      "cart",
+      "item"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-cart-membership-collapsed-row",
+    "name": "Cart Membership Collapsed Row",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Cart membership collapsed row",
+    "keywords": [
+      "commerce",
+      "cart",
+      "membership"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-cart-membership-detail",
+    "name": "Cart Membership Detail",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Cart membership detail drawer/inline expansion",
+    "keywords": [
+      "commerce",
+      "cart",
+      "membership",
+      "drawer"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart",
+      "drawer"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-cart-overlay",
+    "name": "Cart Overlay",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Cart overlay",
+    "keywords": [
+      "commerce",
+      "cart",
+      "overlay"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-cart-total-rows",
+    "name": "Cart Total Rows",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Cart subtotal, discount, tax, and total rows",
+    "keywords": [
+      "commerce",
+      "cart",
+      "totals"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-checkout-add-to-cart-cta",
+    "name": "Checkout Add To Cart Cta",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Checkout/add-to-cart CTA states",
+    "keywords": [
+      "commerce",
+      "cart",
+      "checkout",
+      "cta"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart",
+      "checkout"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-local-configurator-state",
+    "name": "Local Configurator State",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/lander-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Local configurator state reference from lander-2026 and new-halo shop.js",
+    "keywords": [
+      "commerce",
+      "local-state",
+      "configurator"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "local-state"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-membership-box",
+    "name": "Membership Box",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Membership box with collapsed and expanded states",
+    "keywords": [
+      "commerce",
+      "membership",
+      "expanded"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "expanded"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-membership-learn-more",
+    "name": "Membership Learn More",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Membership learn-more trigger",
+    "keywords": [
+      "commerce",
+      "membership",
+      "modal"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "modal"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-membership-plans-modal",
+    "name": "Membership Plans Modal",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Membership plans modal",
+    "keywords": [
+      "commerce",
+      "membership",
+      "plans",
+      "modal"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "modal"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-mini-cart-drawer",
+    "name": "Mini Cart Drawer",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Mini-cart drawer",
+    "keywords": [
+      "commerce",
+      "cart",
+      "drawer"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart",
+      "drawer"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-product-config-shell",
+    "name": "Product Config Shell",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Product config shell",
+    "keywords": [
+      "commerce",
+      "config",
+      "pdp"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-product-gallery-color-sync",
+    "name": "Product Gallery Color Sync",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Product gallery with color-synced hero image",
+    "keywords": [
+      "commerce",
+      "gallery",
+      "color",
+      "pdp"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-product-title-trust-badge",
+    "name": "Product Title Trust Badge",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Product title and trust badge",
+    "keywords": [
+      "commerce",
+      "trust",
+      "badge",
+      "pdp"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-woocommerce-store-api-cart",
+    "name": "Woocommerce Store Api Cart",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "WooCommerce Store API cart behavior reference from V2/V3 shop.js",
+    "keywords": [
+      "commerce",
+      "woocommerce",
+      "cart",
+      "api"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "cart",
+      "api"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-tock-halo-beacons-modal",
+    "name": "HaloBeaconsModal",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBeaconsModal",
+    "sourceType": "tock-component",
+    "description": "Self-contained modal that opens via its own trigger button to show three accessory feature cards across the top and a side-by-side product comparison table below.",
+    "keywords": [
+      "modal",
+      "comparison",
+      "beacons",
+      "accessories",
+      "table"
+    ],
+    "props": {
+      "triggerLabel": {
+        "type": "string"
+      },
+      "features": {
+        "type": "array",
+        "itemShape": {
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "useCase": {
+            "type": "string"
+          }
+        }
+      },
+      "comparisonTitle": {
+        "type": "string"
+      },
+      "comparisonColumns": {
+        "type": "array",
+        "itemShape": {
+          "name": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "comparisonRows": {
+        "type": "array",
+        "itemShape": {
+          "label": {
+            "type": "string"
+          },
+          "values": {
+            "type": "array",
+            "itemShape": "string"
+          }
+        }
+      }
+    },
+    "interactions": [
+      "keydown",
+      "modal open/close"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBeaconsModal/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBeaconsModal/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: When the page needs to introduce two related accessories (or product variants) and let the reader skim a feature-by-feature comparison without leaving the page. Avoid: Comparing more than two products (use a dedicated page); comparing a single product's specs (use a static spec list). Original source pointer: pages/Lander-v2-2026/shop.html#included-modal"
+  },
+  {
+    "id": "ecomlanders-tock-halo-before-buy-triptych",
+    "name": "HaloBeforeBuyTriptych",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBeforeBuyTriptych",
+    "sourceType": "tock-component",
+    "description": "Three-up dark cards under a centered heading — each card is one of three layouts: a bulleted list, an intro + steps list, or a paragraph block. Card 1 optionally surfaces a 'See complete details' modal.",
+    "keywords": [
+      "before-buy",
+      "triptych",
+      "what-is-included",
+      "getting-started",
+      "plans"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "cards": {
+        "type": "array",
+        "itemShape": {
+          "kind": {
+            "type": "string"
+          },
+          "heading": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "itemShape": "string"
+          },
+          "detailsLinkLabel": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interactions": [
+      "keydown",
+      "modal open/close"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBeforeBuyTriptych/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBeforeBuyTriptych/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Pre-purchase reassurance section that condenses what's-in-the-box / next steps / plan info into one scannable triptych. Avoid: When more than three items need equal weight (use a grid), or when each card needs a hero image (use feature cards). Original source pointer: pages/Lander-v2-2026/mutation.js#details"
+  },
+  {
+    "id": "ecomlanders-tock-halo-feature-pills-showcase",
+    "name": "HaloFeaturePillsShowcase",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloFeaturePillsShowcase",
+    "sourceType": "tock-component",
+    "description": "Product showcase with a stack of expandable feature pills on the left (one open at a time, accordion-style) and a large product image on the right; the first pill is a colors picker that swaps the product image when a swatch is selected.",
+    "keywords": [
+      "showcase",
+      "pills",
+      "accordion",
+      "color-picker",
+      "product"
+    ],
+    "props": {
+      "badge": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "defaultCollarImageUrl": {
+        "type": "string"
+      },
+      "pills": {
+        "type": "array",
+        "itemShape": {
+          "kind": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "colorOptions": {
+            "type": "array",
+            "itemShape": {
+              "key": {
+                "type": "string"
+              },
+              "swatchImageUrl": {
+                "type": "string"
+              },
+              "collarImageUrl": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloFeaturePillsShowcase/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloFeaturePillsShowcase/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: PDP-style section that introduces a hero product through bite-sized features without committing to a long feature grid; ideal for one flagship SKU. Avoid: Comparing more than one product (use a comparison grid); on pages with no hero product photography. Original source pointer: pages/Lander-v2-2026/mutation.js#meet-halo"
+  },
+  {
+    "id": "ecomlanders-tock-halo-membership-plans-modal",
+    "name": "HaloMembershipPlansModal",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloMembershipPlansModal",
+    "sourceType": "tock-component",
+    "description": "Self-contained pricing-plan comparison modal with a trigger button that opens a three-column plan grid (basic, popular, premium).",
+    "keywords": [
+      "modal",
+      "pricing",
+      "plans",
+      "subscription",
+      "membership",
+      "comparison"
+    ],
+    "props": {
+      "triggerLabel": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "subtitle": {
+        "type": "string"
+      },
+      "plans": {
+        "type": "array",
+        "itemShape": {
+          "name": {
+            "type": "string"
+          },
+          "tier": {
+            "type": "string"
+          },
+          "price": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string"
+          },
+          "additionalCollarPrice": {
+            "type": "string"
+          },
+          "isPopular": {
+            "type": "boolean"
+          },
+          "features": {
+            "type": "array",
+            "itemShape": "string"
+          }
+        }
+      }
+    },
+    "interactions": [
+      "keydown",
+      "modal open/close"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloMembershipPlansModal/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloMembershipPlansModal/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: When a page references subscription/membership tiers and needs to surface a full feature comparison without leaving the page. Avoid: When the plan comparison should be flat on the page (use a static 3-column grid instead) or when there's only one plan. Original source pointer: pages/Lander-v2-2026/shop.html#membership-modal"
+  },
+  {
+    "id": "ecomlanders-tock-halo-pricing-product-card",
+    "name": "HaloPricingProductCard",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPricingProductCard",
+    "sourceType": "tock-component",
+    "description": "Two-column pricing module: a large product photo on the left and a buy-card on the right with a 'On Sale' badge, price stack, color picker, feature checklist, primary CTA, and Affirm + guarantee microcopy.",
+    "keywords": [
+      "pricing",
+      "buy-card",
+      "color-picker",
+      "cta",
+      "conversion"
+    ],
+    "props": {
+      "eyebrow": {
+        "type": "string"
+      },
+      "subtitle": {
+        "type": "string"
+      },
+      "badge": {
+        "type": "string"
+      },
+      "productName": {
+        "type": "string"
+      },
+      "currentPrice": {
+        "type": "string"
+      },
+      "originalPrice": {
+        "type": "string"
+      },
+      "defaultCollarImageUrl": {
+        "type": "string"
+      },
+      "colorOptions": {
+        "type": "array",
+        "itemShape": {
+          "key": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "swatchImageUrl": {
+            "type": "string"
+          },
+          "collarImageUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "features": {
+        "type": "array",
+        "itemShape": "string"
+      },
+      "cta": {
+        "type": "object",
+        "shape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "affirmCopy": {
+        "type": "string"
+      },
+      "guarantee": {
+        "type": "string"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPricingProductCard/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPricingProductCard/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: End-of-page conversion section for a hero product (one SKU, multiple colorways). Pairs well after a feature showcase. Avoid: When pricing varies by configuration (size, plan tier) — use a configurator instead. Original source pointer: pages/Lander-v2-2026/mutation.js#pricing"
+  },
+  {
+    "id": "ecomlanders-tock-halo-product-config-buy-stack",
+    "name": "HaloProductConfigBuyStack",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloProductConfigBuyStack",
+    "sourceType": "tock-component",
+    "description": "PDP right column: product title with trust badge, color picker (dispatches `halo:color-change` for sibling components), feature-icon grid, membership info, price, primary CTA, and a guarantee strip.",
+    "keywords": [
+      "pdp",
+      "buy-stack",
+      "color-picker",
+      "config",
+      "cart"
+    ],
+    "props": {
+      "productName": {
+        "type": "string"
+      },
+      "trustpilotReviews": {
+        "type": "string"
+      },
+      "colors": {
+        "type": "array",
+        "itemShape": {
+          "key": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "swatchImageUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "deliveryNote": {
+        "type": "string"
+      },
+      "features": {
+        "type": "array",
+        "itemShape": {
+          "iconUrl": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      },
+      "currentPrice": {
+        "type": "string"
+      },
+      "originalPrice": {
+        "type": "string"
+      },
+      "financingCopy": {
+        "type": "string"
+      },
+      "savingsBanner": {
+        "type": "string"
+      },
+      "cta": {
+        "type": "object",
+        "shape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "guarantee": {
+        "type": "string"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloProductConfigBuyStack/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloProductConfigBuyStack/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: PDP buy stack — pair with HaloProductGallery on the left for a full PDP. The component is self-contained except for cart wiring (the CTA is a plain link by default). Avoid: Catalog grids (this is a per-SKU module); pages without product config (use a slim CTA card instead). Original source pointer: pages/Lander-v2-2026/shop.html#product-config"
+  },
+  {
+    "id": "ecomlanders-tock-halo-product-gallery",
+    "name": "HaloProductGallery",
+    "family": "commerce",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloProductGallery",
+    "sourceType": "tock-component",
+    "description": "Waterfall product gallery: a stack of lifestyle images followed by a colorway-specific hero photo that swaps when a sibling color picker dispatches a `halo:color-change` event on `window`.",
+    "keywords": [
+      "gallery",
+      "product",
+      "pdp",
+      "lifestyle",
+      "color-sync"
+    ],
+    "props": {
+      "lifestyleImageUrls": {
+        "type": "array",
+        "itemShape": "string"
+      },
+      "colorways": {
+        "type": "array",
+        "itemShape": {
+          "key": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "defaultColorKey": {
+        "type": "string"
+      }
+    },
+    "interactions": [
+      "halo:color-change"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloProductGallery/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloProductGallery/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: PDP left column when the right column has a config/buy-stack with a color picker that should drive which colorway hero photo appears. Avoid: Single-colorway products (drop the colorway swap and use a static stack). Original source pointer: pages/Lander-v2-2026/shop.html#gallery"
+  },
+  {
+    "id": "ecomlanders-tock-halo-feature-flip-grid",
+    "name": "HaloFeatureFlipGrid",
+    "family": "content-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloFeatureFlipGrid",
+    "sourceType": "tock-component",
+    "description": "Horizontally-scrolling grid of large flip cards: each card shows a hero image + title on the front and a 3-D-flipped paragraph back on click.",
+    "keywords": [
+      "features",
+      "flip-cards",
+      "grid",
+      "scroll",
+      "showcase"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "cards": {
+        "type": "array",
+        "itemShape": {
+          "frontTitle": {
+            "type": "string"
+          },
+          "frontImageUrl": {
+            "type": "string"
+          },
+          "backParagraphs": {
+            "type": "array",
+            "itemShape": "string"
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloFeatureFlipGrid/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloFeatureFlipGrid/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Mid-page feature showcase when each feature has a strong product photo and a longer explanation worth a tap to reveal. Avoid: Mobile-first contexts where 3-D flip is awkward (the grid still scrolls horizontally but the flip feels heavy on a 5\" screen). Original source pointer: pages/Lander-v2-2026/mutation.js#features"
+  },
+  {
+    "id": "ecomlanders-tock-halo-how-it-works-grid",
+    "name": "HaloHowItWorksGrid",
+    "family": "content-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloHowItWorksGrid",
+    "sourceType": "tock-component",
+    "description": "Bento-grid of four steps explaining how the product works; each cell is a yellow circular icon, a heading, and a paragraph on a dark glass card.",
+    "keywords": [
+      "how-it-works",
+      "steps",
+      "grid",
+      "bento",
+      "icons",
+      "explainer"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "steps": {
+        "type": "array",
+        "itemShape": {
+          "iconKey": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloHowItWorksGrid/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloHowItWorksGrid/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: After the hero on a product or category page, when you need to explain a multi-step setup or workflow in a glanceable way. Avoid: When steps are sequential and need order numbers (use a numbered timeline instead), or when explanations need illustrations rather than icons. Original source pointer: pages/Lander-v2-2026/mutation.js#how-works"
+  },
+  {
+    "id": "ecomlanders-tock-halo-persona-grid",
+    "name": "HaloPersonaGrid",
+    "family": "content-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPersonaGrid",
+    "sourceType": "tock-component",
+    "description": "Two-column grid of persona cards, each a full-bleed photo with a gradient overlay carrying a tag and a one-paragraph description.",
+    "keywords": [
+      "personas",
+      "audience",
+      "grid",
+      "lifestyle",
+      "segmentation"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "personas": {
+        "type": "array",
+        "itemShape": {
+          "tag": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "image": {
+            "type": "object",
+            "shape": {
+              "assetId": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPersonaGrid/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPersonaGrid/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Mid-funnel sections that segment the audience visually ('who is this for?') with lifestyle imagery. Avoid: When personas don't have strong hero-quality photography, or when fewer than 3 personas are needed. Original source pointer: pages/Lander-v2-2026/mutation.js#who-is-for"
+  },
+  {
+    "id": "ecomlanders-tock-halo-tabbed-faq",
+    "name": "HaloTabbedFAQ",
+    "family": "content-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloTabbedFAQ",
+    "sourceType": "tock-component",
+    "description": "Tabbed FAQ with multiple categories; each tab opens its own accordion list of questions where exactly one item is expanded at a time.",
+    "keywords": [
+      "faq",
+      "accordion",
+      "tabs",
+      "questions"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "tabs": {
+        "type": "array",
+        "itemShape": {
+          "key": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "itemShape": {
+              "question": {
+                "type": "string"
+              },
+              "answers": {
+                "type": "array",
+                "itemShape": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloTabbedFAQ/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloTabbedFAQ/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: When the FAQ is large enough (10+ questions) that grouping by category makes the page scannable. A single-tab FAQ should just be a flat accordion. Avoid: When there are fewer than 5 questions per category (the tabs feel underweight); use a single accordion list instead. Original source pointer: pages/Lander-v2-2026/mutation.js#faq"
+  },
+  {
+    "id": "ecomlanders-tock-halo-main-nav",
+    "name": "HaloMainNav",
+    "family": "global-chrome",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloMainNav",
+    "sourceType": "tock-component",
+    "description": "Top-of-page navigation bar: logo on the left, a row of links (each optionally with a hover dropdown) in the middle, account dropdown + primary CTA on the right. Mobile collapses to a hamburger that opens a slide-in sidebar mirroring the same links.",
+    "keywords": [
+      "nav",
+      "header",
+      "top-bar",
+      "mega-menu",
+      "mobile-menu"
+    ],
+    "props": {
+      "logoUrl": {
+        "type": "string"
+      },
+      "logoHref": {
+        "type": "string"
+      },
+      "links": {
+        "type": "array",
+        "itemShape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          },
+          "dropdownItems": {
+            "type": "array",
+            "itemShape": {
+              "label": {
+                "type": "string"
+              },
+              "href": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "accountMenuItems": {
+        "type": "array",
+        "itemShape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "cta": {
+        "type": "object",
+        "shape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloMainNav/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloMainNav/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Default sitewide top nav for any page that needs both desktop and mobile navigation surfaces. Avoid: Application shells with a left rail (this is a top bar); single-page promo landers (use a slim CTA-only bar instead). Original source pointer: pages/Lander-v2-2026/mutation.js#nav"
+  },
+  {
+    "id": "ecomlanders-tock-halo-past-gen-banner",
+    "name": "HaloPastGenBanner",
+    "family": "global-chrome",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPastGenBanner",
+    "sourceType": "tock-component",
+    "description": "Single full-bleed banner card with a product photo on the left and an overlay with pill label, two-line headline, price stack, and CTA on the right.",
+    "keywords": [
+      "banner",
+      "promo",
+      "previous-generation",
+      "sale",
+      "single-cta"
+    ],
+    "props": {
+      "pillLabel": {
+        "type": "string"
+      },
+      "headlineLead": {
+        "type": "string"
+      },
+      "savings": {
+        "type": "string"
+      },
+      "headlineTail": {
+        "type": "string"
+      },
+      "currentPrice": {
+        "type": "string"
+      },
+      "originalPrice": {
+        "type": "string"
+      },
+      "productImage": {
+        "type": "object",
+        "shape": {
+          "assetId": {
+            "type": "string"
+          }
+        }
+      },
+      "cta": {
+        "type": "object",
+        "shape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPastGenBanner/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPastGenBanner/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Surface a markdown or previous-generation SKU on a primary landing page without giving it its own full section. Avoid: When you have more than one offer (use a grid of cards), or when the offer needs more than ~12 words of body copy. Original source pointer: pages/Lander-v2-2026/mutation.js#past-gen-section"
+  },
+  {
+    "id": "ecomlanders-tock-halo-promo-banner",
+    "name": "HaloPromoBanner",
+    "family": "global-chrome",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPromoBanner",
+    "sourceType": "tock-component",
+    "description": "Slim top-of-page banner that rotates between one or more short promo messages on a timer.",
+    "keywords": [
+      "banner",
+      "promo",
+      "announcement",
+      "rotator",
+      "top-strip"
+    ],
+    "props": {
+      "messages": {
+        "type": "array",
+        "itemShape": {
+          "text": {
+            "type": "string"
+          }
+        }
+      },
+      "rotationMs": {
+        "type": "number"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPromoBanner/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloPromoBanner/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Sitewide announcement strip above the nav for time-sensitive offers, guarantees, or shipping notes. Avoid: When the message is permanent (use a static band instead) or when more than ~80 characters per message is needed. Original source pointer: pages/Lander-v2-2026/mutation.js#promo-banner"
+  },
+  {
+    "id": "ecomlanders-tock-halo-site-footer",
+    "name": "HaloSiteFooter",
+    "family": "global-chrome",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloSiteFooter",
+    "sourceType": "tock-component",
+    "description": "Full sitewide footer: logo + social icon row across the top, a responsive multi-column link grid below, and a bottom legal strip with copyright, legal links, and an optional light/dark theme toggle.",
+    "keywords": [
+      "footer",
+      "site-footer",
+      "social",
+      "legal",
+      "theme-toggle"
+    ],
+    "props": {
+      "logoUrl": {
+        "type": "string"
+      },
+      "socials": {
+        "type": "array",
+        "itemShape": {
+          "platform": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "columns": {
+        "type": "array",
+        "itemShape": {
+          "heading": {
+            "type": "string"
+          },
+          "links": {
+            "type": "array",
+            "itemShape": {
+              "label": {
+                "type": "string"
+              },
+              "href": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "copyright": {
+        "type": "string"
+      },
+      "legalLinks": {
+        "type": "array",
+        "itemShape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "showThemeToggle": {
+        "type": "boolean"
+      }
+    },
+    "interactions": [
+      "data-attribute state hooks"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloSiteFooter/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloSiteFooter/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Bottom-of-page footer for any sitewide layout. The column model is data-driven, so consumers control the number and content of columns. Avoid: Single-page-app dashboards where a footer would compete with workspace controls. Original source pointer: pages/Lander-v2-2026/mutation.js#footer"
+  },
+  {
+    "id": "ecomlanders-tock-halo-sticky-anchor-nav",
+    "name": "HaloStickyAnchorNav",
+    "family": "global-chrome",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloStickyAnchorNav",
+    "sourceType": "tock-component",
+    "description": "Slim sticky strip that appears at the top of the viewport once the user scrolls past the hero; shows a product name, in-page anchor links, an optional price stack, and a small CTA button.",
+    "keywords": [
+      "nav",
+      "sticky",
+      "in-page",
+      "anchor",
+      "scroll-spy"
+    ],
+    "props": {
+      "productName": {
+        "type": "string"
+      },
+      "anchors": {
+        "type": "array",
+        "itemShape": {
+          "label": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        }
+      },
+      "currentPrice": {
+        "type": "string"
+      },
+      "originalPrice": {
+        "type": "string"
+      },
+      "cta": {
+        "type": "object",
+        "shape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "revealAfterPx": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "scroll"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloStickyAnchorNav/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloStickyAnchorNav/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Long single-product landing pages where the reader needs a persistent way to jump between sections and add to cart without scrolling back to the main nav. Avoid: Pages with fewer than 3 long-form sections (the nav has nothing to anchor); mobile-only pages (this control is desktop-first). Original source pointer: pages/Lander-v2-2026/mutation.js#section-nav"
+  },
+  {
+    "id": "ecomlanders-tock-halo-app-feature-carousel",
+    "name": "HaloAppFeatureCarousel",
+    "family": "marketing-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloAppFeatureCarousel",
+    "sourceType": "tock-component",
+    "description": "Wide horizontally-scrolling carousel of app-screenshot cards with desktop + mobile image variants, a title, and a paragraph caption per card.",
+    "keywords": [
+      "app",
+      "carousel",
+      "screenshots",
+      "horizontal-scroll",
+      "features"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "cards": {
+        "type": "array",
+        "itemShape": {
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "imageDesktopUrl": {
+            "type": "string"
+          },
+          "imageMobileUrl": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloAppFeatureCarousel/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloAppFeatureCarousel/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Mid-page section that walks through features of a companion app or product surface, when each feature has its own screenshot. Avoid: When you only have a single image (use a static figure instead) or when screenshots are very small (these cards are wide). Original source pointer: pages/Lander-v2-2026/mutation.js#halo-app"
+  },
+  {
+    "id": "ecomlanders-tock-halo-blur-carousel",
+    "name": "HaloBlurCarousel",
+    "family": "marketing-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBlurCarousel",
+    "sourceType": "tock-component",
+    "description": "Horizontal carousel of tall image-and-caption tiles with prev/next nav and a viewport-aware boundary (the next button disables exactly when the last tile is fully visible).",
+    "keywords": [
+      "carousel",
+      "features",
+      "image-cards",
+      "blur",
+      "horizontal-scroll"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "slides": {
+        "type": "array",
+        "itemShape": {
+          "imageUrl": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interactions": [
+      "resize"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBlurCarousel/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloBlurCarousel/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Mid-page features overview when each feature has a strong photo (lifestyle or detail shot) and a one-line caption; works with 4–8 slides. Avoid: When features need rich descriptions (the captions are intentionally tight), or when you have fewer than 4 slides (use a static grid instead). Original source pointer: pages/Lander-v2-2026/mutation.js#blur-carousel-section"
+  },
+  {
+    "id": "ecomlanders-tock-halo-hero-split-video",
+    "name": "HaloHeroSplitVideo",
+    "family": "marketing-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloHeroSplitVideo",
+    "sourceType": "tock-component",
+    "description": "Full-bleed dark hero with a background image, a left-aligned headline + subhead + primary CTA, and a right-aligned auto-playing video preview that links out to a full YouTube watch.",
+    "keywords": [
+      "hero",
+      "video",
+      "split",
+      "landing",
+      "above-the-fold"
+    ],
+    "props": {
+      "headlineLineOne": {
+        "type": "string"
+      },
+      "headlineLineTwo": {
+        "type": "string"
+      },
+      "headlineSuffix": {
+        "type": "string"
+      },
+      "subhead": {
+        "type": "string"
+      },
+      "cta": {
+        "type": "object",
+        "shape": {
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "backgroundImageUrl": {
+        "type": "string"
+      },
+      "videoSrc": {
+        "type": "string"
+      },
+      "videoLinkHref": {
+        "type": "string"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloHeroSplitVideo/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloHeroSplitVideo/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Top-of-page hero for product launches where you have both a great photo and a short hero video; mixes the emotional weight of a hero shot with a glanceable motion preview. Avoid: When you don't have video assets ready, or when the page is content-first (a static hero is calmer). Original source pointer: pages/Lander-v2-2026/mutation.js#hero"
+  },
+  {
+    "id": "ecomlanders-tock-halo-video-spotlight",
+    "name": "HaloVideoSpotlight",
+    "family": "marketing-sections",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloVideoSpotlight",
+    "sourceType": "tock-component",
+    "description": "Tall full-bleed band with a left-aligned multi-line headline and a big round play button that opens a YouTube embed in a fullscreen lightbox.",
+    "keywords": [
+      "video",
+      "lightbox",
+      "youtube",
+      "spotlight",
+      "watch"
+    ],
+    "props": {
+      "titleLines": {
+        "type": "array",
+        "itemShape": "string"
+      },
+      "buttonLabel": {
+        "type": "string"
+      },
+      "youtubeId": {
+        "type": "string"
+      },
+      "backgroundImageUrl": {
+        "type": "string"
+      }
+    },
+    "interactions": [
+      "keydown"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloVideoSpotlight/tock-component.json",
+      "repos/ecomlanders/pages/Lander-v2-2026/tock-components/HaloVideoSpotlight/template.tsx"
+    ],
+    "reviewStatus": "keep",
+    "notes": "Use: Mid-page hand-off to a product video — when you want the headline to read like 'Watch X in action' and a single tap to open the player. Avoid: When the video should auto-play inline (use a hero with embedded video instead). Original source pointer: pages/Lander-v2-2026/mutation.js#watch-action-section"
+  },
+  {
+    "id": "ecomlanders-commerce-color-swatch-selector",
+    "name": "Color Swatch Selector",
+    "family": "plan-selector",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Color swatch selector and selected-color label",
+    "keywords": [
+      "commerce",
+      "swatch",
+      "color"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "swatch"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-addon-add-remove-state",
+    "name": "Addon Add Remove State",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/lander-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Add-on add/remove state",
+    "keywords": [
+      "commerce",
+      "addon",
+      "state"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "state"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-addon-card",
+    "name": "Addon Card",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/lander-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Add-on card pattern from lander-2026 and new-halo shop demos",
+    "keywords": [
+      "commerce",
+      "addon",
+      "bundle"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-addon-expanded-details",
+    "name": "Addon Expanded Details",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/lander-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Add-on expanded details state",
+    "keywords": [
+      "commerce",
+      "addon",
+      "details",
+      "expanded"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "expanded"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-box-modal",
+    "name": "Box Modal",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "What-is-in-the-box modal",
+    "keywords": [
+      "commerce",
+      "modal",
+      "box"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "modal"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-included-modal",
+    "name": "Included Modal",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "What-is-included modal",
+    "keywords": [
+      "commerce",
+      "modal",
+      "included"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "modal"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-price-display",
+    "name": "Price Display",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Price display with current/original/savings states",
+    "keywords": [
+      "commerce",
+      "price",
+      "savings"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "ecomlanders-commerce-promo-code-states",
+    "name": "Promo Code States",
+    "family": "reference",
+    "sourceRepo": "ecomlanders",
+    "sourcePath": "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+    "sourceType": "commerce-pattern",
+    "description": "Promo code collapsed, expanded, success, and error states",
+    "keywords": [
+      "commerce",
+      "promo",
+      "discount",
+      "error"
+    ],
+    "props": {
+      "state": {
+        "type": "object",
+        "note": "Infer concrete fields during component extraction from shop.html/shop.js state."
+      }
+    },
+    "interactions": [
+      "promo"
+    ],
+    "extractedFrom": [
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v3-2026/shop.js",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.html",
+      "repos/ecomlanders/pages/Lander-v2-2026/shop.js",
+      "repos/ecomlanders/pages/lander-2026/shop.html",
+      "repos/ecomlanders/pages/lander-2026/shop.js"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Pattern-level inventory entry requested by spec; preserve V3 as primary behavior/style reference and lander-2026 add-on patterns."
+  },
+  {
+    "id": "halo-plan-selector-app",
+    "name": "App",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with billing cadence, Bronze/Silver/Gold tiers, multi-collar quantity, Halo Care toggle/pricing, order summary, checkout step, comparison rows behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing",
+      "billing-cadence",
+      "bronze-silver-gold-tiers",
+      "multi-collar-quantity",
+      "halo-care-toggle-pricing",
+      "order-summary",
+      "checkout-step",
+      "comparison-rows"
+    ],
+    "props": {
+      "internalComponents": {
+        "type": "array",
+        "values": [
+          "App",
+          "AppV1MultiStep"
+        ]
+      }
+    },
+    "interactions": [
+      "billing cadence",
+      "Bronze/Silver/Gold tiers",
+      "multi-collar quantity",
+      "Halo Care toggle/pricing",
+      "order summary",
+      "checkout step",
+      "comparison rows"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: button, card, badge, radio-group, label, input, checkbox, accordion."
+  },
+  {
+    "id": "halo-plan-selector-app-original",
+    "name": "AppOriginal",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/AppOriginal.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with billing cadence, Bronze/Silver/Gold tiers, Halo Care toggle/pricing, order summary, checkout step behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing",
+      "billing-cadence",
+      "bronze-silver-gold-tiers",
+      "halo-care-toggle-pricing",
+      "order-summary",
+      "checkout-step"
+    ],
+    "props": {},
+    "interactions": [
+      "billing cadence",
+      "Bronze/Silver/Gold tiers",
+      "Halo Care toggle/pricing",
+      "order summary",
+      "checkout step"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/AppOriginal.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: button, card, badge, radio-group, label, input, checkbox, accordion."
+  },
+  {
+    "id": "halo-plan-selector-app-v1",
+    "name": "AppV1",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/AppV1.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with membership selection behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/AppV1.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: none detected."
+  },
+  {
+    "id": "halo-plan-selector-app-v1-multi-step",
+    "name": "AppV1MultiStep",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with membership selection behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: none detected."
+  },
+  {
+    "id": "halo-plan-selector-app-v2",
+    "name": "AppV2",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/AppV2.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with billing cadence, Bronze/Silver/Gold tiers, multi-collar quantity, Halo Care toggle/pricing, order summary, checkout step, comparison rows behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing",
+      "billing-cadence",
+      "bronze-silver-gold-tiers",
+      "multi-collar-quantity",
+      "halo-care-toggle-pricing",
+      "order-summary",
+      "checkout-step",
+      "comparison-rows"
+    ],
+    "props": {
+      "internalComponents": {
+        "type": "array",
+        "values": [
+          "AppV2"
+        ]
+      }
+    },
+    "interactions": [
+      "billing cadence",
+      "Bronze/Silver/Gold tiers",
+      "multi-collar quantity",
+      "Halo Care toggle/pricing",
+      "order summary",
+      "checkout step",
+      "comparison rows"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/AppV2.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: button, card, badge, radio-group, label, input, checkbox, accordion."
+  },
+  {
+    "id": "halo-plan-selector-app-v3",
+    "name": "AppV3",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/AppV3.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with billing cadence, Bronze/Silver/Gold tiers, multi-collar quantity, Halo Care toggle/pricing, mobile sticky CTA, checkout step, comparison rows behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing",
+      "billing-cadence",
+      "bronze-silver-gold-tiers",
+      "multi-collar-quantity",
+      "halo-care-toggle-pricing",
+      "mobile-sticky-cta",
+      "checkout-step",
+      "comparison-rows"
+    ],
+    "props": {
+      "internalComponents": {
+        "type": "array",
+        "values": [
+          "AppV3"
+        ]
+      }
+    },
+    "interactions": [
+      "billing cadence",
+      "Bronze/Silver/Gold tiers",
+      "multi-collar quantity",
+      "Halo Care toggle/pricing",
+      "mobile sticky CTA",
+      "checkout step",
+      "comparison rows"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/AppV3.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: none detected."
+  },
+  {
+    "id": "halo-plan-selector-app-v4",
+    "name": "AppV4",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/AppV4.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with billing cadence, Bronze/Silver/Gold tiers, multi-collar quantity, Halo Care toggle/pricing, order summary, mobile sticky CTA, checkout step, comparison rows behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing",
+      "billing-cadence",
+      "bronze-silver-gold-tiers",
+      "multi-collar-quantity",
+      "halo-care-toggle-pricing",
+      "order-summary",
+      "mobile-sticky-cta",
+      "checkout-step",
+      "comparison-rows"
+    ],
+    "props": {
+      "internalComponents": {
+        "type": "array",
+        "values": [
+          "AppV4"
+        ]
+      }
+    },
+    "interactions": [
+      "billing cadence",
+      "Bronze/Silver/Gold tiers",
+      "multi-collar quantity",
+      "Halo Care toggle/pricing",
+      "order summary",
+      "mobile sticky CTA",
+      "checkout step",
+      "comparison rows"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/AppV4.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: accordion."
+  },
+  {
+    "id": "halo-plan-selector-feature-continue-to-payment-cta",
+    "name": "Continue To Payment Cta",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Continue-to-payment CTA",
+    "keywords": [
+      "plan-selector",
+      "cta",
+      "checkout"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "cta",
+      "checkout"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-halo-care-toggle",
+    "name": "Halo Care Toggle",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Halo Care toggle and pricing",
+    "keywords": [
+      "plan-selector",
+      "halo-care",
+      "toggle",
+      "pricing"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "halo-care",
+      "toggle",
+      "pricing"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-order-summary-rail",
+    "name": "Order Summary Rail",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Order summary rail",
+    "keywords": [
+      "plan-selector",
+      "summary",
+      "pricing"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "summary",
+      "pricing"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-version-selector",
+    "name": "VersionSelector",
+    "family": "commerce",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/VersionSelector.tsx",
+    "sourceType": "react-app-variant",
+    "description": "Plan selector app variant with Halo Care toggle/pricing, order summary, mobile sticky CTA, checkout step, comparison rows behavior.",
+    "keywords": [
+      "plan-selector",
+      "membership",
+      "react",
+      "billing",
+      "halo-care-toggle-pricing",
+      "order-summary",
+      "mobile-sticky-cta",
+      "checkout-step",
+      "comparison-rows"
+    ],
+    "props": {
+      "internalComponents": {
+        "type": "array",
+        "values": [
+          "VersionSelector"
+        ]
+      }
+    },
+    "interactions": [
+      "Halo Care toggle/pricing",
+      "order summary",
+      "mobile sticky CTA",
+      "checkout step",
+      "comparison rows"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Imported UI primitives: button, card."
+  },
+  {
+    "id": "halo-plan-selector-ui-navigation-menu",
+    "name": "Navigation Menu",
+    "family": "global-chrome",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/navigation-menu.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "navigation-menu"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/navigation-menu.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-carousel",
+    "name": "Carousel",
+    "family": "marketing-sections",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/carousel.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "carousel"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/carousel.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-feature-billing-cadence-selector",
+    "name": "Billing Cadence Selector",
+    "family": "plan-selector",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Billing cadence selector: monthly, annual, two-year",
+    "keywords": [
+      "plan-selector",
+      "monthly",
+      "annual",
+      "two-year"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "monthly",
+      "annual",
+      "two-year"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-halo-care-benefits",
+    "name": "Halo Care Benefits",
+    "family": "plan-selector",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Halo Care benefit/discount module",
+    "keywords": [
+      "plan-selector",
+      "halo-care",
+      "benefits",
+      "discount"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "halo-care",
+      "benefits",
+      "discount"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-mobile-sticky-summary",
+    "name": "Mobile Sticky Summary",
+    "family": "plan-selector",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Mobile sticky summary/CTA pattern",
+    "keywords": [
+      "plan-selector",
+      "mobile",
+      "sticky",
+      "summary"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "mobile",
+      "sticky",
+      "summary"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-multi-collar-quantity",
+    "name": "Multi Collar Quantity",
+    "family": "plan-selector",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Multi-collar quantity controls",
+    "keywords": [
+      "plan-selector",
+      "quantity",
+      "multi-collar"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "quantity",
+      "multi-collar"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-plan-tier-selector",
+    "name": "Plan Tier Selector",
+    "family": "plan-selector",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Bronze/Silver/Gold plan selector",
+    "keywords": [
+      "plan-selector",
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-feature-tier-comparison-rows",
+    "name": "Tier Comparison Rows",
+    "family": "plan-selector",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/App*.tsx",
+    "sourceType": "react-feature-pattern",
+    "description": "Tier comparison rows with included/excluded states",
+    "keywords": [
+      "plan-selector",
+      "comparison",
+      "included",
+      "excluded"
+    ],
+    "props": {
+      "selectedPlan": {
+        "type": "bronze | silver | gold"
+      },
+      "billingFrequency": {
+        "type": "monthly | annual | two-year"
+      },
+      "collarCount": {
+        "type": "number"
+      }
+    },
+    "interactions": [
+      "comparison",
+      "included",
+      "excluded"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/App.tsx",
+      "repos/halo-plan-selector/src/AppOriginal.tsx",
+      "repos/halo-plan-selector/src/AppV1.tsx",
+      "repos/halo-plan-selector/src/AppV1MultiStep.tsx",
+      "repos/halo-plan-selector/src/AppV2.tsx",
+      "repos/halo-plan-selector/src/AppV3.tsx",
+      "repos/halo-plan-selector/src/AppV4.tsx",
+      "repos/halo-plan-selector/src/VersionSelector.tsx"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Feature-level extraction target inferred from app variants and project spec."
+  },
+  {
+    "id": "halo-plan-selector-ui-accordion",
+    "name": "Accordion",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/accordion.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "accordion"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/accordion.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-alert",
+    "name": "Alert",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/alert.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "alert"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/alert.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-alert-dialog",
+    "name": "Alert Dialog",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/alert-dialog.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "alert-dialog"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/alert-dialog.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-aspect-ratio",
+    "name": "Aspect Ratio",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/aspect-ratio.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "aspect-ratio"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/aspect-ratio.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-avatar",
+    "name": "Avatar",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/avatar.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "avatar"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/avatar.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-badge",
+    "name": "Badge",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/badge.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "badge"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/badge.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-breadcrumb",
+    "name": "Breadcrumb",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/breadcrumb.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "breadcrumb"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/breadcrumb.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-button",
+    "name": "Button",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/button.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "button"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/button.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-calendar",
+    "name": "Calendar",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/calendar.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "calendar"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/calendar.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-card",
+    "name": "Card",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/card.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "card"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/card.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-carrier-logos",
+    "name": "Carrier Logos",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/CarrierLogos.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "CarrierLogos"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/CarrierLogos.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-chart",
+    "name": "Chart",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/chart.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "chart"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/chart.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-checkbox",
+    "name": "Checkbox",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/checkbox.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "checkbox"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/checkbox.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-collapsible",
+    "name": "Collapsible",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/collapsible.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "collapsible"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/collapsible.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-command",
+    "name": "Command",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/command.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "command"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/command.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-context-menu",
+    "name": "Context Menu",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/context-menu.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "context-menu"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/context-menu.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-dialog",
+    "name": "Dialog",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/dialog.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "dialog"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/dialog.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-drawer",
+    "name": "Drawer",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/drawer.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "drawer"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/drawer.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-dropdown-menu",
+    "name": "Dropdown Menu",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/dropdown-menu.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "dropdown-menu"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/dropdown-menu.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-form",
+    "name": "Form",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/form.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "form"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/form.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-hover-card",
+    "name": "Hover Card",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/hover-card.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "hover-card"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/hover-card.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-image-with-fallback",
+    "name": "Image With Fallback",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/figma/ImageWithFallback.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "ImageWithFallback"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/figma/ImageWithFallback.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-input",
+    "name": "Input",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/input.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "input"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/input.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-input-otp",
+    "name": "Input Otp",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/input-otp.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "input-otp"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/input-otp.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-label",
+    "name": "Label",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/label.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "label"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/label.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-menubar",
+    "name": "Menubar",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/menubar.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "menubar"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/menubar.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-pagination",
+    "name": "Pagination",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/pagination.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "pagination"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/pagination.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-popover",
+    "name": "Popover",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/popover.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "popover"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/popover.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-progress",
+    "name": "Progress",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/progress.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "progress"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/progress.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-radio-group",
+    "name": "Radio Group",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/radio-group.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "radio-group"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/radio-group.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-resizable",
+    "name": "Resizable",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/resizable.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "resizable"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/resizable.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-scroll-area",
+    "name": "Scroll Area",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/scroll-area.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "scroll-area"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/scroll-area.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-select",
+    "name": "Select",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/select.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "select"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/select.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-separator",
+    "name": "Separator",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/separator.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "separator"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/separator.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-sheet",
+    "name": "Sheet",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/sheet.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "sheet"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/sheet.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-sidebar",
+    "name": "Sidebar",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/sidebar.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "sidebar"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/sidebar.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-skeleton",
+    "name": "Skeleton",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/skeleton.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "skeleton"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/skeleton.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-slider",
+    "name": "Slider",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/slider.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "slider"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/slider.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-sonner",
+    "name": "Sonner",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/sonner.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "sonner"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/sonner.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-switch",
+    "name": "Switch",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/switch.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "switch"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/switch.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-table",
+    "name": "Table",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/table.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "table"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/table.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-tabs",
+    "name": "Tabs",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/tabs.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "tabs"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/tabs.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-textarea",
+    "name": "Textarea",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/textarea.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "textarea"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/textarea.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-toggle",
+    "name": "Toggle",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/toggle.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "toggle"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/toggle.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-toggle-group",
+    "name": "Toggle Group",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/toggle-group.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "toggle-group"
+    ],
+    "props": {},
+    "interactions": [
+      "stateful UI primitive"
+    ],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/toggle-group.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-tooltip",
+    "name": "Tooltip",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/tooltip.tsx",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "tooltip"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/tooltip.tsx"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-use-mobile",
+    "name": "Use Mobile",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/use-mobile.ts",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "use-mobile"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/use-mobile.ts"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "halo-plan-selector-ui-utils",
+    "name": "Utils",
+    "family": "reference",
+    "sourceRepo": "halo-plan-selector",
+    "sourcePath": "repos/halo-plan-selector/src/components/ui/utils.ts",
+    "sourceType": "react-ui-component",
+    "description": "Reusable UI primitive used by the plan selector React app.",
+    "keywords": [
+      "ui",
+      "react",
+      "utils"
+    ],
+    "props": {},
+    "interactions": [],
+    "extractedFrom": [
+      "repos/halo-plan-selector/src/components/ui/utils.ts"
+    ],
+    "reviewStatus": "merge",
+    "notes": "Merge into shared UI primitives rather than treating as Halo-specific content by default."
+  },
+  {
+    "id": "new-halo-reference-assets",
+    "name": "New Halo Reference Assets",
+    "family": "reference",
+    "sourceRepo": "new-halo",
+    "sourcePath": "repos/new-halo/assets",
+    "sourceType": "reference-assets",
+    "description": "Reference image/video assets from older Halo exploratory work.",
+    "keywords": [
+      "reference",
+      "assets",
+      "images",
+      "older-source"
+    ],
+    "props": {
+      "assetCount": {
+        "type": "number",
+        "value": 21
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/new-halo/assets/images/BG_house 1.jpg",
+      "repos/new-halo/assets/images/Gemini Generated Image (3).jpeg",
+      "repos/new-halo/assets/images/Gemini Generated Image (4).jpeg",
+      "repos/new-halo/assets/images/Gemini Generated Image (5).jpeg",
+      "repos/new-halo/assets/images/app.jpeg",
+      "repos/new-halo/assets/images/backyard-fence-graphic.jpeg",
+      "repos/new-halo/assets/images/bc-pink.png",
+      "repos/new-halo/assets/images/border-collie.jpg",
+      "repos/new-halo/assets/images/browndog.jpg",
+      "repos/new-halo/assets/images/fence-arial.jpeg",
+      "repos/new-halo/assets/images/fence-dog.jpeg",
+      "repos/new-halo/assets/images/fence-wide.jpeg",
+      "repos/new-halo/assets/images/flowers.png",
+      "repos/new-halo/assets/images/golden.jpg",
+      "repos/new-halo/assets/images/hammock.png",
+      "repos/new-halo/assets/images/in-yard.jpeg",
+      "repos/new-halo/assets/images/multi-dog.jpg",
+      "repos/new-halo/assets/images/pug-transparent.png",
+      "repos/new-halo/assets/images/realtree.png",
+      "repos/new-halo/assets/images/training.jpeg",
+      "repos/new-halo/assets/videos/GIF image.gif"
+    ],
+    "reviewStatus": "archive",
+    "notes": "Reference/older source; do not promote to canonical without design review."
+  },
+  {
+    "id": "new-halo-reference-pages",
+    "name": "New Halo Reference Pages",
+    "family": "reference",
+    "sourceRepo": "new-halo",
+    "sourcePath": "repos/new-halo",
+    "sourceType": "reference-html",
+    "description": "Older landing/shop reference pages for visual and interaction comparison.",
+    "keywords": [
+      "reference",
+      "older-source",
+      "landing",
+      "shop"
+    ],
+    "props": {},
+    "interactions": [
+      "shop configurator reference",
+      "older landing interactions"
+    ],
+    "extractedFrom": [
+      "repos/new-halo/index.html",
+      "repos/new-halo/shop.html"
+    ],
+    "reviewStatus": "archive",
+    "notes": "Reference/older source. Archive status is intentional; use only to fill gaps."
+  },
+  {
+    "id": "packperks-account-shell",
+    "name": "Account Shell",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Account shell and dashboard layout",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "account",
+      "shell"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/index.html",
+      "repos/packperks/pack-perks-list.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-account-summary-cards",
+    "name": "Account Summary Cards",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Account summary cards",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "account",
+      "summary",
+      "cards"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/index.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-billing-interval-module",
+    "name": "Billing Interval Module",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Billing interval module",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "billing",
+      "interval",
+      "module"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-cancellation-save-flow",
+    "name": "Cancellation Save Flow",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/cancellation.html",
+    "sourceType": "html-page-pattern",
+    "description": "Cancellation save flow",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "cancellation",
+      "save",
+      "flow"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [
+      "multi-step save flow"
+    ],
+    "extractedFrom": [
+      "repos/packperks/cancellation.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-filter-pills",
+    "name": "Filter Pills",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks",
+    "sourceType": "html-page-pattern",
+    "description": "Filter pills",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "filter",
+      "pills"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [
+      "filter selection"
+    ],
+    "extractedFrom": [
+      "repos/packperks/**/*.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-offer-card",
+    "name": "Offer Card",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/marketing-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Offer card",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "offer",
+      "card"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/offer-detail.html",
+      "repos/packperks/pack-perks-list.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-offer-detail-redemption",
+    "name": "Offer Detail Redemption",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Offer detail / redemption modal",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "offer",
+      "detail",
+      "redemption"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [
+      "modal open/close",
+      "redemption state"
+    ],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/offer-detail.html",
+      "repos/packperks/pack-perks-list.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-partner-offer-grid",
+    "name": "Partner Offer Grid",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/marketing-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Partner offer grid",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "partner",
+      "offer",
+      "grid"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/offer-detail.html",
+      "repos/packperks/pack-perks-list.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-tier-benefit-matrix",
+    "name": "Tier Benefit Matrix",
+    "family": "account-pack-perks",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/marketing-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Tier benefit matrix",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "tier",
+      "benefit",
+      "matrix"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/pack-perks-list.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-membership-selection",
+    "name": "Membership Selection",
+    "family": "commerce",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Membership selection page components",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "membership",
+      "selection"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/cancellation.html",
+      "repos/packperks/index.html",
+      "repos/packperks/membership-selection.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-pack-membership-module",
+    "name": "Pack Membership Module",
+    "family": "commerce",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Pack Membership account module",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "pack",
+      "membership",
+      "module"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/cancellation.html",
+      "repos/packperks/index.html",
+      "repos/packperks/membership-selection.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-featured-benefits",
+    "name": "Featured Benefits",
+    "family": "content-sections",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/marketing-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Featured benefits section",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "featured",
+      "benefits"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/pack-perks-list.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-pack-perks-banner",
+    "name": "Pack Perks Banner",
+    "family": "global-chrome",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Pack Perks account banner",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "pack",
+      "perks",
+      "banner"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/cancellation.html",
+      "repos/packperks/index.html",
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/membership-selection.html",
+      "repos/packperks/offer-detail.html",
+      "repos/packperks/pack-perks-list.html",
+      "repos/packperks/partials/nav.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-logged-in-pack-perks-hero",
+    "name": "Logged In Pack Perks Hero",
+    "family": "marketing-sections",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Logged-in Pack Perks hero",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "logged",
+      "in",
+      "pack",
+      "perks",
+      "hero"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/cancellation.html",
+      "repos/packperks/index.html",
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/membership-selection.html",
+      "repos/packperks/offer-detail.html",
+      "repos/packperks/pack-perks-list.html",
+      "repos/packperks/partials/nav.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  },
+  {
+    "id": "packperks-pack-perks-marketing-hero",
+    "name": "Pack Perks Marketing Hero",
+    "family": "marketing-sections",
+    "sourceRepo": "packperks",
+    "sourcePath": "repos/packperks/account-perks-v2.html",
+    "sourceType": "html-page-pattern",
+    "description": "Pack Perks marketing hero and section family",
+    "keywords": [
+      "pack-perks",
+      "account",
+      "pack",
+      "perks",
+      "marketing",
+      "hero"
+    ],
+    "props": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "itemShape": "content records inferred from matching HTML sections"
+      }
+    },
+    "interactions": [],
+    "extractedFrom": [
+      "repos/packperks/account-perks-v2.html",
+      "repos/packperks/account-perks.html",
+      "repos/packperks/cancellation.html",
+      "repos/packperks/index.html",
+      "repos/packperks/marketing-v2.html",
+      "repos/packperks/marketing-v3.html",
+      "repos/packperks/marketing.html",
+      "repos/packperks/membership-selection.html",
+      "repos/packperks/offer-detail.html",
+      "repos/packperks/pack-perks-list.html",
+      "repos/packperks/partials/nav.html"
+    ],
+    "reviewStatus": "adapt",
+    "notes": "Inferred from Pack Perks static HTML pages; validate exact fields during component extraction."
+  }
+]
