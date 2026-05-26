@@ -1,5 +1,24 @@
 (function () {
   const pagePath = window.location.pathname.replace(/\/index\.html$/, "/");
+  const sharedChromePages = new Set([
+    'home.html',
+    'shop-wireless-dog-fence.html',
+    'accessories.html',
+    'beacons.html',
+    'how-it-works.html',
+    'reviews.html',
+    'deals.html',
+    'pack-perks-marketing.html',
+    'pack-perks-marketing-v2.html',
+    'pack-perks.html',
+    'pack-perks-list.html',
+    'account.html',
+    'account-perks.html',
+    'membership-selection.html',
+    'offer-detail.html',
+    'cancellation.html',
+    'style-guide.html'
+  ]);
 
   function getRootPrefix() {
     const parts = window.location.pathname.split('/').filter(Boolean);
@@ -17,11 +36,11 @@
   function normalizeHaloChrome() {
     const fileName = currentFileName();
     ensureSharedChromeAssets();
-    normalizeHaloPromo();
     const preservesSourceNav = fileName === 'home.html' || fileName === 'shop-wireless-dog-fence.html';
+    const shouldUseSharedChrome = sharedChromePages.has(fileName);
     const nav = preservesSourceNav ? null : document.querySelector('nav.nav, nav.halo-navigation');
-    const footer = document.querySelector('footer.footer, footer.footer-demo');
-    if (!nav && !footer) return;
+    const footer = document.querySelector('footer.footer, footer.footer-demo, footer.foot');
+    if (!nav && !footer && !shouldUseSharedChrome) return;
 
     const basePath = getRootPrefix();
     const href = (path) => `${basePath}${path}`;
@@ -255,8 +274,21 @@
       </footer>
     `;
 
-    if (nav && !preservesSourceNav) nav.outerHTML = navHtml;
-    if (footer) footer.outerHTML = footerHtml;
+    if (!preservesSourceNav) {
+      if (nav) {
+        nav.outerHTML = navHtml;
+      } else if (shouldUseSharedChrome) {
+        document.body.insertAdjacentHTML('afterbegin', navHtml);
+      }
+    }
+
+    if (footer) {
+      footer.outerHTML = footerHtml;
+    } else if (shouldUseSharedChrome) {
+      document.body.insertAdjacentHTML('beforeend', footerHtml);
+    }
+
+    normalizeHaloPromo();
   }
 
   function normalizeHaloPromo() {
@@ -307,6 +339,13 @@
   function ensureSharedChromeAssets() {
     const basePath = getRootPrefix();
     const href = (path) => `${basePath}${path}`;
+
+    if (!document.querySelector('link[href*="components.css"]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = href('css/components.css');
+      document.head.appendChild(link);
+    }
 
     if (!document.querySelector('link[href*="v3-nav.css"]')) {
       const link = document.createElement('link');
@@ -489,36 +528,32 @@
         <div class="workbench-drawer__content">
           <div class="workbench-drawer__section">
             <h3>Main Website</h3>
-            <a class="workbench-drawer__link" href="${href('pages/home.html')}">Homepage</a>
-            <a class="workbench-drawer__link" href="${href('pages/shop-wireless-dog-fence.html')}">Collar PDP / Configurator</a>
+            <a class="workbench-drawer__link" href="${href('pages/home.html')}">Home</a>
+            <a class="workbench-drawer__link" href="${href('pages/shop-wireless-dog-fence.html')}">Shop Wireless Dog Fence</a>
             <a class="workbench-drawer__link" href="${href('pages/accessories.html')}">Accessories</a>
-            <a class="workbench-drawer__link" href="${href('pages/accessory-zone-beacon.html')}">Accessory PDP</a>
             <a class="workbench-drawer__link" href="${href('pages/beacons.html')}">Beacons</a>
-            <a class="workbench-drawer__link" href="${href('pages/how-it-works.html')}">How it works</a>
-            <a class="workbench-drawer__link" href="${href('pages/reviews.html')}">Reviews / Testimonials</a>
+            <a class="workbench-drawer__link" href="${href('pages/how-it-works.html')}">How It Works</a>
+            <a class="workbench-drawer__link" href="${href('pages/reviews.html')}">Reviews</a>
             <a class="workbench-drawer__link" href="${href('pages/deals.html')}">Deals</a>
           </div>
           <div class="workbench-drawer__section">
-            <h3>Account + Membership</h3>
-            <a class="workbench-drawer__link" href="${href('pages/account.html')}">Account</a>
-            <a class="workbench-drawer__link" href="${href('pages/plans.html')}">Plans</a>
-            <a class="workbench-drawer__link" href="${href('pages/membership-selection.html')}">Membership Selection</a>
-            <a class="workbench-drawer__link" href="${href('pages/account-perks.html')}">Pack Perks Account</a>
+            <h3>Marketing LPs</h3>
+            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing.html')}">Pack Perks Marketing v1</a>
+            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing-v2.html')}">Pack Perks Marketing v2</a>
+          </div>
+          <div class="workbench-drawer__section">
+            <h3>Pack Perks</h3>
+            <a class="workbench-drawer__link" href="${href('pages/pack-perks.html')}">Pack Perks Lander</a>
             <a class="workbench-drawer__link" href="${href('pages/pack-perks-list.html')}">Pack Perks List</a>
+            <a class="workbench-drawer__link" href="${href('pages/account.html')}">Account</a>
+            <a class="workbench-drawer__link" href="${href('pages/account-perks.html')}">Account Perks</a>
+            <a class="workbench-drawer__link" href="${href('pages/membership-selection.html')}">Membership Selection</a>
             <a class="workbench-drawer__link" href="${href('pages/offer-detail.html')}">Offer Detail</a>
             <a class="workbench-drawer__link" href="${href('pages/cancellation.html')}">Cancellation Flow</a>
           </div>
           <div class="workbench-drawer__section">
-            <h3>Marketing Landers</h3>
-            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing.html')}">Pack Perks Marketing v1</a>
-            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing-v2.html')}">Pack Perks Marketing v2</a>
-            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing-v3.html')}">Pack Perks Marketing v3</a>
-            <a class="workbench-drawer__link" href="${href('pages/home.html')}">Ecomlanders V3 / Homepage Source</a>
-          </div>
-          <div class="workbench-drawer__section">
             <h3>Design System</h3>
             <a class="workbench-drawer__link" href="${href('pages/style-guide.html')}">Style Guide</a>
-            <a class="workbench-drawer__link" href="${href('pages/component-system.html')}">Component System</a>
           </div>
         </div>
       </aside>
