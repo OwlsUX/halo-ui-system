@@ -200,6 +200,22 @@ a.rh-btn--ghost:hover,
   box-shadow: none;
 }
 
+/* Inverse variant — solid white background, dark text. Primary action on
+   dark/photo sections where yellow would clash with the imagery. */
+a.rh-btn--inverse,
+.rh-btn--inverse {
+  background: var(--halo-color-surface-raised, #ffffff);
+  color: var(--halo-color-text-primary, #071826);
+  border: none;
+  box-shadow: 0 4px 20px rgba(7, 24, 38, 0.18);
+}
+a.rh-btn--inverse:hover,
+.rh-btn--inverse:hover {
+  background: var(--halo-color-surface-raised, #ffffff);
+  color: var(--halo-color-text-primary, #071826);
+  box-shadow: 0 8px 30px rgba(7, 24, 38, 0.28);
+}
+
 /* ============================================================================
    Featured benefit cards — image-fill grid (same look as Pack Perks list page)
    Used on the marketing page hero section as a 4-up grid.
@@ -277,6 +293,17 @@ a.rh-btn--ghost:hover,
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+/* Fill variant — for brand marks that include their own background and
+   should bleed to the chip edges (e.g. Travel + Leisure GO). */
+.rh-feat-card__logo--fill {
+  padding: 0;
+  background: transparent;
+}
+.rh-feat-card__logo--fill img {
+  object-fit: cover;
+  border-radius: 12px;
 }
 .rh-feat-card__eyebrow {
   display: block;
@@ -700,26 +727,32 @@ a.rh-btn--ghost:hover,
   margin: 0;
 }
 
-/* Static brand grid — replaces the auto-scrolling marquee. Lays out the solid
-   app-icon tiles in a multi-row responsive grid. */
+/* Static brand grid — replaces the auto-scrolling marquee. Uses flex-wrap so
+   a partial last row automatically centers its leftover tile(s).
+   Default: 6 across at desktop, 4 / 3 / 2 at smaller breakpoints. */
 .rh-brands-grid {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 32px 20px;
+  --rh-grid-cols: 6;
+  --rh-grid-gap-x: 24px;
+  --rh-grid-gap-y: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--rh-grid-gap-y) var(--rh-grid-gap-x);
   margin: 0 auto;
   max-width: 1200px;
 }
 .rh-brands-grid .rh-brands-tile--solid {
-  width: auto;
+  width: calc((100% - (var(--rh-grid-cols) - 1) * var(--rh-grid-gap-x)) / var(--rh-grid-cols));
+  max-width: 200px;
 }
 @media (max-width: 1100px) {
-  .rh-brands-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .rh-brands-grid { --rh-grid-cols: 4; }
 }
 @media (max-width: 760px) {
-  .rh-brands-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 16px; }
+  .rh-brands-grid { --rh-grid-cols: 3; --rh-grid-gap-x: 16px; --rh-grid-gap-y: 28px; }
 }
-@media (max-width: 520px) {
-  .rh-brands-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 14px; }
+@media (max-width: 480px) {
+  .rh-brands-grid { --rh-grid-cols: 2; --rh-grid-gap-x: 14px; --rh-grid-gap-y: 22px; }
 }
 
 /* Variant B — app-icon tile: rounded square icon, centered text below, no card frame */
@@ -751,16 +784,16 @@ a.rh-btn--ghost:hover,
   display: block;
 }
 .rh-brands-tile--solid .rh-brands-tile__body {
-  padding: 14px 4px 0;
+  padding: 16px 4px 0;
   text-align: center;
 }
 .rh-brands-tile--solid .rh-brands-tile__value {
-  font-size: var(--halo-type-small, 0.875rem);
+  font-size: 1rem;
   font-weight: 650;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 .rh-brands-tile--solid .rh-brands-tile__desc {
-  font-size: var(--halo-type-caption, 0.75rem);
+  font-size: var(--halo-type-small, 0.875rem);
   line-height: 1.4;
 }
 
