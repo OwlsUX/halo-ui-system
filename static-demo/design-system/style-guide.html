@@ -2,299 +2,506 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Halo Web UI Style Guide</title>
+  <meta name="description" content="Tactical Halo web UI reference for colors, typography, containers, grids, surfaces, and reusable page elements.">
+  <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style-guide.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../design-system/style-guide.css">
 </head>
-<body>
-  <div class="sg-top">Introducing Precision+ &nbsp; The new standard in safety</div>
+<body class="style-guide-page">
+  <a class="sg-skip" href="#main-content">Skip to style guide content</a>
+
+  <div class="sg-top">Introducing Precision+ <span aria-hidden="true">|</span> The new standard in safety</div>
   <nav class="halo-navigation" aria-label="Style guide navigation">
     <div class="sg-container nav-container">
-      <a href="../index.html" class="nav-logo" aria-label="Halo demo hub">
+      <a href="../pages/home.html" class="nav-logo" aria-label="Halo home">
         <img src="../vendor/ecomlanders-v3/halo-logo-dark.svg" alt="Halo">
       </a>
       <div class="nav-menu">
-        <a href="#pages">Pages</a>
-        <a href="#tokens">Typography & Tokens</a>
-        <a href="#buttons">Buttons</a>
+        <a href="#color">Color</a>
+        <a href="#type">Type</a>
+        <a href="#layout">Layout</a>
         <a href="#components">Components</a>
-        <a href="#commerce">Commerce</a>
       </div>
-      <div class="nav-actions">
-        <button class="icon-btn" aria-label="Account">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/></svg>
-        </button>
-        <button class="icon-btn" aria-label="Cart">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6h15l-2 8H8L6 3H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1" fill="currentColor"/><circle cx="18" cy="20" r="1" fill="currentColor"/></svg>
-        </button>
-        <a class="btn btn--live" href="../pages/shop-wireless-dog-fence.html">Explore Halo</a>
-      </div>
+      <a class="sg-nav-cta" href="../pages/shop-wireless-dog-fence.html">Shop Now</a>
     </div>
   </nav>
 
-  <main>
-    <section class="sg-hero">
-      <div class="sg-container sg-hero-grid">
-        <div>
-          <p class="eyebrow">Web style guide</p>
-          <h1>Halo web UI style guide</h1>
-          <p>A browsable reference for the shared Halo web system: page routes, tokens, button states, reusable components, commerce patterns, and account modules. This page is the visual source of truth for the static demo.</p>
-          <div class="button-row">
-            <a class="btn btn--white" href="../index.html">Demo hub</a>
-            <a class="btn btn--ghost-dark" href="index.html">Component catalog</a>
-          </div>
-        </div>
-        <div class="hero-media">
-          <img src="https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp" alt="Halo Collar 5 product render">
+  <main id="main-content">
+    <section class="sg-intro">
+      <div class="sg-container">
+        <div class="sg-intro__content">
+          <h1>Halo Web Style Guide</h1>
+          <p class="sg-lead">Tactical reference for Halo web colors, typography, containers, grids, surfaces, controls, and reusable page elements.</p>
         </div>
       </div>
     </section>
 
-    <section class="sg-section sg-section--compact" id="pages">
-      <div class="sg-container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Demo routes</p>
-            <h2>Clickable page system</h2>
-          </div>
-          <p class="section-note">Use these routes as the current demo entry points while the design system matures from static HTML into reusable components.</p>
-        </div>
-        <div class="route-panel">
-          <a class="sg-route-card" href="../index.html">
-            <span class="badge badge--dark">Hub</span>
-            <strong>Overview</strong>
-            <span>All current page and design-system workstreams in one place.</span>
-          </a>
-          <a class="sg-route-card" href="../pages/home.html">
-            <span class="badge badge--yellow">V3</span>
-            <strong>Homepage</strong>
-            <span>Primary visual reference for typography, nav, hero, and section rhythm.</span>
-          </a>
-          <a class="sg-route-card" href="../pages/shop-wireless-dog-fence.html">
-            <span class="badge">PDP</span>
-            <strong>Configurator</strong>
-            <span>Base collar PDP template with gallery, options, membership, and cart drawer.</span>
-          </a>
-          <a class="sg-route-card" href="../pages/accessories.html">
-            <span class="badge">Commerce</span>
-            <strong>Accessories</strong>
-            <span>Modernized accessory category route aligned to the homepage token scale.</span>
-          </a>
-        </div>
+    <nav class="sg-index" aria-label="Style guide sections">
+      <div class="sg-container sg-index__inner">
+        <a href="#color">Color</a>
+        <a href="#type">Typography</a>
+        <a href="#layout">Containers and grids</a>
+        <a href="#surfaces">Surfaces</a>
+        <a href="#components">Components</a>
       </div>
-    </section>
+    </nav>
 
-    <section class="sg-section" id="tokens">
+    <section class="sg-section" id="color">
       <div class="sg-container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Tokens</p>
-            <h2>Typography, color, radius, shadow</h2>
-          </div>
-          <p class="section-note">The live site and internal repos do not use one single token system yet. This page keeps the current production and V3 values visible together.</p>
+        <div class="sg-section__header">
+          <p class="sg-eyebrow">Color</p>
+          <h2>Color roles</h2>
+          <p>Use semantic Halo roles first. Yellow is for purchase and promotional action. Blue is for links, selected states, and technical focus. Deep blue is the text and dark-surface foundation.</p>
         </div>
 
-        <div class="token-source">
-          <strong>Central token file</strong>
-          <code>static-demo/css/halo-theme.css</code>
-          <span>Shared variables now bridge the V3 homepage, V3 configurator, modern accessories, overview hub, and this style guide.</span>
-        </div>
-
-        <div class="token-grid" aria-label="Color tokens">
-          <div class="token-card"><div class="swatch" style="background:#FCD62D"></div><div><strong>Brand yellow</strong><span>--halo-yellow / #FCD62D</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#FFD700"></div><div><strong>Live CTA yellow</strong><span>--halo-live-yellow / #FFD700</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#071826"></div><div><strong>Ink blue</strong><span>--halo-blue-950 / --halo-gray-900 / #071826</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#525252"></div><div><strong>Muted text</strong><span>--halo-gray-600 / #525252</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#F5F5F5"></div><div><strong>Surface</strong><span>--halo-gray-100 / #F5F5F5</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#E5E5E5"></div><div><strong>Line</strong><span>--halo-gray-200 / #E5E5E5</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#2F93F3"></div><div><strong>Primary blue</strong><span>--halo-blue / #2F93F3</span></div></div>
-          <div class="token-card"><div class="swatch" style="background:#22C55E"></div><div><strong>Success</strong><span>--halo-success / #22C55E</span></div></div>
-        </div>
-
-        <div class="type-sample" style="margin-top:20px">
-          <div class="display-sample">Your backyard, now everywhere</div>
-          <div class="h2-sample">The ultimate smart collar</div>
-          <p class="body-sample">Inter is the default live/account font. Use V3 system/SF fallback only for intentionally modernized marketing variants. Body text is generally 16px with compact 14px treatments in live chrome, cards, and dense support copy.</p>
-          <p class="small-sample">Small body - 14px / 20px - nav, footer, dense cards, metadata</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="sg-section" id="buttons">
-      <div class="sg-container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">CTA system</p>
-            <h2>Button variants and states</h2>
-          </div>
-          <p class="section-note">Yellow is not universal. Commerce favors dark CTAs; live nav has its own yellow; dark media uses white and ghost buttons.</p>
-        </div>
-        <div class="button-grid">
-          <div class="button-demo">
-            <h3>Live nav CTA</h3>
-            <div class="button-row"><button class="btn btn--live">Explore Halo</button><button class="btn btn--live" disabled>Disabled</button></div>
-            <p class="small-sample">#FFD700, 8px radius, production header only.</p>
-          </div>
-          <div class="button-demo">
-            <h3>Brand yellow</h3>
-            <div class="button-row"><button class="btn btn--yellow">Choose plan</button><span class="badge badge--yellow">Most popular</span></div>
-            <p class="small-sample">#FCD62D, pill radius, plans and Pack Perks.</p>
-          </div>
-          <div class="button-demo">
-            <h3>Commerce dark</h3>
-            <div class="button-row"><button class="btn btn--dark">Add to cart</button><button class="btn btn--dark" disabled>Loading</button></div>
-            <p class="small-sample">Primary PDP/add-to-cart action on white surfaces.</p>
-          </div>
-          <div class="button-demo button-demo--dark">
-            <h3>Media hero</h3>
-            <div class="button-row"><button class="btn btn--white">Shop now</button><button class="btn btn--ghost-dark">Watch video</button></div>
-            <p class="small-sample">Use over image/video with verified contrast.</p>
-          </div>
-          <div class="button-demo">
-            <h3>Badges</h3>
-            <div class="badge-row"><span class="badge">NEW</span><span class="badge badge--dark">Save $75</span><span class="badge badge--blue">Current plan</span></div>
-            <p class="small-sample">Badges should not be the only accessible source of price or eligibility.</p>
-          </div>
-          <div class="button-demo">
-            <h3>Focus</h3>
-            <div class="button-row"><button class="btn btn--yellow">Keyboard target</button><button class="icon-btn" aria-label="Example icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
-            <p class="small-sample">All interactive controls need visible focus and stable dimensions.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="sg-section sg-section--dark" id="components">
-      <div class="sg-container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Components</p>
-            <h2>Cards, nav tiles, section modules</h2>
-          </div>
-          <p class="section-note">Use Halo product assets and real section copy. Generic shells should stay in the catalog, not page replicas.</p>
-        </div>
-        <div class="component-grid">
-          <article class="component-card">
-            <div class="component-card__media"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/white-2-s.webp" alt="Halo Collar 5"></div>
-            <div class="component-card__body">
-              <span class="badge">NEW</span>
-              <h3>Product nav tile</h3>
-              <p>Image-led product tile with badge, model, savings, current/original price.</p>
-            </div>
+        <div class="color-grid" aria-label="Halo color roles">
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-action-primary)"></span>
+            <div><strong>Action primary</strong><code>--halo-color-action-primary</code><p>Purchase CTAs, plan selection, promo action.</p></div>
           </article>
-          <article class="component-card">
-            <div class="component-card__media"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/h5-sunburst-collar.webp" alt="Halo Collar Sunburst"></div>
-            <div class="component-card__body">
-              <span class="badge badge--yellow">Colorway</span>
-              <h3>Feature card</h3>
-              <p>Rounded image card for collar details, app features, and proof sections.</p>
-            </div>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-link)"></span>
+            <div><strong>Link / selected</strong><code>--halo-color-link</code><p>Links, selected options, focus, technical accents.</p></div>
           </article>
-          <article class="component-card">
-            <div class="component-card__media"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/icon-location.svg" alt=""></div>
-            <div class="component-card__body">
-              <span class="badge badge--dark">Precision+</span>
-              <h3>Icon proof card</h3>
-              <p>Compact claim pattern for location updates, battery, charging, and app controls.</p>
-            </div>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-blue-950)"></span>
+            <div><strong>Ink / dark</strong><code>--halo-blue-950</code><p>Main text, dark bands, footer, dark buttons.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-surface-page)"></span>
+            <div><strong>Page wash</strong><code>--halo-color-surface-page</code><p>Default page background.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-surface-raised)"></span>
+            <div><strong>Raised surface</strong><code>--halo-color-surface-raised</code><p>Cards, forms, account panels.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-product-surface)"></span>
+            <div><strong>Product surface</strong><code>--halo-color-product-surface</code><p>PDP galleries and product media wells.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-membership-surface)"></span>
+            <div><strong>Membership</strong><code>--halo-color-membership-surface</code><p>Plans, Pack Perks, current account state.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-sale-surface)"></span>
+            <div><strong>Sale surface</strong><code>--halo-color-sale-surface</code><p>Discount context and price support.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-status-success-surface)"></span>
+            <div><strong>Success</strong><code>--halo-color-status-success-surface</code><p>Applied codes, saved settings, completed tasks.</p></div>
+          </article>
+          <article class="color-card">
+            <span class="color-swatch" style="--swatch:var(--halo-color-status-danger-surface)"></span>
+            <div><strong>Error</strong><code>--halo-color-status-danger-surface</code><p>Validation and blocking messages.</p></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="sg-section" id="commerce">
+    <section class="sg-section sg-section--paper" id="type">
       <div class="sg-container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">PDP / configurator</p>
-            <h2>Commerce buy stack</h2>
-          </div>
-          <p class="section-note">V3 shop is the canonical source for gallery, swatches, membership cards, add-ons, pricing, and cart state styling.</p>
+        <div class="sg-section__header">
+          <p class="sg-eyebrow">Typography</p>
+          <h2>Type scale</h2>
+          <p>Use <code>--halo-font-live</code> for Halo web pages. Type specimens here render at the standard 650 display weight unless a component calls for a different state.</p>
         </div>
-        <div class="commerce-layout">
-          <div class="gallery-grid">
-            <div class="gallery-tile"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/h5-sunburst-collar.webp" alt="Sunburst Halo Collar"></div>
-            <div class="gallery-tile"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/h5-blaze-collar.webp" alt="Blaze Halo Collar"></div>
-            <div class="gallery-tile"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/h5-midnight-collar.webp" alt="Midnight Halo Collar"></div>
-            <div class="gallery-tile"><img src="https://d252xzqwj6utz.cloudfront.net/static/h5/h5-graphite-collar.webp" alt="Graphite Halo Collar"></div>
-          </div>
-          <aside class="commerce-card">
-            <span class="badge badge--yellow">Save $75</span>
-            <h3 style="font-size:28px;margin:14px 0 4px">Halo Collar 5</h3>
-            <p class="small-sample">The world's safest and most powerful GPS dog fence.</p>
-            <div class="price-row"><strong>$524</strong><s>$599</s><span class="badge">Sale</span></div>
-            <p class="small-sample">Color: Sunburst</p>
-            <div class="swatches" aria-label="Color swatches">
-              <button class="swatch-btn is-selected" style="background:#F5C64A" aria-label="Sunburst selected"></button>
-              <button class="swatch-btn" style="background:#E8773A" aria-label="Blaze"></button>
-              <button class="swatch-btn" style="background:#191B22" aria-label="Midnight"></button>
-              <button class="swatch-btn" style="background:#6B7280" aria-label="Graphite"></button>
+
+        <div class="font-stack-grid" aria-label="Halo font stacks">
+          <article class="font-stack-card font-stack-card--live">
+            <div>
+              <span class="type-label">Primary web stack</span>
+              <code>--halo-font-live</code>
             </div>
-            <div class="option-card is-featured">
-              <strong>Pack Membership</strong>
-              <p class="small-sample">Featured plan card with yellow border, plan details, and learn-more trigger.</p>
-            </div>
-            <div class="option-card">
-              <strong>Add a Beacon</strong>
-              <p class="small-sample">Collapsed add-on card. Expanded state shows details and add/remove action.</p>
-            </div>
-            <button class="btn btn--dark" style="width:100%">Add to cart</button>
-          </aside>
+            <strong>Halo web page text</strong>
+            <p>"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</p>
+          </article>
+        </div>
+
+        <div class="type-table" aria-label="Halo typography scale">
+          <article class="type-row type-row--display">
+            <div><span class="type-label">Display</span><code>--halo-type-display</code><span class="type-size">60px desktop / 37.6px mobile</span></div>
+            <strong>Your backyard, now everywhere.</strong>
+            <p>Use once in large customer-facing hero sections.</p>
+          </article>
+          <article class="type-row type-row--hero">
+            <div><span class="type-label">Hero / H1</span><code>--halo-type-hero</code><span class="type-size">56px desktop / 36px mobile</span></div>
+            <strong>Halo Collar 5</strong>
+            <p>Hero and landing page lead title.</p>
+          </article>
+          <article class="type-row type-row--page">
+            <div><span class="type-label">Page title</span><code>--halo-type-page</code><span class="type-size">48px desktop / 32px mobile</span></div>
+            <strong>Shop accessories</strong>
+            <p>Top-level route title.</p>
+          </article>
+          <article class="type-row type-row--section">
+            <div><span class="type-label">Section title</span><code>--halo-type-section</code><span class="type-size">40px desktop / 29.6px mobile</span></div>
+            <strong>Compare the right setup</strong>
+            <p>Major page sections.</p>
+          </article>
+          <article class="type-row type-row--subsection">
+            <div><span class="type-label">Subsection</span><code>--halo-type-subsection</code><span class="type-size">28px</span></div>
+            <strong>Pack Membership Plan</strong>
+            <p>Buy stacks, account panels, and module titles.</p>
+          </article>
+          <article class="type-row type-row--card-title">
+            <div><span class="type-label">Card title</span><code>--halo-type-card-title</code><span class="type-size">18px</span></div>
+            <strong>Collar color</strong>
+            <p>Product cards, option cards, and compact module headings.</p>
+          </article>
+          <article class="type-row type-row--body">
+            <div><span class="type-label">Body</span><code>--halo-type-body</code><span class="type-size">16px</span></div>
+            <strong>Readable product copy supports the decision.</strong>
+            <p>Use 16px body text for paragraphs and important support copy.</p>
+          </article>
+          <article class="type-row type-row--small">
+            <div><span class="type-label">Small</span><code>--halo-type-small</code><span class="type-size">14px</span></div>
+            <strong>Delivery in 2 to 4 business days</strong>
+            <p>Metadata, compact rows, cards, footer links.</p>
+          </article>
+          <article class="type-row type-row--caption">
+            <div><span class="type-label">Caption</span><code>--halo-type-caption</code><span class="type-size">12px token / 13px minimum specimen</span></div>
+            <strong>WHILE SUPPLIES LAST</strong>
+            <p>Badges, helper text, legal, table labels.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="sg-section">
+    <section class="sg-section" id="layout">
       <div class="sg-container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Forms</p>
-            <h2>Inputs and account cards</h2>
-          </div>
-          <p class="section-note">Account and membership surfaces use quieter cards, clear labels, compact text, and restrained shadows.</p>
+        <div class="sg-section__header">
+          <p class="sg-eyebrow">Layout</p>
+          <h2>Containers, grids, spacing</h2>
+          <p>Pages should feel consistent before they feel clever. Use the shared container widths, predictable responsive grids, and stable media ratios.</p>
         </div>
-        <div class="form-grid">
-          <form class="form-card">
-            <div class="field-group">
-              <label for="email">Email</label>
-              <input class="field" id="email" type="email" value="customer@example.com">
-              <span class="helper">Use 16px inputs with stable 44px+ target height.</span>
+
+        <div class="layout-board">
+          <article class="container-card">
+            <h3>Container widths</h3>
+            <div class="container-bars" aria-label="Container width examples">
+              <div style="--bar:100%"><span>Page max</span><code>--halo-container: 1400px</code></div>
+              <div style="--bar:88%"><span>Live max</span><code>--halo-container-live: 1240px</code></div>
+              <div style="--bar:54%"><span>Readable</span><code>--halo-container-readable: 760px</code></div>
             </div>
-            <div class="field-group">
-              <label for="promo">Promo code</label>
-              <input class="field is-error" id="promo" type="text" value="SAVE">
-              <span class="helper is-error">This promo code is not valid for the selected plan.</span>
+          </article>
+
+          <article class="container-card">
+            <h3>Spacing scale</h3>
+            <div class="spacing-scale" aria-label="Spacing scale">
+              <span style="--space:4px">4</span>
+              <span style="--space:8px">8</span>
+              <span style="--space:12px">12</span>
+              <span style="--space:16px">16</span>
+              <span style="--space:24px">24</span>
+              <span style="--space:32px">32</span>
+              <span style="--space:48px">48</span>
             </div>
-            <button class="btn btn--yellow" type="button">Apply</button>
-          </form>
-          <div class="form-card">
-            <span class="badge badge--blue">Current plan</span>
-            <h3 style="font-size:24px;margin:14px 0 8px">Silver Pack Membership</h3>
-            <p class="body-sample">Membership modules should show status, renewal cadence, included benefits, and clear next actions without marketing-scale type.</p>
-            <div class="button-row"><button class="btn btn--dark">Manage plan</button><button class="btn btn--yellow">Upgrade</button></div>
+          </article>
+        </div>
+
+        <div class="breakpoint-grid-lab" aria-label="Breakpoint grid examples">
+          <article class="breakpoint-card breakpoint-card--desktop">
+            <div class="breakpoint-card__header"><strong>Desktop</strong><code>3-up / 2+1</code></div>
+            <div class="example-product-grid example-product-grid--desktop">
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge">NEW</span>
+                  <h3>Halo Collar 5</h3>
+                  <p>Flagship GPS fence, activity, and safety system.</p>
+                  <div><strong>$524</strong><button type="button">Shop</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--dark">Save $125</span>
+                  <h3>Halo Collar 4</h3>
+                  <p>Core collar option while inventory lasts.</p>
+                  <div><strong>$424</strong><button type="button">Shop</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--blue">Accessory</span>
+                  <h3>Remote Beacon</h3>
+                  <p>Extend training and indoor boundary signals.</p>
+                  <div><strong>$49</strong><button type="button">View</button></div>
+                </div>
+              </article>
+              <article class="example-product-card example-product-card--wide">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--yellow">Bundle</span>
+                  <h3>Build a two-collar setup</h3>
+                  <p>Use a wide card for featured offers, comparison summaries, and guided shopping steps that need more copy.</p>
+                  <div><strong>Save $200</strong><button type="button">Configure</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--outline">Support</span>
+                  <h3>Membership</h3>
+                  <p>Plan modules can sit beside featured offers.</p>
+                  <div><strong>$18/mo</strong><button type="button">Compare</button></div>
+                </div>
+              </article>
+            </div>
+            <p>Use three-up for product cards. Use a wide card plus a standard card for featured offers or comparison summaries.</p>
+          </article>
+          <article class="breakpoint-card breakpoint-card--tablet">
+            <div class="breakpoint-card__header"><strong>Tablet</strong><code>2-up</code></div>
+            <div class="example-product-grid example-product-grid--tablet">
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge">NEW</span>
+                  <h3>Halo Collar 5</h3>
+                  <p>Primary product card with room for scan-friendly copy.</p>
+                  <div><strong>$524</strong><button type="button">Shop</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--blue">Plan</span>
+                  <h3>Pack Membership</h3>
+                  <p>Secondary card keeps parity without crowding labels.</p>
+                  <div><strong>$18/mo</strong><button type="button">Select</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--yellow">Bundle</span>
+                  <h3>Starter Kit</h3>
+                  <p>Two-up grids keep ecommerce modules readable.</p>
+                  <div><strong>Save $75</strong><button type="button">Build</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--outline">Accessory</span>
+                  <h3>Charging Stand</h3>
+                  <p>Use the same anatomy for accessory cards.</p>
+                  <div><strong>$39</strong><button type="button">View</button></div>
+                </div>
+              </article>
+            </div>
+            <p>Collapse card sets to two columns before copy starts wrapping awkwardly.</p>
+          </article>
+          <article class="breakpoint-card breakpoint-card--mobile">
+            <div class="breakpoint-card__header"><strong>Mobile</strong><code>1-up</code></div>
+            <div class="example-product-grid example-product-grid--mobile">
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge">NEW</span>
+                  <h3>Halo Collar 5</h3>
+                  <p>Stack cards so media, copy, and actions remain readable.</p>
+                  <div><strong>$524</strong><button type="button">Shop</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--blue">Plan</span>
+                  <h3>Membership</h3>
+                  <p>Avoid side-by-side controls below 430px.</p>
+                  <div><strong>$18/mo</strong><button type="button">Select</button></div>
+                </div>
+              </article>
+              <article class="example-product-card">
+                <span class="example-product-card__media"></span>
+                <div class="example-product-card__body">
+                  <span class="sg-badge sg-badge--outline">Accessory</span>
+                  <h3>Beacon</h3>
+                  <p>Keep the card rhythm consistent down the page.</p>
+                  <div><strong>$49</strong><button type="button">View</button></div>
+                </div>
+              </article>
+            </div>
+            <p>Stack cards. Keep media ratios stable and avoid side-by-side controls below 430px.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sg-section sg-section--paper" id="surfaces">
+      <div class="sg-container">
+        <div class="sg-section__header">
+          <p class="sg-eyebrow">Surfaces</p>
+          <h2>Card templates and grids</h2>
+          <p>Use these as starting points for product, plan, offer, account, and utility cards. Media is shown as color placeholders so the container, spacing, and grid behavior stay clear.</p>
+        </div>
+
+        <div class="card-state-grid" aria-label="Card state templates">
+          <article class="template-card">
+            <span class="template-card__media" style="--media:var(--halo-color-product-surface)"></span>
+            <div class="template-card__body">
+              <span class="template-card__label">Default</span>
+              <h3>Product card</h3>
+              <p>Use for product, accessory, offer, and plan cards.</p>
+            </div>
+          </article>
+          <article class="template-card template-card--raised">
+            <span class="template-card__media" style="--media:var(--halo-color-membership-surface)"></span>
+            <div class="template-card__body">
+              <span class="template-card__label">Hover / raised</span>
+              <h3>Offer card</h3>
+              <p>Use for interactive cards where the whole card is clickable.</p>
+            </div>
+          </article>
+          <article class="template-card template-card--selected">
+            <span class="template-card__media" style="--media:var(--halo-color-status-info-surface)"></span>
+            <div class="template-card__body">
+              <span class="template-card__label">Selected</span>
+              <h3>Plan card</h3>
+              <p>Use blue border and surface for active selections.</p>
+            </div>
+          </article>
+          <article class="template-card template-card--disabled">
+            <span class="template-card__media" style="--media:var(--halo-color-surface-muted)"></span>
+            <div class="template-card__body">
+              <span class="template-card__label">Disabled</span>
+              <h3>Unavailable card</h3>
+              <p>Use lower contrast while keeping labels readable.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="card-layout-lab" aria-label="Card layout templates">
+          <article class="card-layout-panel">
+            <div class="card-layout-panel__header"><strong>3-up card grid</strong><code>repeat(3, 1fr)</code></div>
+            <div class="card-layout-demo card-layout-demo--three">
+              <span></span><span></span><span></span>
+            </div>
+          </article>
+          <article class="card-layout-panel">
+            <div class="card-layout-panel__header"><strong>2-up card grid</strong><code>repeat(2, 1fr)</code></div>
+            <div class="card-layout-demo card-layout-demo--two">
+              <span></span><span></span>
+            </div>
+          </article>
+          <article class="card-layout-panel card-layout-panel--wide">
+            <div class="card-layout-panel__header"><strong>Full-width cards</strong><code>1fr: 50/50 + compact</code></div>
+            <div class="wide-card-stack">
+              <div class="wide-card-template wide-card-template--split">
+                <span class="wide-card-template__media"></span>
+                <div class="wide-card-template__content"><strong>50/50 feature card</strong><p>Use for account summaries, product comparison intros, member benefits, or a featured offer that needs equal media and copy weight.</p></div>
+              </div>
+              <div class="wide-card-template wide-card-template--compact">
+                <span class="wide-card-template__media"></span>
+                <div class="wide-card-template__content"><strong>Compact full-width card</strong><p>Use for shorter offers, status summaries, and utility rows that still need a media well.</p></div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="surface-specs">
+          <div><strong>Small radius</strong><code>--halo-radius-sm: 6px</code></div>
+          <div><strong>Card radius</strong><code>--halo-component-card-radius: 12px</code></div>
+          <div><strong>Media radius</strong><code>--halo-component-pdp-gallery-radius: 16px</code></div>
+          <div><strong>Pill radius</strong><code>--halo-radius-pill: 999px</code></div>
+          <div><strong>Card shadow</strong><code>--halo-shadow-card</code></div>
+          <div><strong>Raised shadow</strong><code>--halo-shadow-raised</code></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sg-section" id="components">
+      <div class="sg-container">
+        <div class="sg-section__header">
+          <p class="sg-eyebrow">Components</p>
+          <h2>Component review area</h2>
+          <p>Keep this page focused on the system rules. Use the component catalog for the complete inventory, then use the inline rows below for quick visual review.</p>
+        </div>
+
+        <div class="component-linkout">
+          <div>
+            <h3>Full component catalog</h3>
+            <p>Reusable sections grouped by global chrome, marketing, commerce, account, and templates.</p>
+          </div>
+          <a class="sg-button sg-button--secondary" href="../design-system/index.html">Open component catalog</a>
+        </div>
+
+        <div class="inline-component-review" aria-label="Inline component review">
+          <div class="inline-component-row">
+            <div class="inline-component-row__label">
+              <strong>Buttons</strong>
+              <span>Default hierarchy and disabled state</span>
+            </div>
+            <div class="inline-component-row__samples">
+              <button class="sg-button sg-button--primary" type="button">Shop Now</button>
+              <button class="sg-button sg-button--secondary" type="button">Add to cart</button>
+              <button class="sg-button sg-button--tertiary" type="button">Learn more</button>
+              <button class="sg-button sg-button--selected" type="button">Selected</button>
+              <button class="sg-button sg-button--disabled" type="button" disabled>Unavailable</button>
+            </div>
+          </div>
+
+          <div class="inline-component-row">
+            <div class="inline-component-row__label">
+              <strong>Badges</strong>
+              <span>Status, offer, plan, and inventory labels</span>
+            </div>
+            <div class="inline-component-row__samples">
+              <span class="sg-badge">NEW</span>
+              <span class="sg-badge sg-badge--dark">Save $75</span>
+              <span class="sg-badge sg-badge--blue">Current plan</span>
+              <span class="sg-badge sg-badge--yellow">Most popular</span>
+              <span class="sg-badge sg-badge--outline">WHILE SUPPLIES LAST</span>
+            </div>
+          </div>
+
+          <div class="inline-component-row">
+            <div class="inline-component-row__label">
+              <strong>Selectors</strong>
+              <span>Colorway options with accessible selected state</span>
+            </div>
+            <div class="inline-component-row__samples">
+              <button class="swatch-option is-selected" style="--swatch:#f5c64a" type="button" aria-label="Sunburst selected"></button>
+              <button class="swatch-option" style="--swatch:#24304f" type="button" aria-label="Midnight Blue"></button>
+              <button class="swatch-option" style="--swatch:#d83f92" type="button" aria-label="Orchid"></button>
+              <button class="swatch-option" style="--swatch:#737a82" type="button" aria-label="Graphite"></button>
+              <button class="swatch-option" style="--swatch:#e8773a" type="button" aria-label="Blaze"></button>
+            </div>
+          </div>
+
+          <div class="inline-component-row inline-component-row--form">
+            <div class="inline-component-row__label">
+              <strong>Form fields</strong>
+              <span>Default and error states</span>
+            </div>
+            <div class="inline-component-row__samples inline-component-row__samples--form">
+              <label class="field-label" for="sg-email">Email</label>
+              <input class="field" id="sg-email" type="email" value="customer@example.com">
+              <label class="field-label" for="sg-code">Promo code</label>
+              <input class="field is-error" id="sg-code" type="text" value="SAVE">
+              <span class="field-helper is-error">This code is not valid for the selected membership.</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="footer-demo">
-    <div class="sg-container">
-      <div class="footer-grid">
-        <div>
-          <img class="footer-logo" src="../vendor/ecomlanders-v3/halo-logo.svg" alt="Halo">
-          <div class="social-row"><span class="social-dot"></span><span class="social-dot"></span><span class="social-dot"></span></div>
-        </div>
-        <div><h3>Shop</h3><a href="../pages/shop-wireless-dog-fence.html">Main Shop</a><a href="../pages/shop-wireless-dog-fence.html">Halo Collar</a><a href="../pages/accessories.html">Accessories</a></div>
-        <div><h3>About</h3><a href="../pages/how-it-works.html">About Us</a><a href="../pages/blog-template.html">Press</a><a href="../pages/blog-template.html">Blog</a></div>
-        <div><h3>Membership</h3><a href="../pages/account.html">My Account</a><a href="../pages/plans.html">Plans</a><a href="../pages/pack-perks.html">Download the App</a></div>
-        <div><h3>Support</h3><a href="../pages/support-template.html">Resource Hub</a><a href="../pages/support-template.html">FAQ</a><a href="../pages/support-template.html">Returns</a></div>
-      </div>
-      <div class="footer-bottom">Copyright 2026 | Halo by Protect Animals with Satellites LLC - Privacy Policy - Terms of Use</div>
+    <div class="sg-container footer-demo__inner">
+      <img src="../vendor/ecomlanders-v3/halo-logo.svg" alt="Halo">
+      <p>Halo web UI style guide for tactical page assembly.</p>
     </div>
   </footer>
+
+  <script src="../js/components.js?v=shared-chrome-20260521"></script>
 </body>
 </html>

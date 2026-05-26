@@ -2,30 +2,102 @@
   --halo-font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Arial, sans-serif;
   --halo-font-live: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
+  /* Primitive brand colors */
   --halo-black: #000000;
   --halo-blue-950: #071826;
+  --halo-blue-900: #0b2235;
+  --halo-blue-800: #12314a;
+  --halo-blue-100: #e7f1f7;
+  --halo-blue-50: #f5f9fc;
   --halo-ink: var(--halo-blue-950);
   --halo-gray-900: var(--halo-blue-950);
-  --halo-gray-800: #262626;
-  --halo-gray-700: #3f3f46;
-  --halo-gray-600: #525252;
-  --halo-gray-500: #737373;
-  --halo-gray-400: #a3a3a3;
-  --halo-gray-300: #d4d4d4;
-  --halo-gray-200: #e5e5e5;
-  --halo-gray-100: #f5f5f5;
-  --halo-gray-50: #fafafa;
+  --halo-gray-800: #243746;
+  --halo-gray-700: #354c5c;
+  --halo-gray-600: #526777;
+  --halo-gray-500: #738391;
+  --halo-gray-400: #a7b3bd;
+  --halo-gray-300: #d3dce3;
+  --halo-gray-200: #e2e9ee;
+  --halo-gray-100: #f2f6f8;
+  --halo-gray-50: #fbfcfd;
   --halo-white: #ffffff;
 
   --halo-yellow: #fcd62d;
   --halo-yellow-hover: #e5c229;
+  --halo-yellow-active: #d3b31f;
   --halo-yellow-strong: var(--halo-yellow-hover);
   --halo-live-yellow: #ffd700;
   --halo-live-yellow-hover: #ffc700;
   --halo-blue: #2f93f3;
+  --halo-blue-hover: #1778d4;
   --halo-success: #22c55e;
+  --halo-warning: #f59e0b;
   --halo-danger: #dc2626;
+  --halo-sale: #b91c1c;
 
+  /* Semantic color roles */
+  --halo-color-action-primary: var(--halo-yellow);
+  --halo-color-action-primary-hover: var(--halo-yellow-hover);
+  --halo-color-action-primary-active: var(--halo-yellow-active);
+  --halo-color-action-primary-text: var(--halo-ink);
+  --halo-color-action-secondary: var(--halo-ink);
+  --halo-color-action-secondary-hover: var(--halo-blue-900);
+  --halo-color-action-secondary-text: var(--halo-white);
+  --halo-color-action-tertiary: transparent;
+  --halo-color-action-disabled: #d9e2e8;
+  --halo-color-action-disabled-text: #6d7f8c;
+
+  --halo-color-link: var(--halo-blue);
+  --halo-color-link-hover: var(--halo-blue-hover);
+  --halo-color-focus: var(--halo-blue);
+  --halo-color-focus-ring: rgba(47, 147, 243, 0.32);
+
+  --halo-color-surface-page: var(--halo-blue-50);
+  --halo-color-surface-raised: var(--halo-white);
+  --halo-color-surface-subtle: var(--halo-gray-50);
+  --halo-color-surface-muted: var(--halo-gray-100);
+  --halo-color-surface-product: #f4f7f9;
+  --halo-color-surface-dark: var(--halo-blue-950);
+  --halo-color-surface-dark-raised: var(--halo-blue-900);
+  --halo-color-surface-promo: #fff7bf;
+
+  --halo-color-text-primary: var(--halo-ink);
+  --halo-color-text-secondary: var(--halo-gray-600);
+  --halo-color-text-muted: var(--halo-gray-500);
+  --halo-color-text-inverse: var(--halo-white);
+  --halo-color-text-inverse-muted: rgba(255, 255, 255, 0.72);
+
+  --halo-color-border-subtle: var(--halo-gray-200);
+  --halo-color-border-strong: #aec1cf;
+  --halo-color-border-dark: #244258;
+
+  --halo-color-status-success: var(--halo-success);
+  --halo-color-status-success-surface: #eaf9f0;
+  --halo-color-status-warning: var(--halo-warning);
+  --halo-color-status-warning-surface: #fff7df;
+  --halo-color-status-danger: var(--halo-danger);
+  --halo-color-status-danger-surface: #fff1f1;
+  --halo-color-status-info: var(--halo-blue);
+  --halo-color-status-info-surface: #eaf4fe;
+  --halo-color-sale: var(--halo-sale);
+  --halo-color-sale-surface: #fff3df;
+  --halo-color-membership: var(--halo-blue);
+  --halo-color-membership-surface: #edf7ff;
+
+  --halo-color-nav-background: var(--halo-white);
+  --halo-color-nav-border: var(--halo-color-border-subtle);
+  --halo-color-nav-text: var(--halo-gray-600);
+  --halo-color-nav-text-active: var(--halo-ink);
+  --halo-color-nav-promo-background: var(--halo-yellow);
+  --halo-color-nav-promo-text: var(--halo-ink);
+
+  --halo-color-product-surface: var(--halo-color-surface-product);
+  --halo-color-card-background: var(--halo-white);
+  --halo-color-card-border: var(--halo-color-border-subtle);
+  --halo-color-drawer-scrim: rgba(7, 24, 38, 0.48);
+  --halo-color-drawer-background: var(--halo-white);
+
+  /* Radius, layout, and elevation */
   --halo-radius-xs: 4px;
   --halo-radius-sm: 6px;
   --halo-radius-md: 8px;
@@ -33,24 +105,56 @@
   --halo-radius-xl: 16px;
   --halo-radius-pill: 999px;
 
+  --halo-component-nav-radius: var(--halo-radius-md);
+  --halo-component-button-radius: var(--halo-radius-pill);
+  --halo-component-card-radius: var(--halo-radius-lg);
+  --halo-component-product-card-radius: var(--halo-radius-xl);
+  --halo-component-form-radius: 10px;
+  --halo-component-pdp-gallery-radius: var(--halo-radius-xl);
+
   --halo-container: 1400px;
   --halo-container-live: 1240px;
-  --halo-section-y: 96px;
+  --halo-container-readable: 760px;
+  --halo-section-y: 88px;
   --halo-section-y-sm: 56px;
+  --halo-page-gutter: 20px;
 
-  --halo-shadow-nav: 0 2px 4px rgba(0, 0, 0, 0.05);
-  --halo-shadow-dropdown: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --halo-space-2xs: 4px;
+  --halo-space-xs: 8px;
+  --halo-space-sm: 12px;
+  --halo-space-md: 16px;
+  --halo-space-lg: 24px;
+  --halo-space-xl: 32px;
+  --halo-space-2xl: 48px;
+  --halo-space-3xl: 64px;
+  --halo-space-4xl: 88px;
+
+  --halo-shadow-nav: 0 2px 4px rgba(7, 24, 38, 0.06);
+  --halo-shadow-dropdown: 0 24px 48px rgba(7, 24, 38, 0.22);
+  --halo-shadow-soft: 0 1px 2px rgba(7, 24, 38, 0.05);
   --halo-shadow-card: 0 4px 14px rgba(7, 24, 38, 0.06);
-  --halo-shadow-card-lg: 0 10px 28px rgba(7, 24, 38, 0.08);
+  --halo-shadow-card-lg: 0 12px 28px rgba(7, 24, 38, 0.1);
+  --halo-shadow-raised: 0 18px 42px rgba(7, 24, 38, 0.14);
+  --halo-shadow-focus: 0 0 0 4px var(--halo-color-focus-ring);
 
-  --halo-type-display: 4rem;
-  --halo-type-hero: 4rem;
-  --halo-type-section: 3.25rem;
+  --halo-duration-fast: 140ms;
+  --halo-duration-base: 220ms;
+  --halo-duration-slow: 320ms;
+  --halo-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Type roles */
+  --halo-type-display: 3.75rem;
+  --halo-type-hero: 3.5rem;
+  --halo-type-page: 3rem;
+  --halo-type-section: 2.5rem;
+  --halo-type-subsection: 1.75rem;
   --halo-type-card-title: 1.125rem;
   --halo-type-body: 1rem;
   --halo-type-small: 0.875rem;
+  --halo-type-caption: 0.75rem;
 
-  --black: var(--halo-black);
+  /* Legacy source-variable bridge */
+  --black: var(--halo-ink);
   --white: var(--halo-white);
   --gray-50: var(--halo-gray-50);
   --gray-100: var(--halo-gray-100);
@@ -64,20 +168,37 @@
   --accent-dark: var(--halo-yellow-hover);
   --success: var(--halo-success);
   --font-sans: var(--halo-font-sans);
+  --font-primary: var(--halo-font-sans);
+  --ease-out: var(--halo-ease-out);
+}
+
+.nav-right-mobile {
+  position: relative;
+  z-index: 1001;
+}
+
+.nav-mobile-toggle {
+  position: relative;
+  z-index: 1002;
 }
 
 @media (max-width: 767px) {
   :root {
-    --halo-type-display: 3rem;
-    --halo-type-hero: 3rem;
-    --halo-type-section: 2.35rem;
+    --halo-type-display: 2.8rem;
+    --halo-type-hero: 2.65rem;
+    --halo-type-page: 2.35rem;
+    --halo-type-section: 2.1rem;
+    --halo-section-y: 64px;
+    --halo-section-y-sm: 44px;
+    --halo-page-gutter: 16px;
   }
 }
 
 @media (max-width: 480px) {
   :root {
-    --halo-type-display: 2.55rem;
-    --halo-type-hero: 2.55rem;
-    --halo-type-section: 2rem;
+    --halo-type-display: 2.35rem;
+    --halo-type-hero: 2.25rem;
+    --halo-type-page: 2rem;
+    --halo-type-section: 1.85rem;
   }
 }

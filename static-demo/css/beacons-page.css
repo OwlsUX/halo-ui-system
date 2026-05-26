@@ -1,9 +1,35 @@
 .beacons-page {
   background: var(--halo-paper);
+  --beacon-dark-start: var(--halo-color-surface-dark);
+  --beacon-dark-mid: var(--halo-color-surface-dark-raised);
+  --beacon-dark-end: var(--halo-blue-800);
+  --beacon-inverse-subtle: var(--halo-color-text-inverse-muted);
+  --beacon-inverse-border: rgba(255, 255, 255, 0.22);
+  --beacon-inverse-wash: rgba(255, 255, 255, 0.12);
+  --beacon-product-zone-surface: var(--halo-color-surface-product);
+  --beacon-product-remote-surface: var(--halo-color-status-info-surface);
+  --beacon-shadow-product: rgba(7, 24, 38, 0.16);
 }
 
 .beacons-page .promo-strip {
   background: var(--halo-yellow);
+}
+
+@media (max-width: 1024px) {
+  .beacons-page .nav-right-mobile,
+  .beacons-page .nav-mobile-toggle {
+    display: flex !important;
+  }
+
+  .beacons-page .nav-mobile-toggle {
+    flex-direction: column;
+    border: 1px solid var(--halo-color-border-subtle);
+    border-radius: var(--halo-radius-md);
+  }
+
+  body.beacons-page .nav.nav--light .nav-mobile-toggle .hamburger-line {
+    background: var(--halo-color-nav-text-active) !important;
+  }
 }
 
 .beacon-hero {
@@ -11,7 +37,7 @@
   overflow: hidden;
   padding: clamp(44px, 6vw, 72px) 0 clamp(34px, 5vw, 56px);
   background:
-    linear-gradient(135deg, #101713 0%, #1d251c 46%, #f1cf33 100%);
+    linear-gradient(135deg, var(--beacon-dark-start) 0%, var(--beacon-dark-mid) 54%, var(--beacon-dark-end) 100%);
   color: var(--halo-paper);
 }
 
@@ -34,9 +60,9 @@
   display: grid;
   place-items: center;
   margin-bottom: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 1px solid var(--beacon-inverse-border);
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--beacon-inverse-wash);
 }
 
 .beacon-wireless img {
@@ -45,14 +71,14 @@
 
 .beacons-page .beacon-hero .eyebrow,
 .beacon-cta .eyebrow {
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--beacon-inverse-subtle);
 }
 
 .beacon-hero h1 {
   max-width: 680px;
   margin: 0 0 18px;
-  font-size: clamp(3rem, 6vw, 5rem);
-  line-height: 0.94;
+  font-size: var(--halo-type-page);
+  line-height: 1;
   letter-spacing: 0;
   font-weight: 700;
 }
@@ -60,9 +86,9 @@
 .beacon-hero__lead {
   max-width: 540px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.84);
-  font-size: clamp(1.2rem, 2.2vw, 1.65rem);
-  line-height: 1.35;
+  color: var(--beacon-inverse-subtle);
+  font-size: clamp(1.12rem, 2vw, 1.35rem);
+  line-height: 1.45;
 }
 
 .beacon-hero__actions,
@@ -80,7 +106,7 @@
 }
 
 .beacon-button--light:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--beacon-inverse-wash);
 }
 
 .beacon-hero__media {
@@ -92,9 +118,9 @@
   content: "";
   position: absolute;
   inset: 11% 3% 12% 19%;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 1px solid var(--beacon-inverse-border);
   border-radius: 40px;
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--beacon-inverse-wash);
   transform: rotate(-7deg);
 }
 
@@ -102,7 +128,7 @@
 .beacon-hero__zone {
   position: absolute;
   object-fit: contain;
-  filter: drop-shadow(0 34px 44px rgba(7, 12, 9, 0.38));
+  filter: drop-shadow(0 34px 44px rgba(7, 24, 38, 0.38));
 }
 
 .beacon-hero__remote {
@@ -138,8 +164,8 @@
 .beacon-setup h2,
 .beacon-cta h2 {
   margin: 0;
-  font-size: clamp(2.15rem, 4vw, 3.8rem);
-  line-height: 0.96;
+  font-size: var(--halo-type-section);
+  line-height: 1.04;
   letter-spacing: 0;
   font-weight: 650;
 }
@@ -174,11 +200,11 @@
   min-height: clamp(260px, 32vw, 390px);
   display: grid;
   place-items: center;
-  background: #eef4ed;
+  background: var(--beacon-product-zone-surface);
 }
 
 .beacon-product-card--remote .beacon-product-card__media {
-  background: #edf3f8;
+  background: var(--beacon-product-remote-surface);
 }
 
 .beacon-product-card__media img {
@@ -205,8 +231,8 @@
   align-items: center;
   padding: 5px 11px;
   border-radius: var(--halo-radius-pill);
-  background: #eaf4fe;
-  color: #1767aa;
+  background: var(--halo-color-status-info-surface);
+  color: var(--halo-color-link-hover);
   font-size: 0.78rem;
   font-weight: 800;
 }
@@ -223,8 +249,8 @@
 .beacon-setup-list h3 {
   margin: 0;
   color: var(--halo-ink);
-  font-size: clamp(1.4rem, 2vw, 1.85rem);
-  line-height: 1.08;
+  font-size: clamp(var(--halo-type-card-title), 1.7vw, var(--halo-type-subsection));
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
@@ -334,7 +360,7 @@
   width: 118px;
   max-height: 128px;
   object-fit: contain;
-  filter: drop-shadow(0 16px 24px rgba(17, 17, 17, 0.16));
+  filter: drop-shadow(0 16px 24px var(--beacon-shadow-product));
 }
 
 .beacon-use-card__products img + img {
@@ -410,7 +436,7 @@
 }
 
 .beacon-table thead th {
-  background: #f7f7f1;
+  background: var(--halo-color-surface-muted);
   color: var(--halo-ink);
   font-size: 0.86rem;
   font-weight: 850;
@@ -433,8 +459,8 @@
 }
 
 .beacon-check {
-  background: #e9f8ee;
-  color: #197a38;
+  background: var(--halo-color-status-success-surface);
+  color: var(--halo-color-status-success);
 }
 
 .beacon-check::before {
@@ -445,7 +471,7 @@
 
 .beacon-no {
   background: var(--halo-cloud);
-  color: var(--halo-gray-400);
+  color: var(--halo-color-action-disabled-text);
 }
 
 .beacon-no::before {
@@ -547,7 +573,7 @@
 .beacon-cta {
   padding: clamp(52px, 7vw, 84px) 0;
   background:
-    linear-gradient(135deg, #141b16 0%, #253126 58%, #0e1411 100%);
+    linear-gradient(135deg, var(--halo-color-surface-dark) 0%, var(--halo-color-surface-dark-raised) 62%, var(--halo-blue-800) 100%);
   color: var(--halo-paper);
 }
 

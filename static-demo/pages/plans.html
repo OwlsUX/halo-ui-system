@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../css/components.css?v=2">
   <link rel="stylesheet" href="../css/pages.css">
   <link rel="stylesheet" href="../css/plans-page.css">
+  <link rel="stylesheet" href="../css/v3-nav.css">
 </head>
 <body class="plans-page">
   <a class="skip-link" href="#main-content">Skip to plan selector</a>
@@ -19,24 +20,152 @@
     <a href="shop-wireless-dog-fence.html">90-day satisfaction guarantee</a>
   </div>
 
-  <nav class="site-nav" aria-label="Primary navigation">
+    <nav class="nav nav--light" aria-label="Main navigation">
     <div class="container nav-inner">
-      <a class="brand" href="../index.html" aria-label="Halo overview">
-        <img src="../vendor/ecomlanders-v3/halo-logo-dark.svg" alt="Halo">
+      <a href="home.html" class="nav-logo" aria-label="Halo home">
+        <img src="../vendor/ecomlanders-v3/halo-logo-dark.svg" alt="Halo" class="logo-img">
       </a>
-      <button class="nav-menu-button" type="button" data-nav-toggle="#navLinks" aria-expanded="false">Menu</button>
-      <div class="nav-links" id="navLinks">
-        <a data-nav-link href="home.html">Home</a>
-        <a data-nav-link href="shop-wireless-dog-fence.html">Shop Halo</a>
-        <a data-nav-link href="accessories.html">Accessories</a>
-        <a data-nav-link href="beacons.html">Beacons</a>
-        <a data-nav-link href="reviews.html">Testimonials</a>
-        <a data-nav-link href="plans.html">Plans</a>
-        <a data-nav-link href="deals.html">Deals</a>
-        <a data-nav-link href="how-it-works.html">How it works</a>
-        <a data-nav-link href="style-guide.html">Style guide</a>
+
+      <div class="nav-menu-desktop">
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-toggle" type="button" aria-expanded="false">
+            Shop Halo
+            <svg class="dropdown-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </button>
+          <div class="mega-menu">
+            <div class="mega-menu__container">
+              <div class="mega-menu__products-area">
+                <div class="mega-menu__grid">
+                  <a href="shop-wireless-dog-fence.html" class="product-card product-card__animated hc5-product">
+                    <div class="product-card__bg">
+                      <img src="https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5" alt="Halo Collar 5" class="product-card__image">
+                    </div>
+                    <div class="product-card__content product-card__content--light">
+                      <div class="product-card__badge">NEW</div>
+                      <h3 class="product-card__title">Halo Collar 5</h3>
+                      <div class="product-card__price">
+                        <p class="price-label">Save <span data-savings="HC5">$75</span></p>
+                        <p><span data-price="HC5">$524</span> <span class="strikethrough">$599</span></p>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="shop-wireless-dog-fence.html" class="product-card product-card__animated hc4-product">
+                    <div class="product-card__bg">
+                      <img src="https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4" alt="Halo Collar 4" class="product-card__image">
+                    </div>
+                    <div class="product-card__content product-card__content--light">
+                      <div class="product-card__badge product-card__badge--dark">WHILE SUPPLIES LAST</div>
+                      <h3 class="product-card__title">Halo Collar 4</h3>
+                      <div class="product-card__price">
+                        <p class="price-label">Save <span data-savings="HC4">$125</span></p>
+                        <p><span data-price="HC4">$424</span> <span class="strikethrough">$549</span></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="mega-menu__sidebar">
+                <nav aria-label="Shop categories">
+                  <a href="beacons.html" class="mega-nav-item">
+                    <div class="mega-nav-item__left">
+                      <img src="../assets/accessories/processed/remote-beacon.png" alt="Shop Beacons" class="mega-nav-item__image mega-nav-item__image--scaled">
+                      <span>Shop Beacons</span>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mega-nav-item__arrow" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  </a>
+                  <a href="accessories.html" class="mega-nav-item">
+                    <div class="mega-nav-item__left">
+                      <img src="../assets/accessories/processed/charging-stand.png" alt="Shop Accessories" class="mega-nav-item__image">
+                      <span>Shop Accessories</span>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mega-nav-item__arrow" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="reviews.html" class="nav-link">Testimonials</a>
+        <a href="deals.html" class="nav-link">Deals</a>
+        <a href="how-it-works.html" class="nav-link">How it works</a>
       </div>
-      <a class="button button--yellow nav-cta" href="shop-wireless-dog-fence.html">Shop collar</a>
+
+      <div class="nav-right-desktop">
+        <a href="account.html" class="nav-icon-btn" aria-label="Account"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        <a href="shop-wireless-dog-fence.html" class="main-nav-cart nav-icon-btn" aria-label="Cart"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        <a href="shop-wireless-dog-fence.html" class="nav-cta-btn">Shop Now</a>
+      </div>
+
+      <div class="nav-right-mobile">
+        <a href="shop-wireless-dog-fence.html" class="main-nav-cart nav-icon-btn" aria-label="Cart"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        <button class="nav-mobile-toggle" type="button" aria-label="Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-mobile-menu" aria-hidden="true">
+      <div class="sidebar-menu">
+        <div class="sidebar-menu__content custom-scrollbar">
+          <div class="sidebar-menu__section sidebar-menu__section--products">
+            <div class="products-container">
+              <a href="shop-wireless-dog-fence.html" class="product-card-mobile hc5-product">
+                <div class="product-card-mobile__image-wrapper aspect-3-2">
+                  <img src="https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5" alt="Halo Collar 5" class="product-card-mobile__image">
+                  <div class="product-card-mobile__content_mobile">
+                    <span class="badge badge--white">NEW</span>
+                    <h3 class="product-card-mobile__title">Halo Collar 5</h3>
+                    <div class="product-card-mobile__price">
+                      <p class="product-card-mobile__promo">Save <span data-savings="HC5">$75</span></p>
+                      <p><span data-price="HC5">$524</span> <span class="strikethrough">$599</span></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="shop-wireless-dog-fence.html" class="product-card-mobile hc4-product">
+                <div class="product-card-mobile__image-wrapper aspect-3-2">
+                  <img src="https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4" alt="Halo Collar 4" class="product-card-mobile__image">
+                  <div class="product-card-mobile__content_mobile">
+                    <span class="badge badge--dark">WHILE SUPPLIES LAST</span>
+                    <h3 class="product-card-mobile__title">Halo Collar 4</h3>
+                    <div class="product-card-mobile__price">
+                      <p class="product-card-mobile__promo">Save <span data-savings="HC4">$125</span></p>
+                      <p><span data-price="HC4">$424</span> <span class="strikethrough">$549</span></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="accessory-links">
+                <a href="beacons.html" class="accessory-item">
+                  <img src="../assets/accessories/processed/remote-beacon.png" alt="Beacons" class="accessory-item__thumb">
+                  <span>Shop Beacons</span>
+                </a>
+                <a href="accessories.html" class="accessory-item">
+                  <img src="../assets/accessories/processed/charging-stand.png" alt="Accessories" class="accessory-item__thumb">
+                  <span>Shop Accessories</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <nav class="sidebar-menu__nav" aria-label="Mobile navigation">
+            <ul class="menu-list">
+              <li><a href="reviews.html" class="menu-list__link">Testimonials</a></li>
+              <li><a href="deals.html" class="menu-list__link">Deals</a></li>
+              <li><a href="how-it-works.html" class="menu-list__link">How it works</a></li>
+            </ul>
+            <ul class="menu-list">
+              <li><a href="account.html" class="menu-list__link">My Account</a></li>
+              <li><a href="plans.html" class="menu-list__link" aria-current="page">Plans</a></li>
+              <li><a href="pack-perks.html" class="menu-list__link">Pack Perks</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sidebar-menu__footer">
+          <a href="shop-wireless-dog-fence.html" class="btn-explore-halo">Shop Now</a>
+        </div>
+      </div>
     </div>
   </nav>
 
@@ -308,45 +437,63 @@
     <button class="button" type="button" data-mobile-checkout>Continue</button>
   </div>
 
-  <footer class="site-footer plans-footer">
+    <footer class="footer">
     <div class="container">
-      <div class="plans-footer__grid">
-        <div class="plans-footer__brand">
-          <img src="../vendor/ecomlanders-v3/halo-logo.svg" alt="Halo">
-          <p>Halo by Protect Animals with Satellites LLC</p>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="footer-logo" href="home.html" aria-label="Halo home">
+            <img src="../vendor/ecomlanders-v3/halo-logo.svg?v=2" alt="Halo" class="footer-logo-img footer-logo-dark">
+          </a>
+          <div class="footer-socials">
+            <a href="#" aria-label="YouTube" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"></path></svg></a>
+            <a href="#" aria-label="Facebook" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.3l-.5 3.5h-2.8v8.4A12 12 0 0 0 24 12z"></path></svg></a>
+            <a href="#" aria-label="Instagram" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 5.8.1 4.9.3 4.1.6c-.8.3-1.5.7-2.1 1.4C1.3 2.6.9 3.3.6 4.1.3 4.9.1 5.8.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.1 1.3.2 2.2.5 3 .3.8.7 1.5 1.4 2.1.7.7 1.3 1.1 2.1 1.4.8.3 1.7.5 3 .5 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c1.3-.1 2.2-.2 3-.5.8-.3 1.5-.7 2.1-1.4.7-.7 1.1-1.3 1.4-2.1.3-.8.5-1.7.5-3 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.1-1.3-.2-2.2-.5-3-.3-.8-.7-1.5-1.4-2.1C21.4 1.3 20.7.9 19.9.6c-.8-.3-1.7-.5-3-.5C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"></path></svg></a>
+            <a href="#" aria-label="TikTok" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.3 5.3A4.5 4.5 0 0 1 16.5 2h-3.4v13.5a2.7 2.7 0 1 1-1.9-2.6V9.4a6.2 6.2 0 1 0 5.3 6.1V9.7a7.9 7.9 0 0 0 4.5 1.4V7.7a4.5 4.5 0 0 1-1.7-2.4z"></path></svg></a>
+          </div>
         </div>
-        <div>
-          <h3>Shop</h3>
-          <a href="shop-wireless-dog-fence.html">Main Shop</a>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4>Shop</h4>
           <a href="shop-wireless-dog-fence.html">Halo Collar</a>
           <a href="accessories.html">Accessories</a>
-          <a href="deals.html">Warehouse Deals</a>
-          <a href="plans.html">Protection Plans</a>
+          <a href="beacons.html">Beacons</a>
+          <a href="deals.html">Deals</a>
         </div>
-        <div>
-          <h3>Pack Membership</h3>
-          <a href="account.html">My Account</a>
+        <div class="footer-column">
+          <h4>Learn / About</h4>
+          <a href="how-it-works.html">How it works</a>
+          <a href="reviews.html">Testimonials</a>
+          <a href="blog-template.html">Blog</a>
+        </div>
+        <div class="footer-column">
+          <h4>Membership / Account</h4>
+          <a href="account.html">Account</a>
           <a href="plans.html">Plans</a>
-          <a href="pack-perks.html">Download the App</a>
+          <a href="pack-perks.html">Pack Perks</a>
         </div>
-        <div>
-          <h3>Support</h3>
-          <a href="support-template.html">Resource Hub</a>
-          <a href="#faq">FAQ</a>
-          <a href="account.html">Order Information</a>
-          <a href="support-template.html">Return Policy</a>
+        <div class="footer-column">
+          <h4>Support / Legal</h4>
+          <a href="support-template.html">Halo Support</a>
+          <a href="support-template.html">Privacy Policy</a>
+          <a href="support-template.html">Terms of Use</a>
+          <a href="support-template.html">Legal Disclaimer</a>
         </div>
-        <div>
-          <h3>Why Halo?</h3>
+        <div class="footer-column">
+          <h4>Why Halo?</h4>
           <a href="feature-detail.html">Best GPS Dog Fence</a>
           <a href="feature-detail.html">GPS Dog Fence Accuracy</a>
           <a href="feature-detail.html">Halo vs. SpotOn</a>
-          <a href="blog-template.html">Popular Dog Breeds</a>
+          <a href="feature-detail.html">Underground fence comparison</a>
         </div>
       </div>
-      <div class="plans-footer__bottom">
-        <p>Copyright 2026 | Halo by Protect Animals with Satellites LLC</p>
-        <div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2026 | Halo&reg; by Protect Animals with Satellites LLC</p>
+        </div>
+        <div class="footer-legal">
           <a href="support-template.html">Privacy Policy</a>
           <a href="support-template.html">Terms of Use</a>
           <a href="support-template.html">Legal Disclaimer</a>
@@ -575,6 +722,6 @@
       render();
     })();
   </script>
-  <script src="../js/components.js"></script>
+  <script src="../js/components.js?v=shared-chrome-20260521"></script>
 </body>
 </html>

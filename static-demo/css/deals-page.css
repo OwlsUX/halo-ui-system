@@ -1,6 +1,11 @@
 .deals-page {
   background: var(--halo-paper);
   color: var(--halo-ink);
+  --deals-blue-action: var(--halo-color-link);
+  --deals-blue-action-hover: var(--halo-color-action-secondary);
+  --deals-product-shadow-strong: rgba(7, 24, 38, 0.18);
+  --deals-product-shadow-soft: rgba(7, 24, 38, 0.12);
+  --deals-swatch-border: rgba(7, 24, 38, 0.12);
 }
 
 .deals-page .promo-strip {
@@ -10,6 +15,23 @@
 .deals-page .nav-cta {
   min-height: 40px;
   padding-inline: 16px;
+}
+
+@media (max-width: 1024px) {
+  .deals-page .nav-right-mobile,
+  .deals-page .nav-mobile-toggle {
+    display: flex !important;
+  }
+
+  .deals-page .nav-mobile-toggle {
+    flex-direction: column;
+    border: 1px solid var(--halo-color-border-subtle);
+    border-radius: var(--halo-radius-md);
+  }
+
+  body.deals-page .nav.nav--light .nav-mobile-toggle .hamburger-line {
+    background: var(--halo-color-nav-text-active) !important;
+  }
 }
 
 .deals-hero {
@@ -52,7 +74,7 @@
 
 .deals-hero p:not(.eyebrow) {
   margin-bottom: 34px;
-  color: var(--halo-gray-800);
+  color: var(--halo-color-text-primary);
   font-size: clamp(1.25rem, 3vw, 2.2rem);
   line-height: 1.12;
   font-weight: 600;
@@ -68,28 +90,36 @@
 .deals-hero__media img {
   width: min(105%, 780px);
   max-width: none;
-  filter: drop-shadow(0 28px 32px rgba(17, 17, 17, 0.18));
+  filter: drop-shadow(0 28px 32px var(--deals-product-shadow-strong));
 }
 
 .deals-button {
+  display: inline-grid;
+  place-items: center;
   width: fit-content;
   min-width: 152px;
-  border-color: var(--halo-blue);
-  background: var(--halo-blue);
-  color: var(--halo-paper);
+  min-height: 46px;
+  border-color: var(--deals-blue-action);
+  background: var(--deals-blue-action);
+  color: var(--halo-color-text-inverse);
+  font-size: var(--halo-type-body);
+  line-height: 1;
+  text-align: center;
+  text-indent: 0;
+  -webkit-text-fill-color: var(--halo-color-text-inverse);
 }
 
 .deals-button:hover,
 .deals-button:focus-visible {
-  border-color: var(--halo-black);
-  background: var(--halo-black);
-  color: var(--halo-paper);
+  border-color: var(--deals-blue-action-hover);
+  background: var(--deals-blue-action-hover);
+  color: var(--halo-color-text-inverse);
 }
 
 .deals-button--ghost {
-  border-color: var(--halo-black);
+  border-color: var(--deals-blue-action-hover);
   background: transparent;
-  color: var(--halo-black);
+  color: var(--deals-blue-action-hover);
 }
 
 .deals-section {
@@ -157,7 +187,7 @@
 
 .deal-feature__media img {
   width: min(84%, 560px);
-  filter: drop-shadow(0 20px 26px rgba(17, 17, 17, 0.12));
+  filter: drop-shadow(0 20px 26px var(--deals-product-shadow-soft));
 }
 
 .deal-feature__details,
@@ -172,13 +202,13 @@
 .deal-feature h3,
 .bundle-offer h3 {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.4rem);
-  line-height: 0.98;
+  font-size: clamp(var(--halo-type-subsection), 3vw, var(--halo-type-section));
+  line-height: 1.04;
   letter-spacing: 0;
 }
 
 .bundle-offer h3 {
-  font-size: clamp(1.75rem, 3vw, 2.65rem);
+  font-size: clamp(1.5rem, 2.4vw, var(--halo-type-subsection));
 }
 
 .bundle-offer h3 span {
@@ -187,23 +217,23 @@
 
 .deal-price {
   margin: 0;
-  color: var(--halo-gray-700);
+  color: var(--halo-color-text-secondary);
   font-size: clamp(1rem, 2.2vw, 1.45rem);
   line-height: 1.3;
 }
 
 .deal-price strong {
-  color: var(--halo-black);
+  color: var(--halo-color-text-primary);
   font-size: 1.18em;
 }
 
 .deal-price s {
-  color: var(--halo-gray-500);
+  color: var(--halo-color-text-muted);
 }
 
 .deal-link {
   width: fit-content;
-  color: var(--halo-black);
+  color: var(--halo-color-text-primary);
   font-weight: 850;
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -232,7 +262,7 @@
 
 .bundle-offer__media img {
   width: min(78%, 440px);
-  filter: drop-shadow(0 18px 24px rgba(17, 17, 17, 0.12));
+  filter: drop-shadow(0 18px 24px var(--deals-product-shadow-soft));
 }
 
 .comparison-table {
@@ -280,7 +310,7 @@
   width: 26px;
   height: 26px;
   margin: 3px 8px 3px 0;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--deals-swatch-border);
   border-radius: 50%;
   vertical-align: middle;
 }

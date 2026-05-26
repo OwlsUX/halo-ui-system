@@ -1,6 +1,13 @@
 .feature-page {
   background: var(--halo-paper);
   color: var(--halo-ink);
+  --feature-inverse-subtle: var(--halo-color-text-inverse-muted);
+  --feature-inverse-border: rgba(255, 255, 255, 0.62);
+  --feature-inverse-wash: rgba(255, 255, 255, 0.12);
+  --feature-hero-scrim: rgba(7, 24, 38, 0.7);
+  --feature-hero-scrim-soft: rgba(7, 24, 38, 0.28);
+  --feature-hero-scrim-fade: rgba(7, 24, 38, 0.08);
+  --feature-product-shadow: rgba(7, 24, 38, 0.16);
 }
 
 .feature-page .button {
@@ -15,12 +22,29 @@
   transform: translateY(-1px);
 }
 
+@media (max-width: 1024px) {
+  .feature-page .nav-right-mobile,
+  .feature-page .nav-mobile-toggle {
+    display: flex !important;
+  }
+
+  .feature-page .nav-mobile-toggle {
+    flex-direction: column;
+    border: 1px solid var(--halo-color-border-subtle);
+    border-radius: var(--halo-radius-md);
+  }
+
+  body.feature-page .nav.nav--light .nav-mobile-toggle .hamburger-line {
+    background: var(--halo-color-nav-text-active) !important;
+  }
+}
+
 .feature-page .button--live {
   min-height: 44px;
   border-color: var(--halo-live-yellow);
   border-radius: var(--halo-radius-md);
   background: var(--halo-live-yellow);
-  color: var(--halo-gray-800);
+  color: var(--halo-color-text-primary);
   font-weight: 650;
 }
 
@@ -31,18 +55,18 @@
 }
 
 .feature-page .button--ghost {
-  border-color: rgba(255, 255, 255, 0.62);
+  border-color: var(--feature-inverse-border);
   color: var(--halo-paper);
 }
 
 .feature-page .button--ghost:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--feature-inverse-wash);
 }
 
 .feature-promo {
   gap: 22px;
   background: var(--halo-yellow);
-  color: var(--halo-gray-700);
+  color: var(--halo-color-text-primary);
   font-weight: 650;
 }
 
@@ -72,7 +96,7 @@
 }
 
 .feature-nav .nav-links a[aria-current="page"] {
-  background: var(--halo-black);
+  background: var(--halo-color-action-secondary);
   color: var(--halo-paper);
 }
 
@@ -89,13 +113,13 @@
   align-items: center;
   justify-content: center;
   border-radius: var(--halo-radius-md);
-  color: var(--halo-gray-700);
+  color: var(--halo-color-text-secondary);
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .feature-icon-button:hover {
-  background: var(--halo-gray-100);
-  color: var(--halo-black);
+  background: var(--halo-color-surface-muted);
+  color: var(--halo-color-text-primary);
 }
 
 .feature-icon-button svg {
@@ -110,7 +134,7 @@
   align-items: end;
   overflow: hidden;
   color: var(--halo-paper);
-  background: var(--halo-black);
+  background: var(--halo-color-surface-dark);
 }
 
 .feature-hero__media {
@@ -123,7 +147,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.28) 54%, rgba(0, 0, 0, 0.08));
+  background: linear-gradient(90deg, var(--feature-hero-scrim), var(--feature-hero-scrim-soft) 54%, var(--feature-hero-scrim-fade));
 }
 
 .feature-hero__media img {
@@ -151,7 +175,7 @@
 .feature-hero p:not(.eyebrow) {
   max-width: 35ch;
   margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.84);
+  color: var(--feature-inverse-subtle);
   font-size: 1.2rem;
   line-height: 1.45;
 }
@@ -277,7 +301,7 @@
   padding: 5px 10px;
   border-radius: var(--halo-radius-pill);
   background: var(--halo-yellow);
-  color: var(--halo-black);
+  color: var(--halo-color-text-primary);
   font-size: 0.78rem;
   font-weight: 800;
 }
@@ -311,7 +335,7 @@
   overflow: hidden;
   min-height: 430px;
   border-radius: var(--halo-radius-xl);
-  background: var(--halo-gray-100);
+  background: var(--halo-color-surface-muted);
   box-shadow: var(--halo-shadow-card);
 }
 
@@ -345,7 +369,7 @@
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
-  background: var(--halo-gray-100);
+  background: var(--halo-color-surface-muted);
 }
 
 .app-feature-grid h3,
@@ -366,7 +390,7 @@
 }
 
 .feature-section--collar {
-  background: var(--halo-gray-50);
+  background: var(--halo-color-surface-subtle);
 }
 
 .feature-collar {
@@ -400,7 +424,7 @@
 .feature-collar__media > img {
   width: min(88%, 680px);
   align-self: center;
-  filter: drop-shadow(0 24px 42px rgba(17, 17, 17, 0.16));
+  filter: drop-shadow(0 24px 42px var(--feature-product-shadow));
 }
 
 .feature-hotspots {
@@ -422,7 +446,7 @@
   border: 1px solid var(--halo-line);
   border-radius: var(--halo-radius-pill);
   background: rgba(255, 255, 255, 0.88);
-  color: var(--halo-gray-800);
+  color: var(--halo-color-text-primary);
   font-size: 0.84rem;
   font-weight: 700;
 }
@@ -449,7 +473,7 @@
 }
 
 .feature-commerce {
-  background: var(--halo-black);
+  background: var(--halo-color-surface-dark);
   color: var(--halo-paper);
 }
 
@@ -498,7 +522,7 @@
 }
 
 .feature-price s {
-  color: var(--halo-gray-500);
+  color: var(--halo-color-text-muted);
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -570,7 +594,7 @@
 
 .feature-footer {
   padding: 58px 0 34px;
-  background: var(--halo-gray-800);
+  background: var(--halo-color-surface-dark);
   color: var(--halo-paper);
 }
 
@@ -580,7 +604,7 @@
   justify-content: space-between;
   gap: 24px;
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid var(--halo-color-border-dark);
 }
 
 .feature-footer__brand img {
@@ -590,7 +614,7 @@
 .feature-footer__brand p {
   max-width: 420px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--feature-inverse-subtle);
 }
 
 .feature-footer__grid {
@@ -610,7 +634,7 @@
 .feature-footer a {
   display: block;
   margin-bottom: 9px;
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--feature-inverse-subtle);
   font-size: 0.92rem;
 }
 
@@ -623,8 +647,8 @@
   justify-content: space-between;
   gap: 20px;
   padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  color: rgba(255, 255, 255, 0.62);
+  border-top: 1px solid var(--halo-color-border-dark);
+  color: var(--feature-inverse-subtle);
 }
 
 .feature-footer__bottom p {
@@ -693,7 +717,7 @@
   }
 
   .feature-hero__media::after {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.72));
+    background: linear-gradient(180deg, rgba(7, 24, 38, 0.04), var(--feature-hero-scrim));
   }
 
   .feature-hero__content {

@@ -1,160 +1,307 @@
 {
   "generatedAt": "2026-05-21",
-  "purpose": "Source-aware Halo web UI tokens for future agents building HaloCollar.com pages.",
+  "purpose": "Source-aware Halo ecommerce design-system tokens for future agents building HaloCollar.com pages, PDPs, account pages, and promotional templates.",
   "sources": {
     "liveHomepage": {
       "url": "https://www.halocollar.com/",
-      "notes": "Observed from live HTML, inline navigation/footer styles, hosted CSS, and the existing live homepage audit."
+      "notes": "Current public nav, promo strip, footer, Inter usage, live CTA yellow, and customer-facing chrome."
     },
     "v3Ecomlanders": {
       "paths": [
         "repos/ecomlanders/pages/Lander-v3-2026/styles.css",
         "repos/ecomlanders/pages/Lander-v3-2026/shop.css"
       ],
-      "notes": "Modernized marketing and PDP/configurator system."
+      "notes": "Primary modernized marketing and PDP/configurator visual direction."
     },
     "packPerks": {
       "path": "repos/packperks/css/styles.css",
-      "notes": "Account, membership, offers, and Pack Perks surfaces."
+      "notes": "Account, membership, offers, rewards, and denser operational surfaces."
     },
     "planSelector": {
       "path": "repos/halo-plan-selector/src/styles/globals.css",
-      "notes": "Membership selector tokens and Tailwind/shadcn-style base."
+      "notes": "Membership selector state and form/control assumptions."
     }
+  },
+  "principles": {
+    "primitiveUse": "Use primitive tokens to document source values or define semantic roles. Do not consume raw color primitives in page CSS when a semantic role exists.",
+    "semanticUse": "Use semantic tokens for page, component, state, and role styling so global changes cascade from halo-theme.css and tokens.css.",
+    "brandConstraints": [
+      "Preserve Halo font stacks and logo assets.",
+      "Preserve Halo yellow as the primary CTA and promo action color.",
+      "Preserve primary Halo blue for links, focus, selected, and technical accents.",
+      "Preserve --halo-blue-950: #071826, --halo-ink: var(--halo-blue-950), and --halo-gray-900: var(--halo-blue-950).",
+      "Use white and soft neutral surfaces tinted toward the Halo palette."
+    ]
   },
   "typography": {
-    "fontFamilyPrimary": {
+    "fontFamilyLive": {
+      "token": "--halo-font-live",
       "value": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
-      "provenance": ["liveHomepage", "packPerks", "planSelector"]
+      "usage": "Default for live, account, membership, and agent-built Halo pages."
     },
-    "fontFamilyMarketingDraft": {
-      "value": "-apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"Segoe UI\", Roboto, sans-serif",
-      "provenance": ["v3Ecomlanders"],
-      "decision": "Use only for V3/future marketing variants; use Inter for live-aligned pages."
+    "fontFamilyV3": {
+      "token": "--halo-font-sans",
+      "value": "-apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"Segoe UI\", Roboto, Arial, sans-serif",
+      "usage": "Preserved for the V3 homepage and intentionally modernized marketing variants."
     },
-    "baseBody": {
-      "value": "16px / 1.7, 500",
-      "provenance": ["liveHomepage consolidated.min.css"]
-    },
-    "liveAuditBody": {
-      "value": "14px / 20px",
-      "provenance": ["docs/live-homepage-vs-static-demo-audit.md"],
-      "decision": "Verify with browser-computed styles before rebuilding the live replica."
-    },
-    "headingLetterSpacing": {
-      "value": "0",
-      "provenance": ["homepage-aligned static demo tokens"],
-      "decision": "Keep normalized component-library headings at zero letter spacing; source-replica pages can retain source CSS when exact fidelity requires it."
+    "roles": {
+      "display": {
+        "token": "--halo-type-display",
+        "desktop": "3.75rem",
+        "tablet": "2.8rem",
+        "mobile": "2.35rem",
+        "usage": "Immersive first-viewport brand moments only."
+      },
+      "hero": {
+        "token": "--halo-type-hero",
+        "desktop": "3.5rem",
+        "tablet": "2.65rem",
+        "mobile": "2.25rem",
+        "usage": "Homepage, category, and campaign heroes."
+      },
+      "page": {
+        "token": "--halo-type-page",
+        "desktop": "3rem",
+        "tablet": "2.35rem",
+        "mobile": "2rem",
+        "usage": "Page-level headlines for category, account, and support routes."
+      },
+      "section": {
+        "token": "--halo-type-section",
+        "desktop": "2.5rem",
+        "tablet": "2.1rem",
+        "mobile": "1.85rem",
+        "usage": "Major reusable content sections."
+      },
+      "cardTitle": {
+        "token": "--halo-type-card-title",
+        "value": "1.125rem",
+        "usage": "Product cards, modules, plan cards, and account panels."
+      },
+      "body": {
+        "token": "--halo-type-body",
+        "value": "1rem",
+        "lineHeight": "1.5-1.7",
+        "usage": "Default readable copy."
+      },
+      "small": {
+        "token": "--halo-type-small",
+        "value": "0.875rem",
+        "usage": "Nav, footer, dense cards, metadata, helper text."
+      },
+      "caption": {
+        "token": "--halo-type-caption",
+        "value": "0.75rem",
+        "usage": "Badges, legal, captions, compact labels."
+      }
     }
   },
-  "colors": {
-    "brandYellow": {
-      "value": "#FCD62D",
-      "provenance": ["v3Ecomlanders", "packPerks", "planSelector", "liveHomepage footer/promo"]
+  "primitives": {
+    "colors": {
+      "haloYellow": "#fcd62d",
+      "haloYellowHover": "#e5c229",
+      "liveYellow": "#ffd700",
+      "liveYellowHover": "#ffc700",
+      "haloBlue": "#2f93f3",
+      "haloBlueHover": "#1778d4",
+      "haloBlue950": "#071826",
+      "haloInk": "var(--halo-blue-950)",
+      "haloGray900": "var(--halo-blue-950)",
+      "white": "#ffffff",
+      "blackSourcePrimitive": "#000000",
+      "success": "#22c55e",
+      "warning": "#f59e0b",
+      "danger": "#dc2626",
+      "sale": "#b91c1c"
     },
-    "liveCtaYellow": {
-      "value": "#FFD700",
-      "hover": "#FFC700",
-      "provenance": ["liveHomepage inline nav"],
-      "decision": "Use for live-replica nav CTA only unless product asks for current production fidelity."
+    "neutralScale": {
+      "gray50": "#fbfcfd",
+      "gray100": "#f2f6f8",
+      "gray200": "#e2e9ee",
+      "gray300": "#d3dce3",
+      "gray400": "#a7b3bd",
+      "gray500": "#738391",
+      "gray600": "#526777",
+      "gray700": "#354c5c",
+      "gray800": "#243746",
+      "gray900": "var(--halo-blue-950)"
     },
-    "ink": {
-      "value": "#071826",
-      "provenance": ["darkened from liveHomepage/v3 linkBlue"],
-      "decision": "Use as the primary near-black ink and dark background tone so dark surfaces carry a branded blue undertone instead of neutral charcoal."
+    "radius": {
+      "xs": "4px",
+      "sm": "6px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "pill": "999px"
+    }
+  },
+  "semanticTokens": {
+    "action": {
+      "primary": "var(--halo-yellow)",
+      "primaryHover": "var(--halo-yellow-hover)",
+      "primaryActive": "#d3b31f",
+      "primaryText": "var(--halo-ink)",
+      "secondary": "var(--halo-ink)",
+      "secondaryHover": "#0b2235",
+      "secondaryText": "var(--halo-white)",
+      "disabled": "#d9e2e8",
+      "disabledText": "#6d7f8c"
     },
-    "liveDarkGrey": {
-      "value": "#424242",
-      "provenance": ["liveHomepage consolidated.min.css"]
-    },
-    "v3Black": {
-      "value": "#000000",
-      "provenance": ["v3Ecomlanders"]
-    },
-    "white": {
-      "value": "#FFFFFF",
-      "provenance": ["all"]
+    "linkAndFocus": {
+      "link": "var(--halo-blue)",
+      "linkHover": "#1778d4",
+      "focus": "var(--halo-blue)",
+      "focusRing": "rgba(47, 147, 243, 0.32)"
     },
     "surface": {
-      "value": "#F5F5F5",
-      "provenance": ["v3Ecomlanders", "packPerks"]
+      "page": "var(--halo-blue-50)",
+      "raised": "var(--halo-white)",
+      "subtle": "var(--halo-gray-50)",
+      "muted": "var(--halo-gray-100)",
+      "product": "#f4f7f9",
+      "dark": "var(--halo-blue-950)",
+      "darkRaised": "#0b2235",
+      "promo": "#fff7bf"
     },
-    "surfaceSoft": {
-      "value": "#FAFAFA",
-      "provenance": ["v3Ecomlanders", "liveHomepage tailwind.css"]
+    "text": {
+      "primary": "var(--halo-ink)",
+      "secondary": "var(--halo-gray-600)",
+      "muted": "var(--halo-gray-500)",
+      "inverse": "var(--halo-white)",
+      "inverseMuted": "rgba(255, 255, 255, 0.72)"
     },
-    "line": {
-      "value": "#E5E7EB",
-      "provenance": ["packPerks", "v3Ecomlanders shop"]
+    "border": {
+      "subtle": "var(--halo-gray-200)",
+      "strong": "#aec1cf",
+      "dark": "#244258"
     },
-    "mutedText": {
-      "value": "#6B7280",
-      "provenance": ["packPerks"]
+    "status": {
+      "success": "var(--halo-success)",
+      "successSurface": "#eaf9f0",
+      "warning": "var(--halo-warning)",
+      "warningSurface": "#fff7df",
+      "danger": "var(--halo-danger)",
+      "dangerSurface": "#fff1f1",
+      "info": "var(--halo-blue)",
+      "infoSurface": "#eaf4fe",
+      "sale": "var(--halo-sale)",
+      "saleSurface": "#fff3df",
+      "membership": "var(--halo-blue)",
+      "membershipSurface": "#edf7ff"
     },
-    "linkBlue": {
-      "value": "#2F93F3",
-      "provenance": ["liveHomepage", "v3Ecomlanders shop"]
+    "nav": {
+      "background": "var(--halo-white)",
+      "border": "var(--halo-color-border-subtle)",
+      "text": "var(--halo-gray-600)",
+      "activeText": "var(--halo-ink)",
+      "promoBackground": "var(--halo-yellow)",
+      "promoText": "var(--halo-ink)"
     },
-    "deepBlueInk": {
-      "value": "#071826",
-      "provenance": ["derived from linkBlue"],
-      "decision": "Darkened primary blue replacement for previous #171717 / --halo-gray-900 token."
-    },
-    "success": {
-      "value": "#22C55E",
-      "provenance": ["v3Ecomlanders"]
-    },
-    "error": {
-      "value": "#DC2626",
-      "provenance": ["v3Ecomlanders shop inferred from remove/error states"]
+    "productAndDrawer": {
+      "productSurface": "var(--halo-color-surface-product)",
+      "cardBackground": "var(--halo-white)",
+      "cardBorder": "var(--halo-color-border-subtle)",
+      "drawerScrim": "rgba(7, 24, 38, 0.48)",
+      "drawerBackground": "var(--halo-white)"
     }
   },
-  "radii": {
-    "sm": {"value": "6px", "provenance": ["liveHomepage consolidated.min.css"]},
-    "md": {"value": "8px", "provenance": ["liveHomepage nav", "packPerks radius-sm"]},
-    "lg": {"value": "12px", "provenance": ["packPerks", "planSelector derived", "live variables"]},
-    "xl": {"value": "16px", "provenance": ["v3Ecomlanders shop", "packPerks radius-lg"]},
-    "pill": {"value": "999px", "provenance": ["packPerks", "planSelector", "v3Ecomlanders"]}
-  },
-  "shadows": {
-    "nav": {"value": "0 2px 4px rgba(0,0,0,0.05)", "provenance": ["liveHomepage inline nav"]},
-    "dropdown": {"value": "0 4px 24px rgba(0,0,0,0.12)", "provenance": ["liveHomepage inline nav"]},
-    "megaMenu": {"value": "0 25px 50px -12px rgba(0,0,0,0.25)", "provenance": ["v3Ecomlanders shop"]},
-    "cardSm": {"value": "0 1px 2px rgba(17,17,17,0.04)", "provenance": ["packPerks"]},
-    "cardMd": {"value": "0 4px 14px rgba(17,17,17,0.06)", "provenance": ["packPerks"]},
-    "cardLg": {"value": "0 10px 28px rgba(17,17,17,0.08)", "provenance": ["packPerks"]}
-  },
-  "buttons": {
-    "primaryYellow": {
-      "background": "#FCD62D",
-      "color": "#111111",
-      "radius": "999px or 8px by context",
-      "hover": "#E8C428 or #FFC700 by source",
-      "provenance": ["packPerks", "planSelector", "liveHomepage"]
+  "cssVariableMap": {
+    "action": {
+      "--halo-color-action-primary": "Primary CTA background for Shop Now, Add to cart, Select plan, and primary promo actions.",
+      "--halo-color-action-primary-hover": "Primary CTA hover background.",
+      "--halo-color-action-primary-active": "Primary CTA pressed background.",
+      "--halo-color-action-primary-text": "Readable text color on yellow primary CTAs.",
+      "--halo-color-action-secondary": "Dark secondary CTA background.",
+      "--halo-color-action-secondary-hover": "Dark secondary CTA hover background.",
+      "--halo-color-action-secondary-text": "Readable text color on dark CTAs.",
+      "--halo-color-action-tertiary": "Transparent tertiary action background.",
+      "--halo-color-action-disabled": "Disabled control background.",
+      "--halo-color-action-disabled-text": "Disabled control text."
     },
-    "primaryDark": {
-      "background": "#111111",
-      "color": "#FFFFFF",
-      "hover": "#000000",
-      "provenance": ["v3Ecomlanders shop"]
+    "linkAndFocus": {
+      "--halo-color-link": "Primary link, selected, and technical accent color.",
+      "--halo-color-link-hover": "Link hover color.",
+      "--halo-color-focus": "Keyboard focus and selected-state accent.",
+      "--halo-color-focus-ring": "Visible focus ring shadow color."
     },
-    "primaryWhiteOnMedia": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "hover": "#E5E5E5",
-      "provenance": ["v3Ecomlanders marketing"]
+    "surface": {
+      "--halo-color-surface-page": "Default page background.",
+      "--halo-color-surface-raised": "Cards, panels, buy stacks, and raised modules.",
+      "--halo-color-surface-subtle": "Quiet bands and soft section backgrounds.",
+      "--halo-color-surface-muted": "Muted UI and product support surfaces.",
+      "--halo-color-surface-product": "Product media wells and commerce tiles.",
+      "--halo-color-surface-dark": "Deep blue hero, footer, and dark CTA foundation.",
+      "--halo-color-surface-dark-raised": "Raised surface on dark sections.",
+      "--halo-color-surface-promo": "Offer, sale, and promo backing surface."
     },
-    "ghostDark": {
-      "background": "transparent",
-      "border": "1px solid rgba(255,255,255,0.3)",
-      "hover": "rgba(255,255,255,0.1)",
-      "provenance": ["v3Ecomlanders marketing"]
+    "text": {
+      "--halo-color-text-primary": "Primary text color.",
+      "--halo-color-text-secondary": "Secondary body and support copy.",
+      "--halo-color-text-muted": "Muted labels, metadata, and helper copy.",
+      "--halo-color-text-inverse": "Primary text on dark surfaces.",
+      "--halo-color-text-inverse-muted": "Secondary copy on dark surfaces."
+    },
+    "border": {
+      "--halo-color-border-subtle": "Default low-contrast border.",
+      "--halo-color-border-strong": "Higher-emphasis border for selected or structured elements.",
+      "--halo-color-border-dark": "Border on dark surfaces."
+    },
+    "statusAndOffer": {
+      "--halo-color-status-success": "Success state text/icon color.",
+      "--halo-color-status-success-surface": "Success state background.",
+      "--halo-color-status-warning": "Warning state text/icon color.",
+      "--halo-color-status-warning-surface": "Warning state background.",
+      "--halo-color-status-danger": "Danger state text/icon color.",
+      "--halo-color-status-danger-surface": "Danger state background.",
+      "--halo-color-status-info": "Informational state text/icon color.",
+      "--halo-color-status-info-surface": "Informational state background.",
+      "--halo-color-sale": "Sale and price-drop emphasis.",
+      "--halo-color-sale-surface": "Sale and offer backing surface.",
+      "--halo-color-membership": "Membership/account accent.",
+      "--halo-color-membership-surface": "Membership/account backing surface."
+    },
+    "navProductDrawer": {
+      "--halo-color-nav-background": "Customer-facing navigation background.",
+      "--halo-color-nav-border": "Navigation divider and dropdown border.",
+      "--halo-color-nav-text": "Default navigation link text.",
+      "--halo-color-nav-text-active": "Active navigation link text.",
+      "--halo-color-nav-promo-background": "Promo strip background.",
+      "--halo-color-nav-promo-text": "Promo strip text color.",
+      "--halo-color-product-surface": "Product media and tile surface.",
+      "--halo-color-card-background": "Reusable card background.",
+      "--halo-color-card-border": "Reusable card border.",
+      "--halo-color-drawer-scrim": "Cart/workbench drawer backdrop.",
+      "--halo-color-drawer-background": "Cart/workbench drawer surface."
+    },
+    "components": {
+      "--halo-component-nav-radius": "Navigation and dropdown radius.",
+      "--halo-component-button-radius": "Primary button pill radius.",
+      "--halo-component-card-radius": "General card and panel radius.",
+      "--halo-component-product-card-radius": "Product card and media well radius.",
+      "--halo-component-form-radius": "Inputs, selects, and form controls.",
+      "--halo-component-pdp-gallery-radius": "PDP gallery and configurator media radius."
     }
   },
-  "layout": {
-    "containerLive": {"value": "1240px, 20px side padding", "provenance": ["liveHomepage inline nav/footer"]},
-    "containerV3": {"value": "1400px, 6rem desktop side padding", "provenance": ["v3Ecomlanders"]},
-    "sectionPaddingMarketing": {"value": "96px to 140px desktop, 56px to 80px mobile", "provenance": ["inferred from V3 section rhythm"]},
-    "commerceGrid": {"value": "1fr 480px, 4rem gap", "provenance": ["v3Ecomlanders shop"]}
+  "componentTokens": {
+    "navRadius": "var(--halo-radius-md)",
+    "buttonRadius": "var(--halo-radius-pill)",
+    "cardRadius": "var(--halo-radius-lg)",
+    "productCardRadius": "var(--halo-radius-xl)",
+    "formRadius": "10px",
+    "pdpGalleryRadius": "var(--halo-radius-xl)",
+    "softShadow": "0 1px 2px rgba(7, 24, 38, 0.05)",
+    "cardShadow": "0 4px 14px rgba(7, 24, 38, 0.06)",
+    "raisedShadow": "0 18px 42px rgba(7, 24, 38, 0.14)",
+    "fastDuration": "140ms",
+    "baseDuration": "220ms",
+    "easeOut": "cubic-bezier(0.16, 1, 0.3, 1)"
+  },
+  "usageExamples": {
+    "yellowCta": "Use --halo-color-action-primary for Shop Now, Add to cart, Select plan, and high-value promo actions.",
+    "blueState": "Use --halo-color-link and --halo-color-focus for links, selected states, focus rings, and technical accents.",
+    "darkSections": "Use --halo-color-surface-dark for dark hero/footer bands and dark CTAs. Do not replace it with generic charcoal or pure black.",
+    "productCards": "Use --halo-color-product-surface, --halo-component-product-card-radius, and stable media aspect ratios.",
+    "accountPanels": "Use raised surfaces, subtle borders, card radius, and membership/status semantic tokens.",
+    "drawer": "Use drawer background and scrim tokens for cart and internal workbench overlays."
   }
 }

@@ -1,24 +1,22 @@
 @import url("./halo-theme.css");
 
 :root {
-  --halo-muted: var(--halo-gray-600);
-  --halo-line: var(--halo-gray-200);
-  --halo-paper: var(--halo-white);
-  --halo-cloud: var(--halo-gray-100);
-  --halo-wash: var(--halo-gray-50);
-  --halo-green: var(--halo-success);
-  --halo-red: var(--halo-danger);
-  --shadow-soft: var(--halo-shadow-dropdown);
+  --halo-muted: var(--halo-color-text-secondary);
+  --halo-line: var(--halo-color-border-subtle);
+  --halo-paper: var(--halo-color-surface-raised);
+  --halo-cloud: var(--halo-color-surface-muted);
+  --halo-wash: var(--halo-color-surface-page);
+  --halo-green: var(--halo-color-status-success);
+  --halo-red: var(--halo-color-status-danger);
+  --shadow-soft: var(--halo-shadow-soft);
   --shadow-card: var(--halo-shadow-card);
   --radius-sm: var(--halo-radius-sm);
   --radius-md: var(--halo-radius-md);
   --radius-lg: var(--halo-radius-xl);
+  --radius-pill: var(--halo-radius-pill);
   --max-page: var(--halo-container);
   --nav-height: 70px;
   --font-sans: var(--halo-font-sans);
-  --halo-type-card-title: 1.125rem;
-  --halo-type-body: 1rem;
-  --halo-type-small: 0.875rem;
 }
 
 * {
@@ -26,7 +24,7 @@
 }
 
 html {
-  color: var(--halo-ink);
+  color: var(--halo-color-text-primary);
   background: var(--halo-paper);
   font-family: var(--font-sans);
   scroll-behavior: smooth;
@@ -48,9 +46,34 @@ a {
   text-decoration: none;
 }
 
+a[href^="http"],
+.text-action,
+.support-link {
+  color: var(--halo-color-link);
+}
+
+a[href^="http"]:hover,
+.text-action:hover,
+.support-link:hover {
+  color: var(--halo-color-link-hover);
+}
+
 button,
-input {
+input,
+select,
+textarea {
   font: inherit;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--halo-color-focus);
+  outline-offset: 3px;
+  box-shadow: var(--halo-shadow-focus);
 }
 
 .container {
@@ -61,9 +84,9 @@ input {
 .eyebrow {
   margin: 0 0 12px;
   color: var(--halo-muted);
-  font-size: 0.78rem;
+  font-size: var(--halo-type-caption);
   font-weight: 800;
-  letter-spacing: 0;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -78,7 +101,7 @@ input {
 .section__header {
   display: grid;
   gap: 12px;
-  max-width: 760px;
+  max-width: var(--halo-container-readable);
   margin-bottom: 28px;
 }
 
@@ -98,7 +121,7 @@ p {
 .section__title {
   margin-bottom: 0;
   font-size: var(--halo-type-section);
-  line-height: 0.96;
+  line-height: 1;
   letter-spacing: 0;
 }
 
@@ -115,22 +138,35 @@ p {
   min-height: 28px;
   padding: 5px 10px;
   border: 1px solid var(--halo-line);
-  border-radius: 999px;
+  border-radius: var(--halo-radius-pill);
   background: var(--halo-paper);
-  color: var(--halo-ink);
+  color: var(--halo-color-text-primary);
   font-size: 0.76rem;
   font-weight: 800;
 }
 
 .badge--yellow {
-  border-color: var(--halo-yellow);
-  background: var(--halo-yellow);
+  border-color: var(--halo-color-action-primary);
+  background: var(--halo-color-action-primary);
+  color: var(--halo-color-action-primary-text);
 }
 
 .badge--dark {
-  border-color: var(--halo-black);
-  background: var(--halo-black);
-  color: var(--halo-paper);
+  border-color: var(--halo-color-surface-dark);
+  background: var(--halo-color-surface-dark);
+  color: var(--halo-color-text-inverse);
+}
+
+.badge--blue {
+  border-color: var(--halo-color-status-info-surface);
+  background: var(--halo-color-status-info-surface);
+  color: var(--halo-color-link-hover);
+}
+
+.badge--sale {
+  border-color: var(--halo-color-sale-surface);
+  background: var(--halo-color-sale-surface);
+  color: var(--halo-color-sale);
 }
 
 .stack {
@@ -161,23 +197,56 @@ p {
   justify-content: center;
   min-height: 46px;
   padding: 0 18px;
-  border: 1px solid var(--halo-black);
-  border-radius: 999px;
-  background: var(--halo-black);
-  color: var(--halo-paper);
+  border: 1px solid var(--halo-color-action-secondary);
+  border-radius: var(--halo-component-button-radius);
+  background: var(--halo-color-action-secondary);
+  color: var(--halo-color-action-secondary-text);
   font-weight: 800;
   cursor: pointer;
+  transition:
+    background var(--halo-duration-base) var(--halo-ease-out),
+    border-color var(--halo-duration-base) var(--halo-ease-out),
+    color var(--halo-duration-base) var(--halo-ease-out),
+    transform var(--halo-duration-fast) var(--halo-ease-out);
+}
+
+.button:hover {
+  border-color: var(--halo-color-action-secondary-hover);
+  background: var(--halo-color-action-secondary-hover);
+}
+
+.button:active {
+  transform: translateY(1px);
 }
 
 .button--yellow {
-  border-color: var(--halo-yellow);
-  background: var(--halo-yellow);
-  color: var(--halo-black);
+  border-color: var(--halo-color-action-primary);
+  background: var(--halo-color-action-primary);
+  color: var(--halo-color-action-primary-text);
+}
+
+.button--yellow:hover {
+  border-color: var(--halo-color-action-primary-hover);
+  background: var(--halo-color-action-primary-hover);
 }
 
 .button--ghost {
   background: transparent;
-  color: var(--halo-black);
+  color: var(--halo-color-action-secondary);
+}
+
+.button--ghost:hover {
+  background: var(--halo-color-surface-muted);
+  color: var(--halo-color-action-secondary);
+}
+
+.button:disabled,
+.button[aria-disabled="true"] {
+  border-color: var(--halo-color-action-disabled);
+  background: var(--halo-color-action-disabled);
+  color: var(--halo-color-action-disabled-text);
+  cursor: not-allowed;
+  transform: none;
 }
 
 @media (max-width: 860px) {
