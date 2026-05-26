@@ -2607,8 +2607,8 @@ body.nav-locked { overflow: hidden; }
 /* When .cancel-shell renders inside the modal, give it the close button room */
 .app-modal .cancel-shell {
   position: relative;
-  width: min(100%, 860px);
-  max-width: 860px;
+  width: min(100%, 580px);
+  max-width: 580px;
   max-height: calc(100vh - 48px);
   overflow-y: auto;
 }
@@ -2923,7 +2923,7 @@ body.nav-locked { overflow: hidden; }
    Cancellation flow
    ========================================= */
 .cancel-shell {
-  max-width: 720px;
+  max-width: 580px;
   margin: 0 auto;
   background: var(--halo-color-card-background, #ffffff);
   border: 1px solid var(--halo-color-card-border, #e2e9ee);
@@ -2932,28 +2932,29 @@ body.nav-locked { overflow: hidden; }
   box-shadow: var(--halo-shadow-card-lg, 0 12px 28px rgba(7,24,38,0.1));
 }
 .cancel-shell .step {
-  font-size: 12px;
-  font-weight: 800;
+  font-size: var(--halo-type-caption, 0.75rem);
+  font-weight: 700;
   color: var(--halo-color-text-secondary, #526777);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 0 42px 8px 0;
 }
 .cancel-shell h1 {
-  max-width: 620px;
-  font-size: 24px;
-  font-weight: 800;
+  max-width: 100%;
+  font-size: var(--halo-type-subsection, 1.75rem);
+  font-weight: 650;
   margin: 0 0 8px;
   color: var(--halo-color-text-primary, #071826);
   letter-spacing: 0;
-  line-height: 1.16;
+  line-height: 1.08;
+  text-wrap: balance;
 }
 .cancel-shell .lede {
-  font-size: 14px;
+  font-size: var(--halo-type-body, 1rem);
   color: var(--halo-color-text-secondary, #526777);
   margin: 0 42px 18px 0;
-  line-height: 1.5;
-  max-width: 700px;
+  line-height: 1.55;
+  max-width: 100%;
 }
 .lose-list {
   display: grid;
@@ -2967,12 +2968,15 @@ body.nav-locked { overflow: hidden; }
 }
 .lose-list h3 {
   grid-column: 1 / -1;
-  font-size: 13px;
+  font-size: var(--halo-type-caption, 0.75rem);
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--halo-color-text-primary, #071826);
   margin: 0 0 2px;
+}
+.lose-list .lose-item:last-of-type {
+  grid-column: 1 / -1;
 }
 .lose-item {
   display: grid;
@@ -3027,64 +3031,69 @@ body.nav-locked { overflow: hidden; }
 /* T+L Go — square black logo fills the chip via cover (default) */
 .lose-item h4 {
   margin: 0 0 4px;
-  font-size: 14px;
-  font-weight: 800;
+  font-size: var(--halo-type-small, 0.875rem);
+  font-weight: 650;
   line-height: 1.25;
+  letter-spacing: 0;
   color: var(--halo-color-text-primary, #071826);
 }
 .lose-item p {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--halo-type-small, 0.875rem);
   color: var(--halo-color-text-secondary, #526777);
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 .lose-brands {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  margin-top: 10px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px 10px;
+  margin: 10px 0 0;
+  padding: 0;
 }
 .lose-brand {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  flex: 0 0 34px;
+  gap: 8px;
+  min-width: 0;
+  padding: 4px 6px;
   background: transparent;
   border: none;
   border-radius: var(--halo-radius-sm, 6px);
-  overflow: hidden;
 }
 .lose-brand img {
-  width: 100%;
-  height: 100%;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
   object-fit: cover;
   border-radius: var(--halo-radius-sm, 6px);
   box-sizing: border-box;
   display: block;
 }
+.lose-brand__name {
+  font-size: var(--halo-type-small, 0.875rem);
+  font-weight: 650;
+  color: var(--halo-color-text-primary, #071826);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .lose-brand--more {
-  width: auto;
-  height: auto;
-  flex: 0 0 auto;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0 4px;
-  font-size: 12px;
-  font-weight: 600;
+  justify-content: flex-start;
+  padding: 4px 6px;
+  font-size: var(--halo-type-small, 0.875rem);
+  font-weight: 650;
   color: var(--halo-color-text-secondary, #526777);
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
   white-space: nowrap;
 }
 
 @media (max-width: 640px) {
   .app-modal .cancel-shell { max-height: calc(100vh - 32px); }
   .cancel-shell { padding: 48px 18px 22px; }
-  .cancel-shell h1 { font-size: 22px; line-height: 1.2; }
+  .cancel-shell h1 { font-size: 1.5rem; line-height: 1.12; }
   .cancel-shell .step,
   .cancel-shell .lede { margin-right: 0; }
   .lose-list {
@@ -3106,15 +3115,14 @@ body.nav-locked { overflow: hidden; }
   .lose-icon.vet img { padding: 0; }
   .lose-icon.food img { padding: 10px; }
   .lose-icon.deals { width: 52px; height: 52px; padding: 0; }
-  .lose-item h4 { font-size: 14px; line-height: 1.3; }
-  .lose-item p { font-size: 12px; }
-  .lose-brands { gap: 6px; }
-  .lose-brand { width: 32px; height: 32px; flex: 0 0 32px; padding: 0; border-radius: var(--halo-radius-sm, 6px); }
-  .lose-brand img { width: 100%; height: 100%; max-width: none; border-radius: var(--halo-radius-sm, 6px); }
+  .lose-item h4 { font-size: 0.875rem; line-height: 1.3; }
+  .lose-item p { font-size: 0.8125rem; }
+  .lose-brands { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 8px; }
 }
 
 .value-callout {
-  font-size: 13px;
+  font-size: var(--halo-type-small, 0.875rem);
+  line-height: 1.45;
   color: var(--halo-color-text-primary, #071826);
   margin: 0 0 16px;
   text-align: center;
@@ -3123,7 +3131,7 @@ body.nav-locked { overflow: hidden; }
   border: 1px solid var(--halo-color-card-border, #e2e9ee);
   border-radius: var(--halo-component-card-radius, 12px);
 }
-.value-callout strong { font-weight: 800; color: var(--halo-color-text-primary, #071826); }
+.value-callout strong { font-weight: 650; color: var(--halo-color-text-primary, #071826); }
 
 .cancel-actions {
   display: grid;
@@ -3143,7 +3151,7 @@ body.nav-locked { overflow: hidden; }
   min-height: 34px;
 }
 .cancel-foot {
-  font-size: 12px;
+  font-size: var(--halo-type-small, 0.875rem);
   color: var(--halo-color-text-secondary, #526777);
   text-align: center;
   margin: 0;
