@@ -14,7 +14,7 @@
   const cartItems = document.querySelector("[data-cart-items]");
   const cartSubtotal = document.querySelector("[data-cart-subtotal]");
   const cartTotal = document.querySelector("[data-cart-total]");
-  const cartCount = document.querySelector("[data-cart-count]");
+  const cartCounts = document.querySelectorAll("[data-cart-count]");
 
   function openCart() {
     cartDrawer?.classList.add("is-open");
@@ -61,10 +61,10 @@
   function renderCart() {
     const { count, subtotal } = cartTotals();
 
-    if (cartCount) {
+    cartCounts.forEach((cartCount) => {
       cartCount.textContent = String(count);
       cartCount.classList.toggle("has-items", count > 0);
-    }
+    });
 
     if (cartSubtotal) cartSubtotal.textContent = money(subtotal);
     if (cartTotal) cartTotal.textContent = money(subtotal);

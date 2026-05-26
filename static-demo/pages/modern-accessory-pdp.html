@@ -1,246 +1,910 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modern Accessory PDP Template | Halo</title>
-  <link rel="stylesheet" href="../modern-commerce/modern-commerce.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Halo Remote Beacon - call your dog back from anywhere with the push of a button, no phone necessary.">
+    <title>Shop Halo Remote Beacon | Halo</title>
+    <link rel="stylesheet" href="../vendor/ecomlanders-v3/styles.css?v=222">
+    <link rel="stylesheet" href="../css/halo-theme.css?v=nav-z">
+    <link rel="stylesheet" href="../css/pdp-configurator-page.css?v=shared-chrome-20260521">
+    <style>
+        .pdp-breadcrumbs {
+            background: var(--halo-color-surface-page, #fff);
+        }
+        .pdp-breadcrumbs__inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            padding: 16px 0 4px;
+            font-size: 0.85rem;
+            color: var(--halo-color-text-secondary, #4d5562);
+        }
+        .pdp-breadcrumbs a {
+            color: var(--halo-color-link, #2f93f3);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .pdp-breadcrumbs a:hover {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        .pdp-breadcrumbs__sep {
+            color: var(--halo-color-text-muted, #8a909c);
+            font-weight: 700;
+        }
+        .pdp-breadcrumbs__current {
+            color: var(--halo-color-text-primary, #071826);
+            font-weight: 700;
+        }
+        @media (max-width: 640px) {
+            .pdp-breadcrumbs__inner {
+                padding: 12px 0 0;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
 </head>
-<body class="modern-commerce modern-accessory-pdp">
-  <div class="mc-promo">Accessory PDP proposal <span>simpler than the collar configurator</span></div>
+<body class="pdp-page accessory-pdp-page">
+    <a class="skip-link" href="#main-content">Skip to product details</a>
 
-  <nav class="mc-nav" aria-label="Primary navigation">
-    <div class="mc-container mc-nav__inner">
-      <a class="mc-brand" href="../index.html" aria-label="Halo overview"><img src="../vendor/ecomlanders-v3/halo-logo-dark.svg" alt="Halo"></a>
-      <div class="mc-nav__links">
-        <a href="home.html">Home</a>
-        <a href="shop-wireless-dog-fence.html">Shop Halo</a>
-        <a href="modern-accessories.html">Accessories</a>
-        <a href="beacons.html">Beacons</a>
-        <a href="reviews.html">Testimonials</a>
-        <a href="deals.html">Deals</a>
-        <a href="how-it-works.html">How it works</a>
-        <a href="style-guide.html">Style guide</a>
-      </div>
-      <div class="mc-nav__actions">
-        <a class="mc-btn mc-btn--ghost mc-btn--sm" href="modern-accessories.html">Category</a>
-        <button class="mc-icon-btn" type="button" aria-label="Open cart" data-cart-open>
-          Cart
-          <span class="mc-cart-count" data-cart-count>0</span>
-        </button>
-      </div>
-    </div>
-  </nav>
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container nav-inner">
+            <a href="home.html" class="nav-logo" aria-label="Halo home">
+                <img src="../vendor/ecomlanders-v3/halo-logo-dark.svg" alt="Halo" class="logo-img">
+            </a>
 
-  <main class="mc-pdp">
-    <div class="mc-container mc-pdp-grid">
-      <!-- AccessoryPdpGallery props: images, activeImage -->
-      <section class="mc-gallery" aria-label="Accessory gallery">
-        <div class="mc-gallery__main">
-          <img src="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp" alt="Charging Kit for Halo Collar 4/5" data-gallery-main>
-        </div>
-        <div class="mc-gallery__thumbs">
-          <button class="mc-gallery__thumb is-active" type="button" data-gallery-thumb data-image="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp" data-alt="Charging Kit for Halo Collar 4/5">
-            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp" alt="Charging Kit for Halo Collar 4/5 thumbnail">
-          </button>
-          <button class="mc-gallery__thumb" type="button" data-gallery-thumb data-image="https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp" data-alt="Charging Kit for Halo Collar 1/2/2+/3">
-            <img src="https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp" alt="Charging Kit for Halo Collar 1/2/2+/3 thumbnail">
-          </button>
-          <button class="mc-gallery__thumb" type="button" data-gallery-thumb data-image="https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp" data-alt="Halo Charging Stand">
-            <img src="https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp" alt="Halo Charging Stand thumbnail">
-          </button>
-          <button class="mc-gallery__thumb" type="button" data-gallery-thumb data-image="https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp" data-alt="Halo Contact Tips">
-            <img src="https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp" alt="Halo Contact Tips thumbnail">
-          </button>
-        </div>
-      </section>
-
-      <!-- AccessoryBuyStack props: productId, title, family, price, listPrice, compatibility, variants, quantity, benefits -->
-      <section class="mc-buy-stack" aria-label="Accessory purchase details" data-accessory-buy-stack data-product-id="charging-kit-45" data-product-title="Charging Kit" data-product-price="29" data-product-list-price="35" data-product-variant="Halo Collar 4/5" data-product-image="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp">
-        <div class="mc-proof">
-          <span class="mc-badge mc-badge--yellow">Charging</span>
-          <span>Ships in 2-4 business days</span>
-          <span>90-day satisfaction guarantee</span>
-        </div>
-
-        <div>
-          <h1 class="mc-pdp-title">Halo Charging Kit</h1>
-          <p class="mc-pdp-copy">A reusable accessory PDP layout for lighter purchases: gallery, compatibility, optional selector, quantity, details, proof, FAQ, related products, and the same mini-cart pattern used beside the V3 collar configurator.</p>
-        </div>
-
-        <div class="mc-badge-row" aria-label="Compatibility">
-          <span class="mc-badge mc-badge--dark">Compatibility</span>
-          <span class="mc-badge" data-selected-variant>Halo Collar 4/5</span>
-          <span class="mc-badge">No Pack Membership required</span>
-        </div>
-
-        <div class="mc-selection-group">
-          <div class="mc-selection-group__head">
-            <span>Choose compatibility</span>
-            <span>Selected: <strong data-selected-variant>Halo Collar 4/5</strong></span>
-          </div>
-          <div class="mc-option-list">
-            <button class="mc-option-card is-active" type="button" data-variant-option data-product-id="charging-kit-45" data-product-title="Charging Kit" data-product-price="29" data-product-list-price="35" data-product-variant="Halo Collar 4/5" data-product-image="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp">
-              <strong>Halo Collar 4/5</strong>
-              <span>Current charging kit</span>
-            </button>
-            <button class="mc-option-card" type="button" data-variant-option data-product-id="charging-kit-123" data-product-title="Charging Kit" data-product-price="29" data-product-list-price="35" data-product-variant="Halo Collar 1/2/2+/3" data-product-image="https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp">
-              <strong>Halo Collar 1/2/2+/3</strong>
-              <span>Legacy magnetic kit</span>
-            </button>
-          </div>
-        </div>
-
-        <div class="mc-buy-card">
-          <div class="mc-price-stack">
-            <div>
-              <div class="mc-current-price" data-pdp-price>$29</div>
-              <span class="mc-list-price" data-pdp-list-price>$35</span>
+            <div class="nav-menu-desktop">
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-toggle" type="button" aria-expanded="false">
+                        Shop Halo
+                        <svg class="dropdown-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </button>
+                    <div class="mega-menu">
+                        <div class="mega-menu__container">
+                            <div class="mega-menu__products-area">
+                                <div class="mega-menu__grid">
+                                    <a href="shop-wireless-dog-fence.html" class="product-card product-card__animated hc5-product">
+                                        <div class="product-card__bg">
+                                            <img src="https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5" alt="Halo Collar 5" class="product-card__image">
+                                        </div>
+                                        <div class="product-card__content product-card__content--light">
+                                            <div class="product-card__badge">NEW</div>
+                                            <h3 class="product-card__title">Halo Collar 5</h3>
+                                            <div class="product-card__price">
+                                                <p class="price-label">Save <span data-savings="HC5">$75</span></p>
+                                                <p><span data-price="HC5">$524</span> <span class="strikethrough">$599</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="shop-wireless-dog-fence.html" class="product-card product-card__animated hc4-product">
+                                        <div class="product-card__bg">
+                                            <img src="https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4" alt="Halo Collar 4" class="product-card__image">
+                                        </div>
+                                        <div class="product-card__content product-card__content--light">
+                                            <div class="product-card__badge product-card__badge--dark">WHILE SUPPLIES LAST</div>
+                                            <h3 class="product-card__title">Halo Collar 4</h3>
+                                            <div class="product-card__price">
+                                                <p class="price-label">Save <span data-savings="HC4">$125</span></p>
+                                                <p><span data-price="HC4">$424</span> <span class="strikethrough">$549</span></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mega-menu__sidebar">
+                                <nav aria-label="Shop categories">
+                                    <a href="beacons.html" class="mega-nav-item" aria-current="page">
+                                        <div class="mega-nav-item__left">
+                                            <img src="../assets/accessories/processed/remote-beacon.png" alt="Shop Beacons" class="mega-nav-item__image mega-nav-item__image--scaled">
+                                            <span>Shop Beacons</span>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mega-nav-item__arrow" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                                    </a>
+                                    <a href="accessories.html" class="mega-nav-item">
+                                        <div class="mega-nav-item__left">
+                                            <img src="../assets/accessories/processed/charging-stand.png" alt="Shop Accessories" class="mega-nav-item__image">
+                                            <span>Shop Accessories</span>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mega-nav-item__arrow" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="reviews.html" class="nav-link">Testimonials</a>
+                <a href="deals.html" class="nav-link">Deals</a>
+                <a href="how-it-works.html" class="nav-link">How it works</a>
             </div>
-            <span class="mc-badge mc-badge--success">Accessory order</span>
-          </div>
 
-          <div class="mc-quantity-box">
-            <strong>Quantity</strong>
-            <div class="mc-stepper">
-              <button type="button" data-pdp-dec aria-label="Decrease quantity">-</button>
-              <span data-pdp-qty>1</span>
-              <button type="button" data-pdp-inc aria-label="Increase quantity">+</button>
+            <div class="nav-right-desktop">
+                <a href="account.html" class="nav-icon-btn" aria-label="Account"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                <button class="main-nav-cart nav-icon-btn js-open-cart" type="button" aria-label="Cart" data-total="0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+                <a href="shop-wireless-dog-fence.html" class="nav-cta-btn">Shop Now</a>
             </div>
-          </div>
 
-          <button class="mc-btn mc-btn--yellow mc-btn--full" type="button" data-add-to-cart data-pdp-add>Add to cart</button>
-
-          <ul class="mc-benefit-list">
-            <li>Clear generation selector prevents the common wrong-cable purchase.</li>
-            <li>Compact PDP stack uses V3 price and CTA rhythm without color configurator complexity.</li>
-            <li>Mini-cart confirms variant, quantity, subtotal, and next-step checkout context.</li>
-          </ul>
+            <div class="nav-right-mobile">
+                <button class="main-nav-cart nav-icon-btn js-open-cart" type="button" aria-label="Cart" data-total="0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+                <button class="nav-mobile-toggle" type="button" aria-label="Menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
         </div>
-      </section>
+
+        <div class="nav-mobile-menu" aria-hidden="true">
+            <div class="sidebar-menu">
+                <div class="sidebar-menu__content custom-scrollbar">
+                    <div class="sidebar-menu__section sidebar-menu__section--products">
+                        <div class="products-container">
+                            <a href="shop-wireless-dog-fence.html" class="product-card-mobile hc5-product">
+                                <div class="product-card-mobile__image-wrapper aspect-3-2">
+                                    <img src="https://go.halocollar.com/misc/exp-19-images/white-2.jpg?hc5" alt="Halo Collar 5" class="product-card-mobile__image">
+                                    <div class="product-card-mobile__content_mobile">
+                                        <span class="badge badge--white">NEW</span>
+                                        <h3 class="product-card-mobile__title">Halo Collar 5</h3>
+                                        <div class="product-card-mobile__price">
+                                            <p class="product-card-mobile__promo">Save <span data-savings="HC5">$75</span></p>
+                                            <p><span data-price="HC5">$524</span> <span class="strikethrough">$599</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="shop-wireless-dog-fence.html" class="product-card-mobile hc4-product">
+                                <div class="product-card-mobile__image-wrapper aspect-3-2">
+                                    <img src="https://go.halocollar.com/misc/exp-19-images/white-1.jpg?hc4" alt="Halo Collar 4" class="product-card-mobile__image">
+                                    <div class="product-card-mobile__content_mobile">
+                                        <span class="badge badge--dark">WHILE SUPPLIES LAST</span>
+                                        <h3 class="product-card-mobile__title">Halo Collar 4</h3>
+                                        <div class="product-card-mobile__price">
+                                            <p class="product-card-mobile__promo">Save <span data-savings="HC4">$125</span></p>
+                                            <p><span data-price="HC4">$424</span> <span class="strikethrough">$549</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="accessory-links">
+                                <a href="beacons.html" class="accessory-item" aria-current="page">
+                                    <img src="../assets/accessories/processed/remote-beacon.png" alt="Beacons" class="accessory-item__thumb">
+                                    <span>Shop Beacons</span>
+                                </a>
+                                <a href="accessories.html" class="accessory-item">
+                                    <img src="../assets/accessories/processed/charging-stand.png" alt="Accessories" class="accessory-item__thumb">
+                                    <span>Shop Accessories</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="sidebar-menu__nav" aria-label="Mobile navigation">
+                        <ul class="menu-list">
+                            <li><a href="reviews.html" class="menu-list__link">Testimonials</a></li>
+                            <li><a href="deals.html" class="menu-list__link">Deals</a></li>
+                            <li><a href="how-it-works.html" class="menu-list__link">How it works</a></li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li><a href="account.html" class="menu-list__link">My Account</a></li>
+                            <li><a href="plans.html" class="menu-list__link">Plans</a></li>
+                            <li><a href="pack-perks.html" class="menu-list__link">Pack Perks</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sidebar-menu__footer">
+                    <a href="shop-wireless-dog-fence.html" class="btn-explore-halo">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="pdp-breadcrumbs" aria-label="Breadcrumb">
+        <div class="container pdp-breadcrumbs__inner">
+            <a href="home.html">Home</a>
+            <span class="pdp-breadcrumbs__sep" aria-hidden="true">/</span>
+            <a href="accessories.html">Accessories</a>
+            <span class="pdp-breadcrumbs__sep" aria-hidden="true">/</span>
+            <span class="pdp-breadcrumbs__current" aria-current="page">Remote Beacon</span>
+        </div>
+    </nav>
+
+    <main class="shop-main" id="main-content">
+        <div class="shop-container">
+            <div class="product-gallery" aria-label="Halo Remote Beacon image gallery">
+                <div class="gallery-image">
+                    <img src="../assets/accessories/processed/remote-beacon.png" alt="Halo Remote Beacon product shot">
+                </div>
+                <div class="gallery-image">
+                    <img src="../assets/accessories/processed/zone-beacon.png" alt="Halo Zone Beacon for comparison">
+                </div>
+            </div>
+
+            <aside class="product-config" id="buy-stack" aria-labelledby="product-title">
+                <div class="config-inner">
+                    <div class="trust-badge" aria-label="Trustpilot 1512 reviews">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 96" width="120" height="22" style="enable-background:new 0 0 512 96" xml:space="preserve" aria-hidden="true">
+                            <style>.tp0{fill:#00B67A}.tp1{fill:#DCDCE6}.tp2{fill:#FFF}</style>
+                            <rect class="tp0" width="96" height="96"></rect>
+                            <rect x="104" class="tp0" width="96" height="96"></rect>
+                            <rect x="208" class="tp0" width="96" height="96"></rect>
+                            <rect x="312" class="tp0" width="96" height="96"></rect>
+                            <g transform="translate(416,0)"><rect x="48" class="tp1" width="48" height="96"></rect><rect class="tp0" width="48" height="96"></rect></g>
+                            <path class="tp2" d="M48,64.7L62.6,61l6.1,18.8L48,64.7z M81.6,40.4H55.9L48,16.2l-7.9,24.2H14.4l20.8,15l-7.9,24.2l20.8-15l12.8-9.2L81.6,40.4z"></path>
+                            <path class="tp2" d="M152,64.7l14.6-3.7l6.1,18.8L152,64.7z M185.6,40.4h-25.7L152,16.2l-7.9,24.2h-25.7l20.8,15l-7.9,24.2l20.8-15l12.8-9.2L185.6,40.4z"></path>
+                            <path class="tp2" d="M256,64.7l14.6-3.7l6.1,18.8L256,64.7z M289.6,40.4h-25.7L256,16.2l-7.9,24.2h-25.7l20.8,15l-7.9,24.2l20.8-15l12.8-9.2L289.6,40.4z"></path>
+                            <path class="tp2" d="M360,64.7l14.6-3.7l6.1,18.8L360,64.7z M393.6,40.4h-25.7L360,16.2l-7.9,24.2h-25.7l20.8,15l-7.9,24.2l20.8-15l12.8-9.2L393.6,40.4z"></path>
+                            <path class="tp2" d="M464,64.7l14.6-3.7l6.1,18.8L464,64.7z M497.6,40.4h-25.7L464,16.2l-7.9,24.2h-25.7l20.8,15l-7.9,24.2l20.8-15l12.8-9.2L497.6,40.4z"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                            <path d="M7 10.5L10.1 9.3L11.6 14L7 10.5ZM14 5.3H8.6L7 0L5.4 5.3H0L4.4 8.6L2.8 13.9L7.2 10.6L10 8.6L14 5.3Z" fill="#00B67A"></path>
+                        </svg>
+                        <span class="trustpilot-text">Trustpilot</span>
+                        <span class="review-count">1512 reviews</span>
+                    </div>
+
+                    <h1 class="product-title" id="product-title">Remote Beacon</h1>
+
+                    <div class="config-section">
+                        <p class="delivery-note">Delivery in 2 - 4 business days</p>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/icon-network.png" alt="" width="20" height="20">
+                            <span>Push-button call</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/icon-map.png" alt="" width="20" height="20">
+                            <span>Customizable feedback</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/icon-full-battery.png" alt="" width="20" height="20">
+                            <span>9-month battery</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/icon-dog-profile.png" alt="" width="20" height="20">
+                            <span>Any size dog</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/icon-iphone.png" alt="" width="20" height="20">
+                            <span>No phone required</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/icon-protect.png" alt="" width="20" height="20">
+                            <span>Weatherproof</span>
+                        </div>
+                    </div>
+
+                    <div class="pdp-quick-links">
+                        <button type="button" class="included-link" data-open-box-modal>What's in the box</button>
+                        <button type="button" class="included-link" data-open-modal>Compare Halo Beacons</button>
+                    </div>
+
+                    <div class="membership-box" id="membership-box">
+                        <div class="membership-header" role="button" tabindex="0" aria-expanded="false">
+                            <div class="membership-info">
+                                <span class="membership-label">Gold Pack Member perk</span>
+                                <span class="membership-desc">50% off all Halo accessories</span>
+                            </div>
+                            <div class="membership-right">
+                                <span class="membership-price">$19.99 for members</span>
+                                <button type="button" class="membership-toggle" aria-label="Expand membership details">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                                        <path d="M6 9l6 6 6-6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="membership-details">
+                            <p class="membership-upsell">Gold Pack Members save 50% on all Halo accessories — including Beacons, replacement straps, contact tips, and charging hardware. Membership is not required to buy a Beacon.</p>
+                            <button type="button" class="membership-learn-more" data-open-membership-modal>Compare plans →</button>
+                        </div>
+                    </div>
+
+                    <div class="purchase-section">
+                        <div class="price-display">
+                            <span class="current-price" id="total-price">$39.99</span>
+                        </div>
+
+                        <button class="btn-checkout" type="button" id="checkout-btn">Add to Cart</button>
+
+                        <p class="guarantee-note">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            90-day satisfaction guarantee
+                        </p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <section class="beacon-comparison-section" aria-labelledby="beacon-comparison-heading">
+        <div class="beacon-comparison-section__inner">
+            <div class="beacon-comparison-section__header">
+                <div>
+                    <p class="beacon-comparison-section__eyebrow">Beacon comparison</p>
+                    <h2 id="beacon-comparison-heading">Choose the right Beacon.</h2>
+                </div>
+                <p class="beacon-comparison-section__copy">Zone Beacon is best for fixed keep-away and ignore-fence zones. Remote Beacon is built for instant feedback from a keychain-ready control. The broader Beacon family gives Halo Collar more context in the places your dog spends time.</p>
+            </div>
+            <div class="beacon-comparison">
+                <div class="comparison-table-wrapper">
+                    <table class="beacon-table">
+                        <caption class="sr-only">Halo Beacon functions and specifications</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Functions</th>
+                                <th scope="col">
+                                    <img src="../assets/accessories/processed/zone-beacon.png" alt="Zone Beacon" class="beacon-table-img">
+                                    Zone Beacon
+                                </th>
+                                <th scope="col">
+                                    <img src="../assets/accessories/processed/remote-beacon.png" alt="Remote Beacon" class="beacon-table-img">
+                                    Remote Beacon
+                                </th>
+                                <th scope="col">Training Beacon</th>
+                                <th scope="col">USB Beacon</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Keep-Away Zone</td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td><td><span class="check-no">—</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Ignore Fences</td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td><td><span class="check-no">—</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Instant Feedback</td><td><span class="check-no">—</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr class="separator"><td colspan="5"></td></tr>
+                            <tr><td>Replaceable Battery</td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Battery Life</td><td>15 Months</td><td>9 Months</td><td>9 Months</td><td>USB powered</td></tr>
+                            <tr><td>Waterproof</td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Keychain-ready</td><td><span class="check-no">—</span></td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Mount anywhere</td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td><td><span class="check-no">—</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Range</td><td>328 ft (100m)</td><td>164 ft (50m)</td><td>295 ft (90m)</td><td>131 ft (40m)</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="included-modal" aria-hidden="true">
+        <div class="modal-content modal-content-wide" role="dialog" aria-modal="true" aria-labelledby="beacon-modal-title">
+            <button class="modal-close" type="button" id="close-included-modal" aria-label="Close beacon comparison">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 6L6 18M6 6l12 12"></path>
+                </svg>
+            </button>
+
+            <div class="beacon-features">
+                <div class="beacon-feature">
+                    <div class="beacon-feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle><path d="M4.93 4.93l14.14 14.14"></path>
+                        </svg>
+                    </div>
+                    <h4>Create Keep-Away Zones</h4>
+                    <p>Keep your dog out of unwanted areas by simulating a Halo fence boundary.</p>
+                    <span class="beacon-feature-note">Keep your dog away from trash cans, pools, or the front door.</span>
+                </div>
+                <div class="beacon-feature">
+                    <div class="beacon-feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M9 12h6M12 9v6"></path>
+                        </svg>
+                    </div>
+                    <h4>Ignore Fences</h4>
+                    <p>Take your dog through your Halo fence without receiving any fence feedback.</p>
+                    <span class="beacon-feature-note">Attach to your leash or place in your car to leave the fenced area effortlessly.</span>
+                </div>
+                <div class="beacon-feature">
+                    <div class="beacon-feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h4>Send Instant Feedback</h4>
+                    <p>Instantly send feedback on-demand to your dog without your phone.</p>
+                    <span class="beacon-feature-note">Call your dog to you using the return whistle or provide fence feedback.</span>
+                </div>
+            </div>
+
+            <div class="beacon-comparison">
+                <h3 class="comparison-title" id="beacon-modal-title">Compare Halo Beacons</h3>
+                <div class="comparison-table-wrapper">
+                    <table class="beacon-table">
+                        <thead>
+                            <tr>
+                                <th>Functions</th>
+                                <th>
+                                    <img src="../assets/accessories/processed/zone-beacon.png" alt="Zone Beacon" class="beacon-table-img">
+                                    Zone Beacon
+                                </th>
+                                <th>
+                                    <img src="../assets/accessories/processed/remote-beacon.png" alt="Remote Beacon" class="beacon-table-img">
+                                    Remote Beacon
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Keep-Away Zone</td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Ignore Fences</td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Instant Feedback</td><td><span class="check-no">—</span></td><td><span class="check-yes">✓</span></td></tr>
+                            <tr class="separator"><td colspan="3"></td></tr>
+                            <tr><td>Replaceable Battery</td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
+                            <tr><td>Battery Life</td><td>15 Months</td><td>9 Months</td></tr>
+                            <tr><td>Waterproof</td><td><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
+                            <tr><td>Keychain-ready</td><td><span class="check-no">—</span></td><td><span class="check-yes">✓</span></td></tr>
+                            <tr><td>Mount anywhere</td><td><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+                            <tr><td>Range</td><td>328 ft (100m)</td><td>164 ft (50m)</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="mc-container mc-below-pdp">
-      <section class="mc-section__header">
-        <div>
-          <p class="mc-eyebrow">Accessory details</p>
-          <h2>Everything needed for a lighter PDP.</h2>
+    <div class="modal-overlay" id="whats-in-box-modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="box-modal-title">
+            <button class="modal-close" type="button" id="close-whats-in-box-modal" aria-label="Close what's in the box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 6L6 18M6 6l12 12"></path>
+                </svg>
+            </button>
+            <h2 class="modal-title" id="box-modal-title">What's in the box</h2>
+            <ul class="included-list">
+                <li>Remote Beacon</li>
+                <li>Replaceable battery (pre-installed)</li>
+                <li>Keychain attachment</li>
+                <li>Quick start guide</li>
+            </ul>
         </div>
-        <p class="mc-section__copy">This page can render a Beacon, charging stand, strap, replacement part, or merch item by swapping the same data props defined in the component contract.</p>
-      </section>
-
-      <!-- AccessorySpecsAccordion props: sections -->
-      <section class="mc-specs" aria-label="Details and specs">
-        <div class="mc-accordion-item is-open">
-          <button class="mc-accordion-button" type="button" data-accordion-button aria-expanded="true">Details <span>+</span></button>
-          <div class="mc-accordion-panel">
-            <p>Includes a replacement charging cable and wall block for the selected Halo Collar generation. The PDP template keeps benefits short and lets the compatibility selector carry the product-specific complexity.</p>
-          </div>
-        </div>
-        <div class="mc-accordion-item">
-          <button class="mc-accordion-button" type="button" data-accordion-button aria-expanded="false">Specs <span>+</span></button>
-          <div class="mc-accordion-panel">
-            <table class="mc-spec-table">
-              <tbody>
-                <tr><th>Product family</th><td>Charging</td></tr>
-                <tr><th>Compatibility</th><td>Halo Collar 4/5 or Halo Collar 1/2/2+/3 by selector</td></tr>
-                <tr><th>Included</th><td>Charging cable and power adapter</td></tr>
-                <tr><th>Returns</th><td>90-day satisfaction guarantee flow</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="mc-accordion-item">
-          <button class="mc-accordion-button" type="button" data-accordion-button aria-expanded="false">FAQ <span>+</span></button>
-          <div class="mc-accordion-panel">
-            <p><strong>Does this require a Pack Membership?</strong> No. Accessory purchases do not require plan selection. The collar configurator remains responsible for membership education.</p>
-            <p><strong>How do I know which version to buy?</strong> The compatibility selector and badges should be backed by the product data model in the production build.</p>
-          </div>
-        </div>
-      </section>
-
-      <section aria-labelledby="proof-heading">
-        <div class="mc-section__header">
-          <div>
-            <p class="mc-eyebrow">Reviews and proof</p>
-            <h2 id="proof-heading">Confidence without a marketing detour.</h2>
-          </div>
-        </div>
-        <div class="mc-review-grid">
-          <article class="mc-review-card">
-            <span class="mc-badge mc-badge--success">Verified owner</span>
-            <p>"The spare charger stays in the travel bag, which makes weekend trips simpler."</p>
-            <strong>Charging accessory review</strong>
-          </article>
-          <article class="mc-review-card">
-            <span class="mc-badge">Support</span>
-            <p>Compatibility help is surfaced before purchase so replacement-part shoppers do not need to leave the PDP.</p>
-            <strong>Support cross-sell</strong>
-          </article>
-          <article class="mc-review-card">
-            <span class="mc-badge mc-badge--yellow">Guarantee</span>
-            <p>Accessories inherit the same commerce reassurance language as the V3 configurator and cart drawer.</p>
-            <strong>90-day guarantee</strong>
-          </article>
-        </div>
-      </section>
-
-      <!-- RelatedProductsRail props: products -->
-      <section aria-labelledby="related-heading">
-        <div class="mc-section__header">
-          <div>
-            <p class="mc-eyebrow">Related products</p>
-            <h2 id="related-heading">Complete the accessory order.</h2>
-          </div>
-        </div>
-        <div class="mc-related-grid">
-          <article class="mc-related-card">
-            <img src="https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp" alt="Halo Charging Stand">
-            <span class="mc-badge">Charging</span>
-            <h3>Charging Stand</h3>
-            <p>Dock the collar upright where it is easy to see.</p>
-            <button class="mc-btn mc-btn--yellow mc-btn--sm" type="button" data-add-to-cart data-product-id="charging-stand" data-product-title="Charging Stand" data-product-price="39" data-product-image="https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp">Quick add</button>
-          </article>
-          <article class="mc-related-card">
-            <img src="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp" alt="Halo Collar Strap">
-            <span class="mc-badge">Fit</span>
-            <h3>Collar Strap</h3>
-            <p>Keep a replacement strap ready for active dogs.</p>
-            <button class="mc-btn mc-btn--yellow mc-btn--sm" type="button" data-add-to-cart data-product-id="strap-45" data-product-title="Collar Strap Halo Collar 4/5" data-product-price="19" data-product-image="https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp" data-product-variant="Halo Collar 4/5">Quick add</button>
-          </article>
-          <article class="mc-related-card">
-            <img src="https://www.halocollar.com/wp-content/uploads/2024/01/product_zone_beacon_pdp.webp" alt="Halo Zone Beacon">
-            <span class="mc-badge">Beacon</span>
-            <h3>Zone Beacon</h3>
-            <p>Create keep-away zones in high-traffic areas at home.</p>
-            <button class="mc-btn mc-btn--yellow mc-btn--sm" type="button" data-add-to-cart data-product-id="zone-beacon" data-product-title="Zone Beacon" data-product-price="49" data-product-image="https://www.halocollar.com/wp-content/uploads/2024/01/product_zone_beacon_pdp.webp">Quick add</button>
-          </article>
-        </div>
-      </section>
     </div>
-  </main>
 
-  <div class="mc-mobile-purchase">
-    <span><strong data-mobile-price>$29</strong><small data-mobile-variant>Halo Collar 4/5</small></span>
-    <button class="mc-btn mc-btn--yellow" type="button" data-add-to-cart data-mobile-add>Add to cart</button>
-  </div>
+    <div class="cart-overlay" id="cart-overlay" aria-hidden="true"></div>
+    <aside class="mini-cart" id="mini-cart" aria-labelledby="mini-cart-title" aria-hidden="true">
+        <div class="mini-cart-header">
+            <h2 class="mini-cart-title" id="mini-cart-title">Your Cart <span id="cart-count">(1)</span></h2>
+            <button class="mini-cart-close" type="button" id="close-cart" aria-label="Close cart">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 6L6 18M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
 
-  <!-- MiniCartDrawer props: items, promo, totals -->
-  <div class="mc-cart-overlay" data-cart-overlay></div>
-  <aside class="mc-cart-drawer" aria-label="Mini cart" data-cart-drawer>
-    <div class="mc-cart-head">
-      <h2>Your Cart</h2>
-      <button class="mc-btn mc-btn--ghost mc-btn--sm" type="button" data-cart-close>Close</button>
+        <p class="cart-guarantee-header">Halo is backed by a 90-day satisfaction guarantee</p>
+
+        <div class="mini-cart-items" id="cart-items"></div>
+
+        <div class="mini-cart-footer">
+            <div class="cart-promo-code" id="promo-code-section">
+                <button class="promo-code-toggle" type="button" id="promo-toggle">
+                    <span>Promo Code</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                </button>
+                <div class="promo-code-input-wrapper" id="promo-input-wrapper">
+                    <label class="sr-only" for="promo-input">Enter code</label>
+                    <input type="text" placeholder="Enter code" class="promo-code-input" id="promo-input">
+                    <button class="promo-code-apply" type="button" id="promo-apply-btn">Apply</button>
+                </div>
+                <div class="promo-message" id="promo-message" hidden></div>
+            </div>
+
+            <div class="cart-totals">
+                <div class="cart-total-row">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">$39.99</span>
+                </div>
+                <div class="cart-total-row cart-total-row-light">
+                    <span>Tax & Shipping</span>
+                    <span>Calculated at checkout</span>
+                </div>
+                <div class="cart-total-row cart-total-row-final">
+                    <span>Total</span>
+                    <span id="cart-total">$39.99</span>
+                </div>
+            </div>
+
+            <button class="btn-cart-checkout" type="button" id="continue-checkout">Checkout</button>
+        </div>
+    </aside>
+
+    <div class="modal-overlay" id="membership-modal" aria-hidden="true">
+        <div class="modal-content modal-content-membership" role="dialog" aria-modal="true" aria-labelledby="membership-modal-title">
+            <button class="modal-close" type="button" id="close-membership-modal" aria-label="Close membership plans">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 6L6 18M6 6l12 12"></path>
+                </svg>
+            </button>
+
+            <div class="membership-modal-header">
+                <h2 class="membership-modal-title" id="membership-modal-title">Pack Membership Plans</h2>
+                <p class="membership-modal-subtitle">All plans include unlimited cellular data on all major carriers for real-time tracking anywhere in the world.</p>
+            </div>
+
+            <div class="membership-plans-grid">
+                <div class="membership-plan">
+                    <div class="plan-header">
+                        <span class="plan-tier-label">Basic Protection</span>
+                        <h3 class="plan-name">Bronze</h3>
+                        <div class="plan-pricing"><span class="plan-price">$9.99</span><span class="plan-period">/mo</span></div>
+                        <span class="plan-collar-price">Additional collars: $9.99/mo</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><span class="feature-check">✓</span> 5 virtual fences</li>
+                        <li><span class="feature-check">✓</span> Unlimited cellular data and global coverage</li>
+                        <li><span class="feature-check">✓</span> Live video support</li>
+                        <li><span class="feature-check">✓</span> $150 off collar upgrades and replacements</li>
+                    </ul>
+                </div>
+
+                <div class="membership-plan plan-featured">
+                    <span class="plan-popular-badge">Most Popular</span>
+                    <div class="plan-header">
+                        <h3 class="plan-name">Silver</h3>
+                        <div class="plan-pricing"><span class="plan-price">$14.99</span><span class="plan-period">/mo</span></div>
+                        <span class="plan-collar-price">Additional collars: $9.99/mo</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><span class="feature-check">✓</span> 20 virtual fences</li>
+                        <li><span class="feature-check">✓</span> Unlimited cellular data and global coverage</li>
+                        <li><span class="feature-check">✓</span> Live video support & 1-on-1 setup session</li>
+                        <li><span class="feature-check">✓</span> $175 off upgrades and replacements</li>
+                        <li><span class="feature-check">✓</span> 25% off all accessories</li>
+                        <li><span class="feature-check">✓</span> Activity reports</li>
+                    </ul>
+                </div>
+
+                <div class="membership-plan">
+                    <div class="plan-header">
+                        <span class="plan-tier-label">Best Value</span>
+                        <h3 class="plan-name">Gold</h3>
+                        <div class="plan-pricing"><span class="plan-price">$19.99</span><span class="plan-period">/mo</span></div>
+                        <span class="plan-collar-price">Additional collars: $9.99/mo</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><span class="feature-check">✓</span> Unlimited virtual fences</li>
+                        <li><span class="feature-check">✓</span> Unlimited cellular data and global coverage</li>
+                        <li><span class="feature-check">✓</span> Concierge support & 1-on-1 setup session</li>
+                        <li><span class="feature-check">✓</span> $200 off upgrades and replacements</li>
+                        <li><span class="feature-check">✓</span> 50% off all accessories</li>
+                        <li><span class="feature-check">✓</span> Advanced activity reports</li>
+                        <li><span class="feature-check">✓</span> Live sessions with expert trainers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="mc-cart-items" data-cart-items></div>
-    <div class="mc-cart-foot">
-      <div class="mc-total-row"><span>Subtotal</span><strong data-cart-subtotal>$0</strong></div>
-      <div class="mc-total-row"><span>Shipping</span><span>Calculated at checkout</span></div>
-      <div class="mc-total-row"><span>Total</span><strong data-cart-total>$0</strong></div>
-      <a class="mc-btn mc-btn--yellow" href="modern-accessories.html">Keep shopping accessories</a>
-    </div>
-  </aside>
 
-  <script src="../modern-commerce/modern-commerce.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a class="footer-logo" href="home.html" aria-label="Halo home">
+                        <img src="../vendor/ecomlanders-v3/halo-logo.svg?v=2" alt="Halo" class="footer-logo-img footer-logo-dark">
+                    </a>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="YouTube" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"></path></svg></a>
+                        <a href="#" aria-label="Facebook" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.3l-.5 3.5h-2.8v8.4A12 12 0 0 0 24 12z"></path></svg></a>
+                        <a href="#" aria-label="Instagram" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 5.8.1 4.9.3 4.1.6c-.8.3-1.5.7-2.1 1.4C1.3 2.6.9 3.3.6 4.1.3 4.9.1 5.8.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.1 1.3.2 2.2.5 3 .3.8.7 1.5 1.4 2.1.7.7 1.3 1.1 2.1 1.4.8.3 1.7.5 3 .5 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c1.3-.1 2.2-.2 3-.5.8-.3 1.5-.7 2.1-1.4.7-.7 1.1-1.3 1.4-2.1.3-.8.5-1.7.5-3 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.1-1.3-.2-2.2-.5-3-.3-.8-.7-1.5-1.4-2.1C21.4 1.3 20.7.9 19.9.6c-.8-.3-1.7-.5-3-.5C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"></path></svg></a>
+                        <a href="#" aria-label="TikTok" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.3 5.3A4.5 4.5 0 0 1 16.5 2h-3.4v13.5a2.7 2.7 0 1 1-1.9-2.6V9.4a6.2 6.2 0 1 0 5.3 6.1V9.7a7.9 7.9 0 0 0 4.5 1.4V7.7a4.5 4.5 0 0 1-1.7-2.4z"></path></svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <a href="shop-wireless-dog-fence.html">Halo Collar</a>
+                    <a href="accessories.html">Accessories</a>
+                    <a href="beacons.html">Beacons</a>
+                    <a href="deals.html">Deals</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Learn / About</h4>
+                    <a href="how-it-works.html">How it works</a>
+                    <a href="reviews.html">Testimonials</a>
+                    <a href="blog-template.html">Blog</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Membership / Account</h4>
+                    <a href="account.html">Account</a>
+                    <a href="plans.html">Plans</a>
+                    <a href="pack-perks.html">Pack Perks</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Support / Legal</h4>
+                    <a href="support-template.html">Halo Support</a>
+                    <a href="support-template.html">Privacy Policy</a>
+                    <a href="support-template.html">Terms of Use</a>
+                    <a href="support-template.html">Legal Disclaimer</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Why Halo?</h4>
+                    <a href="feature-detail.html">Best GPS Dog Fence</a>
+                    <a href="feature-detail.html">GPS Dog Fence Accuracy</a>
+                    <a href="feature-detail.html">Halo vs. SpotOn</a>
+                    <a href="feature-detail.html">Underground fence comparison</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 | Halo&reg; by Protect Animals with Satellites LLC</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="support-template.html">Privacy Policy</a>
+                    <a href="support-template.html">Terms of Use</a>
+                    <a href="support-template.html">Legal Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (() => {
+        const productPrice = 39.99;
+        const productName = "Halo Remote Beacon";
+        const productImage = "../assets/accessories/processed/remote-beacon.png";
+        let currentQty = 1;
+
+        function initMobileMenu() {
+            const toggle = document.querySelector(".nav-mobile-toggle");
+            const menu = document.querySelector(".nav-mobile-menu");
+            if (!toggle || !menu) return;
+
+            const close = () => {
+                toggle.classList.remove("active");
+                toggle.setAttribute("aria-expanded", "false");
+                menu.classList.remove("active");
+                document.body.classList.remove("mobile-menu-open");
+            };
+
+            toggle.addEventListener("click", () => {
+                const isOpen = menu.classList.toggle("active");
+                toggle.classList.toggle("active", isOpen);
+                toggle.setAttribute("aria-expanded", String(isOpen));
+                document.body.classList.toggle("mobile-menu-open", isOpen);
+            });
+
+            menu.addEventListener("click", (event) => {
+                if (event.target === menu || event.target.closest("a")) close();
+            });
+
+            document.addEventListener("keydown", (event) => {
+                if (event.key === "Escape") close();
+            });
+        }
+
+        function rebuildMobileThumbs(gallery) {
+            if (window.innerWidth > 640) {
+                gallery.querySelector(".gallery-thumbs")?.remove();
+                gallery.querySelectorAll(".gallery-image").forEach((entry) => entry.classList.remove("mobile-active"));
+                return;
+            }
+            const images = Array.from(gallery.querySelectorAll(".gallery-image"));
+            let strip = gallery.querySelector(".gallery-thumbs");
+            if (!strip) {
+                strip = document.createElement("div");
+                strip.className = "gallery-thumbs";
+                gallery.appendChild(strip);
+            }
+            strip.innerHTML = "";
+            images.forEach((image, index) => {
+                const img = image.querySelector("img");
+                if (!img) return;
+                const thumb = document.createElement("button");
+                thumb.type = "button";
+                thumb.className = "gallery-thumb" + (index === 0 ? " active" : "");
+                thumb.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+                thumb.addEventListener("click", () => {
+                    images.forEach((entry) => entry.classList.remove("mobile-active"));
+                    image.classList.add("mobile-active");
+                    strip.querySelectorAll(".gallery-thumb").forEach((entry) => entry.classList.remove("active"));
+                    thumb.classList.add("active");
+                });
+                strip.appendChild(thumb);
+            });
+            images.forEach((entry) => entry.classList.remove("mobile-active"));
+            if (images[0]) images[0].classList.add("mobile-active");
+        }
+
+        function initGallery() {
+            const gallery = document.querySelector(".product-gallery");
+            if (!gallery) return;
+            rebuildMobileThumbs(gallery);
+            window.addEventListener("resize", () => rebuildMobileThumbs(gallery));
+        }
+
+        function initMembership() {
+            const box = document.getElementById("membership-box");
+            const header = box ? box.querySelector(".membership-header") : null;
+            if (!box || !header) return;
+
+            const toggle = () => {
+                const expanded = box.classList.toggle("expanded");
+                header.setAttribute("aria-expanded", String(expanded));
+            };
+
+            header.addEventListener("click", (event) => {
+                if (event.target.closest("[data-open-membership-modal]")) return;
+                toggle();
+            });
+            header.addEventListener("keydown", (event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    toggle();
+                }
+            });
+        }
+
+        function openModal(modal) {
+            if (!modal) return;
+            modal.classList.add("active");
+            modal.setAttribute("aria-hidden", "false");
+            document.body.classList.add("modal-open");
+        }
+
+        function closeModal(modal) {
+            if (!modal) return;
+            modal.classList.remove("active");
+            modal.setAttribute("aria-hidden", "true");
+            document.body.classList.remove("modal-open");
+        }
+
+        function initModals() {
+            const includedModal = document.getElementById("included-modal");
+            const boxModal = document.getElementById("whats-in-box-modal");
+            const membershipModal = document.getElementById("membership-modal");
+
+            document.querySelectorAll("[data-open-modal]").forEach((button) => {
+                button.addEventListener("click", () => openModal(includedModal));
+            });
+            document.querySelectorAll("[data-open-box-modal]").forEach((button) => {
+                button.addEventListener("click", () => openModal(boxModal));
+            });
+            document.querySelectorAll("[data-open-membership-modal]").forEach((button) => {
+                button.addEventListener("click", (event) => {
+                    event.stopPropagation();
+                    openModal(membershipModal);
+                });
+            });
+
+            [
+                [includedModal, document.getElementById("close-included-modal")],
+                [boxModal, document.getElementById("close-whats-in-box-modal")],
+                [membershipModal, document.getElementById("close-membership-modal")]
+            ].forEach(([modal, closeButton]) => {
+                if (!modal) return;
+                closeButton?.addEventListener("click", () => closeModal(modal));
+                modal.addEventListener("click", (event) => {
+                    if (event.target === modal) closeModal(modal);
+                });
+            });
+
+            document.addEventListener("keydown", (event) => {
+                if (event.key !== "Escape") return;
+                document.querySelectorAll(".modal-overlay.active").forEach(closeModal);
+                closeCart();
+            });
+        }
+
+        function formatCurrency(value) {
+            return "$" + value.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function renderCartItem() {
+            const subtotal = productPrice * currentQty;
+
+            document.getElementById("cart-count").textContent = `(${currentQty})`;
+            document.getElementById("cart-subtotal").textContent = formatCurrency(subtotal);
+            document.getElementById("cart-total").textContent = formatCurrency(subtotal);
+
+            document.querySelectorAll(".js-open-cart").forEach((button) => {
+                button.classList.add("active");
+                button.setAttribute("data-total", String(currentQty));
+            });
+
+            document.getElementById("cart-items").innerHTML = `
+                <div class="cart-item">
+                    <div class="cart-item-image">
+                        <img src="${productImage}" alt="${productName}">
+                    </div>
+                    <div class="cart-item-content">
+                        <div class="cart-item-header">
+                            <span class="cart-item-name">${productName}</span>
+                            <button class="cart-item-delete" type="button" aria-label="Remove item" data-cart-remove>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 6h18M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2m3 0v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6h14zM10 11v6M14 11v6"></path></svg>
+                            </button>
+                        </div>
+                        <span class="cart-item-variant">Halo accessory</span>
+                        <span class="cart-item-delivery">Delivery in 2 - 4 business days</span>
+                        <div class="cart-item-bottom">
+                            <span class="cart-item-price">${formatCurrency(productPrice)}</span>
+                            <div class="cart-qty-controls">
+                                <button class="cart-qty-btn" type="button" data-cart-dec ${currentQty <= 1 ? "disabled" : ""}>-</button>
+                                <span class="cart-qty-value">${currentQty}</span>
+                                <button class="cart-qty-btn" type="button" data-cart-inc>+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function openCart() {
+            renderCartItem();
+            const cart = document.getElementById("mini-cart");
+            const overlay = document.getElementById("cart-overlay");
+            cart.classList.add("active");
+            overlay.classList.add("active");
+            cart.setAttribute("aria-hidden", "false");
+            overlay.setAttribute("aria-hidden", "false");
+            document.body.classList.add("cart-open");
+        }
+
+        function closeCart() {
+            const cart = document.getElementById("mini-cart");
+            const overlay = document.getElementById("cart-overlay");
+            if (!cart || !overlay) return;
+            cart.classList.remove("active");
+            overlay.classList.remove("active");
+            cart.setAttribute("aria-hidden", "true");
+            overlay.setAttribute("aria-hidden", "true");
+            document.body.classList.remove("cart-open");
+        }
+
+        function initCart() {
+            document.getElementById("checkout-btn")?.addEventListener("click", openCart);
+            document.querySelectorAll(".js-open-cart").forEach((button) => button.addEventListener("click", openCart));
+            document.getElementById("close-cart")?.addEventListener("click", closeCart);
+            document.getElementById("cart-overlay")?.addEventListener("click", closeCart);
+
+            document.getElementById("cart-items")?.addEventListener("click", (event) => {
+                if (event.target.closest("[data-cart-inc]")) {
+                    currentQty += 1;
+                    renderCartItem();
+                }
+                if (event.target.closest("[data-cart-dec]") && currentQty > 1) {
+                    currentQty -= 1;
+                    renderCartItem();
+                }
+                if (event.target.closest("[data-cart-remove]")) {
+                    currentQty = 1;
+                    document.getElementById("cart-items").innerHTML = '<div class="cart-empty"><p>Your cart is empty</p></div>';
+                    document.getElementById("cart-count").textContent = "(0)";
+                    document.getElementById("cart-subtotal").textContent = "$0.00";
+                    document.getElementById("cart-total").textContent = "$0.00";
+                    document.querySelectorAll(".js-open-cart").forEach((button) => {
+                        button.classList.remove("active");
+                        button.setAttribute("data-total", "0");
+                    });
+                }
+            });
+
+            const promoSection = document.getElementById("promo-code-section");
+            document.getElementById("promo-toggle")?.addEventListener("click", () => {
+                promoSection.classList.toggle("expanded");
+            });
+            document.getElementById("promo-apply-btn")?.addEventListener("click", () => {
+                const message = document.getElementById("promo-message");
+                message.textContent = "Promo codes are applied at checkout in the static demo.";
+                message.className = "promo-message promo-success";
+                message.hidden = false;
+            });
+            document.getElementById("continue-checkout")?.addEventListener("click", () => {
+                closeCart();
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            initMobileMenu();
+            initGallery();
+            initMembership();
+            initModals();
+            initCart();
+            document.getElementById("cart-items").innerHTML = '<div class="cart-empty"><p>Your cart is empty</p></div>';
+        });
+    })();
+    </script>
+    <script src="../js/components.js?v=shared-chrome-20260521"></script>
 </body>
 </html>

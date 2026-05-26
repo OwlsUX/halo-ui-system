@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-05-21T17:39:53Z",
+  "tooling": "Python Pillow local processing; no background-removal model was available.",
+  "canvas": {
+    "width": 1200,
+    "height": 900,
+    "format": "PNG RGBA"
+  },
+  "products": [
+    {
+      "productName": "Zone Beacon",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2024/01/product_zone_beacon_pdp.webp",
+      "originalPath": "assets/accessories/originals/zone-beacon--product-zone-beacon-l.webp",
+      "pageSourcePath": "assets/accessories/source/zone-beacon.webp",
+      "processedAssetPath": "assets/accessories/processed/zone-beacon.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "beacons",
+      "scalePlacementNotes": "Small beacon scaled up for presence and centered in the 4:3 product media window.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: preserved existing source alpha, then cropped and padded to normalized transparent canvas."
+    },
+    {
+      "productName": "Remote Beacon",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2024/01/product_remote_beacon_pdp.webp",
+      "originalPath": "assets/accessories/originals/remote-beacon--product-remote-beacon-l.webp",
+      "pageSourcePath": "assets/accessories/source/remote-beacon.webp",
+      "processedAssetPath": "assets/accessories/processed/remote-beacon.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "beacons",
+      "scalePlacementNotes": "Small remote beacon scaled up for presence and centered in the 4:3 product media window.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: preserved existing source alpha, then cropped and padded to normalized transparent canvas."
+    },
+    {
+      "productName": "Pro Case",
+      "sourceUrl": "https://d252xzqwj6utz.cloudfront.net/static/h5/main-pro-case-s.webp",
+      "originalPath": "assets/accessories/source/pro-case.webp",
+      "pageSourcePath": "assets/accessories/source/pro-case.webp",
+      "processedAssetPath": "assets/accessories/processed/pro-case.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "fit",
+      "scalePlacementNotes": "Existing alpha preserved, with moderate scale so the protective case reads like hardware.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: preserved existing source alpha, then cropped and padded to normalized transparent canvas."
+    },
+    {
+      "productName": "Collar Strap for Halo Collar 4/5",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp",
+      "originalPath": "assets/accessories/source/collar-strap-45.webp",
+      "pageSourcePath": "assets/accessories/source/collar-strap-45.webp",
+      "processedAssetPath": "assets/accessories/processed/collar-strap-45.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "fit",
+      "scalePlacementNotes": "Wide strap kept below beacon scale to avoid filling the card edge to edge.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: preserved existing source alpha, then cropped and padded to normalized transparent canvas."
+    },
+    {
+      "productName": "Collar Strap for Halo Collar 1/2/2+/3",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2023/08/CollarStrap.webp",
+      "originalPath": "assets/accessories/source/collar-strap-123.webp",
+      "pageSourcePath": "assets/accessories/source/collar-strap-123.webp",
+      "processedAssetPath": "assets/accessories/processed/collar-strap-123.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "fit",
+      "scalePlacementNotes": "Legacy wide strap centered with similar visual footprint to the current strap.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: border-connected solid background mask, alpha feather, crop, and normalized transparent canvas."
+    },
+    {
+      "productName": "Contact Tip Kit",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp",
+      "originalPath": "assets/accessories/source/contact-tip-kit.webp",
+      "pageSourcePath": "assets/accessories/source/contact-tip-kit.webp",
+      "processedAssetPath": "assets/accessories/processed/contact-tip-kit.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "fit",
+      "scalePlacementNotes": "Small replacement parts scaled up so they do not float in the card.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: border-connected solid background mask, alpha feather, crop, and normalized transparent canvas."
+    },
+    {
+      "productName": "Charging Stand",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+      "originalPath": "assets/accessories/source/charging-stand.webp",
+      "pageSourcePath": "assets/accessories/source/charging-stand.webp",
+      "processedAssetPath": "assets/accessories/processed/charging-stand.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "charging",
+      "scalePlacementNotes": "Dock product uses bottom alignment so its base feels stable across card sizes.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: border-connected solid background mask, alpha feather, crop, and normalized transparent canvas."
+    },
+    {
+      "productName": "Charging Kit for Halo Collar 4/5",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-charger.webp",
+      "originalPath": "assets/accessories/source/charging-kit-45.webp",
+      "pageSourcePath": "assets/accessories/source/charging-kit-45.webp",
+      "processedAssetPath": "assets/accessories/processed/charging-kit-45.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "charging",
+      "scalePlacementNotes": "Current charging kit centered and scaled as a medium hardware accessory.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: border-connected solid background mask, alpha feather, crop, and normalized transparent canvas."
+    },
+    {
+      "productName": "Charging Kit for Halo Collar 1/2/2+/3",
+      "sourceUrl": "https://d252xzqwj6utz.cloudfront.net/wp-content/uploads/2023/08/11084903/ChargingKit_HC3_Magnetic_noblock.webp",
+      "originalPath": "assets/accessories/source/charging-kit-123.webp",
+      "pageSourcePath": "assets/accessories/source/charging-kit-123.webp",
+      "processedAssetPath": "assets/accessories/processed/charging-kit-123.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "charging",
+      "scalePlacementNotes": "Legacy charging kit centered and scaled to match the current kit.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: border-connected solid background mask, alpha feather, crop, and normalized transparent canvas."
+    },
+    {
+      "productName": "Halo T-Shirt",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2023/11/Tshirt.webp",
+      "originalPath": "assets/accessories/source/halo-t-shirt.webp",
+      "pageSourcePath": "assets/accessories/source/halo-t-shirt.webp",
+      "processedAssetPath": "assets/accessories/processed/halo-t-shirt.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "merch",
+      "scalePlacementNotes": "Apparel is intentionally smaller than hardware so it reads as merch.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: border-connected solid background mask, alpha feather, crop, and normalized transparent canvas."
+    },
+    {
+      "productName": "Lawn Signs",
+      "sourceUrl": "https://www.halocollar.com/wp-content/uploads/2024/04/lawn-sign-row.webp",
+      "originalPath": "assets/accessories/source/lawn-signs.webp",
+      "pageSourcePath": "assets/accessories/source/lawn-signs.webp",
+      "processedAssetPath": "assets/accessories/processed/lawn-signs.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "merch",
+      "scalePlacementNotes": "Wide sign row is constrained to keep the merch card from feeling oversized.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: preserved existing source alpha, then cropped and padded to normalized transparent canvas."
+    },
+    {
+      "productName": "Daily Care Kit",
+      "sourceUrl": "Composite from Charging Stand, Collar Strap for Halo Collar 4/5, and Contact Tip Kit processed assets.",
+      "sourceUrls": [
+        "https://www.halocollar.com/wp-content/uploads/2025/05/halo-shop-charging-stand-2505.webp",
+        "https://www.halocollar.com/wp-content/uploads/2024/09/accessories-h4-strap.webp",
+        "https://www.halocollar.com/wp-content/uploads/2023/08/Contact-Tips.webp"
+      ],
+      "originalPath": "Composite generated from processed transparent product assets.",
+      "processedAssetPath": "assets/accessories/processed/daily-care-kit.png",
+      "outputDimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "intendedCardGroup": "bundles",
+      "scalePlacementNotes": "Bundle composite keeps the dock dominant with strap and tips secondary, all on transparent canvas.",
+      "processingStatus": "transparent",
+      "processingMethod": "Pillow: transparent composite assembled from normalized processed product assets."
+    }
+  ]
+}

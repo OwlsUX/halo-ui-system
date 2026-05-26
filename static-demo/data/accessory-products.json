@@ -1,0 +1,474 @@
+{
+  "generatedAt": "2026-05-26T00:00:00-04:00",
+  "sourcePages": [
+    "static-demo/pages/accessories.html",
+    "static-demo/pages/modern-accessory-pdp.html",
+    "static-demo/data/accessory-image-assets.json"
+  ],
+  "products": [
+    {
+      "id": "zone-beacon",
+      "name": "Zone Beacon",
+      "slug": "zone-beacon",
+      "route": "accessory-zone-beacon.html",
+      "category": "Beacons & Remote",
+      "family": "Beacon",
+      "badge": "Beacon",
+      "price": "$39.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/zone-beacon.webp",
+        "assets/accessories/originals/zone-beacon--product-zone-beacon-l.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/zone-beacon.png",
+          "alt": "Halo Zone Beacon product image"
+        },
+        {
+          "src": "assets/accessories/originals/zone-beacon--product-zone-beacon-l.webp",
+          "alt": "Halo Zone Beacon alternate product image"
+        }
+      ],
+      "shortDescription": "Create fixed Keep-Away Zones or Ignore Fence areas where your dog spends time.",
+      "compatibility": "Works with Halo Collar systems for indoor or nearby zone context.",
+      "whatItDoes": [
+        "Creates Keep-Away Zones.",
+        "Supports Ignore Fence areas.",
+        "Mounts anywhere for fixed location use."
+      ],
+      "includedItems": [
+        "Zone Beacon",
+        "Current source content does not list additional package contents."
+      ],
+      "sizing": "Use for fixed areas such as rooms, doors, trash cans, pools, cars, or other places called out in Beacon support copy.",
+      "relatedProductIds": [
+        "remote-beacon",
+        "pro-case",
+        "charging-stand"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "remote-beacon",
+      "name": "Remote Beacon",
+      "slug": "remote-beacon",
+      "route": "accessory-remote-beacon.html",
+      "category": "Beacons & Remote",
+      "family": "Beacon",
+      "badge": "Beacon",
+      "price": "$39.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/remote-beacon.webp",
+        "assets/accessories/originals/remote-beacon--product-remote-beacon-l.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/remote-beacon.png",
+          "alt": "Halo Remote Beacon product image"
+        },
+        {
+          "src": "assets/accessories/originals/remote-beacon--product-remote-beacon-l.webp",
+          "alt": "Halo Remote Beacon alternate product image"
+        }
+      ],
+      "shortDescription": "Send instant feedback on demand without needing your phone.",
+      "compatibility": "Works with Halo Collar systems for one-click feedback nearby.",
+      "whatItDoes": [
+        "Sends instant feedback on demand.",
+        "Supports keychain-ready use.",
+        "Provides a no-phone remote control option."
+      ],
+      "includedItems": [
+        "Remote Beacon",
+        "Replaceable battery",
+        "Keychain attachment",
+        "Quick start guide"
+      ],
+      "sizing": "Best for one-click nearby feedback and quick recall support.",
+      "relatedProductIds": [
+        "zone-beacon",
+        "pro-case",
+        "contact-tip-kit"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "halo-collar-remote",
+      "name": "Halo Collar Remote",
+      "slug": "halo-collar-remote",
+      "route": "accessory-halo-collar-remote.html",
+      "category": "Beacons & Remote",
+      "family": "Remote",
+      "badge": "Remote",
+      "price": "Coming 11/26",
+      "availability": "coming-soon",
+      "sourceImagePaths": [],
+      "galleryImages": [],
+      "shortDescription": "Coming soon product represented on the Accessories page.",
+      "compatibility": "Current source content does not provide compatibility details.",
+      "whatItDoes": [
+        "Current source content lists this product as coming soon.",
+        "No product image, price, compatibility, or feature copy was provided in the source page."
+      ],
+      "includedItems": [
+        "Current source content does not list package contents."
+      ],
+      "sizing": "Current source content does not provide sizing or setup details.",
+      "relatedProductIds": [
+        "remote-beacon",
+        "zone-beacon"
+      ],
+      "statusNotes": [
+        "Category card shows 11/26 instead of a purchase price.",
+        "No product image is available in accessory-image-assets.json.",
+        "PDP uses a clearly marked placeholder media well and a disabled coming-soon CTA."
+      ]
+    },
+    {
+      "id": "pro-case",
+      "name": "Pro Case",
+      "slug": "pro-case",
+      "route": "accessory-pro-case.html",
+      "category": "Halo Accessories",
+      "family": "Fit and parts",
+      "badge": "Halo Collar 4/5",
+      "price": "$39.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/pro-case.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/pro-case.png",
+          "alt": "Pro Case for Halo Collar 4 and 5"
+        }
+      ],
+      "shortDescription": "Protect your Halo Collar with a durable, water-resistant Pro Case.",
+      "compatibility": "Halo Collar 4/5.",
+      "whatItDoes": [
+        "Adds a protective case around the collar.",
+        "Can be hand-washed and air-dried when dirty.",
+        "Should not be dry cleaned, ironed, or bleached."
+      ],
+      "includedItems": [
+        "Pro Case"
+      ],
+      "sizing": "Built for Halo Collar 4/5.",
+      "relatedProductIds": [
+        "collar-strap-halo-4-5",
+        "charging-stand",
+        "contact-tip-kit"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "collar-strap-halo-4-5",
+      "name": "Collar Strap for Halo Collar 4/5",
+      "slug": "collar-strap-halo-4-5",
+      "route": "accessory-collar-strap-halo-4-5.html",
+      "category": "Halo Accessories",
+      "family": "Fit and parts",
+      "badge": "Halo Collar 4/5",
+      "price": "$29.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/collar-strap-45.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/collar-strap-45.png",
+          "alt": "Collar Strap for Halo Collar 4 and 5"
+        }
+      ],
+      "shortDescription": "Replace your strap and tailor the fit for your dog.",
+      "compatibility": "Halo Collar 4/5.",
+      "whatItDoes": [
+        "Replaces the collar strap.",
+        "Helps tailor the collar fit for your dog.",
+        "Supports current Halo Collar 4/5 hardware."
+      ],
+      "includedItems": [
+        "Replacement strap kit",
+        "Current source content does not list item-level kit contents."
+      ],
+      "sizing": "Choose the Halo Collar 4/5 strap family for current collars.",
+      "relatedProductIds": [
+        "pro-case",
+        "charging-kit-halo-4-5",
+        "contact-tip-kit"
+      ],
+      "statusNotes": [
+        "Category copy says the kit includes everything needed to replace the strap but does not list each item."
+      ]
+    },
+    {
+      "id": "collar-strap-halo-1-2-3",
+      "name": "Collar Strap for Halo Collar 1/2/2+/3",
+      "slug": "collar-strap-halo-1-2-3",
+      "route": "accessory-collar-strap-halo-1-2-3.html",
+      "category": "Halo Accessories",
+      "family": "Fit and parts",
+      "badge": "Halo Collar 1/2/2+/3",
+      "price": "$29.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/collar-strap-123.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/collar-strap-123.png",
+          "alt": "Collar Strap for Halo Collar 1, 2, 2+, and 3"
+        }
+      ],
+      "shortDescription": "Rugged, flexible, and durable replacement strap for legacy Halo Collar models.",
+      "compatibility": "Halo Collar 1/2/2+/3.",
+      "whatItDoes": [
+        "Replaces a legacy Halo Collar strap.",
+        "Uses a rugged, flexible, durable strap design.",
+        "Supports use in any environment, per current category copy."
+      ],
+      "includedItems": [
+        "Replacement strap",
+        "Current source content does not list additional package contents."
+      ],
+      "sizing": "Use for Halo Collar 1, 2, 2+, or 3. The category compatibility matrix notes S or M/L strap choices where shown.",
+      "relatedProductIds": [
+        "charging-kit-halo-1-2-3",
+        "contact-tip-kit",
+        "collar-strap-halo-4-5"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "contact-tip-kit",
+      "name": "Contact Tip Kit",
+      "slug": "contact-tip-kit",
+      "route": "accessory-contact-tip-kit.html",
+      "category": "Halo Accessories",
+      "family": "Fit and parts",
+      "badge": "All collar models",
+      "price": "$9.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/contact-tip-kit.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/contact-tip-kit.png",
+          "alt": "Halo Contact Tip Kit"
+        }
+      ],
+      "shortDescription": "Three sets of contact attachments for fit flexibility with your dog's Halo Collar.",
+      "compatibility": "All Halo Collar models.",
+      "whatItDoes": [
+        "Replaces contact attachments.",
+        "Provides three sets of contact attachments.",
+        "Helps adjust contact attachment fit for your dog."
+      ],
+      "includedItems": [
+        "3 sets of contact attachments"
+      ],
+      "sizing": "Works across Halo Collar models according to the category badge.",
+      "relatedProductIds": [
+        "collar-strap-halo-4-5",
+        "collar-strap-halo-1-2-3",
+        "charging-kit-halo-4-5"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "charging-stand",
+      "name": "Charging Stand",
+      "slug": "charging-stand",
+      "route": "accessory-charging-stand.html",
+      "category": "Charging",
+      "family": "Charging",
+      "badge": "Halo Collar 4/5",
+      "price": "$59.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/charging-stand.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/charging-stand.png",
+          "alt": "Halo Charging Stand"
+        }
+      ],
+      "shortDescription": "Keep your Halo Collar 4 powered up and ready to go with a charging stand.",
+      "compatibility": "Halo Collar 4/5.",
+      "whatItDoes": [
+        "Holds current collar charging hardware on a stand.",
+        "Keeps Halo Collar 4 powered up and ready to go.",
+        "Matches the current collar generation charging family."
+      ],
+      "includedItems": [
+        "Charging Stand",
+        "Current source content does not list additional package contents."
+      ],
+      "sizing": "Use with Halo Collar 4/5 charging hardware.",
+      "relatedProductIds": [
+        "charging-kit-halo-4-5",
+        "pro-case",
+        "collar-strap-halo-4-5"
+      ],
+      "statusNotes": [
+        "Category copy names Halo Collar 4 directly while the badge and compatibility matrix place the product in the Halo Collar 4/5 family."
+      ]
+    },
+    {
+      "id": "charging-kit-halo-4-5",
+      "name": "Charging Kit for Halo Collar 4/5",
+      "slug": "charging-kit-halo-4-5",
+      "route": "accessory-charging-kit-halo-4-5.html",
+      "category": "Charging",
+      "family": "Charging",
+      "badge": "Halo Collar 4/5",
+      "price": "$34.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/charging-kit-45.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/charging-kit-45.png",
+          "alt": "Charging Kit for Halo Collar 4 and 5"
+        }
+      ],
+      "shortDescription": "Charging Kit with a USB-C to USB-C cable and Charging Adaptor.",
+      "compatibility": "Halo Collar 4/5.",
+      "whatItDoes": [
+        "Replaces current collar charging hardware.",
+        "Provides the cable and charging adaptor listed on the category page.",
+        "Keeps charging hardware matched to Halo Collar 4/5."
+      ],
+      "includedItems": [
+        "USB-C to USB-C Cable",
+        "Charging Adaptor"
+      ],
+      "sizing": "Use with Halo Collar 4/5.",
+      "relatedProductIds": [
+        "charging-stand",
+        "collar-strap-halo-4-5",
+        "contact-tip-kit"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "charging-kit-halo-1-2-3",
+      "name": "Charging Kit for Halo Collar 1/2/2+/3",
+      "slug": "charging-kit-halo-1-2-3",
+      "route": "accessory-charging-kit-halo-1-2-3.html",
+      "category": "Charging",
+      "family": "Charging",
+      "badge": "Halo Collar 1/2/2+/3",
+      "price": "$34.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/charging-kit-123.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/charging-kit-123.png",
+          "alt": "Charging Kit for Halo Collar 1, 2, 2+, and 3"
+        }
+      ],
+      "shortDescription": "Charging Kit with a USB-C cable and Magnetic Adaptor for Halo Collar 3.",
+      "compatibility": "Halo Collar 1/2/2+/3.",
+      "whatItDoes": [
+        "Replaces legacy collar charging hardware.",
+        "Provides the cable and magnetic adaptor listed on the category page.",
+        "Keeps charging hardware matched to Halo Collar 1/2/2+/3."
+      ],
+      "includedItems": [
+        "USB-C to USB-C Cable",
+        "Magnetic Adaptor for the Halo Collar 3"
+      ],
+      "sizing": "Use with Halo Collar 1, 2, 2+, or 3. The category compatibility matrix notes USB-C or magnetic charging choices where shown.",
+      "relatedProductIds": [
+        "collar-strap-halo-1-2-3",
+        "contact-tip-kit",
+        "charging-kit-halo-4-5"
+      ],
+      "statusNotes": []
+    },
+    {
+      "id": "halo-t-shirt",
+      "name": "Halo T-Shirt",
+      "slug": "halo-t-shirt",
+      "route": "accessory-halo-t-shirt.html",
+      "category": "Halo Merch",
+      "family": "Merch",
+      "badge": "Unisex",
+      "price": "$29.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/halo-t-shirt.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/halo-t-shirt.png",
+          "alt": "Halo T-Shirt"
+        }
+      ],
+      "shortDescription": "Premium Next Level Apparel shirt with a soft feel for everyday wear.",
+      "compatibility": "No collar compatibility required.",
+      "whatItDoes": [
+        "Provides Halo branded apparel.",
+        "Uses a premium Next Level Apparel shirt.",
+        "Has a soft feel for everyday wear, per category copy."
+      ],
+      "includedItems": [
+        "Halo T-Shirt"
+      ],
+      "sizing": "Choose shirt size when shown. Current source content does not list available sizes.",
+      "relatedProductIds": [
+        "lawn-signs",
+        "pro-case",
+        "zone-beacon"
+      ],
+      "statusNotes": [
+        "Category copy notes shirt size selection but does not list available sizes."
+      ]
+    },
+    {
+      "id": "lawn-signs",
+      "name": "Lawn Signs",
+      "slug": "lawn-signs",
+      "route": "accessory-lawn-signs.html",
+      "category": "Halo Merch",
+      "family": "Merch",
+      "badge": "2-pack",
+      "price": "$34.99",
+      "availability": "available",
+      "sourceImagePaths": [
+        "assets/accessories/source/lawn-signs.webp"
+      ],
+      "galleryImages": [
+        {
+          "src": "assets/accessories/processed/lawn-signs.png",
+          "alt": "Halo Lawn Signs"
+        }
+      ],
+      "shortDescription": "Two easy-to-install lawn signs for homes using a Halo GPS fence.",
+      "compatibility": "No collar compatibility required.",
+      "whatItDoes": [
+        "Lets curious neighbors know your dog is safely contained within a Halo GPS fence.",
+        "Ships as a 2-pack according to the category page.",
+        "Installs in the lawn."
+      ],
+      "includedItems": [
+        "2 lawn signs"
+      ],
+      "sizing": "Ships as a 2-pack.",
+      "relatedProductIds": [
+        "halo-t-shirt",
+        "zone-beacon",
+        "remote-beacon"
+      ],
+      "statusNotes": []
+    }
+  ]
+}
