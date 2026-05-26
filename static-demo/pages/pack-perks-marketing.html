@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pack Perks Marketing v3 | Halo</title>
+  <title>Pack Perks · Over $1,500 in Annual Value</title>
   <meta name="description" content="Pack Perks unlock $1,500+ in annual value — exclusive partner credits, unlimited TeleVet, food and travel credits — included with every Halo membership." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Pack Perks · Over $1,500 in Annual Value" />
@@ -12,9 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../vendor/packperks/css/styles.css?v=20260508o" />
-  <link rel="stylesheet" href="../vendor/packperks/css/robinhood.css?v=20260508l" />
+  <link rel="stylesheet" href="../vendor/packperks/css/robinhood.css" />
 </head>
-<!-- Source: OwlsUX/packperks marketing-v3.html. Paths adjusted for static-demo. -->
+<!-- Source: OwlsUX/packperks marketing.html. Paths adjusted for static-demo. -->
 <body class="rh-theme">
 
   <!-- Production Navigation (Restored to Light Mode automatically by removing dark mode overrides in CSS) -->
@@ -67,87 +67,105 @@
     </div>
   </nav>
 
-  <!-- ================= HERO (v3 — full-bleed image, left-rail copy) ================= -->
-  <style>
-    .rh-hero-v3 {
-      position: relative;
-      min-height: clamp(580px, 75vh, 820px) !important;
-      padding: 70px 0 !important; /* symmetric so content is truly vertically centered between nav and bottom */
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      align-items: stretch !important;
-      overflow: hidden;
-      isolation: isolate;
-    }
-    .rh-hero-v3__media {
-      position: absolute;
-      inset: 0;
-      z-index: -2;
-    }
-    .rh-hero-v3__media img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 30%;
-      display: block;
-    }
-    .rh-hero-v3__overlay {
-      position: absolute;
-      inset: 0;
-      z-index: -1;
-      background: linear-gradient(to right, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.45) 35%, rgba(0,0,0,0.10) 65%, rgba(0,0,0,0) 100%);
-    }
-    .rh-hero-v3 .rh-container {
-      width: 100%;
-      padding: 24px 0 !important;
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      align-self: stretch;
-    }
-    .rh-hero-v3__copy {
-      max-width: 560px;
-      text-align: left;
-    }
-    .rh-hero-v3__copy h1 {
-      color: #FFFFFF;
-      margin: 0 0 20px;
-      font-size: clamp(2.5rem, 5.5vw, 4.5rem);
-      font-weight: 400;
-      line-height: 1.05;
-      letter-spacing: -0.04em;
-      text-wrap: balance;
-    }
-    .rh-hero-v3__copy p {
-      color: rgba(255,255,255,0.92);
-      margin: 0 0 32px;
-      font-size: clamp(1.0625rem, 1.4vw, 1.25rem);
-      line-height: 1.4;
-    }
-    .rh-hero-v3__copy .rh-btn { margin: 0; }
-    @media (max-width: 768px) {
-      .rh-hero-v3 {
-        min-height: clamp(530px, 84vh, 720px);
-        padding: 70px 0;
-      }
-      .rh-hero-v3 .rh-container { padding: 24px 0; }
-      .rh-hero-v3__overlay {
-        background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.65) 100%);
-      }
-    }
-  </style>
-
-  <section class="rh-section rh-hero rh-hero-v3">
-    <div class="rh-hero-v3__media">
-      <img src="https://d252xzqwj6utz.cloudfront.net/static/h5/get-started.webp" alt="">
-    </div>
-    <div class="rh-hero-v3__overlay"></div>
+  <!-- ================= HERO ================= -->
+  <section class="rh-section rh-hero" style="padding-top: 140px; padding-bottom: 80px; align-items: flex-start;">
     <div class="rh-container">
-      <div class="rh-hero-v3__copy rh-reveal">
-        <h1>Perks that your pup and wallet will love.</h1>
-        <p>Over <span class="rh-text-gradient" style="font-weight: 500;">$1,500</span> in Annual Value.</p>
-        <a href="https://halo.com/account/login" class="rh-btn">View Your Perks</a>
+      <div class="rh-hero-content rh-reveal">
+        <h1 class="rh-h1" style="max-width: 1140px; margin: 0 auto 24px; font-size: clamp(2.5rem, 5.5vw, 4.5rem); text-wrap: balance;">Exclusive Perks to Help Your Dog Thrive.<br>Over <span class="rh-text-gradient" style="font-weight: 500;">$1,500</span> in Annual Value.</h1>
+        <p class="rh-p" style="margin: 0 auto 40px; max-width: 720px; text-wrap: balance;">Premium food, vet care, travel credits, and more — all included.</p>
+
+        <a href="https://halo.com/account/login" class="rh-btn" style="margin-bottom: 80px;">View Your Perks</a>
+
+        <!-- 3 Browsable Lifestyle Cards -->
+        <style>
+          .hero-card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto 64px;
+            width: 100%;
+          }
+          .hero-card {
+            position: relative;
+            border-radius: var(--rh-radius-md);
+            overflow: hidden;
+            aspect-ratio: 3/4;
+            box-shadow: none;
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+            background: transparent;
+          }
+          .hero-card:hover {
+            transform: translateY(-8px);
+          }
+          .hero-card-center {
+            transform: translateY(-24px);
+          }
+          .hero-card-center:hover {
+            transform: translateY(-32px);
+          }
+          .hero-card img.bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+          }
+          .hero-card:hover img.bg {
+            transform: scale(1.05);
+          }
+          .hero-card-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 64px 24px 32px;
+            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .hero-card-eyebrow {
+            color: rgba(255,255,255,0.9);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 12px;
+          }
+          @media (max-width: 768px) {
+            .hero-card-grid { display: none; }
+          }
+        </style>
+
+        <div class="hero-card-grid">
+          <!-- Card 1: Nutrition -->
+          <div class="hero-card" style="background: #FFFFFF;">
+            <img src="../vendor/packperks/assets/brands/pets-table-hero.png" class="bg" alt="Nutrition">
+            <div class="hero-card-overlay">
+              <span class="hero-card-eyebrow">Premium Food</span>
+              <img src="../vendor/packperks/assets/brands/pets-table-wordmark.png" alt="The Pets Table" style="height: 32px; filter: brightness(0) invert(1); object-fit: contain;">
+            </div>
+          </div>
+
+          <!-- Card 2: Travel -->
+          <div class="hero-card hero-card-center">
+            <img src="../vendor/packperks/assets/brands/tl-go-lifestyle.jpg" class="bg" alt="Travel">
+            <div class="hero-card-overlay">
+              <span class="hero-card-eyebrow">Exclusive Travel</span>
+              <img src="../vendor/packperks/assets/brands/tl-go-wordmark.png" alt="Travel + Leisure Go" style="height: 24px; filter: brightness(0) invert(1); object-fit: contain;">
+            </div>
+          </div>
+
+          <!-- Card 3: Lifestyle -->
+          <div class="hero-card">
+            <img src="https://s.yimg.com/ny/api/res/1.2/I1T_hVBfDq0neVSwUoECMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/Benzinga/46b330dc725518b11cb2ec65264048cf" class="bg" alt="Lifestyle">
+            <div class="hero-card-overlay">
+              <span class="hero-card-eyebrow">Daily Rewards</span>
+              <img src="../vendor/packperks/assets/brands/bark-logo.png" style="height: 48px; object-fit: contain; border-radius: 4px;">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

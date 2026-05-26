@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Account · Halo</title>
-  <meta name="description" content="Welcome back, Hunter — manage your Halo membership, billing, and Pack Perks all in one place." />
+  <title>Cancel Membership · Halo</title>
+  <meta name="description" content="Before you cancel — here's the $1,500+ in Pack Perks value you'd lose with your Halo membership." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="My Account · Halo" />
-  <meta property="og:description" content="Manage your Halo membership, billing, and Pack Perks." />
+  <meta property="og:title" content="Cancel Membership · Halo" />
+  <meta property="og:description" content="See the Pack Perks value you'd lose by canceling your Halo membership." />
   <link rel="stylesheet" href="../vendor/packperks/css/styles.css?v=20260508o" />
 </head>
-<!-- Source: OwlsUX/packperks account-perks.html. Imported as the main account route. Paths adjusted for static-demo. -->
+<!-- Source: OwlsUX/packperks cancellation.html. Paths adjusted for static-demo. -->
 <body>
 
   <nav class="halo-navigation" role="navigation">
@@ -98,7 +98,7 @@
             </svg>
           </button>
           <div class="nav-dropdown-menu account-menu">
-            <a href="account.html" class="dropdown-link">My Account</a>
+            <a href="account-perks.html" class="dropdown-link">My Account</a>
             <a href="account.html" class="dropdown-link">Login</a>
             <a href="account.html" class="dropdown-link">Sign Up</a>
             <a href="account.html" class="dropdown-link">My Orders</a>
@@ -132,237 +132,12 @@
 
   <main class="page">
 
-    <div class="welcome-head">
-      <h1>Welcome back, Hunter</h1>
-      <p class="sub">Thanks for being a member since May 8, 2023</p>
-    </div>
+    <p class="crumbs"><a href="account-perks.html">My Account</a> &nbsp;›&nbsp; Manage Membership &nbsp;›&nbsp; Cancel</p>
 
-    <!-- Pack Perks banner v5 — 3 pillar cards with brand logos below copy -->
-    <section class="pp-banner pp-banner-v5" data-pp-dismissible>
-      <button type="button" class="pp-banner-dismiss" aria-label="Dismiss Pack Perks banner" data-pp-banner-dismiss>
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <!-- LEFT: pitch column -->
-      <div class="pp-pitch">
-        <span class="pp-eyebrow">Pack Perks</span>
-        <h3 class="pp-headline">$1,500+ in annual value, included with your membership.</h3>
-        <p class="pp-pitch-sub">Your membership includes travel credits, food credits, unlimited vet &amp; Rx access, and more from 15+ trusted brands.</p>
-        <a href="pack-perks-list.html" class="pp-cta-btn">View Your Perks <span aria-hidden="true">&rarr;</span></a>
-      </div>
-
-      <!-- RIGHT: 3 exclusive partner cards -->
-      <div class="pp-pillar-grid">
-        <p class="pp-pillar-grid-title">Featured Benefits</p>
-
-        <div class="pp-pillar-track" aria-label="Featured Pack Perks benefits">
-          <!-- Vet + Rx — Pawp (exclusive) -->
-          <a href="pack-perks-list.html#vet" class="pp-pillar-card pp-pillar-dutch">
-            <span class="pp-pillar-eyebrow">Vet + Rx</span>
-            <span class="pp-pillar-headline">Unlimited 24/7 <br>TeleVet</span>
-            <img src="https://play-lh.googleusercontent.com/vP6TNDmB5ir1c904LnpjeTAMpruOFRSDIRVmUPM00Y-n_5I98O3EAfYCdxYA8utXRnbK" alt="Pawp" class="pp-pillar-logo">
-            <p class="pp-pillar-sub">Talk to a licensed vet anytime, care included.</p>
-          </a>
-
-          <!-- Food — The Pets Table (exclusive) -->
-          <a href="pack-perks-list.html#food" class="pp-pillar-card pp-pillar-pets">
-            <span class="pp-pillar-eyebrow">Food</span>
-            <span class="pp-pillar-headline">$250 in Annual <br>Food Credits</span>
-            <img src="../vendor/packperks/assets/brands/pets-table-logo-real.png" alt="The Pets Table" class="pp-pillar-logo">
-            <p class="pp-pillar-sub">Fresh, vet-formulated meals delivered to your door.</p>
-          </a>
-
-          <!-- Travel — T+L Go (exclusive) -->
-          <a href="pack-perks-list.html#travel" class="pp-pillar-card pp-pillar-tl">
-            <span class="pp-pillar-eyebrow">Travel</span>
-            <span class="pp-pillar-headline">$1,000 in Annual <br>Travel Credits</span>
-            <img src="../vendor/packperks/assets/brands/tl-go-logo.png" alt="Travel + Leisure" class="pp-pillar-logo">
-            <p class="pp-pillar-sub">Pet-friendly stays at top hotels worldwide.</p>
-          </a>
-        </div>
-
-        <a href="pack-perks-list.html" class="pp-cta-btn pp-cta-mobile">View Your Perks <span aria-hidden="true">&rarr;</span></a>
-      </div>
-    </section>
-
-    <!-- Three-column account grid -->
-    <section class="account-cols">
-
-      <!-- Column 1: Account Details -->
-      <article class="acct-card">
-        <h2>Account Details</h2>
-
-        <div class="acct-section">
-          <p class="acct-label">Email</p>
-          <p class="acct-value">hunter.leash@gmail.com</p>
-        </div>
-
-        <div class="acct-section">
-          <div class="row" style="margin-bottom:6px;">
-            <p class="acct-label" style="margin:0;">Payment Information</p>
-            <a href="#" class="acct-edit">EDIT</a>
-          </div>
-          <p class="acct-value" style="margin-bottom:6px;">**** **** **** 4006 &nbsp; 5/28 &nbsp; ***</p>
-          <p class="acct-value-muted">315 Willow Crest Ave<br/>San Mateo, CA 94402</p>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Account Tools</p>
-          <button class="acct-link-btn"><span class="ico">↻</span> Refresh Account / Collars</button>
-          <button class="acct-link-btn"><span class="ico">🔗</span> Link Collar to Your Account</button>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Order History</p>
-          <button class="acct-link-btn"><span class="ico">📋</span> View Order Status</button>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Replace My Collar</p>
-          <button class="acct-link-btn"><span class="ico">🛡</span> Submit Warranty Replacement</button>
-          <button class="acct-link-btn"><span class="ico">🔄</span> Redeem Halo Care Protection</button>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Help</p>
-          <button class="acct-link-btn"><span class="ico">🐾</span> Visit the Dog Park</button>
-        </div>
-      </article>
-
-      <!-- Column 2: Pack Membership -->
-      <article class="acct-card">
-        <h2>Pack Membership</h2>
-
-        <div class="pack-perks-inline-callout">
-          <div>
-            <span class="pack-perks-inline-callout__eyebrow">Included with Gold</span>
-            <p>Access partner savings, travel credits, and TeleVet benefits anytime.</p>
-          </div>
-          <a href="pack-perks-list.html">View Pack Perks</a>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Collars on Plan</p>
-          <div class="qty-row">
-            <div class="qty-pill">
-              <span class="current-tag">Current</span>
-              <button>−</button>
-              <span class="num">1</span>
-              <button>+</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="acct-section">
-          <div class="detail-toggle">
-            <p class="acct-label">Membership Level</p>
-            <a href="#">+ SHOW DETAILS</a>
-          </div>
-          <div class="tier-row">
-            <div class="tier-card tier-bronze is-faded">
-              <span class="tier-badge">Bronze</span><span class="tier-name">Basic</span>
-              <span class="tier-price muted">$9.16/mo</span>
-            </div>
-            <div class="tier-card tier-silver is-faded">
-              <span class="tier-badge">Silver</span><span class="tier-name">Mid-Tier</span>
-              <span class="tier-price muted">$13.74/mo</span>
-            </div>
-            <div class="tier-card tier-gold is-current">
-              <span class="current-tag">Current</span>
-              <span class="tier-badge">Gold</span><span class="tier-name">Premium</span>
-              <span class="tier-price">$18.32/mo</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="acct-section">
-          <div class="detail-toggle">
-            <p class="acct-label">Halo Care</p>
-            <a href="#">+ SHOW DETAILS</a>
-          </div>
-          <p class="halo-care-note">Upgrade or replace any collar for any reason at a significant savings.</p>
-          <div class="care-row">
-            <div class="care-card is-current">
-              <span class="current-tag">Current</span>
-              <div><span class="tag included">Included</span><span class="name">Halo Protection™</span></div>
-              <span class="price">$0/mo</span>
-              <p class="repl">Replacement or upgrade<br/>$399 per collar</p>
-            </div>
-            <div class="care-card">
-              <div><span class="tag essential">Essential</span><span class="name">Halo Care+</span></div>
-              <span class="price muted">$9.99/mo</span>
-              <p class="repl">Replacement or upgrade<br/>$149* per collar</p>
-            </div>
-          </div>
-          <p class="care-disclaimer">* Halo Care must be active for 60+ days if you buy a replacement.<br/><a href="#">See Terms &amp; Conditions</a></p>
-        </div>
-      </article>
-
-      <!-- Column 3: Billing Interval -->
-      <article class="acct-card">
-        <h2>Billing Interval</h2>
-
-        <div class="acct-section">
-          <p class="acct-label">Billing Plan</p>
-          <div class="billing-row">
-            <div class="bill-card is-current">
-              <span class="current-tag">Current</span>
-              <span class="name">Monthly</span>
-              <span class="perk">Most Popular</span>
-            </div>
-            <div class="bill-card">
-              <span class="name muted">Annual</span>
-              <span class="perk">1 month free</span>
-            </div>
-            <div class="bill-card">
-              <span class="name muted">2-Year</span>
-              <span class="perk">3 months free</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="next-payment">
-          <div class="left">
-            <div class="name">Next Payment</div>
-            <div class="date">April 7, 2026</div>
-          </div>
-          <div class="right">
-            <span class="amt">$18.32<span style="font-size:11px;font-weight:500;color:var(--halo-muted);">/mo</span></span>
-            <div class="tax">+tax</div>
-          </div>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Pack Membership Credits</p>
-          <div class="code-apply">
-            <input type="text" placeholder="Enter code" />
-            <button>Apply</button>
-          </div>
-          <p class="credit-note">You have a $152.90 credit balance.</p>
-        </div>
-
-        <div class="acct-section">
-          <p class="acct-label">Edit Plan</p>
-          <button class="btn btn-disabled btn-block">Update My Plan</button>
-          <p class="need-break">Need a break? <a href="cancellation.html" data-open-cancel-modal>Pause your plan or cancel your plan.</a></p>
-        </div>
-      </article>
-
-    </section>
-
-  </main>
-
-  <footer class="foot">
-    © 2026 Halo Collar · <a href="#">Terms</a> · <a href="#">Privacy</a> · Pack Perks change from time to time.
-  </footer>
-
-  <!-- Cancel flow modal — opens when "Pause/cancel" link is clicked -->
-  <div class="app-modal" id="cancel-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="cancel-modal-title">
-    <div class="app-modal__backdrop" data-modal-close></div>
-    <div class="app-modal__shell cancel-shell" role="document">
-      <button type="button" class="modal-close" aria-label="Close" data-modal-close>✕</button>
+    <div class="cancel-shell">
 
       <p class="step">Step 1 of 3 · Before you go</p>
-      <h1 id="cancel-modal-title">Hunter, here's what you'd lose by canceling.</h1>
+      <h1>Hunter, here's what you'd lose by canceling.</h1>
       <p class="lede">Your Gold membership unlocks Pack Perks — exclusive partner deals worth far more than your monthly cost. Take a look at what's about to disappear from your account.</p>
 
       <div class="lose-list">
@@ -411,11 +186,11 @@
       </div>
 
       <p class="value-callout">
-        At your tier, Pack Perks alone are worth an estimated<br><strong>$930+ per year</strong> — about <strong>4× your annual membership</strong>.
+        At your tier, Pack Perks alone are worth an estimated <strong>$930+ per year</strong> — about <strong>4× your annual membership</strong>.
       </p>
 
       <div class="cancel-actions">
-        <button type="button" class="btn btn-primary" data-modal-close>Keep my Pack Perks</button>
+        <a href="account-perks.html" class="btn btn-primary">Keep my Pack Perks</a>
         <a href="#" class="btn btn-light">Pause for 3 months instead</a>
         <a href="#" class="btn btn-ghost">Continue canceling →</a>
       </div>
@@ -424,10 +199,13 @@
         Need help deciding? <a href="#">Chat with our member team</a>.
       </p>
     </div>
-  </div>
 
-  <script src="../vendor/packperks/js/nav.js?v=20260508c" defer></script>
-  <script src="../vendor/packperks/js/cancel-modal.js?v=20260508c" defer></script>
-  <script src="../vendor/packperks/js/account-banner.js?v=20260526a" defer></script>
+  </main>
+
+  <footer class="foot">
+    Pack Perks values are estimates based on average member usage at your tier.
+  </footer>
+
+  <script src="../vendor/packperks/js/nav.js" defer></script>
 </body>
 </html>
