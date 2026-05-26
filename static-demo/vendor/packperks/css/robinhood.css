@@ -206,7 +206,7 @@ a.rh-btn--ghost:hover,
    ============================================================================ */
 .rh-feat-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   margin: 0;
   padding: 0;
@@ -698,6 +698,28 @@ a.rh-btn--ghost:hover,
   color: var(--rh-text-mute);
   line-height: 1.45;
   margin: 0;
+}
+
+/* Static brand grid — replaces the auto-scrolling marquee. Lays out the solid
+   app-icon tiles in a multi-row responsive grid. */
+.rh-brands-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 32px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.rh-brands-grid .rh-brands-tile--solid {
+  width: auto;
+}
+@media (max-width: 1100px) {
+  .rh-brands-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .rh-brands-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 16px; }
+}
+@media (max-width: 520px) {
+  .rh-brands-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 14px; }
 }
 
 /* Variant B — app-icon tile: rounded square icon, centered text below, no card frame */
