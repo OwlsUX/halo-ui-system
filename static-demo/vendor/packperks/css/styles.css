@@ -3653,16 +3653,18 @@ body.pack-perks-list-page {
   max-width: 620px;
   margin-bottom: 12px;
   color: var(--ppl-ink);
-  font-size: clamp(2.15rem, 4vw, var(--halo-type-page, 3rem));
-  line-height: 1.02;
+  font-size: var(--halo-type-page, 3rem);
+  font-weight: 650;
+  line-height: 1.04;
   letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .pack-perks-list-page .ppl-hero-sub {
   max-width: 590px;
   margin-bottom: 22px;
   color: var(--ppl-muted);
-  font-size: 1.05rem;
+  font-size: var(--halo-type-body, 1rem);
   line-height: 1.55;
 }
 
@@ -3673,7 +3675,8 @@ body.pack-perks-list-page {
   border-radius: var(--halo-component-button-radius, 999px);
   background: var(--ppl-yellow);
   color: var(--ppl-ink);
-  font-weight: 800;
+  font-weight: 650;
+  line-height: 1.15;
   text-decoration: none;
   transition:
     background var(--halo-duration-base, 220ms) var(--halo-ease-out, ease),
@@ -3682,9 +3685,9 @@ body.pack-perks-list-page {
 }
 
 .pack-perks-list-page .ppl-hero-cta {
-  min-height: 46px;
-  padding: 12px 22px;
-  font-size: 0.98rem;
+  min-height: 44px;
+  padding: 11px 18px;
+  font-size: var(--halo-type-body, 1rem);
 }
 
 .pack-perks-list-page .ppl-hero-cta:hover,
@@ -3716,18 +3719,20 @@ body.pack-perks-list-page {
 }
 
 .pack-perks-list-page .cat-block-text h2 {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   color: var(--ppl-ink);
-  font-size: var(--halo-type-subsection, 1.75rem);
-  line-height: 1.08;
+  font-size: var(--halo-type-section, 2.5rem);
+  font-weight: 650;
+  line-height: 1.04;
   letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .pack-perks-list-page .cat-block-text p {
   max-width: 720px;
   color: var(--ppl-muted);
-  font-size: var(--halo-type-small, 0.875rem);
-  line-height: 1.55;
+  font-size: var(--halo-type-body, 1rem);
+  line-height: 1.65;
 }
 
 .pack-perks-list-page .cat-block-count {
@@ -3833,19 +3838,21 @@ body.pack-perks-list-page {
   box-shadow: 0 8px 18px rgba(7, 24, 38, 0.14);
 }
 
-.pack-perks-list-page .ppl-feat-img .brand-logo-wrap {
-  top: 18px;
-  bottom: auto;
-  left: 18px;
+.pack-perks-list-page .ppl-feat-text .brand-logo-wrap {
+  position: relative;
+  inset: auto;
+  display: block;
   width: 70px;
   height: 70px;
+  margin: 10px 0 14px;
   border-radius: var(--halo-radius-lg, 12px);
   box-shadow: 0 14px 32px rgba(7, 24, 38, 0.26);
 }
 
 .pack-perks-list-page .ppl-feat-value {
-  top: 18px;
-  right: 18px;
+  position: static;
+  align-self: flex-start;
+  margin-bottom: 12px;
   color: var(--ppl-ink);
   background: rgba(255, 255, 255, 0.96);
   font-size: var(--halo-type-caption, 0.75rem);
@@ -3861,9 +3868,9 @@ body.pack-perks-list-page {
   position: relative;
   z-index: 2;
   min-height: 190px;
-  padding: 26px;
+  padding: 26px 20px;
   justify-content: end;
-  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  border-top: 0;
   background: linear-gradient(180deg, rgba(7, 24, 38, 0), rgba(7, 24, 38, 0.24));
 }
 
@@ -3876,29 +3883,32 @@ body.pack-perks-list-page {
 .pack-perks-list-page .perk-card h4 {
   color: var(--ppl-ink);
   font-size: var(--halo-type-card-title, 1.125rem);
-  line-height: 1.25;
+  font-weight: 650;
+  line-height: 1.18;
   letter-spacing: 0;
 }
 
 .pack-perks-list-page .perk-card p {
   color: var(--ppl-muted);
   font-size: var(--halo-type-small, 0.875rem);
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 .pack-perks-list-page .ppl-feat-card h3 {
   color: var(--halo-color-text-inverse, #ffffff);
-  font-size: clamp(1.35rem, 2vw, 1.85rem);
-  line-height: 1.06;
-  letter-spacing: 0;
-  text-wrap: balance;
+  font-size: clamp(1.2rem, 1.7vw, 1.375rem);
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .pack-perks-list-page .ppl-feat-card p {
   max-width: 34ch;
   color: rgba(255, 255, 255, 0.82);
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: var(--halo-type-small, 0.875rem);
+  line-height: 1.45;
 }
 
 .pack-perks-list-page .ppl-feat-card h3 {
@@ -3919,10 +3929,10 @@ body.pack-perks-list-page {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
+  min-height: 44px;
   margin-top: auto;
-  padding: 10px 16px;
-  font-size: 0.9rem;
+  padding: 11px 18px;
+  font-size: var(--halo-type-small, 0.875rem);
 }
 
 .pack-perks-list-page .ppl-feat-cta {
@@ -3936,7 +3946,7 @@ body.pack-perks-list-page {
   border-color: rgba(255, 255, 255, 0.88);
   background: rgba(255, 255, 255, 0.92);
   color: var(--ppl-ink);
-  font-size: 0.88rem;
+  font-size: var(--halo-type-small, 0.875rem);
 }
 
 .pack-perks-list-page .ppl-feat-cta:hover {
@@ -3985,6 +3995,12 @@ body.pack-perks-list-page {
     flex: 0 0 min(560px, 72vw);
     min-height: 420px;
     scroll-snap-align: start;
+  }
+
+  .pack-perks-list-page .ppl-feat-card h3 {
+    font-size: 1.25rem;
+    white-space: normal;
+    text-wrap: balance;
   }
 }
 
@@ -4053,7 +4069,7 @@ body.pack-perks-list-page {
     padding: 22px;
   }
 
-  .pack-perks-list-page .ppl-feat-img .brand-logo-wrap {
+  .pack-perks-list-page .ppl-feat-text .brand-logo-wrap {
     width: 62px;
     height: 62px;
   }
