@@ -3615,7 +3615,7 @@ body.pack-perks-list-page {
 }
 
 .pack-perks-list-page .ppl-hero {
-  margin-bottom: 20px;
+  margin-bottom: clamp(32px, 4vw, 48px);
   border: 1px solid var(--halo-color-card-border, var(--ppl-line));
   border-radius: var(--ppl-radius-panel);
   background: var(--ppl-sale-surface);
@@ -3764,7 +3764,7 @@ body.pack-perks-list-page {
   position: relative;
   isolation: isolate;
   min-height: clamp(380px, 32vw, 460px);
-  border-color: rgba(7, 24, 38, 0.14);
+  border: 0;
   background: var(--ppl-blue-dark);
   color: var(--halo-color-text-inverse, #ffffff);
   display: grid;
@@ -3779,7 +3779,7 @@ body.pack-perks-list-page {
 }
 
 .pack-perks-list-page .ppl-feat-card:hover {
-  border-color: rgba(7, 24, 38, 0.2);
+  border-color: transparent;
 }
 
 .pack-perks-list-page .ppl-feat-img,
@@ -3995,7 +3995,7 @@ body.pack-perks-list-page {
   }
 
   .pack-perks-list-page .ppl-hero {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
 
   .pack-perks-list-page .ppl-hero-left {
