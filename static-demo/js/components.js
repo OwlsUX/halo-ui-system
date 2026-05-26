@@ -529,7 +529,7 @@
           <div class="workbench-drawer__section">
             <h3>Main Website</h3>
             <a class="workbench-drawer__link" href="${href('pages/home.html')}">Home</a>
-            <a class="workbench-drawer__link" href="${href('pages/shop-wireless-dog-fence.html')}">Shop Wireless Dog Fence</a>
+            <a class="workbench-drawer__link" href="${href('pages/shop-wireless-dog-fence.html')}">Configurator</a>
             <a class="workbench-drawer__link" href="${href('pages/accessories.html')}">Accessories</a>
             <a class="workbench-drawer__link" href="${href('pages/beacons.html')}">Beacons</a>
             <a class="workbench-drawer__link" href="${href('pages/how-it-works.html')}">How It Works</a>

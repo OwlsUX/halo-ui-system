@@ -207,7 +207,7 @@
   font-weight: 800;
 }
 
-.hero {
+.hero:has(> .hero__media) {
   position: relative;
   min-height: calc(100vh - var(--nav-height));
   display: flex;
@@ -243,7 +243,7 @@
   padding: 0 0 70px;
 }
 
-.hero h1 {
+.hero:has(> .hero__media) h1 {
   margin-bottom: 18px;
   font-size: var(--halo-type-display);
   line-height: 1;
@@ -251,7 +251,7 @@
   font-weight: 600;
 }
 
-.hero p {
+.hero:has(> .hero__media) p {
   max-width: 620px;
   color: var(--halo-color-text-inverse-muted);
   font-size: 1.125rem;
