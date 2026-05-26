@@ -732,6 +732,7 @@ input:focus-visible {
 .example-product-card__body {
   display: grid;
   align-content: start;
+  justify-items: start;
   gap: 9px;
   padding: 14px;
 }
@@ -1015,6 +1016,8 @@ input:focus-visible {
 }
 
 .sg-badge {
+  width: fit-content;
+  max-width: 100%;
   min-height: 28px;
   display: inline-flex;
   align-items: center;
