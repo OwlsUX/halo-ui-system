@@ -537,13 +537,11 @@
             <a class="workbench-drawer__link" href="${href('pages/deals.html')}">Deals</a>
           </div>
           <div class="workbench-drawer__section">
-            <h3>Marketing LPs</h3>
-            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing.html')}">Pack Perks Marketing v1</a>
-            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing-v2.html')}">Pack Perks Marketing v2</a>
-          </div>
-          <div class="workbench-drawer__section">
             <h3>Pack Perks</h3>
             <a class="workbench-drawer__link" href="${href('pages/pack-perks.html')}">Pack Perks Lander</a>
+            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing.html')}">Pack Perks Marketing v1</a>
+            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing-v2.html')}">Pack Perks Marketing v2</a>
+            <a class="workbench-drawer__link" href="${href('pages/pack-perks-marketing-v3.html')}">Pack Perks Marketing v3</a>
             <a class="workbench-drawer__link" href="${href('pages/pack-perks-list.html')}">Pack Perks List</a>
             <a class="workbench-drawer__link" href="${href('pages/account.html')}">Account</a>
             <a class="workbench-drawer__link" href="${href('pages/account-perks.html')}">Account Perks</a>

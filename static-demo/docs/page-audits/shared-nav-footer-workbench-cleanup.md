@@ -9,13 +9,12 @@ Updated the shared Halo runtime chrome and workbench drawer for the included web
 ## Drawer Taxonomy
 
 - Main Website: Home, Shop Wireless Dog Fence, Accessories, Beacons, How It Works, Reviews, Deals.
-- Marketing LPs: Pack Perks Marketing v1 and Pack Perks Marketing v2.
-- Pack Perks: Pack Perks Lander, Pack Perks List, Account, Account Perks, Membership Selection, Offer Detail, Cancellation Flow.
+- Pack Perks: Pack Perks Lander, Pack Perks Marketing v1, Pack Perks Marketing v2, Pack Perks Marketing v3, Pack Perks List, Account, Account Perks, Membership Selection, Offer Detail, Cancellation Flow.
 - Design System: Style Guide.
 
 ## Marketing LP Choice
 
-Chose `pack-perks-marketing.html` and `pack-perks-marketing-v2.html` as the two marketing LP variants because they are the two existing imported marketing experiments that are not the canonical `pack-perks.html` route. The v3 marketing route is represented by `pack-perks.html` and labeled `Pack Perks Lander` in the Pack Perks group to avoid duplicating the same concept across drawer sections.
+Moved `pack-perks-marketing.html`, `pack-perks-marketing-v2.html`, and `pack-perks-marketing-v3.html` into the Pack Perks drawer group because they are Pack Perks-specific marketing experiments. The canonical `pack-perks.html` route remains labeled `Pack Perks Lander`.
 
 ## Chrome Notes
 

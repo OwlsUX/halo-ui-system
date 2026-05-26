@@ -123,9 +123,30 @@
     });
   }
 
+  function initPerksBox(box) {
+    const header = box.querySelector(".accessory-perks-box__header");
+    if (!header) return;
+    const toggle = () => {
+      const expanded = box.classList.toggle("is-expanded");
+      header.setAttribute("aria-expanded", String(expanded));
+    };
+    header.addEventListener("click", toggle);
+  }
+
+  function initDetailsLink(button) {
+    button.addEventListener("click", () => {
+      const target = document.querySelector(".accessory-pdp-details");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-accessory-gallery]").forEach(initGallery);
     document.querySelectorAll("[data-quantity-control]").forEach(initQuantity);
     document.querySelectorAll("[data-add-to-cart]").forEach(initAddToCart);
+    document.querySelectorAll("[data-perks-box]").forEach(initPerksBox);
+    document
+      .querySelectorAll("[data-open-included], [data-open-compat]")
+      .forEach(initDetailsLink);
   });
 })();

@@ -3,18 +3,14 @@
    ============================================================================ */
 
 :root {
-  /* Layout & Light Mode Basics */
-  --rh-bg: #F5F5F7;
-  --rh-bg-elevated: #FFFFFF;
-  --rh-bg-card: #EFEFF1;
-  --rh-text: #111111;
-  --rh-text-mute: #6B7280;
-  --rh-border: rgba(0, 0, 0, 0.08);
-
-  /* Halo Brand Colors */
-  --halo-yellow: #FCD62D;
-  --halo-yellow-hover: #E8C428;
-  --halo-blue: #2196F3;
+  /* Layout & Light Mode Basics — mapped to Halo design tokens */
+  --rh-bg: var(--halo-color-surface-page, #F5F5F7);
+  --rh-bg-elevated: var(--halo-color-surface-raised, #FFFFFF);
+  --rh-bg-card: var(--halo-color-surface-muted, #EFEFF1);
+  --rh-text: var(--halo-color-text-primary, #071826);
+  --rh-text-mute: var(--halo-color-text-secondary, #526777);
+  --rh-border: var(--halo-color-border-subtle, rgba(7, 24, 38, 0.08));
+  --rh-dark: var(--halo-color-surface-dark, #071826);
 
   /* Tier Accents */
   --halo-bronze: #C49669;
@@ -29,8 +25,8 @@
 body.rh-theme {
   background-color: var(--rh-bg);
   color: var(--rh-text);
-  font-family: "Inter", -apple-system, sans-serif;
-  line-height: 1.4;
+  font-family: var(--halo-font-live, "Inter", -apple-system, sans-serif);
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   margin: 0;
 }
@@ -57,6 +53,10 @@ body.rh-theme {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 70px;
 }
 .rh-theme .halo-navigation .nav-logo { justify-self: start; }
 .rh-theme .halo-navigation .nav-menu-desktop { justify-self: center; }
@@ -102,42 +102,44 @@ body.rh-theme {
   color: #000000;
 }
 
-/* Typography */
+/* Typography — aligned to Halo style guide */
 .rh-text-gradient {
-  color: var(--halo-yellow);
+  color: var(--halo-color-action-primary, #FCD62D);
 }
 
 .rh-h1 {
-  font-size: clamp(3.5rem, 8vw, 6.5rem);
-  font-weight: 400;
-  letter-spacing: -0.04em;
-  line-height: 1.05;
+  font-size: var(--halo-type-display, 3.75rem);
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.04;
   margin: 0 0 24px;
+  text-wrap: balance;
 }
 
 .rh-h2 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  font-weight: 400;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
+  font-size: var(--halo-type-section, 2.5rem);
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.04;
   margin: 0 0 16px;
+  text-wrap: balance;
 }
 
 .rh-h3 {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
+  font-size: var(--halo-type-subsection, 1.75rem);
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.12;
   margin: 0 0 8px;
 }
 
 .rh-p {
-  font-size: clamp(1.125rem, 1.5vw, 1.375rem);
+  font-size: var(--halo-type-body, 1rem);
   color: var(--rh-text-mute);
   font-weight: 400;
   max-width: 680px;
   margin: 0 0 32px;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 /* Layout */
@@ -157,17 +159,18 @@ body.rh-theme {
   padding: 0 24px;
 }
 
-/* Button */
+/* Button — Halo action-primary */
 .rh-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: var(--halo-yellow);
-  color: #111111;
+  background: var(--halo-color-action-primary, #FCD62D);
+  color: var(--halo-color-action-primary-text, #071826);
   padding: 16px 36px;
-  font-size: 1.125rem;
-  font-weight: 600;
-  border-radius: 999px;
+  font-size: var(--halo-type-body, 1rem);
+  font-weight: 650;
+  line-height: 1.15;
+  border-radius: var(--halo-component-button-radius, 999px);
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
   box-shadow: 0 4px 20px rgba(252, 214, 45, 0.15);
@@ -175,10 +178,171 @@ body.rh-theme {
   cursor: pointer;
 }
 .rh-btn:hover {
-  background: var(--halo-yellow-hover);
+  background: var(--halo-color-action-primary-hover, #E8C428);
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(252, 214, 45, 0.3);
   text-decoration: none;
+}
+
+/* Ghost variant — outline button for use on dark/photo backgrounds */
+a.rh-btn--ghost,
+.rh-btn--ghost {
+  background: transparent;
+  color: var(--halo-color-text-inverse, #ffffff);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: none;
+}
+a.rh-btn--ghost:hover,
+.rh-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.9);
+  color: var(--halo-color-text-inverse, #ffffff);
+  box-shadow: none;
+}
+
+/* ============================================================================
+   Featured benefit cards — image-fill grid (same look as Pack Perks list page)
+   Used on the marketing page hero section as a 4-up grid.
+   ============================================================================ */
+.rh-feat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rh-feat-card {
+  position: relative;
+  isolation: isolate;
+  min-height: clamp(360px, 26vw, 440px);
+  border: 0;
+  border-radius: var(--halo-component-card-radius, 16px);
+  overflow: hidden;
+  background: var(--rh-dark, #071826);
+  color: #ffffff;
+  display: grid;
+  align-items: end;
+  box-shadow: 0 6px 18px rgba(7, 24, 38, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.rh-feat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(7, 24, 38, 0.18);
+}
+.rh-feat-card__img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.rh-feat-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.rh-feat-card__img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(7, 24, 38, 0.04) 0%, rgba(7, 24, 38, 0.22) 38%, rgba(7, 24, 38, 0.85) 100%),
+    linear-gradient(90deg, rgba(7, 24, 38, 0.40) 0%, transparent 46%);
+  pointer-events: none;
+  z-index: 1;
+}
+.rh-feat-card__text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  min-height: 190px;
+  padding: 24px 20px 22px;
+  justify-content: end;
+}
+.rh-feat-card__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 0 0 12px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(7, 24, 38, 0.24);
+}
+.rh-feat-card__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.rh-feat-card__eyebrow {
+  display: block;
+  margin: 0 0 8px;
+  color: var(--halo-color-action-primary, #FCD62D);
+  font-size: var(--halo-type-caption, 0.75rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.rh-feat-card__title {
+  margin: 0 0 8px;
+  color: #ffffff;
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.rh-feat-card__copy {
+  margin: 0;
+  max-width: 34ch;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: var(--halo-type-small, 0.875rem);
+  line-height: 1.45;
+}
+
+@media (max-width: 1100px) {
+  .rh-feat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .rh-feat-grid { grid-template-columns: 1fr; }
+  .rh-feat-card { min-height: 340px; }
+}
+
+/* CTA pair — primary + secondary side-by-side with optional helper note */
+.rh-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 14px 16px;
+  margin: 0;
+}
+.rh-cta-row__secondary {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.rh-cta-note {
+  font-size: var(--halo-type-caption, 0.75rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .rh-cta-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .rh-cta-row .rh-btn { width: 100%; }
+  .rh-cta-row__secondary { align-items: center; }
+  .rh-cta-note { text-align: center; }
 }
 
 /* Specific Sections */
@@ -192,7 +356,7 @@ body.rh-theme {
   border-bottom: 1px solid var(--rh-border);
   position: relative;
   overflow: hidden;
-  background-color: #0A0A0A;
+  background-color: var(--rh-dark, #071826);
 }
 .rh-hero .rh-h1 {
   color: #FFFFFF;
@@ -252,10 +416,11 @@ body.rh-theme {
 }
 
 .rh-eyebrow {
-  font-size: 0.8125rem;
-  font-weight: 600;
+  font-size: max(var(--halo-type-caption, 0.75rem), 0.8125rem);
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
   color: var(--rh-text-mute);
   display: inline-block;
 }
@@ -280,47 +445,49 @@ body.rh-theme {
   margin-bottom: 28px;
 }
 .rh-spot__num {
-  font-size: clamp(3.5rem, 6.5vw, 5.5rem);
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05em;
+  font-size: clamp(3rem, 5.5vw, 4.5rem);
+  font-weight: 650;
+  line-height: 1.04;
+  letter-spacing: 0;
   color: var(--rh-text);
   display: block;
   font-variant-numeric: tabular-nums;
 }
 .rh-spot__num--text {
-  font-size: clamp(2.25rem, 4vw, 3.25rem);
-  letter-spacing: -0.02em;
+  font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+  letter-spacing: 0;
   font-variant-numeric: normal;
+  line-height: 1.08;
 }
 .rh-spot__label {
-  font-size: 0.8125rem;
-  font-weight: 600;
+  font-size: max(var(--halo-type-caption, 0.75rem), 0.8125rem);
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
   color: var(--rh-text-mute);
   margin-top: 14px;
   margin-bottom: 24px;
   display: block;
 }
 .rh-spot__copy {
-  font-size: 1.0625rem;
+  font-size: var(--halo-type-body, 1rem);
   color: var(--rh-text-mute);
-  line-height: 1.6;
+  line-height: 1.55;
   margin: 0;
   max-width: 520px;
 }
 
 /* Keep .rh-big-number for compatibility */
 .rh-big-number {
-  font-size: clamp(4rem, 8vw, 6.5rem);
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05em;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 650;
+  line-height: 1.04;
+  letter-spacing: 0;
   color: var(--rh-text);
 }
 .rh-big-number-label {
-  font-size: 1.25rem;
+  font-size: var(--halo-type-body, 1rem);
   color: var(--rh-text-mute);
   margin-top: 16px;
   font-weight: 400;
@@ -517,18 +684,19 @@ body.rh-theme {
   text-align: left;
 }
 .rh-brands-tile__value {
-  font-size: 1.0625rem;
-  font-weight: 500;
+  font-size: var(--halo-type-card-title, 1.125rem);
+  font-weight: 650;
   color: var(--rh-text);
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
+  line-height: 1.18;
   margin-bottom: 4px;
   display: block;
   font-variant-numeric: tabular-nums;
 }
 .rh-brands-tile__desc {
-  font-size: 0.875rem;
+  font-size: var(--halo-type-small, 0.875rem);
   color: var(--rh-text-mute);
-  line-height: 1.5;
+  line-height: 1.45;
   margin: 0;
 }
 
@@ -565,11 +733,12 @@ body.rh-theme {
   text-align: center;
 }
 .rh-brands-tile--solid .rh-brands-tile__value {
-  font-size: 0.9375rem;
+  font-size: var(--halo-type-small, 0.875rem);
+  font-weight: 650;
   margin-bottom: 2px;
 }
 .rh-brands-tile--solid .rh-brands-tile__desc {
-  font-size: 0.8125rem;
+  font-size: var(--halo-type-caption, 0.75rem);
   line-height: 1.4;
 }
 
@@ -590,18 +759,19 @@ body.rh-theme {
   border-bottom: 1px solid var(--rh-border);
 }
 .rh-summary-row .label {
-  font-size: 1.25rem;
+  font-size: var(--halo-type-body, 1rem);
   color: var(--rh-text);
   font-weight: 400;
 }
 .rh-summary-row .value {
-  font-size: 1.5rem;
+  font-size: var(--halo-type-card-title, 1.125rem);
   color: var(--rh-text);
-  font-weight: 400;
+  font-weight: 650;
 }
 .rh-summary-row .value span {
   color: var(--rh-text-mute);
-  font-size: 1rem;
+  font-size: var(--halo-type-body, 1rem);
+  font-weight: 400;
   margin-left: 8px;
 }
 .rh-summary-total {
@@ -611,15 +781,15 @@ body.rh-theme {
   padding: 40px 0 0;
 }
 .rh-summary-total .label {
-  font-size: 1.5rem;
+  font-size: var(--halo-type-card-title, 1.125rem);
   color: var(--rh-text-mute);
 }
 .rh-summary-total .value {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 300;
-  letter-spacing: -0.04em;
+  font-size: var(--halo-type-section, 2.5rem);
+  font-weight: 650;
+  letter-spacing: 0;
   color: var(--rh-text);
-  line-height: 1;
+  line-height: 1.04;
 }
 
 /* Tier Matrix */
@@ -632,14 +802,15 @@ body.rh-theme {
   padding: 32px 24px;
   text-align: left;
   border-bottom: 1px solid var(--rh-border);
-  font-size: 1.125rem;
+  font-size: var(--halo-type-body, 1rem);
   font-weight: 400;
 }
 .rh-matrix th {
   color: var(--rh-text-mute);
-  font-size: 1rem;
+  font-size: max(var(--halo-type-caption, 0.75rem), 0.8125rem);
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
 }
 .rh-matrix tr:first-child th {
   border-bottom: 2px solid var(--rh-border);
@@ -658,7 +829,8 @@ body.rh-theme {
 
 /* Total Value Row Highlighting */
 .rh-matrix .total-row td {
-  font-size: 1.5rem;
+  font-size: var(--halo-type-card-title, 1.125rem);
+  font-weight: 650;
   padding-top: 48px;
   padding-bottom: 48px;
   border-bottom: 2px solid var(--rh-border);
@@ -668,8 +840,8 @@ body.rh-theme {
    Dark section variant — used on the Allocation by Tier matrix
    ============================================================================ */
 .rh-section--dark {
-  background: #0A0A0A;
-  color: rgba(255, 255, 255, 0.92);
+  background: var(--rh-dark, #071826);
+  color: var(--halo-color-text-inverse, rgba(255, 255, 255, 0.92));
   position: relative;
   padding-bottom: clamp(96px, 12vh, 144px);
   overflow: hidden;
@@ -727,10 +899,10 @@ body.rh-theme {
   display: inline-flex;
   align-items: center;
   padding: 6px 14px;
-  border-radius: 999px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  border-radius: var(--halo-radius-pill, 999px);
+  font-size: var(--halo-type-caption, 0.75rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   border: 1px solid transparent;
 }
@@ -754,14 +926,15 @@ body.rh-theme {
   border-bottom-color: rgba(255, 255, 255, 0.08);
   color: rgba(255, 255, 255, 0.92);
   padding: 22px 20px;
-  font-size: 1rem;
+  font-size: var(--halo-type-body, 1rem);
   text-align: center;
 }
 .rh-section--dark .rh-matrix th {
-  font-size: 0.75rem;
+  font-size: max(var(--halo-type-caption, 0.75rem), 0.8125rem);
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.6);
   padding: 24px 20px;
 }
 .rh-section--dark .rh-matrix th:first-child,
@@ -786,17 +959,17 @@ body.rh-theme {
 .rh-section--dark .rh-matrix .col-gold   { color: #F0D670; }
 
 .rh-section--dark .rh-matrix .total-row td {
-  font-size: 1.25rem;
+  font-size: var(--halo-type-card-title, 1.125rem);
   padding-top: 32px;
   padding-bottom: 32px;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   border-bottom: none;
   color: #FFFFFF;
-  font-weight: 500;
+  font-weight: 650;
 }
 .rh-section--dark .rh-text-gradient {
   color: #F0D670;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 /* Responsive — spotlights & brand grid */
@@ -914,6 +1087,9 @@ body.rh-theme {
     white-space: nowrap;
   }
   .rh-h1 {
-    font-size: 3.5rem;
+    font-size: var(--halo-type-hero, 2.65rem);
+  }
+  .rh-h2 {
+    font-size: var(--halo-type-page, 2.35rem);
   }
 }
